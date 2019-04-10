@@ -1,15 +1,31 @@
-<%= render partial: 'home/partials/hero', locals: { data: @hero } %>
+<section class="bg-grey-light">
+  <%= render partial: 'home/partials/hero', locals: { data: @hero } %>
+</section>
 
-<%= render partial: 'home/partials/foreword', locals: { data: @foreword } %>
+<section class="bg-grey">
+  <%= render partial: 'home/partials/foreword', locals: { data: @foreword } %>
+</section>
 
-<%= render partial: 'home/partials/anniversary', locals: { data: @anniversary } %>
+<section>
+  <%= render partial: 'home/partials/anniversary', locals: { data: @anniversary } %>
+</section>
 
-<%= render partial: 'home/partials/highlights', locals: { data: @highlights } %>
+<section class="bg-grey-light">
+  <%= render partial: 'home/partials/highlights', locals: { data: @highlights } %>
+</section>
 
-<%= render partial: 'home/partials/projects', locals: { data: @projects } %>
+<div class="bg-grey">
+  <%= render partial: 'home/partials/projects', locals: { data: @projects } %>
+</div>
 
-<%= render partial: 'home/partials/stats-people', locals: { data: @stats_people } %>
+<section>
+  <%= render partial: 'home/partials/stats-people', locals: { data: @stats_people } %>
+</section>
 
-<%= render partial: 'home/partials/stats-finance', locals: { data: @stats_people } %>
+<section class="bg-grey-light">
+  <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_people } %>
+</section>
 
-<%= render partial: 'home/partials/future', locals: { data: @future } %>
+<section class="bg-grey">
+  <%= render partial: 'home/partials/future', locals: { data: @future } %>
+</section>

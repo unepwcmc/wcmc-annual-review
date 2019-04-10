@@ -1,1 +1,10 @@
 <h2><%= data['title'] %></h2>
+<p class="strapline"><%= data['strapline'] %></p>
+<p><%= data['introduction'] %></p>
+
+<div>
+  <% data['projects'].each do |project| %>
+    <h3><%= project['title'] %></h3>
+    <p><%= project['introduction'] %></p>
+  <% end %>
+</div>

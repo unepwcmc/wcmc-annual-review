@@ -93,6 +93,9 @@
 //--------------------------------------------------
 $image-placeholder: black;
 
+.bg-grey-light { background-color: $grey-light; }
+.bg-grey { background-color: $grey; }
+
 .bg-img {
   background-color: $image-placeholder;
   background-size: cover;

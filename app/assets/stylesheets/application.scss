@@ -13,6 +13,9 @@
  *= require_self
  */
 
+// Base
+@import './base/variables';
+
 // Utilities
 @import './utilities/wcmc-branding.scss';
 @import './utilities/rem-calc.scss';
@@ -21,3 +24,5 @@
 @import './utilities/helpers.scss';
 @import './utilities/form-helpers.scss';
 
+
+@import './base/base';
