@@ -1,0 +1,168 @@
+//--------------------------------------------------
+// helpers
+//--------------------------------------------------
+// - fouc
+// - font
+// - lists
+// - display
+// - dimensions
+// - positioning
+// - margin & padding
+// - backgrounds
+// - buttons
+// - user interaction
+//
+//--------------------------------------------------
+// fouc (flash of unstyled content)
+//--------------------------------------------------
+[v-cloak] { display: none; }
+
+//--------------------------------------------------
+// font
+//--------------------------------------------------
+@mixin limit_lines($number, $line-height: 1.25) {
+  overflow-y: hidden;
+  max-height: calc(#{($number * $line-height) + em} - 1px);
+}
+
+@mixin prevent-text-highlighting {
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /*Chrome/Opera */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+}
+
+//--------------------------------------------------
+// lists
+//--------------------------------------------------
+.ul--unstyled {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ul--inline li { display: inline-block; }
+
+//--------------------------------------------------
+// positioning
+//--------------------------------------------------
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+
+.relative { position: relative; }
+
+.bottom-right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.center-right {
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  transform: translate(0, -50%);
+}
+
+.top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.item-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+//--------------------------------------------------
+// margin & padding
+//--------------------------------------------------
+.no-margin--top { margin-top: 0; }
+.no-margin { margin: 0; }
+.margin-center { margin: 0 auto; }
+
+//--------------------------------------------------
+// backgrounds
+//--------------------------------------------------
+$image-placeholder: black;
+
+.bg-img {
+  background-color: $image-placeholder;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-image-overlay {
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    background-color: rgba(black, 0.4);
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+//--------------------------------------------------
+// screen overlay
+//--------------------------------------------------
+.screen-overlay {
+  background: rgba(black, 0.5);
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 300;
+}
+
+//--------------------------------------------------
+// buttons
+//--------------------------------------------------
+.button--unstyled {
+  background: transparent;
+  border: none;
+  color: inherit;
+}
+
+//--------------------------------------------------
+// user interaction
+//--------------------------------------------------
+.no-select {
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+
+.hover--pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.screen-reader {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: rem-calc(1);
+	margin: - rem-calc(1);
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: rem-calc(1);
+}

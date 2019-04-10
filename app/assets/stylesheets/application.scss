@@ -10,6 +10,14 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
  *= require_self
  */
+
+// Utilities
+@import './utilities/wcmc-branding.scss';
+@import './utilities/rem-calc.scss';
+@import './utilities/media-queries.scss';
+@import './utilities/flexbox.scss';
+@import './utilities/helpers.scss';
+@import './utilities/form-helpers.scss';
+
