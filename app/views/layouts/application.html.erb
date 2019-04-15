@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>WcmcAnnualReview</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= render partial: 'layouts/global/head', locals: {} %>    
   </head>
 
   <body>
-    <%= yield %>
+    <div id="v-app">
+      <%= render partial: 'layouts/global/nav', locals: {} %>
+
+      <%= yield %>
+    </div>
 
     <%= render partial: 'layouts/global/footer', locals: {} %>
   </body>

@@ -2,30 +2,30 @@
   <%= render partial: 'home/partials/hero', locals: { data: @hero } %>
 </section>
 
-<section class="bg-grey">
+<section id="<%= @foreword['id'] %>" class="bg-grey">
   <%= render partial: 'home/partials/foreword', locals: { data: @foreword } %>
 </section>
 
-<section>
+<section id="<%= @anniversary['id'] %>">
   <%= render partial: 'home/partials/anniversary', locals: { data: @anniversary } %>
 </section>
 
-<section class="bg-grey-light">
+<section id="<%= @highlights['id'] %>" class="bg-grey-light">
   <%= render partial: 'home/partials/highlights', locals: { data: @highlights } %>
 </section>
 
-<div class="bg-grey">
+<section id="<%= @projects['id'] %>" class="bg-grey">
   <%= render partial: 'home/partials/projects', locals: { data: @projects } %>
-</div>
+</section>
 
-<section>
+<section id="<%= @stats_people['id'] %>">
   <%= render partial: 'home/partials/stats-people', locals: { data: @stats_people } %>
 </section>
 
-<section class="bg-grey-light">
-  <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_people } %>
+<section id="<%= @stats_finance['id'] %>" class="bg-grey-light">
+  <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_finance } %>
 </section>
 
-<section class="bg-grey">
+<section id="<%= @future['id'] %>" class="bg-grey">
   <%= render partial: 'home/partials/future', locals: { data: @future } %>
 </section>
