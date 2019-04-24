@@ -1,5 +1,11 @@
 $side-nav-button-color: $black;
 
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  30% { opacity: 1; }
+  70% { opacity: 1; }
+}
+
 .nav {
   &--side {
     position: fixed;
@@ -12,7 +18,7 @@ $side-nav-button-color: $black;
       &__link {
         &.nav__link--active > .nav__label,
         &:hover > .nav__label {
-          display: block;
+          animation: fadeInOut 2s 1 alternate;
         }
       }
         &__button {
@@ -26,9 +32,9 @@ $side-nav-button-color: $black;
         }
 
         &__label {
+          opacity: 0;
           width: max-content;
 
-          display: none;
           position: absolute;
           right: calc(100% + 10px);
         }
