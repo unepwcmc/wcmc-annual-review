@@ -6,7 +6,7 @@
       <button id="close-nav-pane" class="nav__close hover--pointer" v-show="isBurgerNav" @click="closeNavPane">X</button>
       <ul role="menubar" class="nav__items ul--unstyled flex">
         <li role="none" class="nav__item relative" v-for="page in pages" :key="page.id">
-          <v-nav-link :item="page"></v-nav-link>
+          <v-nav-link :item="page" v-on:scroll="scroll"></v-nav-link>
         </li>
       </ul>
 
@@ -23,6 +23,7 @@
 
 <script>
 import VNavLink from "./VNavLink"
+import mixinScrollMagic from "../../mixins/mixin-scroll-magic"
 import mixinResponsive from "../../mixins/mixin-responsive"
 import mixinPopupCloseListeners from "../../mixins/mixin-popup-close-listeners"
 import mixinFocusCapture from "../../mixins/mixin-focus-capture"
@@ -36,7 +37,8 @@ export default {
   mixins: [
     mixinResponsive, 
     mixinPopupCloseListeners({closeCallback: 'closeNavPane', toggleVariable: 'isNavPaneActive'}), 
-    mixinFocusCapture({toggleVariable: 'isNavPaneActive', closeCallback: 'closeNavPane', openCallback: 'openNavPane'})
+    mixinFocusCapture({toggleVariable: 'isNavPaneActive', closeCallback: 'closeNavPane', openCallback: 'openNavPane'}),
+    mixinScrollMagic
   ],
 
   props: {

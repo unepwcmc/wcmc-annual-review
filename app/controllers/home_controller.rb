@@ -3,37 +3,37 @@ class HomeController < ApplicationController
   def index
     @nav = [
       {
-        id: 1,
+        id: 'foreword',
         label: 'Foreword',
         url: '#foreword'
       },
       {
-        id: 2,
+        id: 'anniversary',
         label: '40th Anniversary',
         url: '#anniversary'
       },
       {
-        id: 3,
+        id: 'highlights',
         label: '2018 Highlights',
         url: '#highlights'
       },
       {
-        id: 4,
+        id: 'projects',
         label: 'Operations and Projects',
         url: '#projects'
       },
       {
-        id: 5,
+        id: 'people-stats',
         label: 'People team stats',
         url: '#people-stats'
       },
       {
-        id: 6,
+        id: 'finance-stats',
         label: 'Finance stats',
         url: '#finance-stats'
       },
       {
-        id: 7,
+        id: 'future',
         label: 'Looking forward...',
         url: '#future'
       }
