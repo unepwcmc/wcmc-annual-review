@@ -1,0 +1,18 @@
+$side-nav-button-color: $black;
+
+.nav {
+  &--side {
+    position: fixed;
+    top: 50%;
+    right: 0;
+
+    transform: translateY(-50%);
+
+    .nav__button {
+      background-color: $side-nav-button-color;
+      width: 20px; height: 20px;
+
+      display: block;
+    }
+  }
+}

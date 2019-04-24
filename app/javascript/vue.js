@@ -1,6 +1,7 @@
 import Vue from 'vue/dist/vue.esm'
 import Vue2TouchEvents from 'vue2-touch-events'
 
+import NavSide from './components/nav/NavSide'
 import VNav from './components/nav/VNav'
 
 // create event hub and export so that it can be imported into .vue files
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       el: '#v-app',
 
       components: {
+        NavSide,
         VNav
       }
     })

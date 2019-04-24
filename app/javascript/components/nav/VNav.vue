@@ -6,7 +6,11 @@
       <button id="close-nav-pane" class="nav__close hover--pointer" v-show="isBurgerNav" @click="closeNavPane">X</button>
       <ul role="menubar" class="nav__items ul--unstyled flex">
         <li role="none" class="nav__item relative" v-for="page in pages" :key="page.id">
-          <v-nav-link :item="page" v-on:scroll="scroll"></v-nav-link>
+          
+          <nav-link-scroll v-if="isScrollToNav" :item="page" v-on:click="clickNavLink"></nav-link-scroll>
+
+          <v-nav-link v-else :item="page"></v-nav-link>
+
         </li>
       </ul>
 
@@ -23,6 +27,7 @@
 
 <script>
 import VNavLink from "./VNavLink"
+import NavLinkScroll from "./NavLinkScroll"
 import mixinScrollMagic from "../../mixins/mixin-scroll-magic"
 import mixinResponsive from "../../mixins/mixin-responsive"
 import mixinPopupCloseListeners from "../../mixins/mixin-popup-close-listeners"
@@ -31,7 +36,7 @@ import { disableTabbing, reenableTabbing } from '../../helpers/focus-helpers';
 
 export default {
   components: {
-    VNavLink
+    VNavLink, NavLinkScroll
   },
 
   mixins: [
@@ -47,6 +52,10 @@ export default {
       type: Array
     },
     isAlwaysBurger: {
+      default: false,
+      type: Boolean
+    },
+    isScrollToNav: {
       default: false,
       type: Boolean
     }
@@ -66,21 +75,26 @@ export default {
   },
 
   methods: {
-    openNavPane() {
+    openNavPane () {
       this.isNavPaneActiveData = true
     },
     
-    closeNavPane() {
+    closeNavPane () {
       this.isNavPaneActiveData = false
+    },
+
+    clickNavLink (id) {
+      this.closeNavPane()
+      this.scroll(id)
     }
   },
 
   computed: {
-    isBurgerNav() {
+    isBurgerNav () {
       return this.isAlwaysBurger || !this.isLarge()
     },
 
-    navType() {
+    navType () {
       return { 
         'nav--pane': this.isBurgerNav,
         'nav--bar': !this.isBurgerNav,
@@ -88,7 +102,7 @@ export default {
       }
     },
 
-    navPaneItemContainer() {
+    navPaneItemContainer () {
       return this.$el.querySelector('.nav__item-container')
     },
 

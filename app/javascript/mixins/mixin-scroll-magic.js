@@ -22,7 +22,7 @@ export default {
     // link that has been clicked
     scroll (id) {
       const offset = document.getElementById('section-' + id).offsetTop
-      
+
       window.scrollTo({ top: offset - this.triggerOffset, behavior: 'smooth' })
     },
 

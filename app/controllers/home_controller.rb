@@ -4,38 +4,31 @@ class HomeController < ApplicationController
     @nav = [
       {
         id: 'foreword',
-        label: 'Foreword',
-        url: '#foreword'
+        label: 'Foreword'
       },
       {
         id: 'anniversary',
-        label: '40th Anniversary',
-        url: '#anniversary'
+        label: '40th Anniversary'
       },
       {
         id: 'highlights',
-        label: '2018 Highlights',
-        url: '#highlights'
+        label: '2018 Highlights'
       },
       {
         id: 'projects',
-        label: 'Operations and Projects',
-        url: '#projects'
+        label: 'Operations and Projects'
       },
       {
         id: 'people-stats',
-        label: 'People team stats',
-        url: '#people-stats'
+        label: 'People team stats'
       },
       {
         id: 'finance-stats',
-        label: 'Finance stats',
-        url: '#finance-stats'
+        label: 'Finance stats'
       },
       {
         id: 'future',
-        label: 'Looking forward...',
-        url: '#future'
+        label: 'Looking forward...'
       }
     ].to_json
 
