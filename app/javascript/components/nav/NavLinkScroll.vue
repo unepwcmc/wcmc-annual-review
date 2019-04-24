@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-v-center" @click="click">
-    <span class="carousel__nav-text">{{ item.label }}</span>
+  <div :id="id" class="nav__link flex flex-v-center" @click="click">
     <span role="menuitem" class="nav__button"></span>
+    <span class="nav__label">{{ item.label }}</span>
   </div>
 </template>
 
@@ -16,9 +16,12 @@ export default {
     }
   },
 
+  computed: {
+    id () { return `scroll-link-${this.item.id}` }
+  },
+
   methods: {
     click () {
-      console.log(this.item.id)
       this.$emit('click', this.item.id)
     }
   }

@@ -3,6 +3,8 @@ import ScrollMagic from 'scrollmagic'
 export default {
   mounted () {
     this.setTriggerOffset()
+    this.scrollMagicHandlers()
+    this.updateScrollMagicDurations()
   },
 
   methods: {
@@ -34,19 +36,17 @@ export default {
       let scrollMagicScenes = []
 
       // add scene for each item in the nav
-      this.navArray.forEach(link => {
+      this.pages.forEach(link => {
         let scene = {}
-        const id = 'year-' + link
+        const id = link.id
 
-      
-        scene.id = link
+        scene.id = id
 
         scene.scene = new ScrollMagic.Scene({ 
-          triggerElement: '#' + id, 
-          triggerHook: 'onLeave' 
+          triggerElement: '#section-' + id,
         })
         .offset(-this.triggerOffset)
-        .setClassToggle('#link-' + link, 'scroll-nav__link--active')
+        .setClassToggle('#scroll-link-' + id, 'nav__link--active')
         .addTo(navScrollMagic)
 
         scrollMagicScenes.push(scene)
@@ -65,8 +65,9 @@ export default {
     updateScrollMagicDurations () {
       // update the scene durations (year div heights)
       this.scrollMagicScenes.forEach(scene => {
-        let section = document.getElementById('year-' + scene.id)
+        let section = document.getElementById('section-' + scene.id)
         let height = 0
+        console.log('height', section)
 
 
         if(section) height = section.clientHeight

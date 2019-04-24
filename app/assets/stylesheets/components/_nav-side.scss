@@ -4,15 +4,34 @@ $side-nav-button-color: $black;
   &--side {
     position: fixed;
     top: 50%;
-    right: 0;
+    right: 20px;
 
     transform: translateY(-50%);
 
-    .nav__button {
-      background-color: $side-nav-button-color;
-      width: 20px; height: 20px;
+    .nav {
+      &__link {
+        &.nav__link--active > .nav__label,
+        &:hover > .nav__label {
+          display: block;
+        }
+      }
+        &__button {
+          background-color: $side-nav-button-color;
+          border-radius: 100%;
+          cursor: pointer;
+          width: 20px; height: 20px;
 
-      display: block;
+          display: block;
+          order: 1;
+        }
+
+        &__label {
+          width: max-content;
+
+          display: none;
+          position: absolute;
+          right: calc(100% + 10px);
+        }
     }
   }
 }
