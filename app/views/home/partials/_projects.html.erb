@@ -6,8 +6,9 @@
   <% data['projects'].each do |project| %>
     <h3><%= project['title'] %></h3>
     <p><%= project['introduction'] %></p>
+
     <% if project['modal'] %>
-      <modal-trigger id="<%= project['id'] %>">View more</modal-trigger>
+      <modal-trigger id="<%= project['id'] %>" :modal-content="<%= project.to_json %>">View more</modal-trigger>
     <% end %>
 
     <% if project['url'] %>

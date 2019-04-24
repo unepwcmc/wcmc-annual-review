@@ -7,7 +7,8 @@
           <span>close</span>
         </button>
 
-        <slot></slot>
+        <h3>{{ content.title }}</h3>
+        <p>{{ content.introduction }}</p>
       </div>
     </div>
   </div>
@@ -40,12 +41,16 @@ export default {
 
     mixinTriggerId () {
       return 'modal-trigger-' + this.id
+    },
+
+    content () {
+      return this.$store.state.modal.content
     }
   },
 
   methods: {
     toggleModal () {
-      this.$store.commit('modal/updateModalStatus')
+      this.$store.dispatch('modal/closeModal')
     },
 
     closeModal () {

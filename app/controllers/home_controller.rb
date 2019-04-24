@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  require 'json'
 
   def index
     @nav = [

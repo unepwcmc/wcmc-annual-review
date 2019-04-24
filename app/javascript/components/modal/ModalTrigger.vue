@@ -14,6 +14,9 @@ export default {
     id: {
       type: String,
       required: true
+    },
+    modalContent: {
+      type: Object
     }
   },
 
@@ -25,7 +28,7 @@ export default {
 
   methods: {
     openModal () {
-      this.$store.commit('modal/updateModalStatus')
+      this.$store.dispatch('modal/openModal', this.modalContent)
     }
   }
 }
