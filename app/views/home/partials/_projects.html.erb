@@ -6,5 +6,12 @@
   <% data['projects'].each do |project| %>
     <h3><%= project['title'] %></h3>
     <p><%= project['introduction'] %></p>
+    <% if project['modal'] %>
+      <modal-trigger id="<%= project['id'] %>">View more</modal-trigger>
+    <% end %>
+
+    <% if project['url'] %>
+      <% link_to 'link', project['url'], title: "View more infomation about #{project['title']}", target: '_blank' %>
+    <% end %>
   <% end %>
 </div>

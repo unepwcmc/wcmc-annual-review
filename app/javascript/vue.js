@@ -1,6 +1,12 @@
 import Vue from 'vue/dist/vue.esm'
 import Vue2TouchEvents from 'vue2-touch-events'
 
+// store
+import store from './store/store.js'
+
+//components
+import Modal from './components/modal/Modal'
+import ModalTrigger from './components/modal/ModalTrigger'
 import NavSide from './components/nav/NavSide'
 import VNav from './components/nav/VNav'
 
@@ -15,7 +21,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const app = new Vue({
       el: '#v-app',
 
+      store,
+
       components: {
+        Modal, 
+        ModalTrigger,
         NavSide,
         VNav
       }

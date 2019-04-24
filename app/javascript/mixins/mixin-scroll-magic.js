@@ -67,9 +67,7 @@ export default {
       this.scrollMagicScenes.forEach(scene => {
         let section = document.getElementById('section-' + scene.id)
         let height = 0
-        console.log('height', section)
-
-
+        
         if(section) height = section.clientHeight
 
         scene.scene.duration(height)
