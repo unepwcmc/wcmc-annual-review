@@ -1,7 +1,7 @@
 <template>
-  <div class="slides--c">
-    <div class="slides--h">
-      <div v-for="slide in slides " class="slide--h">
+  <div :id="slidesWrapperId" :class="['slides-wrapper', slidesWrapperId]">
+    <div :id="slidesId" :class="['slides', slidesId]">
+      <div v-for="slide in slides" :id="slideId" :class="['slide', slideId]">
         <h3>{{ slide.title }}</h3>
         <p>{{ slide.introduction }}</p>
       </div>
@@ -18,9 +18,27 @@
     name: 'carousel',
 
     props: {
+      id: {
+        type: String,
+        required: true
+      },
       slides: {
         type: Array,
         required: true
+      }
+    },
+
+    computed: {
+      slidesWrapperId () {
+        return `slides-wrapper--${this.id}`
+      },
+
+      slidesId () {
+        return `slides--${this.id}`
+      },
+
+      slideId () {
+        return `slide--${this.id}`
       }
     },
 
@@ -33,15 +51,15 @@
         let controller = new ScrollMagic.Controller()
 
         let wipeAnimation = new TimelineMax()
-          .to('.slides--h', 1, {x: "-33%"})
-          .to('.slides--h', 1, {x: "-66%"})
+          .to(`#${this.slidesId}`, 1, {x: "-33%"})
+          .to(`#${this.slidesId}`, 1, {x: "-66%"})
 
         new ScrollMagic.Scene({
-            triggerElement: '.slides--c',
+            triggerElement: `#${this.slidesWrapperId}`,
             triggerHook: 'onLeave',
             duration: '300%'
           })
-          .setPin('.slides--c')
+          .setPin(`#${this.slidesWrapperId}`)
           .setTween(wipeAnimation)
           .addTo(controller)
       }
