@@ -12,6 +12,7 @@ import Modal from './components/modal/Modal'
 import ModalTrigger from './components/modal/ModalTrigger'
 import NavSide from './components/nav/NavSide'
 import VNav from './components/nav/VNav'
+import SocialShare from './components/social/SocialShare'
 
 // create event hub and export so that it can be imported into .vue files
 export const eventHub = new Vue()
@@ -33,7 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
         Modal, 
         ModalTrigger,
         NavSide,
-        VNav
+        VNav,
+        SocialShare
       }
     })
   }

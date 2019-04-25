@@ -19,19 +19,6 @@
         </template>
       </ul>
 
-      <div v-if="showArrows && hasMutlipleSlides" class="carousel__arrow-buttons">
-        <button 
-          :aria-controls="slidesId" 
-          title="Previous slide" 
-          class="carousel__arrow carousel__arrow--left hover--pointer" 
-          @click="slideToPrevious">L</button>
-        <button 
-          :aria-controls="slidesId"
-          title="Next slide"
-          class="carousel__arrow carousel__arrow--right hover--pointer"
-          @click="slideToNext">R</button>
-      </div>
-
     </div>
 
     <div v-if="hasMutlipleSlides" class="carousel__control-bar">

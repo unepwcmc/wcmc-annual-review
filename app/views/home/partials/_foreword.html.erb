@@ -1,11 +1,18 @@
 <h2><%= data['title'] %></h2>
 
-<carousel>
+<div class="flex">
+  <div class="flex-1-half">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/2oMp9kLUIPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
-  <% data['collection'].each do |slide| %>
-    <carousel-slide>
-      <h3><%= slide['title'] %></h3>
-      <p><%= slide['introduction'] %></p>
-    </carousel-slide>
-  <% end %>
-</carousel>
+  <div class="flex-1-half">
+    <carousel>
+      <% data['collection'].each do |slide| %>
+        <carousel-slide>
+          <h3><%= slide['title'] %></h3>
+          <p><%= slide['introduction'] %></p>
+        </carousel-slide>
+      <% end %>
+    </carousel>
+  </div>
+</div>
