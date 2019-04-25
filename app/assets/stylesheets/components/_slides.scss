@@ -15,13 +15,15 @@
 
 .slide {
   &--highlights {
-    width: 33%; height: 100%;
+    width: 100%; height: 100%;
 
     float: left;
 
     &:nth-child(1) { background-color: blue; }
     &:nth-child(2) { background-color: green; }
     &:nth-child(3) { background-color: yellow; }
+    &:nth-child(4) { background-color: orange; }
+    &:nth-child(5) { background-color: purple; }
 
     .slide {
       

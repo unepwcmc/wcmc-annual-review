@@ -1,7 +1,7 @@
 <template>
   <div :id="slidesWrapperId" :class="['slides-wrapper', slidesWrapperId]">
     <div :id="slidesId" :class="['slides', slidesId]">
-      <div v-for="slide in slides" :id="slideId" :class="['slide', slideId]">
+      <div v-for="slide in slides" :id="slideId" :class="['slide', slideId]" :style="{ 'width': slideWidth + '%'}">
         <h3>{{ slide.title }}</h3>
         <p>{{ slide.introduction }}</p>
       </div>
@@ -28,6 +28,14 @@
       }
     },
 
+    data () {
+      return {
+        config: {
+          speed: '300%'
+        }
+      }
+    },
+
     computed: {
       slidesWrapperId () {
         return `slides-wrapper--${this.id}`
@@ -39,6 +47,14 @@
 
       slideId () {
         return `slide--${this.id}`
+      },
+
+      totalSlides () { 
+        return this.slides.length
+      },
+
+      slideWidth () {
+        return Math.floor(100/this.totalSlides)
       }
     },
 
@@ -48,19 +64,23 @@
 
     methods: {
       scrollMagicHandlers () {
-        let controller = new ScrollMagic.Controller()
+        const controller = new ScrollMagic.Controller(),
+          timeline = new TimelineMax()
 
-        let wipeAnimation = new TimelineMax()
-          .to(`#${this.slidesId}`, 1, {x: "-33%"})
-          .to(`#${this.slidesId}`, 1, {x: "-66%"})
+        for(let i = 0; i < this.totalSlides - 1; i++) {
+          
+          let x = -(i+1) * this.slideWidth + '%'
+
+          timeline.to(`#${this.slidesId}`, 1, {x: x})
+        }
 
         new ScrollMagic.Scene({
             triggerElement: `#${this.slidesWrapperId}`,
             triggerHook: 'onLeave',
-            duration: '300%'
+            duration: this.config.speed
           })
           .setPin(`#${this.slidesWrapperId}`)
-          .setTween(wipeAnimation)
+          .setTween(timeline)
           .addTo(controller)
       }
     }
