@@ -1,1 +1,11 @@
 <h2><%= data['title'] %></h2>
+
+<carousel>
+
+  <% data['collection'].each do |slide| %>
+    <carousel-slide>
+      <h3><%= slide['title'] %></h3>
+      <p><%= slide['introduction'] %></p>
+    </carousel-slide>
+  <% end %>
+</carousel>

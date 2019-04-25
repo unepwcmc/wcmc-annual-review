@@ -11,6 +11,7 @@ $side-nav-button-color: $black;
     position: fixed;
     top: 50%;
     right: 20px;
+    z-index: $z-200;
 
     transform: translateY(-50%);
 

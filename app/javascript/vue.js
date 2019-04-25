@@ -6,6 +6,8 @@ import store from './store/store.js'
 
 //components
 import Carousel from './components/carousel/Carousel'
+import CarouselHorizontal from './components/carousel/CarouselHorizontal'
+import CarouselSlide from './components/carousel/CarouselSlide'
 import Modal from './components/modal/Modal'
 import ModalTrigger from './components/modal/ModalTrigger'
 import NavSide from './components/nav/NavSide'
@@ -26,6 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       components: {
         Carousel,
+        CarouselHorizontal,
+        CarouselSlide,
         Modal, 
         ModalTrigger,
         NavSide,
