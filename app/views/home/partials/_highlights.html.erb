@@ -1,1 +1,12 @@
 <h2><%= data['title'] %></h2>
+
+<!-- <div class="slides--highlights">
+  <% data['collection'].each do |highlight| %>
+    <div class="slide--highlight">
+      <h3><%= highlight['title'] %></h3>
+      <p><%= highlight['introduction'] %></p>
+    </div>
+  <% end %>
+</div> -->
+
+<carousel :slides="<%= data['collection'].to_json %>"></carousel>

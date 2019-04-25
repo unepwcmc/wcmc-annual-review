@@ -5,6 +5,7 @@ import Vue2TouchEvents from 'vue2-touch-events'
 import store from './store/store.js'
 
 //components
+import Carousel from './components/carousel/Carousel'
 import Modal from './components/modal/Modal'
 import ModalTrigger from './components/modal/ModalTrigger'
 import NavSide from './components/nav/NavSide'
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
       store,
 
       components: {
+        Carousel,
         Modal, 
         ModalTrigger,
         NavSide,

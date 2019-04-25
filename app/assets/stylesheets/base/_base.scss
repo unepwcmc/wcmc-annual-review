@@ -82,7 +82,7 @@ button:hover, button:active { outline: none; }
 }
 
 section {
-  height: 100vh;
+  &.section--full-window { height: 100vh; }
 }
 
 //--------------------------------------------------
