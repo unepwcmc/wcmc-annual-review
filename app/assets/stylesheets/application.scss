@@ -13,18 +13,20 @@
  *= require_self
  */
 
+@import './utilities/wcmc-branding.scss';
+
 // Base
 @import './base/variables';
 
 // Utilities
-@import './utilities/wcmc-branding.scss';
 @import './utilities/rem-calc.scss';
 @import './utilities/media-queries.scss';
 @import './utilities/flexbox.scss';
 @import './utilities/helpers.scss';
 @import './utilities/form-helpers.scss';
 
-
 @import './base/base';
+@import './base/buttons';
+@import './base/logos';
 
 @import './components/*'

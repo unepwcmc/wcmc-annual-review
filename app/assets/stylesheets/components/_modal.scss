@@ -11,8 +11,7 @@
 
   &--active { display: block; }
 
-  &__close, &__trigger {
-    @extend .sg-h4;
+  &__close {
     background-color: transparent;
     border: $border-thin $grey;
   }

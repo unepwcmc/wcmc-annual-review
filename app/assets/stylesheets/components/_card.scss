@@ -1,0 +1,52 @@
+.cards {
+  &--projects {
+
+  }
+}
+
+.card {
+  &--project {
+    padding: rem-calc(20 0 50 0); 
+
+    display: flex; 
+
+    &:nth-child(even) {
+      .card__content-wrapper { 
+        @include breakpoint($small) { order: 1; }
+      }
+    }
+
+    .card {
+      &__content-wrapper { //ie11 fix
+        flex: 100%;
+        
+        @include breakpoint($small) { flex: 0 1 50%; }
+      }
+        &__content {
+          padding: rem-calc(14 0 20 0);
+
+          @include breakpoint($small) { padding: rem-calc(30 40); }
+          @include breakpoint($medium) { padding: rem-calc(50 80); }
+        }
+
+          &__index {
+            font-weight: $fw-black;
+          }
+
+      &__image-wrapper {
+        flex: 100%;
+        text-align: center;
+
+        @include breakpoint($small) { 
+          flex: 0 1 50%;
+        }
+      }
+
+        &__image {
+          width: 80%;
+
+          @include breakpoint($small) { width: 100%; }
+        }
+    }
+  }
+}

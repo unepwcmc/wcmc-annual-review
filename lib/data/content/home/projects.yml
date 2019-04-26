@@ -4,42 +4,31 @@ strapline: We can make change
 introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 collection: 
   -
-    id: encore
-    title: ENCORE
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    modal: true
-  -
     id: protected-planet-live
-    title: Protected Planet Live
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    title: A Live portal into our protected planet
+    introduction: Since 2010 it has been a global goal to have protected areas across the world that could truly protect the species and ecosystems within them – having sufficient quality, as well as size. With only semi-regularly updated datasets, however, national leaders struggled to find if they were reaching these targets. So in November, we, IUCN, National Geographic and UN Environment launched Protected Planet Live, a regularly updated portal that shows where we as a global community can improve and expand upon protected areas. It is able to reflect the impact of a new government’s decisions and actions, encouraging collective action to halt the downward trend of biodiversity.
     modal: false
+    url: https://livereport.protectedplanet.net/
+    url-text: Live Report Site
   -
-    id: bending-the-curve
-    title: Bending the curve
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    id: impacts
+    title: Gold medal for mapping impacts of biodiversity
+    introduction: "Launched in 2010, it is underpinned by three of the world’s most authoritative global biodiversity datasets: the World Database on Protected Areas, IUCN Red List of Threatened Species, and the World Database on Key Biodiversity Areas. Added functionality and expertise then allows people across the businesses, governments, and the finance sector to screen potential projects and review potential risks in their supply chain."
     modal: true
-  -
-    id: ocean-plus
-    title: Ocean+
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    modal: false
-  -
-    id: bip
-    title: BIP
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    modal: false
   -
     id: restoration
-    title: Restoration
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    title: Marine restoration from Turkey to Norway
+    introduction: Marine and coastal habitats are immensely valuable, on both a local and global scale - corals can act as nurseries for schools of fish, mangroves and seagrasses can stem tidal surges, and both the ocean itself and the life it holds can act as sponges that soak up carbon. Many places have already been over-harvested or degraded, however, and so restoration projects are underway all over the world. This is still a relatively new approach, however, and there is little information about how to do this efficiently, or successfully.
     modal: true
   -
-    id: ibat
-    title: IBAT
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    modal: false
+    id: encore
+    title: Encore for finance tool
+    introduction: More and more the conservation community is recognising that not only are businesses part of the solution to biodiversity loss – they are indispensably critical. Businesses themselves are also increasingly recognising that natural resources lie at the foundation of everything they do, but lacked the data and tools to fully understand their impacts.
+    modal: true
   -
-    id: natural-accounting
-    title: Natural Accounting
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    id: nature
+    title: The value of nature starting with a nut
+    introduction: Over the past year we have been working closely with the World Conservation Society and the IDEEA Group (Institute for Development of Environmental-Economic Accounting) to identify the value of Uganda’s natural resources – informing the placement of protected areas, how much to invest in them, and how declining biodiversity threatens Ugandan people. Shea butter tree nuts, for example, were seen to have potential as a local food source, as well as an export to cosmetics industries. They are a vulnerable species, however, prone to overharvesting, and so there was a real question of how to produce them in a way that would last. When scanning northern Uganda for areas that might be Shea butter nut-friendly, we found that most of the potential habitats were not in protected areas, and would therefore be prone to overharvesting. This resulted in a nation-wide ban on the trade in Shea butter nuts.
     modal: false
+    url: http://google.com
+    url-text: Website

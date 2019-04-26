@@ -4,6 +4,7 @@
 * {
   box-sizing: border-box;
   font-family: $body-font;
+  font-size: 25px;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -12,6 +13,7 @@ html {
 }
 
 body {
+  color: $body-font-color;
   font-family: $body-font;
   margin: 0;
   height: 100%;
@@ -106,8 +108,10 @@ section {
 
 .sg-h3 {
   @include font-size('h3');
+  color: $primary;
   font-weight: $font-weight-h3;
   line-height: $line-height-h;
+  text-transform: uppercase;
 }
 
 .sg-h4 {

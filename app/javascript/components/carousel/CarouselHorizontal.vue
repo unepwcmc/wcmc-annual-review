@@ -1,9 +1,15 @@
 <template>
   <div :id="slidesWrapperId" :class="['slides-wrapper', slidesWrapperId]">
-    <div :id="slidesId" :class="['slides', slidesId]">
-      <div v-for="slide in slides" :id="slideId" :class="['slide', slideId]" :style="{ 'width': slideWidth + '%'}">
-        <h3>{{ slide.title }}</h3>
-        <p>{{ slide.introduction }}</p>
+    <div :id="slidesId" :class="['slides', slidesId]" :style="{ 'width': slidesWidth + '%'}">
+      <div v-for="slide, index in slides" :id="slideId" :class="['slide', slideId]" :style="{ 'width': slideWidth + '%'}">
+        <div class="slide__content">
+          <h3 class="slide__title">{{ slide.title }}</h3>
+          <p class="slide__introduction">{{ slide.introduction }}</p>
+
+          <span class="slide__index">{{ index + 1 }} of {{ totalSlides }}</span>
+          
+        </div>
+        <div class="slide__image" :style="{ 'background-image': `url(${slide.image})` }"></div>
       </div>
     </div>
   </div>
@@ -55,6 +61,10 @@
 
       slideWidth () {
         return Math.floor(100/this.totalSlides)
+      },
+
+      slidesWidth () {
+        return Math.floor(this.totalSlides*100*.72)
       }
     },
 
@@ -77,6 +87,7 @@
         new ScrollMagic.Scene({
             triggerElement: `#${this.slidesWrapperId}`,
             triggerHook: 'onLeave',
+            offset: '-80px',
             duration: this.config.speed
           })
           .setPin(`#${this.slidesWrapperId}`)

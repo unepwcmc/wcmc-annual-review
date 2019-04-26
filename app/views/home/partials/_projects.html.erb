@@ -2,17 +2,27 @@
 <p class="strapline"><%= data['strapline'] %></p>
 <p><%= data['introduction'] %></p>
 
-<div>
-  <% data['collection'].each do |project| %>
-    <h3><%= project['title'] %></h3>
-    <p><%= project['introduction'] %></p>
 
-    <% if project['modal'] %>
-      <modal-trigger id="<%= project['id'] %>" :modal-content="<%= project.to_json %>">View more</modal-trigger>
-    <% end %>
+<div class="cards--projects">
+  <% data['collection'].each_with_index do |project, index| %>
+    <div class="card--project">
+      <div class="card__content-wrapper">
+        <span class="card__index"><%= index + 1 %> of <%= data['collection'].length %></span>
+        <h3><%= project['title'] %></h3>
+        <p><%= project['introduction'] %></p>
 
-    <% if project['url'] %>
-      <% link_to 'link', project['url'], title: "View more infomation about #{project['title']}", target: '_blank' %>
-    <% end %>
+        <% if project['modal'] %>
+          <modal-trigger id="<%= project['id'] %>" class="button--internal" :modal-content="<%= project.to_json %>">View more</modal-trigger>
+        <% end %>
+
+        <% if project['url'] %>
+          <%= link_to project['url-text'], project['url'], title: "View more infomation about #{project['title']}", class: 'button--external', target: '_blank' %>
+        <% end %>
+      </div>
+
+      <div class="card__image-wrapper">
+        
+      </div>
+    </div>
   <% end %>
 </div>

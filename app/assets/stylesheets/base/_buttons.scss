@@ -1,0 +1,23 @@
+.button {
+  &--external {
+    background-color: $primary;
+    color: $white;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 12px 20px;
+    text-decoration: none;
+
+    &:hover { background-color: lighten($primary, 10%); }
+  }
+
+  &--internal {
+    background-color: transparent;
+    border: 0;
+    color: $primary;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+
+    &:hover { color: lighten($primary, 10%); }
+  }
+}
