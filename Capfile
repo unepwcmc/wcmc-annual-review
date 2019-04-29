@@ -47,7 +47,7 @@ require "capistrano/rails/migrations"
 require "capistrano/passenger"
 #require 'capistrano/yarn'
 #require 'capistrano/nvm'
-require 'capistrano/sidekiq'
+#require 'capistrano/sidekiq'
 
 
 
