@@ -56,6 +56,7 @@ $shadow-dark: rem-calc(0 1 2 1) rgba($black, 0.5);
 // fonts
 //--------------------------------------------------
 $body-font: 'Roboto', sans-serif;
+$header-font: Impact, Charcoal, sans-serif;
 $body-font-color: #363636;
 
 $thin: 100;
@@ -66,7 +67,7 @@ $bolder: 700;
 $fw-black: 900;
 
 $font-weight-h1: $light;
-$font-weight-h2: $light;
+$font-weight-h2: $regular;
 $font-weight-h3: $fw-black;
 $font-weight-h4: $light;
 $font-weight-p: $light;
@@ -85,7 +86,7 @@ $line-height-li: 1.5;
 
   @include breakpoint($small) {
     @if $el == 'h1' { font-size: 30px; }
-    @if $el == 'h2' { font-size: 24px; }
+    @if $el == 'h2' { font-size: 90px; }
     @if $el == 'h3' { font-size: 50px; }
     @if $el == 'h4' { font-size: 18px; }
     @if $el == 'p' { font-size: 25px; }
@@ -98,7 +99,7 @@ $line-height-li: 1.5;
 //must be in px!
 $small: 720;
 $medium: 960;
-$large: 1176;
+$large: 1920;
 
 //--------------------------------------------------
 // z-indices
@@ -115,39 +116,39 @@ $site-width: rem-calc($large);
 //--------------------------------------------------
 // padding
 //--------------------------------------------------
-$gutter-small: rem-calc(16);
-$gutter-medium: rem-calc(24);
-$gutter-large: rem-calc(32);
+$gutter-small: 16px;
+$gutter-medium: 24px;
+$gutter-large: 32px;
 
-$container-width-small: rem-calc(600);
-$container-width-medium: rem-calc(700);
-$container-width-large: rem-calc(800);
+$container-width-small: 600px;
+$container-width-medium: 700px;
+$container-width-large: 800px;
 
-$page-padding-top-small: rem-calc(16);
-$page-padding-top-medium: rem-calc(24);
-$page-padding-top-large: rem-calc(32);
+$page-padding-top-small: 16px;
+$page-padding-top-medium: 24px;
+$page-padding-top-large: 32px;
 
-$page-padding-bottom-small: rem-calc(32);
-$page-padding-bottom-medium: rem-calc(60);
-$page-padding-bottom-large: rem-calc(100);
+$page-padding-bottom-small: 32px;
+$page-padding-bottom-medium: 60px;
+$page-padding-bottom-large: 100px;
 
-$section-padding-top-small: rem-calc(20);
-$section-padding-top-medium: rem-calc(40);
-$section-padding-top-large: rem-calc(40);
+$section-padding-top-small: 20px;
+$section-padding-top-medium: 40px;
+$section-padding-top-large: 40px;
 
-$section-padding-bottom-small: rem-calc(30);
-$section-padding-bottom-medium: rem-calc(60);
-$section-padding-bottom-large: rem-calc(60);
+$section-padding-bottom-small: 30px;
+$section-padding-bottom-medium: 60px;
+$section-padding-bottom-large: 60px;
 
-$item-padding-small: rem-calc(14);
-$item-padding-medium: rem-calc(20);
-$item-padding-large: rem-calc(26);
+$item-padding-small: 14px;
+$item-padding-medium: 20px;
+$item-padding-large: 26px;
 
 //--------------------------------------------------
 // tables
 //--------------------------------------------------
 $collapse-table-borders: true;
-$table-cell-padding: rem-calc(8);
+$table-cell-padding: 8px;
 
 //--------------------------------------------------
 // topbars and footers

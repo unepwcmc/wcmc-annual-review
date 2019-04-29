@@ -11,15 +11,21 @@
 
   &--active { display: block; }
 
-  &__close {
-    background-color: transparent;
-    border: $border-thin $grey;
-  }
-
   &__dialog {
     @extend .item-center;
     @include item-padding;
 
+    width: 100%; height: 100%;
+
     background-color: $white;
   }
+
+    &__close {
+      background-color: transparent;
+      border: $border-thin $grey;
+
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
 }

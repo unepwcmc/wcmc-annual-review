@@ -98,9 +98,12 @@ section {
 
 .sg-h2 {
   @include font-size('h2');
+  color: $white;
+  font-family: $header-font;
   font-weight: $font-weight-h2;
   line-height: $line-height-h;
   margin-top: 0;
+  text-transform: uppercase;  
   
   display: flex; //temp for wires
   justify-content: center; //temp for wires

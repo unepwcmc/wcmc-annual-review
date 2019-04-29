@@ -1,9 +1,13 @@
-<h2><%= data['title'] %></h2>
-<p class="strapline"><%= data['strapline'] %></p>
-<p><%= data['introduction'] %></p>
+<div class="section__header flex flex-center">
+  <div class="section__header-content">
+    <h2><%= data['strapline'] %></h2>
+    <h3><%= data['title'] %></h3>
+    <p><%= data['introduction'] %></p>
+  </div>
+</div>
 
 
-<div class="cards--projects">
+<div class="container cards--projects">
   <% data['collection'].each_with_index do |project, index| %>
     <div class="card--project">
       <div class="card__content-wrapper">
