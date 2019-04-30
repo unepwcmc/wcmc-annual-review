@@ -6,12 +6,6 @@ $dropdown-width: rem-calc(240);
   @include gutters;
   @include v-nav-height;
 
-  border: $border-regular $grey;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-
   &__logo {
     @extend .sg-h3;
   }
@@ -33,10 +27,6 @@ $dropdown-width: rem-calc(240);
 
     background-color: transparent;
     border: $border-regular $grey;
-
-    position: fixed;
-    top: 0;
-    right: 0;
   }
 
   &__close {

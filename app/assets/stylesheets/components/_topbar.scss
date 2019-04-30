@@ -1,5 +1,28 @@
 $topbar-height-desktop: 96px;
 
 .topbar {
+  background-color: $grey-dark;
+  box-shadow: $black 0px 3px 6px;
+  width: 100%; height: $topbar-height-desktop;
+  
+  position: absolute;
+  top: -100%;
 
+  transition: top .75s ease-out;
+
+  &.sticky {
+    position: fixed;
+    top: 0;
+    z-index: $z-100;
+  }
+
+  &__title {
+    border-left: solid 1px $grey-light;
+    color: $white;
+    font-size: 24px;
+    margin-left: 20px;
+    padding-left: 20px;
+
+    z-index: $z-300;
+  }
 }

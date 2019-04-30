@@ -1,3 +1,8 @@
-<div class="topbar">
-  <span class="logo--wcmc"></span>
-</div>
+<sticky-bar>
+  <div class="topbar flex flex-v-center gutters sm-target-sticky">
+    <span class="logo--wcmc"></span>
+    <span class="topbar__title">Annual Review 2019</span>
+
+    <v-nav :pages="<%= @nav %>" :is-always-burger="true" :is-scroll-to-nav="true" class="flex-h-end"></v-nav>
+  </div>
+</sticky-bar>

@@ -1,5 +1,5 @@
 <template>
-  <nav aria-label="site-nav" class="nav flex flex-v-center flex-h-between">
+  <nav aria-label="site-nav">
 
     <div :id="mixinModalId" class="nav__item-container flex" :class="navType">
 
@@ -15,10 +15,6 @@
       </ul>
 
     </div>
-
-    <span class="nav__right">
-      <slot name="nav-right"></slot>
-    </span>
 
     <button :id="mixinTriggerId" class="nav__burger hover--pointer" v-show="isBurgerNav" @click="openNavPane">=</button>
 

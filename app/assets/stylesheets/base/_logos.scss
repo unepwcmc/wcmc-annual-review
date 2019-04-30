@@ -1,6 +1,8 @@
 .logo {
   &--wcmc {
-    background-image: url('https://www.unep-wcmc.org/');
-    width: 230px; height: 50px;
+    background-image: url('https://s3.amazonaws.com/wcmc.logo/UN-Environment-WCMC+logo+2017+white.svg');
+    width: 219px; height: 50px;
+
+    display: block;
   }
 }
