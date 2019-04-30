@@ -1,14 +1,43 @@
 .section {
+  &--hero {
+    .section {
+      &__header {
+        height: 100%;
+
+        position: relative;
+      }
+
+        &__header-content {
+          text-align: center;
+          width: 40%;
+        }
+
+      &__icon {
+        position: absolute;
+        bottom: 10px;
+      }
+
+      &__caption {
+        color: $grey-light;
+        font-size: 18px; 
+        
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+      }
+    }
+  }
+
   &--anniversary {
     .section {
       &__header {
         height: 100%;
       }
 
-      &__header-content {
-        text-align: center;
-        width: 40%;
-      }
+        &__header-content {
+          text-align: center;
+          width: 40%;
+        }
     }
   }
 
@@ -32,10 +61,10 @@
         }
       }
 
-      &__header-content {
-        text-align: center;
-        width: 50%;
-      }
+        &__header-content {
+          text-align: center;
+          width: 50%;
+        }
     }
   }
 }
