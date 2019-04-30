@@ -10,6 +10,11 @@
     &:hover { background-color: lighten($primary, 10%); }
   }
 
+  &--external-outline {
+    @extend .button--external;
+    border: solid 1px $white;
+  }
+
   &--internal {
     background-color: transparent;
     border: 0;

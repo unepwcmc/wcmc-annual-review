@@ -1,4 +1,17 @@
 .section {
+  &--anniversary {
+    .section {
+      &__header {
+        height: 100%;
+      }
+
+      &__header-content {
+        text-align: center;
+        width: 40%;
+      }
+    }
+  }
+
   &--change {
     .section {
       &__header {
