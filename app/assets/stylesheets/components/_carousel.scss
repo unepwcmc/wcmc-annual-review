@@ -1,5 +1,5 @@
 $padding-top-bottom: rem-calc(25);
-$padding-side: rem-calc(40);
+$padding-side: 120px;
 
 $carousel-height: auto;
 $arrow-button-width: 0;
@@ -90,7 +90,7 @@ $transition-options: 0.6s ease-in-out;
 }
 
 .carousel-slide {
-  padding: 0 40px;
+  padding: 0 $padding-side;
   flex-shrink: 0;
 
 

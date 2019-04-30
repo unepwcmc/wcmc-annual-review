@@ -91,6 +91,17 @@ blockquote {
   color: $primary-light;
   font-size: 40px;
   font-style: italic;
+  line-height: $line-height-blockquote;
+  margin: 0;
+}
+
+.blockquote-author {
+  color: $white;
+  font-size: 18px;
+  font-weight: $bold;
+  line-height: $line-height-blockquote;
+
+  display: block;
 }
 
 span { font-size: inherit; }

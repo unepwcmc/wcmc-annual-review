@@ -2,7 +2,7 @@
   <%= render partial: 'home/partials/hero', locals: { data: @hero } %>
 </section>
 
-<section id="section-<%= @foreword['id'] %>" class="section--foreword bg-grey-dark section--full-window sm-trigger-sticky">
+<section id="section-<%= @foreword['id'] %>" class="section--foreword container bg-grey-dark section--full-window sm-trigger-sticky flex flex-v-center">
   <%= render partial: 'home/partials/foreword', locals: { data: @foreword } %>
 </section>
 

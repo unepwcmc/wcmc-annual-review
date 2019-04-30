@@ -79,6 +79,7 @@ $line-height-h1: 1.25;
 $line-height-h: 1.16;
 $line-height-p: 1.25;
 $line-height-li: 1.5;
+$line-height-blockquote: 1.2;
 
 @mixin font-size($el) {
   @if $el == 'h1' { font-size: 24px; }
