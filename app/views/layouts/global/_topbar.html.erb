@@ -2,7 +2,15 @@
   <div class="topbar flex flex-v-center gutters sm-target-sticky">
     <span class="logo--wcmc"></span>
     <span class="topbar__title">Annual Review 2019</span>
+    
+    <div class="flex flex-v-center flex-h-end">
+      <social-share>
+        <%= create_sharing_facebook_link %>
+        <%= create_sharing_twitter_link %>
+        <%= create_sharing_email_link %>
+      </social-share>
 
-    <v-nav :pages="<%= @nav %>" :is-always-burger="true" :is-scroll-to-nav="true" class="flex-h-end"></v-nav>
+      <v-nav :pages="<%= @nav %>" :is-always-burger="true" :is-scroll-to-nav="true"></v-nav>
+    </div>
   </div>
 </sticky-bar>
