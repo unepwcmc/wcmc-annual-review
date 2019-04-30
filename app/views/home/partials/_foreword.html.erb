@@ -1,18 +1,22 @@
-<h2><%= data['title'] %></h2>
+<div class="container">
+  <h2><%= data['title'] %></h2>
 
-<div class="flex">
-  <div class="flex-1-half">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/2oMp9kLUIPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+  <div class="flex">
+    <div class="section__left">
+      <div class="ratio-16-9" >
+        <iframe src="https://www.youtube.com/embed/2oMp9kLUIPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
 
-  <div class="flex-1-half">
-    <carousel>
-      <% data['collection'].each do |slide| %>
-        <carousel-slide>
-          <h3><%= slide['title'] %></h3>
-          <p><%= slide['introduction'] %></p>
-        </carousel-slide>
-      <% end %>
-    </carousel>
+    <div class="section__right">
+      <carousel>
+        <% data['collection'].each do |slide| %>
+          <carousel-slide>
+            <blockquote><%= slide['quote'] %></blockquote>
+            <p><%= slide['author'] %></p>
+          </carousel-slide>
+        <% end %>
+      </carousel>
+    </div>
   </div>
 </div>

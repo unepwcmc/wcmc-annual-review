@@ -34,6 +34,23 @@
 }
 
 //--------------------------------------------------
+// display
+//--------------------------------------------------
+.ratio-16-9 {
+  padding-top: 56%;
+  width: 100%;
+
+  position: relative;
+
+  iframe {
+    width: 100%; height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+//--------------------------------------------------
 // lists
 //--------------------------------------------------
 .ul--unstyled {
@@ -95,6 +112,7 @@ $image-placeholder: black;
 
 .bg-grey-light { background-color: $grey-light; }
 .bg-grey { background-color: $grey; }
+.bg-grey-dark { background-color: $grey-dark; }
 .bg-primary { background-color: $primary; }
 
 .bg-img {

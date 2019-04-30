@@ -35,7 +35,9 @@ $grey-light: #e1e1e1;
 $grey: #cdcdcd;
 $grey-dark: #333333;
 
+
 $primary: $wcmc-blue;
+$primary-light: lighten($primary, 10%);
 
 //--------------------------------------------------
 // buttons
@@ -100,7 +102,7 @@ $line-height-li: 1.5;
 //must be in px!
 $small: 720;
 $medium: 960;
-$large: 1920;
+$large: 1632;
 
 //--------------------------------------------------
 // z-indices
@@ -112,7 +114,7 @@ $z-300: 300;
 //--------------------------------------------------
 // dimensions
 //--------------------------------------------------
-$site-width: rem-calc($large);
+$site-width: $large;
 
 //--------------------------------------------------
 // padding

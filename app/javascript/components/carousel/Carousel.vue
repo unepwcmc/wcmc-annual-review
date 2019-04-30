@@ -25,6 +25,7 @@
       <template v-if="showIndicators">
         <button
           v-for="slide in totalSlides"
+          :margin-size="0"
           :title="indicatorTitle(slide)"
           :aria-controls="slidesId"
           :aria-pressed="isCurrentSlide(slide)"
