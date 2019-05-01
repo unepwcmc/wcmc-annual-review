@@ -37,29 +37,38 @@ export default {
 
       // add scene for each item in the nav
       this.pages.forEach(link => {
-        let scene = {}
+        let sideNav = {},
+          stickyBar = {}
         const id = link.id
 
-        scene.id = id
+        sideNav.id = id
+        stickyBar.id = id + '-sticky'
 
-        scene.scene = new ScrollMagic.Scene({ 
+        sideNav.scene = new ScrollMagic.Scene({ 
           triggerElement: '#section-' + id,
         })
-        .offset(-this.triggerOffset)
         .setClassToggle('#scroll-link-' + id, 'nav__link--active')
         .addTo(navScrollMagic)
 
-        scrollMagicScenes.push(scene)
+        stickyBar.scene = new ScrollMagic.Scene({ 
+          triggerElement: '#section-' + id,
+        })
+        .triggerHook('onLeave')
+        .offset(-this.triggerOffset)
+        .setClassToggle('.sm-target-scroll', 'topbar--' + id)
+        .addTo(navScrollMagic)
+
+        scrollMagicScenes.push(sideNav)
+        scrollMagicScenes.push(stickyBar)
       })
 
       this.scrollMagicScenes = scrollMagicScenes
     },
 
     setTriggerOffset () {
-      // TODO Sort out trigger offset
       // this offset accounts for the sticky bars at the top of the window
-      // this.triggerOffset = document.getElementById('v-header').clientHeight
-      this.triggerOffset = 0
+      this.triggerOffset = document.querySelector('.sm-target-sticky').clientHeight
+      // this.triggerOffset = 0
     },
 
     updateScrollMagicDurations () {

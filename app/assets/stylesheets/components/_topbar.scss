@@ -10,6 +10,11 @@ $topbar-height-desktop: 96px;
 
   transition: top .75s ease-out;
 
+  &--anniversary { 
+    background-color: $primary; 
+    box-shadow: $grey-dark 0px 3px 6px;
+  }
+
   &.sticky {
     position: fixed;
     top: 0;
