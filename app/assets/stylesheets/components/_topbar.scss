@@ -11,14 +11,14 @@ $topbar-height-desktop: 96px;
 }
 
 .topbar {
-  @include topbar-style('grey');
   width: 100%; height: $topbar-height-desktop;
   
   position: absolute;
-  top: -100%;
+  top: -$topbar-height-desktop;
 
-  transition: top .75s ease-out;
+  transition: top .25s ease-out;
   
+  &--foreword { @include topbar-style('grey'); }
   &--anniversary { @include topbar-style('blue'); }
   &--highlights { @include topbar-style('grey'); }
   &--stats-people { @include topbar-style('blue'); }
@@ -28,15 +28,31 @@ $topbar-height-desktop: 96px;
     position: fixed;
     top: 0;
     z-index: $z-100;
+
+    .topbar__content { 
+      position: relative; 
+      top: inherit;
+    }
+
+    .topbar__only-sticky { visibility: visible; }
   }
 
-  &__title {
-    border-left: solid 1px $grey-light;
-    color: $white;
-    font-size: 24px;
-    margin-left: 20px;
-    padding-left: 20px;
+  &__content {
+    width: 100%; height: 100%; 
 
-    z-index: $z-300;
+    position: absolute; 
+    top: 100%; 
   }
+
+    &__only-sticky { visibility: hidden; }
+
+    &__title {
+      border-left: solid 1px $grey-light;
+      color: $white;
+      font-size: 24px;
+      margin-left: 20px;
+      padding-left: 20px;
+
+      z-index: $z-300;
+    }
 }

@@ -1,7 +1,7 @@
-<sticky-bar>
-  <div class="topbar flex flex-v-center gutters sm-target-sticky sm-target-scroll">
-    <span class="logo--wcmc"></span>
-    <span class="topbar__title">Annual Review 2019</span>
+<sticky-bar class="topbar sm-target-sticky sm-target-scroll">
+  <div class="flex flex-v-center gutters topbar__content">
+    <span class="logo--wcmc topbar__only-sticky"></span>
+    <span class="topbar__title topbar__only-sticky">Annual Review 2019</span>
     
     <div class="flex flex-v-center flex-h-end">
       <social-share>
@@ -10,7 +10,7 @@
         <%= create_sharing_email_link %>
       </social-share>
 
-      <v-nav :pages="<%= @nav %>" :is-always-burger="true" :is-scroll-to-nav="true"></v-nav>
+      <v-nav :pages="<%= @nav %>" :is-always-burger="true" :is-scroll-to-nav="true" class="topbar__only-sticky"></v-nav>
     </div>
   </div>
 </sticky-bar>
