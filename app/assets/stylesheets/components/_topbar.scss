@@ -27,7 +27,7 @@ $topbar-height-desktop: 96px;
   &.sticky {
     position: fixed;
     top: 0;
-    z-index: $z-100;
+    z-index: $z-300;
 
     .topbar__content { 
       position: relative; 
