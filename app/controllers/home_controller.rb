@@ -20,11 +20,11 @@ class HomeController < ApplicationController
         label: 'Operations and Projects'
       },
       {
-        id: 'people-stats',
+        id: 'stats-people',
         label: 'People team stats'
       },
       {
-        id: 'finance-stats',
+        id: 'stats-finance',
         label: 'Finance stats'
       },
       {

@@ -68,7 +68,6 @@ export default {
     setTriggerOffset () {
       // this offset accounts for the sticky bars at the top of the window
       this.triggerOffset = document.querySelector('.sm-target-sticky').clientHeight
-      // this.triggerOffset = 0
     },
 
     updateScrollMagicDurations () {
