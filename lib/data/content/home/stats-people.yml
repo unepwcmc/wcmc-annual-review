@@ -1,2 +1,35 @@
 id: people-stats
-title: People team stats
+countries-total: 58
+countries-title: The number of countries worked with
+stats-totals:
+  -
+    number: 206
+    icon:
+    title: Live projects
+  -
+    number: 206
+    icon:
+    title: Funders
+  -
+    number: 206
+    icon:
+    title: Partners
+stats-papers:
+  number: 206
+  title: Published papers
+  introduction: 13 out of 118 of our permanent staff members started as interns
+  url: 
+stats-staff:
+  number: 206
+  title: Total number of staff
+  stats: 
+    -
+      number: 17
+      title: Paid interns
+    -
+      number: 9
+      title: Students
+    -
+      number: 29
+      title: International
+

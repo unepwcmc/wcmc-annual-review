@@ -122,10 +122,7 @@ span { font-size: inherit; }
   font-weight: $font-weight-h2;
   line-height: $line-height-h;
   margin-top: 0;
-  text-transform: uppercase;  
-  
-  display: flex; //temp for wires
-  justify-content: center; //temp for wires
+  text-transform: uppercase;
 }
 
 .sg-h3 {
@@ -144,6 +141,7 @@ span { font-size: inherit; }
 
 .sg-p {
   @include font-size('p');
+  color: inherit;
   font-weight: $font-weight-p;
   line-height: $line-height-p;
 }
@@ -163,8 +161,8 @@ span { font-size: inherit; }
   @each $s in $sides {
     #{$type}-#{$s}: $gutter-small;
 
-    @include breakpoint($medium) { #{$type}-#{$s}: $gutter-medium; }
-    @include breakpoint($large) { #{$type}-#{$s}: $gutter-large; }
+    @include breakpoint($small) { #{$type}-#{$s}: $gutter-medium; }
+    @include breakpoint($medium) { #{$type}-#{$s}: $gutter-large; }
   }
 }
 
@@ -174,8 +172,8 @@ span { font-size: inherit; }
   @each $s in $sides {
     #{$type}-#{$s}: $item-padding-small;
 
-    @include breakpoint($medium) { #{$type}-#{$s}: $item-padding-medium; }
-    @include breakpoint($large) { #{$type}-#{$s}: $item-padding-large; }
+    @include breakpoint($small) { #{$type}-#{$s}: $item-padding-medium; }
+    @include breakpoint($medium) { #{$type}-#{$s}: $item-padding-large; }
   }
 }
 
@@ -190,7 +188,11 @@ span { font-size: inherit; }
 // site structure
 //--------------------------------------------------
 .site-width {
-  @include breakpoint($large){ width: $site-width; }
+  @include breakpoint($medium){ width: $site-width; }
+}
+
+.site-width-medium {
+  @include breakpoint($medium){ width: $site-width-medium; }
 }
 
 .gutter {
@@ -211,17 +213,9 @@ span { font-size: inherit; }
   @extend .site-width;
   @extend %container;
 
-  &--small {
-    @extend %container;
-    max-width: $container-width-small;
-
-    @include breakpoint($medium){ width: $container-width-small; }
-  }
-
   &--medium {
+    @extend .site-width-medium;
     @extend %container;
-    @include breakpoint($small){ width: $container-width-medium; }
-    @include breakpoint($medium){ width: $container-width-large; }
   }
 }
 
@@ -273,8 +267,12 @@ span { font-size: inherit; }
   @include item-padding(('left', 'right'));
 }
 
-.item-padding--top-bottom {
-  @include item-padding(('top', 'bottom'));
+.item-padding--top {
+  @include item-padding(('top'));
+}
+
+.item-padding--bottom {
+  @include item-padding(('bottom'));
 }
 
 .item-padding {

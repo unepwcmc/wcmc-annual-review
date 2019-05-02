@@ -23,6 +23,8 @@ $border-width-regular: rem-calc(2);
 $border-thin: solid $border-width-thin;
 $border-regular: solid $border-width-regular;
 
+$global-radius: 22px;
+
 //--------------------------------------------------
 // colours
 //--------------------------------------------------
@@ -35,9 +37,9 @@ $grey-light: #e1e1e1;
 $grey: #cdcdcd;
 $grey-dark: #333333;
 
-
 $primary: $wcmc-blue;
 $primary-light: lighten($primary, 10%);
+$primary-dark: #09424D;
 
 //--------------------------------------------------
 // buttons
@@ -100,10 +102,9 @@ $line-height-blockquote: 1.2;
 //--------------------------------------------------
 // breakpoints
 //--------------------------------------------------
-//must be in px!
-$small: 720;
-$medium: 960;
-$large: 1632;
+$small: 720px;
+$medium: 1420px;
+$large: 1708px;
 
 //--------------------------------------------------
 // z-indices
@@ -116,6 +117,7 @@ $z-300: 300;
 // dimensions
 //--------------------------------------------------
 $site-width: $large;
+$site-width-medium: $medium;
 
 //--------------------------------------------------
 // padding
@@ -123,10 +125,6 @@ $site-width: $large;
 $gutter-small: 16px;
 $gutter-medium: 24px;
 $gutter-large: 32px;
-
-$container-width-small: 600px;
-$container-width-medium: 700px;
-$container-width-large: 800px;
 
 $page-padding-top-small: 16px;
 $page-padding-top-medium: 24px;
@@ -144,9 +142,9 @@ $section-padding-bottom-small: 30px;
 $section-padding-bottom-medium: 60px;
 $section-padding-bottom-large: 60px;
 
-$item-padding-small: 14px;
-$item-padding-medium: 20px;
-$item-padding-large: 26px;
+$item-padding-small: 90px;
+$item-padding-medium: 180px;
+$item-padding-large: 200px;
 
 //--------------------------------------------------
 // tables

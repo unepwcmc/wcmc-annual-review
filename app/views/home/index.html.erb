@@ -18,7 +18,7 @@
   <%= render partial: 'home/partials/projects', locals: { data: @projects } %>
 </section>
 
-<section id="section-<%= @stats_people['id'] %>">
+<section id="section-<%= @stats_people['id'] %>" class="section--stats-people">
   <%= render partial: 'home/partials/stats-people', locals: { data: @stats_people } %>
 </section>
 
@@ -26,6 +26,6 @@
   <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_finance } %>
 </section>
 
-<section id="section-<%= @future['id'] %>" class="bg-grey section--full-window">
+<section id="section-<%= @future['id'] %>" class="bg-grey section--full-window white flex flex-h-center flex-column">
   <%= render partial: 'home/partials/future', locals: { data: @future } %>
 </section>

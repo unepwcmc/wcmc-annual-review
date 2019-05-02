@@ -15,6 +15,11 @@ $topbar-height-desktop: 96px;
     box-shadow: $grey-dark 0px 3px 6px;
   }
 
+  &--highlights { 
+    background-color: $grey-dark; 
+    box-shadow: $black 0px 3px 6px;
+  }
+
   &.sticky {
     position: fixed;
     top: 0;

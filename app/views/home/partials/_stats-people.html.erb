@@ -1,1 +1,43 @@
-<h2><%= data['title'] %></h2>
+<div class="container--medium white">
+  <div class="flex flex-column flex-v-center section-padding--top item-padding--bottom">
+    <p class="section__number"><%= data['countries-total'] %></p>
+    <span><%= data['countries-title'] %></span>
+    <div class="section__map">MAP</div>
+  </div>
+
+  <div class="flex flex-h-between item-padding--bottom">
+    <% data['stats-totals'].each do |stat| %>
+      <div class="section__circle">
+        <p class="section__number"><%= stat['number'] %></p>
+        <span><%= stat['title'] %></span>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="flex item-padding--bottom">
+    <div class="section__chart-stats gutter-right">
+      <span class="section__number"><%= data['stats-papers']['number'] %></span>
+      <span><%= data['stats-papers']['title'] %></span>
+      <span><%= data['stats-papers']['introduction'] %></span>
+    </div>
+
+    <div class="section__chart">
+      MAP
+    </div>
+  </div>
+
+  <div class="flex item-padding--bottom">
+    <div>
+      <p class="section__number"><%= data['stats-staff']['number'] %></p>
+      <span><%= data['stats-staff']['title'] %></span>
+    </div>
+    <div class="flex flex-1">
+      <% data['stats-staff']['stats'].each do |stat| %>
+        <div class="section__square">
+          <p class="section__number"><%= stat['number'] %></p>
+          <span><%= stat['title'] %></span>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
