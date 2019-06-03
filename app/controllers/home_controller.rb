@@ -41,5 +41,21 @@ class HomeController < ApplicationController
     @stats_people = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-people.yml", 'r'))
     @stats_finance = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-finance.yml", 'r'))
     @future = YAML.load(File.open("#{Rails.root}/lib/data/content/home/future.yml", 'r'))
+
+    @published_papers = [
+      {
+        datapoints: [
+          { x: 2007, y: 10 },
+          { x: 2008, y: 5 },
+          { x: 2009, y: 10 },
+          { x: 2010, y: 5 },
+          { x: 2011, y: 10 },
+          { x: 2012, y: 5 },
+          { x: 2013, y: 10 },
+          { x: 2014, y: 5 },
+          { x: 2015, y: 10 }
+        ]
+      }
+    ]
   end
 end

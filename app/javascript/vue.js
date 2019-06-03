@@ -8,6 +8,7 @@ import store from './store/store.js'
 import Carousel from './components/carousel/Carousel'
 import CarouselHorizontal from './components/carousel/CarouselHorizontal'
 import CarouselSlide from './components/carousel/CarouselSlide'
+import ChartLineArea from './components/charts/ChartLineArea'
 import Modal from './components/modal/Modal'
 import ModalTrigger from './components/modal/ModalTrigger'
 import NavSide from './components/nav/NavSide'
@@ -32,6 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         Carousel,
         CarouselHorizontal,
         CarouselSlide,
+        ChartLineArea,
         Modal, 
         ModalTrigger,
         NavSide,

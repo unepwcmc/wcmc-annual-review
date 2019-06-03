@@ -1,4 +1,19 @@
+h2 {
+  position: relative;
+
+  &::before {
+    content: '#';
+    color: rgba(white, 0.5);
+    font-size: 400px;
+
+    position: absolute;
+    top: -200px;
+    left: -10px;
+  }
+}
+
 .section {
+
   &__header {
     background: image-url('hero/rice-farmer.jpg');
     background-size: cover;
