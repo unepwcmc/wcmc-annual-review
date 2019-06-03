@@ -1,6 +1,7 @@
 .section {
   &__header {
-    background-color: $black;
+    background: image-url('hero/rice-farmer.jpg');
+    background-size: cover;
     height: 100vh;
 
     position: relative;
