@@ -20,12 +20,7 @@
 
 <script>
   import ChartDatapointLabel from './helpers/ChartDatapointLabel.js'
-
-  const DEFAULT_COLOURS = {
-    line: '#000000',
-    fill: '#000000',
-    text: '#ffffff'
-  }
+  import { DEFAULT_COLOUR } from './helpers/chart-constants.js'
 
   export default {
     name: 'chart-line-dataset',
@@ -74,9 +69,7 @@
         return this.labels.length > 0
       },
 
-      colourLine () { 
-        console.log(this.colour)
-        return this.colour.line ? this.colour.line : DEFAULT_COLOURS.line },
+      colourLine () { return this.colour.line ? this.colour.line : DEFAULT_COLOURS.line },
 
       colourFill () { return this.colour.fill ? this.colour.fill : DEFAULT_COLOURS.fill },
 

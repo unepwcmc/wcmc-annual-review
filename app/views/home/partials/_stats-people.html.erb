@@ -46,7 +46,10 @@
 
   <div class="flex item-padding--bottom">
     <div class="section__chart">
-      <chart-line-labelled :lines="<%= @references.to_json %>" background-colour="#31A0C9"></chart-line-labelled>
+      <chart-line-labelled 
+        :lines="<%= @references[:data].to_json %>" 
+        :options="<%= @references[:config].to_json %>">
+      </chart-line-labelled>
     </div>
 
     <div class="section__chart-stats gutter-left">

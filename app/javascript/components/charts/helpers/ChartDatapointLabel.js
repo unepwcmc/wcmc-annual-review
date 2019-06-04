@@ -1,14 +1,5 @@
-const DEFAULT_COLOUR = {
-  line: '#000',
-  fill: '#000',
-  text: '#fff'
-}
-
-const DEFAULT_FONT = {
-  size: '.7em',
-  weight: '600'
-}
-
+import { DEFAULT_COLOUR } from './chart-constants.js'
+import { DEFAULT_FONT } from './chart-constants.js'
 
 export default class ChartDatapointLabel {
   constructor (x, y, text, colourStroke, colourFill, colourText, fontSize, fontWeight) {

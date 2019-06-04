@@ -73,35 +73,49 @@ class HomeController < ApplicationController
       }
     ]
 
-    @references = [
-      {
-        colour: { line: '#000', fill: '#31A0C9', text: '#000' },
-        datapoints: [
-          { x: 2007, y: 10 },
-          { x: 2008, y: 5 },
-          { x: 2009, y: 10 },
-          { x: 2010, y: 5 },
-          { x: 2011, y: 10 },
-          { x: 2012, y: 5 },
-          { x: 2013, y: 10 },
-          { x: 2014, y: 5 },
-          { x: 2015, y: 10 }
-        ]
+    @references = {
+      config: {
+        svgPaddingTop: 70,
+        chartPaddingTop: 70,
+        chartPaddingBottom: 50,
+        chartBackgroundColour: '#31A0C9',
+        x: {
+          totalTicks: 9 #NOTE! This would be the total number of datapoints
+        },
+        y: {
+          showAxis: false
+        }
       },
-      {
-        colour: { line: '#000' },
-        datapoints: [
-          { x: 2007, y: 7 },
-          { x: 2008, y: 3 },
-          { x: 2009, y: 7 },
-          { x: 2010, y: 3 },
-          { x: 2011, y: 7 },
-          { x: 2012, y: 3 },
-          { x: 2013, y: 7 },
-          { x: 2014, y: 3 },
-          { x: 2015, y: 7 }
-        ]
-      }
-    ]
+      data: [
+        {
+          colour: { line: '#000', fill: '#31A0C9', text: '#000' },
+          datapoints: [
+            { x: 2007, y: 10 },
+            { x: 2008, y: 5 },
+            { x: 2009, y: 10 },
+            { x: 2010, y: 5 },
+            { x: 2011, y: 10 },
+            { x: 2012, y: 5 },
+            { x: 2013, y: 10 },
+            { x: 2014, y: 5 },
+            { x: 2015, y: 10 }
+          ]
+        },
+        {
+          colour: { line: '#000' },
+          datapoints: [
+            { x: 2007, y: 7 },
+            { x: 2008, y: 3 },
+            { x: 2009, y: 7 },
+            { x: 2010, y: 3 },
+            { x: 2011, y: 7 },
+            { x: 2012, y: 3 },
+            { x: 2013, y: 7 },
+            { x: 2014, y: 3 },
+            { x: 2015, y: 7 }
+          ]
+        }
+      ]
+    }
   end
 end
