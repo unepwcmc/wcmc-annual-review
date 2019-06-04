@@ -5,9 +5,9 @@
     <div class="section__map">MAP</div>
   </div>
 
-  <div class="flex flex-h-between item-padding--bottom">
+  <div class="flex flex-h-around item-padding--bottom">
     <% data['stats-totals'].each do |stat| %>
-      <div class="section__circle">
+      <div class="section__circle flex flex-column">
         <p class="section__number"><%= stat['number'] %></p>
         <span><%= stat['title'] %></span>
       </div>
@@ -22,22 +22,37 @@
     </div>
 
     <div class="section__chart">
-      <chart-line-area :lines="<%= @published_papers.to_json %>"></chart-line-area>
+      
     </div>
   </div>
 
   <div class="flex item-padding--bottom">
-    <div>
+    <div class="section__employee-intro">
       <p class="section__number"><%= data['stats-staff']['number'] %></p>
       <span><%= data['stats-staff']['title'] %></span>
+      <span><%= data['stats-staff']['introduction'] %></span>
     </div>
-    <div class="flex flex-1">
+    <div class="section__employee-stats flex">
       <% data['stats-staff']['stats'].each do |stat| %>
         <div class="section__square">
-          <p class="section__number"><%= stat['number'] %></p>
-          <span><%= stat['title'] %></span>
+          <div class="section__square-content flex flex-column">
+            <p class="section__number"><%= stat['number'] %></p>
+            <span><%= stat['title'] %></span>
+          </div>
         </div>
       <% end %>
+    </div>
+  </div>
+
+  <div class="flex item-padding--bottom">
+    <div class="section__chart">
+      <chart-line-labelled :lines="<%= @references.to_json %>" background-colour="#31A0C9"></chart-line-labelled>
+    </div>
+
+    <div class="section__chart-stats gutter-left">
+      <span class="section__number"><%= data['stats-papers']['number'] %></span>
+      <span><%= data['stats-papers']['title'] %></span>
+      <span><%= data['stats-papers']['introduction'] %></span>
     </div>
   </div>
 </div>

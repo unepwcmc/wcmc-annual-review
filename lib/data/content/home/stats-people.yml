@@ -1,7 +1,12 @@
 id: stats-people
 countries-total: 58
-countries-title: The number of countries worked with
+countries-title: Number of Countries Worked with
 stats-totals:
+  -
+    number: 206
+    icon:
+    title: Published papers
+    url: http://google.com
   -
     number: 206
     icon:
@@ -9,11 +14,7 @@ stats-totals:
   -
     number: 206
     icon:
-    title: Funders
-  -
-    number: 206
-    icon:
-    title: Partners
+    title: Funders & Partners
 stats-papers:
   number: 206
   title: Published papers
@@ -22,6 +23,7 @@ stats-papers:
 stats-staff:
   number: 206
   title: Total number of staff
+  introduction: 13 out of 118 of our permanent staff members started as interns
   stats: 
     -
       number: 17

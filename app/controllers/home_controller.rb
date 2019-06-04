@@ -44,6 +44,21 @@ class HomeController < ApplicationController
 
     @published_papers = [
       {
+        colour: { line: '#64C0D5' },
+        datapoints: [
+          { x: 2007, y: 12 },
+          { x: 2008, y: 6 },
+          { x: 2009, y: 12 },
+          { x: 2010, y: 6 },
+          { x: 2011, y: 12 },
+          { x: 2012, y: 6 },
+          { x: 2013, y: 12 },
+          { x: 2014, y: 6 },
+          { x: 2015, y: 12 }
+        ]
+      },
+      {
+        colour: { line: '#BFF5FF'},
         datapoints: [
           { x: 2007, y: 10 },
           { x: 2008, y: 5 },
@@ -54,6 +69,37 @@ class HomeController < ApplicationController
           { x: 2013, y: 10 },
           { x: 2014, y: 5 },
           { x: 2015, y: 10 }
+        ]
+      }
+    ]
+
+    @references = [
+      {
+        colour: { line: '#000', fill: '#31A0C9', text: '#000' },
+        datapoints: [
+          { x: 2007, y: 10 },
+          { x: 2008, y: 5 },
+          { x: 2009, y: 10 },
+          { x: 2010, y: 5 },
+          { x: 2011, y: 10 },
+          { x: 2012, y: 5 },
+          { x: 2013, y: 10 },
+          { x: 2014, y: 5 },
+          { x: 2015, y: 10 }
+        ]
+      },
+      {
+        colour: { line: '#000' },
+        datapoints: [
+          { x: 2007, y: 7 },
+          { x: 2008, y: 3 },
+          { x: 2009, y: 7 },
+          { x: 2010, y: 3 },
+          { x: 2011, y: 7 },
+          { x: 2012, y: 3 },
+          { x: 2013, y: 7 },
+          { x: 2014, y: 3 },
+          { x: 2015, y: 7 }
         ]
       }
     ]

@@ -19,25 +19,22 @@
               :x="-chartPaddingLeft" 
               :y="y.coord"
               text-anchor="end"
-              fill="white"
-              :font-size="fontSize">{{ y.labelText }}</text>
+              :font-size="fontSize"
+              fill="white">{{ y.labelText }}</text>
 
             <text v-for="x in xAxis" 
               :x="x.coord" 
               :y="xAxisYDisplacement" 
               :font-size="fontSize"
-              fill="white"
-              text-anchor="middle">{{ x.labelText }}</text>
+              text-anchor="middle"
+              fill="white">{{ x.labelText }}</text>
 
             <chart-line-dataset 
               v-for="line, index in lines"
               :index="index"
-              <!-- :path="getPath(line.datapoints)" -->
-              :dataset="line.dataset"
-              <!-- :middle="getPathMiddle(line.datapoints)" -->
-              :colour="getLineColourPair(line)"
-              :legend="false"
-              :fill="true">
+              :path="getPath(line.datapoints)"
+              :labels="getDatapointLabels(line.datapoints)"
+              :colour="getLineColours(line)">
             </chart-line-dataset>
           </svg>
         </div>
@@ -50,13 +47,15 @@
 
 <script>
 import ChartLineDataset from './ChartLineDataset'
+// import Chart from './helpers/Chart.js'
 
 const AXIS_PADDING = 30
 const DEFAULT_BACKGROUND_COLOUR = 'transparent'
 const DEFAULT_CHART_PADDING_SIDES = 80
 const DEFAULT_FONT_SIZE = 14
-const DEFAULT_LINE_COLOUR = {
+const DEFAULT_COLOURS = {
   line: '#000000',
+  fill: '#000000',
   text: '#ffffff'
 }
 const DEFAULT_SVG_CONFIG = {
@@ -73,7 +72,7 @@ const DEFAULT_Y_AXIS_CONFIG = {
 }
 
 export default {
-  name: 'chart-line-area',
+  name: 'chart-line-labelled',
 
   components: { ChartLineDataset },
 
@@ -140,7 +139,7 @@ export default {
         this.lines.forEach(line => {
           const legendDataset = {
             ...line,
-            colour: this.getLineColourPair(line).line
+            colour: this.getLineColours(line).line
           }
 
           legendDatasets.push(legendDataset)
@@ -152,34 +151,48 @@ export default {
   },
 
   created () {
-    // this.x.min = this.getMinMax('min', 'x')
-    // this.x.max = this.getMinMax('max', 'x')
-    // this.y.min = 0
-    // this.y.max = this.getMinMax('max', 'y')
+    this.x.min = this.getMinMax('min', 'x')
+    this.x.max = this.getMinMax('max', 'x')
+    this.y.min = 0
+    this.y.max = this.getMinMax('max', 'y')
+  },
+
+  mounted () {
+    // this.createChart()
   },
 
   methods: {
-    // getPath(dataset) {
-    //   let path = ''
+    getPath(dataset) {
+      let path = ''
+      
+      dataset.forEach((point, index) => {
+        const command = index == 0 ? 'M' : 'L'
 
-    //   path += `M ${this.normaliseX(this.x.max)} ${this.normaliseY(this.y.max)}
-    //       L ${this.normaliseX(this.x.max)} ${this.normaliseY(this.y.min)}
-    //       L ${this.normaliseX(this.x.min)} ${this.normaliseY(this.y.min)}`
+        path += ` ${command} ${this.normaliseX(point.x)} ${this.normaliseY(point.y)}`
+      })
 
-    //   dataset.forEach((point, index) => {
-    //     path += ` L ${this.normaliseX(point.x)} ${this.normaliseY(point.y)}`
-    //   })
-
-    //   path += 'Z'
-
-    //   return path
-    // },
+      return path
+    },
 
     getPathMiddle (dataset) {
       //used to add circle to a dataset with key used in the legend
       let middle = dataset[Math.floor(dataset.length/2)]
 
       return { x: this.normaliseX(middle.x), y: this.normaliseY(middle.y) }
+    },
+
+    getDatapointLabels (datapoints) {
+      let labels = []
+
+      datapoints.forEach((point, index) => {
+        labels.push({ 
+          x: this.normaliseX(point.x), 
+          y: this.normaliseY(point.y),
+          value: point.y
+        })
+      })
+
+      return labels
     },
 
     getAxis (axis) {
@@ -198,32 +211,42 @@ export default {
       return axisTickLabels
     },
 
-    getLineColourPair (line) {
-      return line.colour ? line.colour : DEFAULT_LINE_COLOUR
+    getLineColours (line) {
+      let lineColours = line
+
+      if(lineColours.colour) {
+        if(!lineColours.colour.line) { lineColours.colour.line = DEFAULT_COLOURS.line }
+        if(!lineColours.colour.fill) { lineColours.colour.fill = DEFAULT_COLOURS.fill }
+        if(!lineColours.colour.text) { lineColours.colour.text = DEFAULT_COLOURS.text }
+      } else {
+        lineColours.colour = { line: DEFAULT_COLOURS.line, fill: DEFAULT_COLOURS.fill, text: DEFAULT_COLOURS.text }
+      }
+
+      return lineColours.colour
     },
 
-    // getMinMax(type, prop) {
-    //   let array = []
+    getMinMax(type, prop) {
+      let array = []
 
-    //   this.lines.forEach(line => {
-    //     array.push(Math[type](...line.datapoints.map((t) => {
-    //       return t[prop]
-    //     })))
-    //   }) 
+      this.lines.forEach(line => {
+        array.push(Math[type](...line.datapoints.map((t) => {
+          return t[prop]
+        })))
+      }) 
     
-    //   return Math.max(...array)
-    // },
+      return Math.max(...array)
+    },
 
-    // normaliseX (value) {
-    //   // subtract the min value incase the axis doesn't start at 0
-    //   return this.chartWidth * (value - this.x.min) / (this.x.max - this.x.min)
-    // },
+    normaliseX (value) {
+      // subtract the min value incase the axis doesn't start at 0
+      return this.chartWidth * (value - this.x.min) / (this.x.max - this.x.min)
+    },
 
-    // normaliseY (value) {
-    //   // y origin is at the top so subtract axis value from height
-    //   // subtract the min value incase the axis doesn't start at 0
-    //   return this.chartHeight * (1 - (value - this.y.min) / (this.y.max - this.y.min))
-    // },
+    normaliseY (value) {
+      // y origin is at the top so subtract axis value from height
+      // subtract the min value incase the axis doesn't start at 0
+      return this.chartHeight * (1 - (value - this.y.min) / (this.y.max - this.y.min))
+    },
   }
 }
 </script>

@@ -13,7 +13,7 @@
   }
   
   &__number {
-    font-size: 100px;
+    font-size: 50px;
     font-weight: $fw-black;
     margin: 0;
 
@@ -24,28 +24,43 @@
     @extend .flex-center; 
     background-color: rgba($white, .2);
     border-radius: 100%;
-    width: 28%;
+    width: 400px; height: 400px;
 
-    &::after {
-      content: '';
-      padding-bottom: 100%;
+    // &::after {
+    //   content: '';
+    //   padding-bottom: 100%;
 
-      display: block;
-    }
+    //   display: block;
+    // }
   }
 
-  &__square {
-    @extend .flex-center; 
-    background-color: rgba($white, .2);
-    border-radius: $global-radius;
-    margin: 0 40px;
-    width: 30%;
+  &__employee-intro { width: 33%; }
+  
+  &__employee-stats { width: 66%; }
 
-    &::after {
-      content: '';
-      padding-bottom: 100%;
+    &__square {
+      background-color: rgba($white, .2);
+      border-radius: $global-radius;
+      margin: 0 40px;
+      width: 30%;
 
-      display: block;
+      position: relative;
+
+      &::after {
+        content: '';
+        padding-bottom: 100%;
+
+        display: block;
+      }
+
+      &-content {
+        @extend .flex-center;
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
     }
-  }
 }
