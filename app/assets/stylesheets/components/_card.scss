@@ -18,6 +18,7 @@
 
     .card {
       &__content-wrapper { //ie11 fix
+        font-size: 18px;
         flex: 100%;
         
         @include breakpoint($small) { flex: 0 1 50%; }

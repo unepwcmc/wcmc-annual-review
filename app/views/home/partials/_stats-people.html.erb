@@ -15,22 +15,10 @@
   </div>
 
   <div class="flex item-padding--bottom">
-    <div class="section__chart-stats gutter-right">
-      <span class="section__number"><%= data['stats-papers']['number'] %></span>
-      <span><%= data['stats-papers']['title'] %></span>
-      <span><%= data['stats-papers']['introduction'] %></span>
-    </div>
-
-    <div class="section__chart">
-      
-    </div>
-  </div>
-
-  <div class="flex item-padding--bottom">
     <div class="section__employee-intro">
-      <p class="section__number"><%= data['stats-staff']['number'] %></p>
-      <span><%= data['stats-staff']['title'] %></span>
-      <span><%= data['stats-staff']['introduction'] %></span>
+      <p class="section__number no-margin"><%= data['stats-staff']['number'] %></p>
+      <p class="section__introduction no-margin--top"><%= data['stats-staff']['title'] %></p>
+      <p class="section__introduction"><%= data['stats-staff']['introduction'] %></p>
     </div>
     <div class="section__employee-stats flex">
       <% data['stats-staff']['stats'].each do |stat| %>
@@ -53,9 +41,12 @@
     </div>
 
     <div class="section__chart-stats gutter-left">
-      <span class="section__number"><%= data['stats-papers']['number'] %></span>
-      <span><%= data['stats-papers']['title'] %></span>
-      <span><%= data['stats-papers']['introduction'] %></span>
+      <p class="section__introduction no-margin--top"><%= data['activities_title'] %></p>
+      <p class="section__text"><%= data['activities_intro'] %></p>
+
+      <% data['activities_legend'].each do |item| %>
+        <span class="legend--circle-<%= item['colour'] %>"><%= item['text'] %></span> 
+      <% end %>
     </div>
   </div>
 </div>

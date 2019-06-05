@@ -1,4 +1,4 @@
-<div class="container--medium">
+<div class="container--medium section-padding--top">
   <h2><%= data['title'] %></h2>
   <p><%= data['introduction'] %></p>
 
@@ -7,13 +7,13 @@
       <p class="section__heading">Total Income</p>
 
       <% data['income'].each do |i| %>
-        <p class="section__counter flex flex-v-center">
+        <p class="section__counter flex flex-v-center bg-white">
           <span><%= i['year'] %>:</span>  
           <span class="section__counter-total gutter-left"><%= i['total'] %></span>  
         </p>
       <% end %>
 
-      <p class="section__counter flex flex-v-center">
+      <p class="section__counter flex flex-v-center bg-green">
         <span class="section__counter-total">00??</span>  
       </p>  
       

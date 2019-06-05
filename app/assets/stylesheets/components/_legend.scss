@@ -1,0 +1,37 @@
+$legend-circle-size: 27px;
+
+%legend {
+  &--circle {
+    font-size: 18px;
+    font-weight: $regular;
+    margin: 30px 0;
+    padding-left: calc(1.7 * #{$legend-circle-size});
+
+    display: block;
+    position: relative;
+
+    &:before {
+      border: solid 3px $black;
+      border-radius: 100%;
+      content: '';
+      width: $legend-circle-size; height: $legend-circle-size;
+
+      display: block;
+      position: absolute;
+      top: -5px;
+      left: 0;
+    }
+  }
+}
+
+.legend {
+  &--circle-black {
+    @extend %legend--circle;
+    &::before { background-color: $black; }
+  }
+  
+  &--circle-primary-light {
+    @extend %legend--circle;
+    &::before { background-color: $primary-light; }
+  }
+}

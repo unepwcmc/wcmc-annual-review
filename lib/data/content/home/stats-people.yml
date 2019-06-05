@@ -15,13 +15,8 @@ stats-totals:
     number: 206
     icon:
     title: Funders & Partners
-stats-papers:
-  number: 206
-  title: Published papers
-  introduction: 13 out of 118 of our permanent staff members started as interns
-  url: 
 stats-staff:
-  number: 206
+  number: 145
   title: Total number of staff
   introduction: 13 out of 118 of our permanent staff members started as interns
   stats: 
@@ -29,9 +24,17 @@ stats-staff:
       number: 17
       title: Paid interns
     -
-      number: 9
+      number: 09
       title: Students
     -
-      number: 29
-      title: International
-
+      number: 20
+      title: Nationalities
+activities_title: "2018 UN Biodiversity Conference: references to us or activities we led (cumulative)"
+activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to our work, 8 of which were in decisions.
+activities_legend:
+  -
+    colour: 'black'
+    text: Cumulative no. of decisions that reference us
+  -
+    colour: 'primary-light'
+    text: Total cumulative no. of decisions
