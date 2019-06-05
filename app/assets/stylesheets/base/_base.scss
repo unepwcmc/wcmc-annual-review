@@ -141,7 +141,7 @@ span { font-size: inherit; }
 }
 
 .sg-p {
-  @include font-size('p');
+  font-size: inherit;
   color: inherit;
   font-weight: $font-weight-p;
   line-height: $line-height-p;

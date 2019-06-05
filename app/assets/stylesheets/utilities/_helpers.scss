@@ -154,6 +154,19 @@
   z-index: 300;
 }
 
+.gradient-right {
+  &:after {
+    background: linear-gradient(to right, rgba(0,0,0,0%) 80%, #000000);
+    content: '';
+    display: block;
+    width: 100%; height: 100%;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
 //--------------------------------------------------
 // buttons
 //--------------------------------------------------

@@ -87,7 +87,7 @@
         new ScrollMagic.Scene({
             triggerElement: `#${this.slidesWrapperId}`,
             triggerHook: 'onLeave',
-            offset: '-80px',
+            offset: '-180px',
             duration: this.config.speed
           })
           .setPin(`#${this.slidesWrapperId}`)
