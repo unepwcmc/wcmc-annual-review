@@ -25,4 +25,9 @@
 
     &:hover { color: lighten($primary, 10%); }
   }
+
+  &--subtle {
+    color: $grey-light;
+    font-size: 20px;
+  }
 }

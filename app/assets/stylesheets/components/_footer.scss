@@ -1,0 +1,11 @@
+.footer {
+  height: 132px;
+
+  &__title {
+    border-left: solid 1px $grey-light;
+    color: $white;
+    font-size: 24px;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+}
