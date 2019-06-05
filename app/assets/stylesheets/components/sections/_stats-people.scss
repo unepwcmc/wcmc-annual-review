@@ -1,8 +1,13 @@
 .section {
-  &__map {
-    background-color: rgba($white, 0.5);
-    width: 100%; height: 675px;
+  &__map-wrapper {
+    background-color: $primary-light;
+    border-radius: $global-radius;
   }
+
+    &__map {
+      background-color: rgba($white, 0.5);
+      width: 100%; height: 675px;
+    }
 
   &__chart-stats {
     width: 28%;
@@ -22,7 +27,7 @@
 
   &__circle {
     @extend .flex-center; 
-    background-color: rgba($white, .2);
+    background-color: $primary-light;
     border-radius: 100%;
     width: 400px; height: 400px;
 
@@ -39,7 +44,7 @@
   &__employee-stats { width: 66%; }
 
     &__square {
-      background-color: rgba($white, .2);
+      background-color: $primary-light;
       border-radius: $global-radius;
       margin: 0 40px;
       width: 30%;

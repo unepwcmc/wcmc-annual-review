@@ -274,6 +274,22 @@ span { font-size: inherit; }
   @include item-padding();
 }
 
+.item-margin--sides {
+  @include item-padding(('left', 'right'), 'margin');
+}
+
+.item-margin--top {
+  @include item-padding(('top'), 'margin');
+}
+
+.item-margin--bottom {
+  @include item-padding(('bottom'), 'margin');
+}
+
+.item-margin {
+  @include item-padding();
+}
+
 //--------------------------------------------------
 // helper classes
 //--------------------------------------------------
