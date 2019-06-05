@@ -22,10 +22,10 @@
   <%= render partial: 'home/partials/stats-people', locals: { data: @stats_people } %>
 </section>
 
-<section id="section-<%= @stats_finance['id'] %>" class="section--stats-finance section--full-window">
+<section id="section-<%= @stats_finance['id'] %>" class="section--stats-finance section--full-window bg-image-overlay">
   <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_finance } %>
 </section>
 
-<section id="section-<%= @future['id'] %>" class="bg-grey section--full-window white flex flex-h-center flex-column">
+<section id="section-<%= @future['id'] %>" class="bg-grey section--future section--full-window white flex flex-h-center flex-column bg-image-overlay">
   <%= render partial: 'home/partials/future', locals: { data: @future } %>
 </section>

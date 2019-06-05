@@ -4,12 +4,12 @@
 
   <div class="bg-black-transparent gutters flex">
     <div class="section__counter-wrapper gutter-right">
-      <p>Total Income</p>
+      <p class="section__heading">Total Income</p>
 
       <% data['income'].each do |i| %>
         <p class="section__counter flex flex-v-center">
-          <span><%= i['year'] %></span>  
-          <span class="section__counter-total"><%= i['total'] %></span>  
+          <span><%= i['year'] %>:</span>  
+          <span class="section__counter-total gutter-left"><%= i['total'] %></span>  
         </p>
       <% end %>
 
@@ -22,10 +22,10 @@
     <div class="section__table-wrapper">
       <% data['table'].each_with_index do |row, index| %>
         <% if (index == 0) %>
-          <p class="flex">
+          <p class="flex no-margin">
             <span class="section__table-cell-header flex-inline flex-v-center"><%= row[0] %></span>
-            <span class="section__table-cell-header flex-inline flex-v-center"><%= row[1] %></span>
-            <span class="section__table-cell-header flex-inline flex-v-center"><%= row[2] %></span>
+            <span class="section__table-cell-header flex-inline flex-v-center section__heading"><%= row[1] %></span>
+            <span class="section__table-cell-header flex-inline flex-v-center section__heading"><%= row[2] %></span>
           </p>
 
           <div class="section__table bg-black-transparent">
@@ -33,8 +33,8 @@
         <% else %>
           <div class="flex">
             <span class="section__table-cell flex-inline flex-v-center section__table-text"><%= row[0] %></span>
-            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%= row[1] %></span>
-            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%= row[2] %></span>
+            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%=  number_to_currency(row[1], :unit => "£", precision: 0) %></span>
+            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%=  number_to_currency(row[2], :unit => "£", precision: 0) %></span>
           </div>
         <% end %>
       <% end %>

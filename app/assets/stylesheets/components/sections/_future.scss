@@ -1,0 +1,11 @@
+h2 {
+  @extend .sg-h3;
+  color: $white;
+}
+
+.section {
+  &__introduction {
+    font-size: 28px; 
+    width: 45%;  
+  }
+}

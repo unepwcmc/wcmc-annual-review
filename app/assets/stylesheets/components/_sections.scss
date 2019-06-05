@@ -28,4 +28,12 @@
 
     @import './sections/stats-finance.scss';
   }
+
+  &--future {
+    background-image: image-url('hero/springbok-okavango-botswana.jpg');
+    background-size: cover;
+    background-position: bottom;
+
+    @import './sections/future.scss';
+  }
 }
