@@ -96,15 +96,6 @@ blockquote {
   margin: 0;
 }
 
-.blockquote-author {
-  color: $white;
-  font-size: 18px;
-  font-weight: $bold;
-  line-height: $line-height-blockquote;
-
-  display: block;
-}
-
 span { font-size: inherit; }
 
 //--------------------------------------------------
@@ -112,8 +103,11 @@ span { font-size: inherit; }
 //--------------------------------------------------
 .sg-h1 {
   @include font-size('h1');
+  font-family: $header-font;
   font-weight: $font-weight-h1;
   line-height: $line-height-h1;
+  margin: 40px 0;
+  text-transform: uppercase;
 }
 
 .sg-h2 {

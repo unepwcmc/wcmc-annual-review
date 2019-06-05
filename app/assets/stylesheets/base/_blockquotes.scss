@@ -1,0 +1,43 @@
+@mixin createQuote($quote) {
+  content: $quote;
+  color: lighten($grey-dark, 20%);
+  font-size: 250px;
+  font-weight: $fw-medium;
+  line-height: 1;
+
+  display: block;
+  position: absolute; 
+}
+
+.blockquote {
+  &--quotes {
+    .blockquote {
+      &__quote {
+        margin-bottom: 24px;
+        padding-top: 50px;
+        position: relative;
+
+        &:before { 
+          @include createQuote('\201C');
+          top: 0;
+          right: calc(100% + 40px); 
+        }
+
+        &:after { 
+          @include createQuote('\201D');
+          top: calc(100% - 50px);
+          left: calc(100% - 50px);
+        }
+      }
+
+      &__author {
+        color: $white;
+        font-size: 18px;
+        font-weight: $bold;
+        line-height: $line-height-blockquote;
+
+        display: block;
+      }
+    }
+  }
+}

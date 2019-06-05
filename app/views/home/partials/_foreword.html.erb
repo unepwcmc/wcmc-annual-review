@@ -1,15 +1,17 @@
-<div class="section__left">
+<div class="section__left gutter-right">
   <div class="ratio-16-9" >
     <iframe src="https://www.youtube.com/embed/2oMp9kLUIPI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
-<div class="section__right">
-  <carousel>
+<div class="section__right gutter-right">
+  <carousel class="gutter-right">
     <% data['collection'].each do |slide| %>
       <carousel-slide :margin-size="0">
-        <blockquote><%= slide['quote'] %></blockquote>
-        <span class="blockquote-author"><%= slide['author'] %></span>
+        <div class="blockquote--quotes">
+          <blockquote class="blockquote__quote"><%= slide['quote'] %></blockquote>
+          <span class="blockquote__author"><%= slide['author'] %></span>
+        </div>
       </carousel-slide>
     <% end %>
   </carousel>

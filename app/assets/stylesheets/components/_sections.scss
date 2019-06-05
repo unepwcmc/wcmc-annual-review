@@ -1,4 +1,12 @@
 .section {
+  &__introduction {
+    font-size: 28px;
+    font-weight: $fw-medium
+  }
+
+//--------------------------------------------------
+// page sections
+//--------------------------------------------------
   &--hero {
     @include background-image('hero/nairobi-national-park.jpg');
     
