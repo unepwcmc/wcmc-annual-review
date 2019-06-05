@@ -1,4 +1,4 @@
-<section class="section--hero bg-grey section--full-window">
+<section class="section--hero bg-grey section--full-window bg-image-overlay">
   <%= render partial: 'home/partials/hero', locals: { data: @hero } %>
 </section>
 
@@ -10,7 +10,7 @@
   <%= render partial: 'home/partials/anniversary', locals: { data: @anniversary } %>
 </section>
 
-<section id="section-<%= @highlights['id'] %>" class="bg-grey-light gradient-right">
+<section id="section-<%= @highlights['id'] %>" class="section--highlights bg-grey-light gradient-right">
   <%= render partial: 'home/partials/highlights', locals: { data: @highlights } %>
 </section>
 

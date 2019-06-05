@@ -1,0 +1,18 @@
+@mixin background-image($filepath) {
+  background-image: image-url(#{$filepath});
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+.bg-image__caption {
+  color: $grey-light;
+  font-size: 16px; 
+
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+  .bg-image__title { font-weight: $bold;}
+  .bg-image__credit { margin-bottom: 30px; }

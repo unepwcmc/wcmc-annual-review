@@ -1,5 +1,7 @@
 .section {
   &--hero {
+    @include background-image('hero/nairobi-national-park.jpg');
+    
     @import './sections/hero.scss';
   }
 
@@ -9,6 +11,10 @@
 
   &--anniversary {
     @import './sections/anniversary.scss';
+  }
+  
+  &--highlights {
+    @include background-image('hero/chuuk-lagoon.jpg');
   }
 
   &--projects {
@@ -22,17 +28,14 @@
   }
 
   &--stats-finance {
-    background-image: image-url('hero/dry-season-cat-tien-national-park.jpg');
-    background-size: cover;
+    @include background-image('hero/dry-season-cat-tien-national-park.jpg');
     color: $white;
 
     @import './sections/stats-finance.scss';
   }
 
   &--future {
-    background-image: image-url('hero/springbok-okavango-botswana.jpg');
-    background-size: cover;
-    background-position: bottom;
+    @include background-image('hero/springbok-okavango-botswana.jpg');
 
     @import './sections/future.scss';
   }

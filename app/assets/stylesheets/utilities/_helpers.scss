@@ -155,6 +155,8 @@
 }
 
 .gradient-right {
+  position: relative;
+  
   &:after {
     background: linear-gradient(to right, rgba(0,0,0,0%) 80%, #000000);
     content: '';
