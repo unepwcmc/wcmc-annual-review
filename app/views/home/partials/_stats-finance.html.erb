@@ -1,1 +1,44 @@
-<h2><%= data['title'] %></h2>
+<div class="container--medium">
+  <h2><%= data['title'] %></h2>
+  <p><%= data['introduction'] %></p>
+
+  <div class="bg-black-transparent gutters flex">
+    <div class="section__counter-wrapper gutter-right">
+      <p>Total Income</p>
+
+      <% data['income'].each do |i| %>
+        <p class="section__counter flex flex-v-center">
+          <span><%= i['year'] %></span>  
+          <span class="section__counter-total"><%= i['total'] %></span>  
+        </p>
+      <% end %>
+
+      <p class="section__counter flex flex-v-center">
+        <span class="section__counter-total">00??</span>  
+      </p>  
+      
+    </div>
+
+    <div class="section__table-wrapper">
+      <% data['table'].each_with_index do |row, index| %>
+        <% if (index == 0) %>
+          <p class="flex">
+            <span class="section__table-cell-header flex-inline flex-v-center"><%= row[0] %></span>
+            <span class="section__table-cell-header flex-inline flex-v-center"><%= row[1] %></span>
+            <span class="section__table-cell-header flex-inline flex-v-center"><%= row[2] %></span>
+          </p>
+
+          <div class="section__table bg-black-transparent">
+
+        <% else %>
+          <div class="flex">
+            <span class="section__table-cell flex-inline flex-v-center section__table-text"><%= row[0] %></span>
+            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%= row[1] %></span>
+            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%= row[2] %></span>
+          </div>
+        <% end %>
+      <% end %>
+      </div>
+    </div>
+  </div>
+</div>

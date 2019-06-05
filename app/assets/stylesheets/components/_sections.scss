@@ -20,4 +20,12 @@
     
     @import './sections/stats-people.scss';
   }
+
+  &--stats-finance {
+    background-image: image-url('hero/dry-season-cat-tien-national-park.jpg');
+    background-size: cover;
+    color: $white;
+
+    @import './sections/stats-finance.scss';
+  }
 }
