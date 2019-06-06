@@ -27,13 +27,13 @@ $blockquote-author-desktop: 18px;
         &:before { 
           @include createQuote('\201C');
           top: 0;
-          right: calc(100% + 40px); 
+          right: calc(100% + .15em); 
         }
 
         &:after { 
           @include createQuote('\201D');
-          top: calc(100% - 50px);
-          left: calc(100% - 50px);
+          top: calc(100% - .25em);
+          left: calc(100% - .3em);
         }
       }
 

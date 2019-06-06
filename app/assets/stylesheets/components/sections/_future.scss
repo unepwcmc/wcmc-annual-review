@@ -1,10 +1,6 @@
 @include breakpoint($medium) {
   @include full-height();
-}
-
-h2 {
-  @extend .sg-h3;
-  color: $white;
+  padding: 0;
 }
 
 .section {

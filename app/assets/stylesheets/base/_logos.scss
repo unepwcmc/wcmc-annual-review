@@ -2,7 +2,7 @@ $logo-width-mobile: 96px;
 $logo-width-tablet: 135px;
 $logo-width-desktop: 219px;
 
-$logo-height-mobile: 96px;
+$logo-height-mobile: 22px;
 $logo-height-tablet: 31px;
 $logo-height-desktop: 50px;
 
@@ -15,5 +15,9 @@ $logo-height-desktop: 50px;
 
     @include breakpoint($small) { width: $logo-width-tablet; height: $logo-height-tablet; }
     @include breakpoint($medium) { width: $logo-width-desktop; height: $logo-height-desktop; }
+
+    .footer & {
+      @include breakpoint-between($small, $medium) { width: 223px; height: 51px; }
+    }
   }
 }

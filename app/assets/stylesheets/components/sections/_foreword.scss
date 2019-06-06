@@ -1,5 +1,6 @@
 @include breakpoint($medium) {
   @include full-height();
+  padding: 0;
 }
 
 .section {

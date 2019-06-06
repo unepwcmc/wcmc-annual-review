@@ -1,9 +1,9 @@
 <div class="container--medium section-padding--top">
-  <h2><%= data['title'] %></h2>
+  <h2 class="heading--small"><%= data['title'] %></h2>
   <p class="section__introduction"><%= data['introduction'] %></p>
 
   <div class="section__column-wrapper bg-black-transparent gutters flex flex-wrap">
-    <div class="section__counter-wrapper gutter-right">
+    <div class="section__counter-wrapper">
       <p class="section__heading">Total Income</p>
 
       <% data['income'].each do |i| %>

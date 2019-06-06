@@ -141,17 +141,39 @@ $page-padding-bottom-small: 32px;
 $page-padding-bottom-medium: 60px;
 $page-padding-bottom-large: 100px;
 
-$section-padding-top-small: 20px;
-$section-padding-top-medium: 40px;
-$section-padding-top-large: 40px;
+$section-padding-top-mobile: 20px;
+$section-padding-top-tablet: 90px;
+$section-padding-top-desktop: 136px;
 
-$section-padding-bottom-small: 30px;
-$section-padding-bottom-medium: 60px;
-$section-padding-bottom-large: 60px;
+$section-padding-bottom-mobile: 30px;
+$section-padding-bottom-tablet: 120px;
+$section-padding-bottom-desktop: 196px;
 
-$item-padding-small: 90px;
-$item-padding-medium: 180px;
-$item-padding-large: 200px;
+$item-padding-mobile: 12px;
+$item-padding-tablet: 20px;
+$item-padding-desktop: 30px;
+
+@mixin gutters($sides:'both', $type:'padding') {
+  $sides: if($sides == 'both', ('left', 'right'), ($sides));
+
+  @each $s in $sides {
+    #{$type}-#{$s}: $gutter-small;
+
+    @include breakpoint($small) { #{$type}-#{$s}: $gutter-medium; }
+    @include breakpoint($medium) { #{$type}-#{$s}: $gutter-large; }
+  }
+}
+
+@mixin item-padding($sides:'all', $type:'padding') {
+  $sides: if($sides == 'all', ('top','bottom','left','right'), ($sides));
+
+  @each $s in $sides {
+    #{$type}-#{$s}: $item-padding-mobile;
+
+    @include breakpoint($small) { #{$type}-#{$s}: $item-padding-tablet; }
+    @include breakpoint($medium) { #{$type}-#{$s}: $item-padding-desktop; }
+  }
+}
 
 //--------------------------------------------------
 // dimensions
