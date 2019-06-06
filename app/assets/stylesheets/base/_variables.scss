@@ -76,7 +76,7 @@ $fw-black: 900;
 $font-weight-h1: $regular;
 $font-weight-h2: $regular;
 $font-weight-h3: $fw-black;
-$font-weight-h4: $light;
+$font-weight-h4: $fw-black;
 $font-weight-p: $light;
 
 $line-height-h1: 1.25;
@@ -91,13 +91,24 @@ $line-height-blockquote: 1.2;
   @if $el == 'h3' { font-size: 18px; }
   @if $el == 'h4' { font-size: 16px; }
   @if $el == 'p' { font-size: 16px; }
+  @if $el == 'blockquote' { font-size: 20px; }
 
   @include breakpoint($small) {
+    @if $el == 'h1' { font-size: 50px; }
+    @if $el == 'h2' { font-size: 50px; }
+    @if $el == 'h3' { font-size: 25px; }
+    @if $el == 'h4' { font-size: 25px; }
+    @if $el == 'p' { font-size: 25px; }
+    @if $el == 'blockquote' { font-size: 24px; }
+  }
+
+  @include breakpoint($medium) {
     @if $el == 'h1' { font-size: 90px; }
     @if $el == 'h2' { font-size: 90px; }
-    @if $el == 'h3' { font-size: 50px; }
-    @if $el == 'h4' { font-size: 18px; }
+    @if $el == 'h3' { font-size: 30px; }
+    @if $el == 'h4' { font-size: 30px; }
     @if $el == 'p' { font-size: 25px; }
+    @if $el == 'blockquote' { font-size: 40px; }
   }
 }
 
@@ -105,7 +116,7 @@ $line-height-blockquote: 1.2;
 // breakpoints
 //--------------------------------------------------
 $small: 720px;
-$medium: 1420px;
+$medium: 1024px;
 $large: 1708px;
 
 //--------------------------------------------------
@@ -114,12 +125,6 @@ $large: 1708px;
 $z-100: 100;
 $z-200: 200;
 $z-300: 300;
-
-//--------------------------------------------------
-// dimensions
-//--------------------------------------------------
-$site-width: $large;
-$site-width-medium: $medium;
 
 //--------------------------------------------------
 // padding
@@ -147,6 +152,13 @@ $section-padding-bottom-large: 60px;
 $item-padding-small: 90px;
 $item-padding-medium: 180px;
 $item-padding-large: 200px;
+
+//--------------------------------------------------
+// dimensions
+//--------------------------------------------------
+$site-width: $large;
+$site-width-medium-tablet: calc(100% - 160px + #{$gutter-medium});
+$site-width-medium-desktop: $medium;
 
 //--------------------------------------------------
 // tables

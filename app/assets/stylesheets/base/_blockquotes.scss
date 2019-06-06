@@ -1,12 +1,19 @@
+$blockquote-author-mobile: 12px;
+$blockquote-author-tablet: 14px;
+$blockquote-author-desktop: 18px;
+
 @mixin createQuote($quote) {
   content: $quote;
   color: lighten($grey-dark, 20%);
-  font-size: 250px;
+  font-size: 80px;
   font-weight: $fw-medium;
   line-height: 1;
 
   display: block;
   position: absolute; 
+
+  @include breakpoint($small) { font-size: 100px; }
+  @include breakpoint($medium) { font-size: 250px; }
 }
 
 .blockquote {
@@ -32,11 +39,14 @@
 
       &__author {
         color: $white;
-        font-size: 18px;
+        font-size: $blockquote-author-mobile;
         font-weight: $bold;
         line-height: $line-height-blockquote;
 
         display: block;
+
+        @include breakpoint($small) { font-size: $blockquote-author-tablet; }
+        @include breakpoint($medium) { font-size: $blockquote-author-desktop; }
       }
     }
   }

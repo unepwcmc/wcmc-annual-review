@@ -2,7 +2,7 @@
   <div class="section__header-content white">
     <h2><%= data['strapline'] %></h2>
     <h3 class="white"><%= data['title'] %></h3>
-    <p><%= data['introduction'] %></p>
+    <p class="section__introduction"><%= data['introduction'] %></p>
   </div>
 
   <%= render partial: 'home/shared/caption/', locals: { title: data['hero_title'], credit: data['hero_credit'] } %>
@@ -18,7 +18,7 @@
         <p><%= project['introduction'] %></p>
 
         <% if project['modal'] %>
-          <modal-trigger id="<%= project['id'] %>" class="button--internal" :modal-content="<%= project.to_json %>">View more</modal-trigger>
+          <modal-trigger id="<%= project['id'] %>" class="button--internal" :modal-content="<%= project.to_json %>">Read more</modal-trigger>
         <% end %>
 
         <% if project['url'] %>
@@ -26,9 +26,7 @@
         <% end %>
       </div>
 
-      <div class="card__image-wrapper">
-        
-      </div>
+      <div class="card__image-wrapper"></div>
     </div>
   <% end %>
 </div>

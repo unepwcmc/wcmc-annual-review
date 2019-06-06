@@ -1,17 +1,26 @@
+//--------------------------------------------------
+// section background images
+//--------------------------------------------------
+$background-image-text-mobile: 12px;
+$background-image-text-tablet: 14px;
+$background-image-text-desktop: 16px;
+
 @mixin background-image($filepath) {
   background-image: image-url(#{$filepath});
   background-size: cover;
   background-position: bottom;
 }
 
-
 .bg-image__caption {
   color: $grey;
-  font-size: 16px; 
+  font-size: $background-image-text-mobile;
 
   position: absolute;
   bottom: 10px;
   left: 10px;
+
+  @include breakpoint($small) { font-size: $background-image-text-tablet; }
+  @include breakpoint($medium) { font-size: $background-image-text-desktop; }
 }
 
   .bg-image__title { font-weight: $bold;}

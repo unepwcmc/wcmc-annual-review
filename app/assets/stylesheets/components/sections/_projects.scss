@@ -1,13 +1,26 @@
+//--------------------------------------------------
+// settings
+//--------------------------------------------------
+@mixin hash-font-size() {
+  font-size: 100px;
+
+  @include breakpoint($small) { font-size: 200px; }
+  @include breakpoint($medium) { font-size: 400px; }
+}
+
+//--------------------------------------------------
+// classes
+//--------------------------------------------------
 h2 {
   position: relative;
 
   &::before {
+    @include hash-font-size();
     content: '#';
     color: rgba(white, 0.5);
-    font-size: 400px;
 
     position: absolute;
-    top: -200px;
+    top: -.5em;
     left: -10px;
   }
 }

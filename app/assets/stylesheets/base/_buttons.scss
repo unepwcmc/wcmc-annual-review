@@ -1,10 +1,38 @@
+//--------------------------------------------------
+// settings
+//--------------------------------------------------
+$button-text-mobile: 20px;
+$button-text-tablet: 25px;
+$button-text-desktop: 30px;
+
+@mixin button-font-size() { 
+  font-size: $button-text-mobile;
+
+  @include breakpoint($small) { font-size: $button-text-tablet; }
+  @include breakpoint($medium) { font-size: $button-text-desktop; }
+}
+
+$button-padding-mobile: 16px 24px;
+$button-padding-tablet: 16px 24px;
+$button-padding-desktop: 16px 24px;
+
+@mixin button-padding() { 
+  padding: $button-padding-mobile;
+
+  @include breakpoint($small) { padding: $button-padding-tablet; }
+  @include breakpoint($medium) { padding: $button-padding-desktop; }
+}
+
+//--------------------------------------------------
+// classes
+//--------------------------------------------------
 .button {
   &--external {
+    @include button-font-size();
+    @include button-padding();
     background-color: $primary;
     color: $white;
-    font-size: 30px;
     font-weight: bold;
-    padding: 16px 24px;
     text-decoration: none;
 
     &:hover { background-color: lighten($primary, 10%); }
@@ -16,12 +44,13 @@
   }
 
   &--internal {
+    @include button-font-size();
     background-color: transparent;
     border: 0;
     color: $primary;
     cursor: pointer;
-    font-size: 30px;
     font-weight: bold;
+    padding: 0;
 
     &:hover { color: lighten($primary, 10%); }
   }

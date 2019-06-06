@@ -1,3 +1,7 @@
+@include breakpoint($medium) {
+  @include full-height();
+}
+
 h2 {
   @extend .sg-h3;
   color: $white;
@@ -5,7 +9,6 @@ h2 {
 
 .section {
   &__introduction {
-    font-size: 28px; 
     width: 45%;  
   }
 }

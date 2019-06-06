@@ -1,3 +1,29 @@
+//--------------------------------------------------
+// settings
+//--------------------------------------------------
+$number-font-mobile: 30px;
+$number-font-tablet: 40px;
+$number-font-desktop: 50px;
+
+@mixin stat-number-font() {
+  font-size: $number-font-mobile;
+  @include breakpoint($small) { font-size: $number-font-tablet; }
+  @include breakpoint($medium) { font-size: $number-font-desktop; }
+}
+
+$text-font-mobile: 18px;
+$text-font-tablet: 20px;
+$text-font-desktop: 25px;
+
+@mixin stat-text-font() {
+  font-size: $text-font-mobile;
+  @include breakpoint($small) { font-size: $text-font-tablet; }
+  @include breakpoint($medium) { font-size: $text-font-desktop; }
+}
+
+//--------------------------------------------------
+// classes
+//--------------------------------------------------
 .section {
   &__map-wrapper {
     background-color: $primary-light;
@@ -17,26 +43,44 @@
     width: 66%; height: 400px;
   }
   
-  &__number {
-    font-size: 50px;
-    font-weight: $fw-black;
-    margin: 0;
+  &__stat {
+    &-number {
+      @include stat-number-font();
+      font-weight: $fw-black;
+      margin: 0;
 
-    display: block;
+      display: block;
+    }
+
+    &-text {
+      @include stat-text-font();
+    }
   }
 
   &__circle {
     @extend .flex-center; 
     background-color: $primary-light;
     border-radius: 100%;
-    width: 400px; height: 400px;
+    width: 30%;
+    
+    position: relative;
+    
+    &::after {
+      content: '';
+      padding-bottom: 100%;
 
-    // &::after {
-    //   content: '';
-    //   padding-bottom: 100%;
+      display: block;
+    }
 
-    //   display: block;
-    // }
+    &-content {
+      @extend .flex-center;
+      
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
   }
 
   &__employee-intro { width: 33%; }

@@ -1,4 +1,10 @@
+$topbar-height-mobile: 96px;
+$topbar-height-tablet: 71px;
 $topbar-height-desktop: 96px;
+
+$topbar-title-mobile: 16px;
+$topbar-title-tablet: 18px;
+$topbar-title-desktop: 24px;
 
 @mixin topbar-style($style) {
   @if $style == 'blue' {
@@ -11,12 +17,15 @@ $topbar-height-desktop: 96px;
 }
 
 .topbar {
-  width: 100%; height: $topbar-height-desktop;
+  width: 100%; height: $topbar-height-mobile;
   
   position: absolute;
   top: -$topbar-height-desktop;
 
   transition: top .25s ease-out;
+
+  @include breakpoint($small) { height: $topbar-height-tablet; }
+  @include breakpoint($medium) { height: $topbar-height-desktop; }
   
   &--foreword { @include topbar-style('grey'); }
   &--anniversary { @include topbar-style('blue'); }
@@ -49,10 +58,13 @@ $topbar-height-desktop: 96px;
     &__title {
       border-left: solid 1px $grey-light;
       color: $white;
-      font-size: 24px;
+      font-size: $topbar-title-mobile;
       margin-left: 20px;
       padding-left: 20px;
 
       z-index: $z-300;
+
+      @include breakpoint($small) { font-size: $topbar-title-tablet; }
+      @include breakpoint($medium) { font-size: $topbar-title-desktop; }
     }
 }

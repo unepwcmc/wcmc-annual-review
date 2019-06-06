@@ -1,7 +1,14 @@
+$introduction-mobile: 14px;
+$introduction-tablet: 18px;
+$introduction-desktop: 28px;
+
 .section {
   &__introduction {
-    font-size: 28px;
-    font-weight: $fw-medium
+    font-size: $introduction-mobile;
+    font-weight: $fw-medium;
+
+    @include breakpoint($small) { font-size: $introduction-tablet; }
+    @include breakpoint($medium) { font-size: $introduction-desktop; }
   }
 
   &__text {

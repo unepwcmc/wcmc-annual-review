@@ -1,19 +1,19 @@
 <div class="container--medium section-padding--top">
   <h2><%= data['title'] %></h2>
-  <p><%= data['introduction'] %></p>
+  <p class="section__introduction"><%= data['introduction'] %></p>
 
-  <div class="bg-black-transparent gutters flex">
+  <div class="section__column-wrapper bg-black-transparent gutters flex flex-wrap">
     <div class="section__counter-wrapper gutter-right">
       <p class="section__heading">Total Income</p>
 
       <% data['income'].each do |i| %>
-        <p class="section__counter flex flex-v-center bg-white">
+        <p class="section__counter flex flex-center bg-white">
           <span><%= i['year'] %>:</span>  
           <span class="section__counter-total gutter-left"><%= i['total'] %></span>  
         </p>
       <% end %>
 
-      <p class="section__counter flex flex-v-center bg-green">
+      <p class="section__counter flex flex-center bg-green">
         <span class="section__counter-total">00??</span>  
       </p>  
       

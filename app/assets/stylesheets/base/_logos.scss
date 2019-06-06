@@ -1,8 +1,19 @@
+$logo-width-mobile: 96px;
+$logo-width-tablet: 135px;
+$logo-width-desktop: 219px;
+
+$logo-height-mobile: 96px;
+$logo-height-tablet: 31px;
+$logo-height-desktop: 50px;
+
 .logo {
   &--wcmc {
     background-image: url('https://s3.amazonaws.com/wcmc.logo/UN-Environment-WCMC+logo+2017+white.svg');
-    width: 219px; height: 50px;
+    width: $logo-width-mobile; height: $logo-height-mobile;
 
     display: block;
+
+    @include breakpoint($small) { width: $logo-width-tablet; height: $logo-height-tablet; }
+    @include breakpoint($medium) { width: $logo-width-desktop; height: $logo-height-desktop; }
   }
 }
