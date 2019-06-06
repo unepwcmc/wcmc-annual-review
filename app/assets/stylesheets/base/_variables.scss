@@ -158,7 +158,7 @@ $item-padding-large: 200px;
 //--------------------------------------------------
 $site-width: $large;
 $site-width-medium-tablet: calc(100% - 160px + #{$gutter-medium});
-$site-width-medium-desktop: $medium;
+$site-width-medium-desktop: calc(100% - 316px + #{$gutter-large});
 
 //--------------------------------------------------
 // tables

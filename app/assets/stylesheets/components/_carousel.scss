@@ -1,8 +1,26 @@
+//--------------------------------------------------
+// settings
+//--------------------------------------------------
 $padding-top-bottom: 25px;
 
 $padding-side-mobile: 20px;
 $padding-side-tablet: 50px;
 $padding-side-desktop: 120px;
+
+@mixin slide-padding() {
+  padding-left: $padding-side-mobile;
+  padding-right: $padding-side-mobile;
+
+  @include breakpoint($small) {
+    padding-left: $padding-side-tablet;
+    padding-right: $padding-side-tablet;    
+  }
+
+  @include breakpoint($medium) {
+    padding-left: $padding-side-desktop;
+    padding-right: $padding-side-desktop;    
+  }
+}
 
 $carousel-height: auto;
 $arrow-button-width: 30px;
@@ -10,6 +28,9 @@ $indicator-height: 14px;
 $indicator-row-height: $indicator-height + $padding-top-bottom * 2;
 $transition-options: 0.6s ease-in-out;
 
+//--------------------------------------------------
+// classes
+//--------------------------------------------------
 .transition {
   &.carousel__slides {
     transition: transform $transition-options;
@@ -93,6 +114,6 @@ $transition-options: 0.6s ease-in-out;
 }
 
 .carousel-slide {
-  padding: 0 $padding-side-mobile;
+  @include slide-padding();
   flex-shrink: 0;
 }

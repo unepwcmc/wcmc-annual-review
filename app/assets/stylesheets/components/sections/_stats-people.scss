@@ -64,7 +64,7 @@ $text-font-desktop: 25px;
     width: 30%;
     
     position: relative;
-    
+
     &::after {
       content: '';
       padding-bottom: 100%;
@@ -85,7 +85,11 @@ $text-font-desktop: 25px;
 
   &__employee-intro { width: 33%; }
   
-  &__employee-stats { width: 66%; }
+  &__employee-stats { 
+    width: 66%; 
+
+    @include breakpoint($medium) { display: flex; }
+  }
 
     &__square {
       background-color: $primary-light;

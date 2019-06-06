@@ -51,6 +51,8 @@ $slide-index-desktop: 28px;
     flex-direction: column;
     float: left;
 
+    @include breakpoint($medium) { flex-direction: row; }
+
     .slide {
       
       &__content {
@@ -91,7 +93,7 @@ $slide-index-desktop: 28px;
         background-size: cover;
         width: 100%; height: 50%;
 
-        @include breakpoint($medium) { width: 50%; }
+        @include breakpoint($medium) { width: 50%; height: 100%; }
       }
     }
   }
