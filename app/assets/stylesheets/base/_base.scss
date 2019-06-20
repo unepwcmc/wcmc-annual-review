@@ -169,7 +169,7 @@ span { font-size: inherit; }
 // site structure
 //--------------------------------------------------
 .site-width {
-  @include breakpoint($medium){ width: $site-width; }
+  @include breakpoint($large){ width: $site-width; }
 }
 
 .site-width-medium {
