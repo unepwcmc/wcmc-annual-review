@@ -1,11 +1,24 @@
 .footer {
+  flex-direction: column;
+  justify-content: center;
   height: 132px;
+
+  @include breakpoint($medium) {
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   &__title {
     border-left: solid 1px $grey-light;
     color: $white;
-    font-size: 24px;
     margin-left: 20px;
     padding-left: 20px;
+  }
+
+  &__link {
+    @include breakpoint-between($small, $medium) { 
+      margin: 10px 0 0 0;
+    }
   }
 }

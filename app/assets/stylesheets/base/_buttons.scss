@@ -57,6 +57,9 @@ $button-padding-desktop: 16px 24px;
 
   &--subtle {
     color: $grey-light;
-    font-size: 20px;
+    font-size: 16px;
+
+    @include breakpoint($small) { font-size: 18px; }
+    @include breakpoint($medium) { font-size: 20px; }
   }
 }

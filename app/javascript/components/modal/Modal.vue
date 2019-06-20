@@ -3,12 +3,14 @@
     <div role="dialog" aria-modal="true" class="modal__dialog">
 
       <div class="modal__content">
-        <button class="button--plain modal__close" @click="closeModal">
-          <span>close</span>
+        <button class="button--close modal__close" @click="closeModal">
+          <span>X</span>
         </button>
-
-        <h3>{{ content.title }}</h3>
-        <p>{{ content.introduction }}</p>
+        
+        <div class="container--medium">
+          <h3>{{ content.title }}</h3>
+          <p>{{ content.introduction }}</p>
+        </div>
       </div>
     </div>
   </div>
