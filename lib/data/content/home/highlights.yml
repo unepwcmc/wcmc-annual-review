@@ -4,25 +4,25 @@ collection:
   -
     id: welcome
     title: We welcome Peng Youdong
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    introduction: We welcomed a high-level delegation of China's National Forestry and Grassland Administration (NFGA), led by the Vice Administrator Peng Youdong, to discuss areas of mutual interest and opportunities for future collaboration.
     image: /content/images/highlights/we-welcome-peng-youdong.png
   -
     id: challenges
-    title: Discussing environment challenges
-    introduction: We welcomed Daniel Zeichner, Member of Parliament for Cambridge, to discuss environmental challenges at a local, national and global level. He then raised the question of illegal wildlife trade at Prime Minister’s Questions, asking about the government’s planned actions
+    title: Discussing Environmental Challenges
+    introduction: We welcomed Daniel Zeichner, Member of Parliament for Cambridge, to discuss environmental challenges at a local, national and global level. He then raised the question of illegal wildlife trade at Prime Minister's Questions, asking about the government's planned actions.
     image: /content/images/highlights/we-welcome-peng-youdong.png
   -
-    id: third
-    title: Third Highlight Title
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    id: partnerships
+    title: Cross-continental partnerships
+    introduction: We launched the Development Corridors Partnership, an international collaboration aimed at the sustainable growth of infrastructure and development in East Africa and funded until 2021 by the UK Research Council's Global Challenges Research Fund.
     image: /content/images/highlights/we-welcome-peng-youdong.png
   -
-    id: fourth
-    title: Fourth Highlight Title
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    id: heights
+    title: Reaching new heights
+    introduction: The CITES Trade Database which we manage on behalf of CITES hits 20 million records.
     image: /content/images/highlights/we-welcome-peng-youdong.png
   -
     id: fifth
-    title: Fifth Highlight Title
-    introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    title: Sustainable Trade for People and Planet
+    introduction: "A multi-million pound project led by UNEP-WCMC is announced, aiming to make sustainable trade a positive force for both marginalised people and nature conservation. This UKRI GCRF Trade, Development and the Environment Hub will follow the trade of wildlife, wild meat and agricultural goods from their origin in eight countries, and then throughout the entire world: Brazil, Cameroon, China, Democratic Republic of Congo, Gabon, Indonesia, Republic of Congo, and Tanzania."
     image: /content/images/highlights/we-welcome-peng-youdong.png

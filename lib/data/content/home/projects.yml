@@ -1,36 +1,80 @@
 id: projects
 title: Operations & projects
 strapline: We can make change
-introduction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+introduction: In the past year we've launched a range of projects and initiatives, helping inform decision makers on everything from financial investments to seagrass restoration.
 hero_title: Rice farmer
 hero_credit: thekob5123 - stock.adobe.com 
 collection: 
   -
     id: protected-planet-live
     title: A Live portal into our protected planet
-    introduction: Since 2010 it has been a global goal to have protected areas across the world that could truly protect the species and ecosystems within them – having sufficient quality, as well as size. With only semi-regularly updated datasets, however, national leaders struggled to find if they were reaching these targets. So in November, we, IUCN, National Geographic and UN Environment launched Protected Planet Live, a regularly updated portal that shows where we as a global community can improve and expand upon protected areas. It is able to reflect the impact of a new government’s decisions and actions, encouraging collective action to halt the downward trend of biodiversity.
+    introduction: 
+      - Since 2010 it has been a global goal to secure 17% of the land and 10% of the ocean in networks of effective protected areas. 
+      - In November we launched Protected Planet Live, with IUCN and National Geographic to ensure the very latest information on progress towards this ambition is widely available. Protected Planet Live shows progress on global coverage and also identifies where gaps and opportunities remain for strengthening the coverage of protected and conserved areas – and it's good news! There has been excellent progress towards the global targets of 17% terrestrial and 10% marine coverage of protected areas. The next challenge is scaling up area-based conservation and ensuring those areas are effective!
     modal: false
     url: https://livereport.protectedplanet.net/
     url-text: Live Report Site
   -
     id: impacts
     title: Gold medal for mapping impacts of biodiversity
-    introduction: "Launched in 2010, it is underpinned by three of the world’s most authoritative global biodiversity datasets: the World Database on Protected Areas, IUCN Red List of Threatened Species, and the World Database on Key Biodiversity Areas. Added functionality and expertise then allows people across the businesses, governments, and the finance sector to screen potential projects and review potential risks in their supply chain."
+    introduction: 
+      - "Many businesses and governments wish to understand their impact on biodiversity - whether that's to ensure their practices are sustainable in the long-term, to follow their own ethical or legal guidelines, or report to external regulations. It's often difficult, however, to understand the  pros and cons of different proposed actions."
+      - "This is where IBAT came in – launched in 2010, it is underpinned by three of the world's most authoritative global biodiversity datasets: the World Database on Protected Areas, IUCN Red List of Threatened Species, and the World Database on Key Biodiversity Areas. Added functionality and expertise then allows people across the businesses, governments, and the finance sector to screen potential projects and review potential risks in their  supply chain."
+      - "Since the publication of their sustainability strategy and their collaboration with International Union for Conservation of Nature, the International Olympic Committee (IOC) has used IBAT as part of its Interested Cities and Candidate Cities processes: \"Thanks to IBAT, we can ensure that biodiversity is taken into consideration from the very early stages of a city's Olympic journey\" says Michelle Lemaitre, Head of Sustainability at the IOC. \"Based on data provided by IBAT, cities can ascertain whether proposed location plans for Olympic venues need to be modified to avoid impacting areas of high biodiversity value. They can also go a step further, looking into ways in which hosting the Olympic Games can contribute to biodiversity conservation in the area.\""
     modal: true
   -
     id: restoration
     title: Marine restoration from Turkey to Norway
-    introduction: Marine and coastal habitats are immensely valuable, on both a local and global scale - corals can act as nurseries for schools of fish, mangroves and seagrasses can stem tidal surges, and both the ocean itself and the life it holds can act as sponges that soak up carbon. Many places have already been over-harvested or degraded, however, and so restoration projects are underway all over the world. This is still a relatively new approach, however, and there is little information about how to do this efficiently, or successfully.
+    introduction:
+      - Marine and coastal habitats are immensely valuable, on both a local and global scale. Coral reefs can act as nurseries for schools of fish, mangroves and seagrasses can stem tidal surges, and both the ocean and the life it holds can act as sponges that soak up carbon. Many places are facing increasing pressures, however, and marine habitat restoration projects are underway all over the world. 
+      - The UN has actually named 2021 as the start of a whole UN Decade of Ecosystem Restoration, and we are already involved in a number of projects to restore both regionally and internationally important marine and coastal habitats, gathering evidence to guide future restoration efforts.
+      - We are working as part of the Marine Ecosystem Restoration in Changing European Seas (‘MERCES') Project, for example, which has launched more than 130 restoration activities across 12 European countries since July 2016. By working with field scientists, modellers and mappers, we will be able to directly advise policy makers about the most efficient way to upscale these restoration efforts and create healthy ecosystems that support marine life, as well as the humans that depend upon them. 
+      - The success of this project has led to the AFRIMED Project (Algal Forest Restoration in the Mediterranean Sea) looking specifically at the restoration of degraded macroalgal forests across the Mediterranean - from Southern Mediterranean to Northern Africa. 
+      - We are also currently working with the Endangered Landscapes Programme in South Western Turkey to see how, by reducing and removing a range of pressures, including illegal fishing, anchoring and invasive species, we can recover the marine ecosystems that support critical species such as Mediterranean monk seals and sandbar sharks. One of our key areas of involvement is around human behaviour change, and how to encourage people to see invasive fish as a food source.
+      - We'll be tracking progress for all of these projects, so please do keep an eye on the UNEP-WCMC website where you can find more information about these projects and our other marine restoration activities.
     modal: true
   -
     id: encore
-    title: Encore for finance tool
-    introduction: More and more the conservation community is recognising that not only are businesses part of the solution to biodiversity loss – they are indispensably critical. Businesses themselves are also increasingly recognising that natural resources lie at the foundation of everything they do, but lacked the data and tools to fully understand their impacts.
+    title: ENCORE for finance tool
+    introduction: 
+      - Missing content...
     modal: true
   -
     id: nature
-    title: The value of nature starting with a nut
-    introduction: Over the past year we have been working closely with the World Conservation Society and the IDEEA Group (Institute for Development of Environmental-Economic Accounting) to identify the value of Uganda’s natural resources – informing the placement of protected areas, how much to invest in them, and how declining biodiversity threatens Ugandan people. Shea butter tree nuts, for example, were seen to have potential as a local food source, as well as an export to cosmetics industries. They are a vulnerable species, however, prone to overharvesting, and so there was a real question of how to produce them in a way that would last. When scanning northern Uganda for areas that might be Shea butter nut-friendly, we found that most of the potential habitats were not in protected areas, and would therefore be prone to overharvesting. This resulted in a nation-wide ban on the trade in Shea butter nuts.
+    title: The value of nature - starting with a nut
+    introduction: 
+      - The natural world is critical to Uganda's economy and the wellbeing of its people, providing an essential support for food security, tourism, and livelihoods around the country. However, traditional ways of looking at economic progress can neglect the value of all that nature provides. This means decision makers aren't able to take it fully into account, often leading to inefficient and unsustainable growth.
+      - To address this, in 2016 to 2017 we worked on a joint project designed to inform decisions around how best to manage natural areas – how much to invest in them, and how declining wildlife threatens Ugandan people. By working closely with the project partners (the National Planning Authority, National Environmental Management Authority, World Conservation Society and the Institute for Development of Environmental-Economic Accounting (IDEEA) Group), the project was able to identify and highlight trends in the ‘stocks' of several of Uganda's biodiversity-related natural resources.  
+      - Just last year, findings from the project contributed to a nationwide ban on cutting, transportation and sale of Shea nut tree logs and their products.  These trees have great economic importance and real potential as an export product to cosmetics industries, but they are  an endangered species and were under increasing pressure from illegal harvesting for logs, charcoal and the Shea nuts themselves. 
+      - When scanning northern Uganda for areas that might be Shea butter nut-friendly, we found that most of the potential habitats were also not in protected areas – leaving them even more vulnerable to illegal harvesting. The Ugandan Government therefore decided on a short-term ban on their harvest, preserving their potential to support Shea nut harvesting in the long-term. 
+      - We are continuing our work with Uganda, and look forward to further exploring the relationship between the environment and the national economy. 
+      - In the coming year we will be also be taking this thinking to the seas, and investigating the Blue Economy – deepening our understanding on the economic value of the seas, and our own ability to support decision makers in taking that into account.
     modal: false
     url: http://google.com
     url-text: Website
+  -
+    id: redd
+    title: Helping Viet Nam get ready for REDD+
+    introduction: 
+      - Climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating solutions and putting them in place. One such effort is the UN Framework Convention on Climate Change's (UNFCCC) REDD+ mechanism, designed to provide financial incentives for developing countries to reduce CO2 emissions from deforestation and forest degradation, as well as for mitigating climate change through conserving, managing, and enhancing forest carbon stocks.
+      - We work with partners all over the world to support a range of countries in their REDD+ planning and implementation. Last year, for example, we helped Viet Nam to become one of the first countries to complete a fundamental step in preparing for REDD+, making it eligible to receive payments in return for reducing carbon emissions from forests. This involved supporting Viet Nam to meet safeguards requirements, which aim to reduce the risks and increase the benefits of REDD+, including integrating safeguards information – from figures on forest cover to agribusiness ownership by ethnic minorities - into its existing system for monitoring forests.
+    modal: true
+  -
+    id: policy
+    title: Making policy waves with marine data
+    introduction: 
+      - "The ocean is our life support system: it regulates our weather, stores carbon, and provides a home for many species that we depend on for our nutrition and livelihoods. Yet our actions—including those many miles from the coast—are affecting the health of the ocean, with climate change, overharvesting, and pressures from development threatening the continued supply of the services we all depend on."
+      - "We therefore launched Ocean+ in January 2018, designed to make it as easy as possible for decision makers to better understand and account for the ocean's value. By curating information through partnerships and networks with governmental, non-governmental, and business communities, Ocean+ allows users to:<ul>
+        <li>View and download quality-assured spatial datasets that are useful for policy and decision-making;</li>
+        <li>Locate more than 190 data resources globally that are important for marine and coastal biodiversity;</li>
+        <li>Learn about the state of knowledge on five ecologically-important ocean habitats, namely seagrasses,</li>
+        <li>Explore, through the associated initiative Protected Planet, nationally-validated statistics on marine protected area coverage all over the world.</li>"
+      - Ocean+ and complementary partnerships will become increasingly vital as the global community defines priorities for the upcoming decade, which the United Nations has proclaimed the 'Decade of Ocean Science for Sustainable Development.'
+    modal: true
+  -
+    id: nature-platform
+    title: Giving nature a new platform
+    introduction: 
+      - All countries that have signed up to the Convention on Biological Diversity have to report on their progress towards the Convention's global conservation goals. These reports help countries to track their national  conservation strategies, and together they can help create a view of the state of the world's biodiversity. Obtaining relevant information to measure progress is, however, often a challenge.
+      - To help, we and NatureServe co-launched the Biodiversity Indicators Partnership (BIP) Dashboard last November, harnessing data from such key measures of biodiversity as the Red List Index, the Biodiversity Habitat Index and the Ecological Footprint and bringing them to life with clear, informative graphics and maps. By helping to create as comprehensive an insight into biodiversity as possible, this Dashboard can help governments measure their real impact and progress, and make evidence-based decisions about biodiversity.
+    modal: true

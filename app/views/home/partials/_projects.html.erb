@@ -15,7 +15,11 @@
       <div class="card__content-wrapper">
         <span class="card__index"><%= index + 1 %> of <%= data['collection'].length %></span>
         <h3><%= project['title'] %></h3>
-        <p><%= project['introduction'] %></p>
+        <div>
+          <% project['introduction'].each do |p| %>
+            <p><%= p.html_safe %></p>
+          <% end %>
+        </div>
 
         <% if project['modal'] %>
           <modal-trigger id="<%= project['id'] %>" class="button--internal" :modal-content="<%= project.to_json %>">Read more</modal-trigger>

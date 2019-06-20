@@ -3,7 +3,7 @@ countries-total: 58
 countries-title: Number of Countries Worked with
 stats-totals:
   -
-    number: 206
+    number: 65
     icon:
     title: Published papers
     url: http://google.com
@@ -12,7 +12,7 @@ stats-totals:
     icon:
     title: Live projects
   -
-    number: 206
+    number: 200
     icon:
     title: Funders & Partners
 stats-staff:

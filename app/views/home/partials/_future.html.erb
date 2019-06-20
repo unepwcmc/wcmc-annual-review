@@ -1,6 +1,9 @@
 <div class="container--medium">
   <h2 class="heading--small"><%= data['title'] %></h2>
-  <p class="section__introduction"><%= data['introduction'] %></p>
+  <% data['introduction'].each do |p| %>
+    <p class="section__introduction"><%= p %></p>
+  <% end %>
+
   <%= link_to 'UNEP-WCMC Website', 'http://unep-wcmc.org', target: '_blank', class:'button--external inline-block item-margin--top' %>
 </div>
 
