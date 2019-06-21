@@ -1,3 +1,5 @@
+@include background-image('hero/springbok-okavango-botswana.jpg');
+
 @include breakpoint($medium) {
   @include full-height();
   padding: 0;

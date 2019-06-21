@@ -1,3 +1,5 @@
+@include background-image('hero/dry-season-cat-tien-national-park.jpg');
+
 @include breakpoint($medium) {
   @include full-height();
   padding: 0;

@@ -1,0 +1,9 @@
+.section__background {
+  @include background-image('hero/chuuk-lagoon.jpg');  
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
