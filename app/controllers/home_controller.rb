@@ -42,37 +42,6 @@ class HomeController < ApplicationController
     @stats_finance = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-finance.yml", 'r'))
     @future = YAML.load(File.open("#{Rails.root}/lib/data/content/home/future.yml", 'r'))
 
-    @published_papers = [
-      {
-        colour: { line: '#64C0D5' },
-        datapoints: [
-          { x: 2007, y: 12 },
-          { x: 2008, y: 6 },
-          { x: 2009, y: 12 },
-          { x: 2010, y: 6 },
-          { x: 2011, y: 12 },
-          { x: 2012, y: 6 },
-          { x: 2013, y: 12 },
-          { x: 2014, y: 6 },
-          { x: 2015, y: 12 }
-        ]
-      },
-      {
-        colour: { line: '#BFF5FF'},
-        datapoints: [
-          { x: 2007, y: 10 },
-          { x: 2008, y: 5 },
-          { x: 2009, y: 10 },
-          { x: 2010, y: 5 },
-          { x: 2011, y: 10 },
-          { x: 2012, y: 5 },
-          { x: 2013, y: 10 },
-          { x: 2014, y: 5 },
-          { x: 2015, y: 10 }
-        ]
-      }
-    ]
-
     @references = {
       config: {
         svgPaddingTop: 70,
@@ -90,29 +59,39 @@ class HomeController < ApplicationController
         {
           colour: { line: '#000', fill: '#31A0C9', text: '#000' },
           datapoints: [
-            { x: 2007, y: 10 },
-            { x: 2008, y: 5 },
-            { x: 2009, y: 10 },
-            { x: 2010, y: 5 },
-            { x: 2011, y: 10 },
-            { x: 2012, y: 5 },
-            { x: 2013, y: 10 },
-            { x: 2014, y: 5 },
-            { x: 2015, y: 10 }
+            { x: 1994, y: 0 },
+            { x: 1995, y: 0 },
+            { x: 1996, y: 0 },
+            { x: 1998, y: 0 },
+            { x: 2000, y: 0 },
+            { x: 2002, y: 4 },
+            { x: 2004, y: 20 },
+            { x: 2006, y: 32 },
+            { x: 2008, y: 51 },
+            { x: 2010, y: 75 },
+            { x: 2012, y: 90 },
+            { x: 2014, y: 95 },
+            { x: 2016, y: 119 },
+            { x: 2018, y: 138 }
           ]
         },
         {
           colour: { line: '#000' },
           datapoints: [
-            { x: 2007, y: 7 },
-            { x: 2008, y: 3 },
-            { x: 2009, y: 7 },
-            { x: 2010, y: 3 },
-            { x: 2011, y: 7 },
-            { x: 2012, y: 3 },
-            { x: 2013, y: 7 },
-            { x: 2014, y: 3 },
-            { x: 2015, y: 7 }
+            { x: 1994, y: 0 },
+            { x: 1995, y: 0 },
+            { x: 1996, y: 0 },
+            { x: 1998, y: 0 },
+            { x: 2000, y: 0 },
+            { x: 2002, y: 3 },
+            { x: 2004, y: 11 },
+            { x: 2006, y: 16 },
+            { x: 2008, y: 24 },
+            { x: 2010, y: 34 },
+            { x: 2012, y: 42 },
+            { x: 2014, y: 46 },
+            { x: 2016, y: 54 },
+            { x: 2018, y: 62 }
           ]
         }
       ]
