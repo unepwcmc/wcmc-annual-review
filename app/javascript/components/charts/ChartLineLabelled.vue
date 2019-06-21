@@ -112,11 +112,11 @@ export default {
     svgBackgroundColour () { return this.config.svgBackgroundColour },
     chartBackgroundColour () { return this.config.chartBackgroundColour },
 
-    backgroundHeight () {return this.config.height },
+    backgroundHeight () { return this.config.height },
 
-    chartHeight () {return this.backgroundHeight - this.chartPaddingTop - this.fontSize - this.chartPaddingBottom },
+    chartHeight () { return this.backgroundHeight - this.chartPaddingTop - this.fontSize - this.chartPaddingBottom - this.xAxisConfig.offset },
 
-    chartWidth () {return this.config.width - 2 * this.chartPaddingSides },
+    chartWidth () { return this.config.width - 2 * this.chartPaddingSides },
 
     chartPaddingLeft () { return AXIS_PADDING },
 
@@ -124,7 +124,7 @@ export default {
     chartPaddingTop () { return this.config.chartPaddingTop },
     chartPaddingBottom () { return this.config.chartPaddingBottom },
 
-    xAxisYDisplacement () { return this.chartHeight },
+    xAxisYDisplacement () { return this.chartHeight + this.xAxisConfig.offset },
 
     legendDatasets () {
       const legendDatasets = []

@@ -49,7 +49,8 @@ class HomeController < ApplicationController
         chartPaddingBottom: 50,
         chartBackgroundColour: '#31A0C9',
         x: {
-          totalTicks: 9 #NOTE! This would be the total number of datapoints
+          offset: 60,
+          totalTicks: 13
         },
         y: {
           showAxis: false
