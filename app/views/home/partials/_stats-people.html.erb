@@ -34,7 +34,7 @@
     </div>
   </div>
 
-  <div class="flex item-padding--bottom">
+  <div class="flex item-padding--top section-padding--bottom">
     <div class="section__chart breakpoint-medium-up">
       <chart-line-labelled 
         :lines="<%= @references[:data].to_json %>" 
@@ -42,7 +42,7 @@
       </chart-line-labelled>
     </div>
 
-    <div class="section__chart-stats gutter-left">
+    <div class="section__chart-stats">
       <p class="section__introduction no-margin--top"><%= data['activities_title'] %></p>
       <p class="section__text"><%= data['activities_intro'] %></p>
       

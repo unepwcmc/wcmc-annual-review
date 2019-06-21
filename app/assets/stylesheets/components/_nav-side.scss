@@ -1,5 +1,5 @@
 $side-nav-button-color: $white;
-$side-nav-label-color: $grey;
+$side-nav-label-color: rgba($grey, .8);
 
 @keyframes fadeInOut {
   0% { opacity: 0; }
@@ -25,6 +25,11 @@ $side-nav-label-color: $grey;
         &.nav__link--active > .nav__label,
         &:hover > .nav__label {
           animation: fadeInOut 2s 1 alternate;
+        }
+
+        &:hover > .nav__button {
+          background-color: $side-nav-label-color;
+          border-color: $side-nav-label-color;
         }
       }
         &__button {

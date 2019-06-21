@@ -149,9 +149,9 @@ $section-padding-bottom-mobile: 40px;
 $section-padding-bottom-tablet: 120px;
 $section-padding-bottom-desktop: 196px;
 
-$item-padding-mobile: 12px;
-$item-padding-tablet: 20px;
-$item-padding-desktop: 30px;
+$item-padding-mobile: 18px;
+$item-padding-tablet: 30px;
+$item-padding-desktop: 60px;
 
 @mixin gutters($sides:'both', $type:'padding') {
   $sides: if($sides == 'both', ('left', 'right'), ($sides));

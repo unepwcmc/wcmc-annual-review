@@ -7,6 +7,7 @@
 
 .section {
   &__introduction {
-    @include breakpoint($small) { width: 45%; }
+    @include breakpoint($small) { width: 70%; }
+    @include breakpoint($medium) { width: 50%; }
   }
 }

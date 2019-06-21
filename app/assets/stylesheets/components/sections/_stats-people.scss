@@ -38,8 +38,10 @@ $text-font-desktop: 25px;
   &__chart-stats {
     width: 100%;
     
-    @include breakpoint-down($small) { padding-left: 0; }
-    @include breakpoint($small) { width: 18%; }
+    @include breakpoint($medium) { 
+      padding-left: $gutter-large;
+      width: 33%; 
+    }
   }
 
   &__chart {
