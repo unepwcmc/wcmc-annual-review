@@ -1,9 +1,23 @@
+//--------------------------------------------------
+// settings
+//--------------------------------------------------
+$blockquote-padding-mobile: 26px;
+$blockquote-padding-tablet: 36px;
+$blockquote-padding-desktop: 50px;
+
+@mixin blockquote-top-padding () {
+  padding-top: $blockquote-padding-mobile;
+
+  @include breakpoint($small) { padding-top: $blockquote-padding-tablet; }
+  @include breakpoint($medium) { padding-top: $blockquote-padding-desktop; }
+}
+
 $blockquote-author-mobile: 14px;
 $blockquote-author-tablet: 14px;
 $blockquote-author-desktop: 18px;
 
-@mixin createQuote($quote) {
-  content: $quote;
+@mixin create-quote-mark($quote-mark) {
+  content: $quote-mark;
   color: lighten($grey-dark, 20%);
   font-size: 80px;
   font-weight: $fw-medium;
@@ -16,22 +30,25 @@ $blockquote-author-desktop: 18px;
   @include breakpoint($medium) { font-size: 250px; }
 }
 
+//--------------------------------------------------
+// classes
+//--------------------------------------------------
 .blockquote {
   &--quotes {
     .blockquote {
       &__quote {
+        @include blockquote-top-padding();
         margin-bottom: 24px;
-        padding-top: 50px;
         position: relative;
 
         &:before { 
-          @include createQuote('\201C');
+          @include create-quote-mark('\201C');
           top: 0;
           right: calc(100% + .15em); 
         }
 
         &:after { 
-          @include createQuote('\201D');
+          @include create-quote-mark('\201D');
           top: calc(100% - .25em);
           left: calc(100% - .3em);
         }
