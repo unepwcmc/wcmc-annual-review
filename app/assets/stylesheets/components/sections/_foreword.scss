@@ -1,14 +1,18 @@
 @include breakpoint($medium) {
   @include full-height();
   padding: 0;
+
+  display: flex;
 }
 
 .section {
   &__left {
-    width: 55%;
+    width: 100%; height: 184px;
+
+    @include breakpoint($small) { width: 55%; height: auto; }
   }
 
   &__right {
-    width: 45%;
+    @include breakpoint($small) { width: 45%; }
   }
 }

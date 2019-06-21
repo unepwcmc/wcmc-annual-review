@@ -36,7 +36,10 @@ $text-font-desktop: 25px;
     }
 
   &__chart-stats {
-    width: 28%;
+    width: 100%;
+    
+    @include breakpoint-down($small) { padding-left: 0; }
+    @include breakpoint($small) { width: 18%; }
   }
 
   &__chart {
@@ -57,38 +60,59 @@ $text-font-desktop: 25px;
     }
   }
 
-  &__circle {
-    @extend .flex-center; 
-    background-color: $primary-light;
-    border-radius: 100%;
-    width: 30%;
-    
-    position: relative;
+  &__circles {
+    flex-wrap: wrap;
+    justify-content: center;
 
-    &::after {
-      content: '';
-      padding-bottom: 100%;
-
-      display: block;
-    }
-
-    &-content {
-      @extend .flex-center;
-      
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
+    @include breakpoint($small) { 
+      flex-wrap: nowrap;
+      justify-content: space-around;
     }
   }
 
-  &__employee-intro { width: 33%; }
+    &__circle {
+      @extend .flex-center; 
+      background-color: $primary-light;
+      border-radius: 100%;
+      margin: 22px 0; 
+      width: 70%;
+      
+      position: relative;
+
+      @include breakpoint($small) { width: 30%; }
+
+      &::after {
+        content: '';
+        padding-bottom: 100%;
+
+        display: block;
+      }
+
+      &-content {
+        @extend .flex-center;
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+    }
+
+  &__employee-intro { 
+    width: 100%; 
+
+    @include breakpoint($small) { width: 33%; }
+  }
   
   &__employee-stats { 
-    width: 66%; 
+    width: 100%;
 
-    @include breakpoint($medium) { display: flex; }
+    @include breakpoint($small) { 
+      width: 66%;
+
+      display: flex; 
+    }
   }
 
     &__square {

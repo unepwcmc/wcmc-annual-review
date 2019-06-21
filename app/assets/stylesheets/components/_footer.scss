@@ -1,9 +1,10 @@
 .footer {
   flex-direction: column;
   justify-content: center;
-  height: 132px;
+  height: 110px;
 
   @include breakpoint($medium) {
+    height: 132px;
     align-content: center;
     flex-direction: row;
     justify-content: space-between;

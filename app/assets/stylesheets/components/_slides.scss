@@ -58,7 +58,7 @@ $slide-index-desktop: 28px;
       &__content {
         @include slide-font-size();
         background-color: $pink;
-        padding: calc(2 * #{$gutter-small}) $gutter-small;
+        padding: calc(1.5 * #{$gutter-small}) $gutter-small;
         
         display: flex;
         flex: 100%;

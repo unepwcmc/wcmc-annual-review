@@ -5,7 +5,7 @@
     <div class="section__map">MAP</div>
   </div>
 
-  <div class="flex flex-h-around item-padding--bottom">
+  <div class="section__circles flex item-padding--bottom">
     <% data['stats-totals'].each do |stat| %>
       <div class="section__circle">
         <div class="section__circle-content flex flex-column">
@@ -45,10 +45,12 @@
     <div class="section__chart-stats gutter-left">
       <p class="section__introduction no-margin--top"><%= data['activities_title'] %></p>
       <p class="section__text"><%= data['activities_intro'] %></p>
-
-      <% data['activities_legend'].each do |item| %>
-        <span class="legend--circle-<%= item['colour'] %>"><%= item['text'] %></span> 
-      <% end %>
+      
+      <p class="breakpoint-medium-up">
+        <% data['activities_legend'].each do |item| %>
+          <span class="legend--circle-<%= item['colour'] %>"><%= item['text'] %></span> 
+        <% end %>
+      </p>
     </div>
   </div>
 </div>

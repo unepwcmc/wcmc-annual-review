@@ -10,6 +10,8 @@ h2 {
 .section {
 
   &__introduction {
+    font-size: 16px;
+
     @include breakpoint($medium) { 
       font-size: 18px; 
       width: 50%;
@@ -33,19 +35,26 @@ h2 {
   }
     &__counter {
       color: $black;
-      font-size: 28px;
+      font-size: 18px;
       margin: 0 0 20px 0;
       padding: 0 30px;
-      width: 100%; height: 104px;
+      width: 100%; height: 62px;
 
-      @include breakpoint($medium) { justify-content: flex-end; }
+      @include breakpoint($medium) { 
+        font-size: 28px;
+        justify-content: flex-end; 
+        height: 104px;
+      }
     }
     
       &__counter-total { 
-        font-size: 50px; 
+        font-size: 25px; 
         font-weight: $fw-black;
 
-        @include breakpoint($medium) { justify-content: flex-end; }
+        @include breakpoint($medium) { 
+          font-size: 50px;
+          justify-content: flex-end; 
+        }
       }
 
 //--------------------------------------------------

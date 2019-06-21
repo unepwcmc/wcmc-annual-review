@@ -8,7 +8,9 @@
   &--project {
     padding: rem-calc(20 0 50 0); 
 
-    display: flex;
+    display: flex-wrap;
+
+    @include breakpoint($small) { display: flex; }
 
     &:nth-child(even) {
       .card__content-wrapper { 

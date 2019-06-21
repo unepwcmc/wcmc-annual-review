@@ -19,5 +19,9 @@ $logo-height-desktop: 50px;
     .footer & {
       @include breakpoint-between($small, $medium) { width: 223px; height: 51px; }
     }
+
+    .section--hero & {
+      width: 149px; height: 34px;
+    }
   }
 }

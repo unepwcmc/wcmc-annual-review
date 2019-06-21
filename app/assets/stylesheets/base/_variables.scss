@@ -86,12 +86,12 @@ $line-height-li: 1.5;
 $line-height-blockquote: 1.2;
 
 @mixin font-size($el) {
-  @if $el == 'h1' { font-size: 24px; }
-  @if $el == 'h2' { font-size: 20px; }
-  @if $el == 'h3' { font-size: 18px; }
+  @if $el == 'h1' { font-size: 50px; }
+  @if $el == 'h2' { font-size: 50px; }
+  @if $el == 'h3' { font-size: 25px; }
   @if $el == 'h4' { font-size: 16px; }
   @if $el == 'p' { font-size: 16px; }
-  @if $el == 'blockquote' { font-size: 20px; }
+  @if $el == 'blockquote' { font-size: 24px; }
 
   @include breakpoint($small) {
     @if $el == 'h1' { font-size: 50px; }
