@@ -4,8 +4,8 @@
 $padding-top-bottom: 25px;
 
 $padding-side-mobile: 16px;
-$padding-side-tablet: 22px;
-$padding-side-desktop: 70px;
+$padding-side-tablet: 16px;
+$padding-side-desktop: 48px;
 
 @mixin slide-padding() {
   padding-left: calc(#{$padding-side-mobile} + 10px);

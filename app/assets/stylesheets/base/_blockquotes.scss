@@ -2,8 +2,8 @@
 // settings
 //--------------------------------------------------
 $blockquote-padding-mobile: 26px;
-$blockquote-padding-tablet: 36px;
-$blockquote-padding-desktop: 50px;
+$blockquote-padding-tablet: 16px;
+$blockquote-padding-desktop: 40px;
 
 @mixin blockquote-top-padding () {
   padding-top: $blockquote-padding-mobile;
@@ -26,8 +26,8 @@ $blockquote-author-desktop: 18px;
   display: block;
   position: absolute; 
 
-  @include breakpoint($small) { font-size: 100px; }
-  @include breakpoint($medium) { font-size: 250px; }
+  @include breakpoint($small) { font-size: 80px; }
+  @include breakpoint($medium) { font-size: 170px; }
 }
 
 //--------------------------------------------------
