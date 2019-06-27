@@ -9,7 +9,7 @@
       <% data['income'].each do |i| %>
         <p class="section__counter flex flex-center bg-white">
           <span><%= i['year'] %>:</span>  
-          <span class="section__counter-total gutter-left"><%= number_to_currency(i['total'], :unit => "£", precision: 0) %></span>  
+          <span class="section__counter-total"><%= number_to_currency(i['total'], :unit => "£", precision: 0) %></span>  
         </p>
       <% end %>
 
@@ -19,7 +19,7 @@
       
     </div>
 
-    <div class="section__table-wrapper breakpoint-medium-up">
+    <div class="section__table-wrapper breakpoint-small-up">
       <% data['table'].each_with_index do |row, index| %>
         <% if (index == 0) %>
           <p class="flex no-margin">

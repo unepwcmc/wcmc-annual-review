@@ -48,6 +48,6 @@ h2 {
 
     &__header-content {
       text-align: center;
-      @includ breakpoint($small) { width: 50%; }
+      @include breakpoint($small) { width: 59%; }
     }
 }

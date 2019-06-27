@@ -32,29 +32,30 @@ h2 {
 
     @include breakpoint($medium) { 
       padding-right: $gutter-large;
-      width: 50%; 
+      width: 48%; 
     }
   }
     &__counter {
       color: $black;
       font-size: 18px;
       margin: 0 0 20px 0;
-      padding: 0 30px;
+      padding: 0 20px;
       width: 100%; height: 62px;
 
       @include breakpoint($medium) { 
-        font-size: 28px;
-        justify-content: flex-end; 
-        height: 104px;
+        font-size: 18px;
+        justify-content: flex-start; 
+        height: 80px;
       }
     }
     
       &__counter-total { 
         font-size: 25px; 
         font-weight: $fw-black;
+        margin-left: 10px;
 
         @include breakpoint($medium) { 
-          font-size: 50px;
+          font-size: 30px;
           justify-content: flex-end; 
         }
       }
@@ -65,7 +66,7 @@ h2 {
   &__table-wrapper {
     width: 100%;
 
-    @include breakpoint($medium) { width: 50%; }
+    @include breakpoint($medium) { width: 52%; }
   }
 
     &__table {
@@ -87,12 +88,12 @@ h2 {
       }
 
       &__table-text {
-        font-size: 20px;
+        font-size: 16px;
         font-weight: $bold;  
       }
 
       &__table-number {
-        font-size: 28px;
+        font-size: 20px;
         font-weight: $fw-medium;
       }
 }

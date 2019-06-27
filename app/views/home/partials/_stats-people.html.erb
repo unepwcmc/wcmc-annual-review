@@ -22,7 +22,7 @@
       <p class="section__introduction no-margin--top"><%= data['stats-staff']['title'] %></p>
       <p class="section__introduction"><%= data['stats-staff']['introduction'] %></p>
     </div>
-    <div class="section__employee-stats flex breakpoint-medium-up">
+    <div class="section__employee-stats flex flex-h-between flex-v-start breakpoint-medium-up">
       <% data['stats-staff']['stats'].each do |stat| %>
         <div class="section__square">
           <div class="section__square-content flex flex-column">

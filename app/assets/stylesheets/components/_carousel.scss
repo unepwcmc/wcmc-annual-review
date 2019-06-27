@@ -22,10 +22,27 @@ $padding-side-desktop: 70px;
   }
 }
 
+$indicator-height-mobile: 14px;
+$indicator-height-tablet: 14px;
+$indicator-height-desktop: 19px;
+
+@mixin indicator-height() {
+  margin-right: $indicator-height-mobile / 3;
+  width: $indicator-height-mobile; height: $indicator-height-mobile;
+
+  @include breakpoint($small) { 
+    margin-right: $indicator-height-tablet / 3;
+    width: $indicator-height-tablet; height: $indicator-height-tablet; }
+
+  @include breakpoint($medium) { 
+    margin-right: $indicator-height-desktop / 3;
+    width: $indicator-height-desktop; height: $indicator-height-desktop; 
+  }
+}
+
 $carousel-height: auto;
 $arrow-button-width: 0;
-$indicator-height: 14px;
-$indicator-row-height: $indicator-height + $padding-top-bottom * 2;
+$indicator-row-height: $indicator-height-desktop + $padding-top-bottom * 2;
 $transition-options: 0.6s ease-in-out;
 
 //--------------------------------------------------
@@ -67,11 +84,10 @@ $transition-options: 0.6s ease-in-out;
   }
 
     &__indicator {
+      @include indicator-height();
       background-color: rgba($grey, 0.4);
       border: none;
       border-radius: 50%;
-      margin-right: $indicator-height / 3;
-      width: $indicator-height; height: $indicator-height;
 
       display: inline-block;
 

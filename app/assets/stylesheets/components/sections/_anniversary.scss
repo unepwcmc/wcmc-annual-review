@@ -11,6 +11,6 @@
     &__header-content {
       text-align: center;
       
-      @include breakpoint($small) { width: 40%; }
+      @include breakpoint($small) { width: 59%; }
     }
 }
