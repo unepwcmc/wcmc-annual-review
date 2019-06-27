@@ -18,6 +18,7 @@ $background-image-text-desktop: 16px;
   position: absolute;
   bottom: 10px;
   left: 10px;
+  z-index: 1;
 
   @include breakpoint($small) { font-size: $background-image-text-tablet; }
   @include breakpoint($medium) { font-size: $background-image-text-desktop; }
