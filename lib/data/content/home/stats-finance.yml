@@ -1,4 +1,4 @@
-id: stats-finance
+ id: stats-finance
 title: Financial overview
 introduction: We welcomed a high-level delegation of China's National Forestry and Grassland Administration (NFGA), led by the Vice Administrator Peng Youdong, to discuss areas of mutual interest and opportunities for future collaboration. we welcomed a high-level delegation of China’s National Forestry and Grassland Administration (NFGA), led by the Vice Administrator.
 hero_title: Cat Tien National Park, Vietnam (dry season)
@@ -25,6 +25,6 @@ table:
     - 3698556
   -  
     - Surplus of deficit for period
-    - 179730
-    - 245861
+    - -179730
+    - -245861
 

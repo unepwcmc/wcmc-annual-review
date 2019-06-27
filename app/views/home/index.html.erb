@@ -17,17 +17,17 @@
 </section>
 
 <section 
-  id="section-<%= @highlights['id'] %>" 
-  class="section--highlights bg-grey-light gradient-right">
-
-  <%= render partial: 'home/partials/highlights', locals: { data: @highlights } %>
-</section>
-
-<section 
   id="section-<%= @projects['id'] %>" 
   class="section--projects">
 
   <%= render partial: 'home/partials/projects', locals: { data: @projects } %>
+</section>
+
+<section 
+  id="section-<%= @highlights['id'] %>" 
+  class="section--highlights bg-grey-light gradient-right">
+
+  <%= render partial: 'home/partials/highlights', locals: { data: @highlights } %>
 </section>
 
 <section 

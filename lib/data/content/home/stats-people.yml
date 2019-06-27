@@ -3,11 +3,6 @@ countries-total: 58
 countries-title: Number of Countries Worked with
 stats-totals:
   -
-    number: 65
-    icon:
-    title: Published papers
-    url: http://google.com
-  -
     number: 206
     icon:
     title: Live projects
@@ -15,8 +10,13 @@ stats-totals:
     number: 200
     icon:
     title: Funders & Partners
+  -
+    number: 65
+    icon:
+    title: Published papers
+    url: http://google.com
 stats-staff:
-  number: 145
+  number: 132
   title: Total number of staff
   introduction: 13 out of 118 of our permanent staff members started as interns
   stats: 
@@ -24,7 +24,7 @@ stats-staff:
       number: 17
       title: Paid interns
     -
-      number: 09
+      number: 9
       title: Students
     -
       number: 20
