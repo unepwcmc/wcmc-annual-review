@@ -2,9 +2,7 @@
 // settings
 //--------------------------------------------------
 @mixin hash-font-size() {
-  font-size: 100px;
-
-  @include breakpoint($small) { font-size: 200px; }
+  font-size: 200px;
   @include breakpoint($medium) { font-size: 400px; }
 }
 
@@ -12,18 +10,21 @@
 // classes
 //--------------------------------------------------
 h2 {
+  display: inline;
   position: relative;
 
   &::before {
     @include hash-font-size();
     content: '#';
-    color: rgba(white, 0.5);
+    color: rgba(white, 0.3);
 
     position: absolute;
     top: -.5em;
-    left: -10px;
+    left: -.27em;
   }
 }
+
+h3 { margin-top: 1.2em; } //because h2 needs to be inline to position hash responsively
 
 .section {
 
