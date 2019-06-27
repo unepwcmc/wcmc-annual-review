@@ -257,7 +257,7 @@ span { font-size: inherit; }
 .item-margin--bottom { @include item-padding(('bottom'), 'margin'); }
 .item-margin--sides { @include item-padding(('left', 'right'), 'margin');}
 
-.item-margin { @include item-padding((),'margin'); }
+.item-margin { @include item-padding(('all'),'margin'); }
 
 //--------------------------------------------------
 // helper classes

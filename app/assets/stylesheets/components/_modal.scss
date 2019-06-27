@@ -34,8 +34,8 @@ $modal-padding-desktop: $modal-button-desktop;
 
   &__dialog {
     @extend .item-center;
+    overflow-y: scroll;
     padding-top: $modal-padding-mobile;
-
     width: 100%; height: 100%;
 
     background-color: $white;
@@ -60,4 +60,21 @@ $modal-padding-desktop: $modal-button-desktop;
         @include modal-button-sizing($modal-button-desktop);
       }
     }
+
+    &__bg-image {
+      background-color: $grey;
+      margin-right: 0;
+      margin-left: 0;
+      width: 100%; height: 200px;
+    }
+
+    &__staff {
+      background-color: $grey-light;
+      border-bottom: solid $grey-dark 36px;
+    }
+
+      &__staff-image {
+        background-image: $grey;
+        width: 30%;
+      }
 }

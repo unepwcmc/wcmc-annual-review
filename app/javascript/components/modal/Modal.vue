@@ -7,9 +7,25 @@
           <span>X</span>
         </button>
         
-        <div class="container--medium">
-          <h3>{{ content.title }}</h3>
-          <p>{{ content.introduction }}</p>
+        <template v-for="section, index in content">
+          <div class="container--medium">
+            <h3 v-if="hasTitle(section)">{{ section.title }}</h3>
+            <p v-for="p in section.text">{{ p }}</p>
+          </div>
+
+          <div v-if="index == 0" class="modal__bg-image item-margin">
+            IMAGE
+          </div>
+        </template>
+        
+        <div class="modal__staff item-padding item-margin--top">
+          <div v-for="member in staff">
+            <image :src="member.image" :alt="'Profile image of #{member.name}'" class="modal__staff-image" />
+            <div>
+              <p><strong>{{ member.name }}<br>{{ member.job }}</strong></p>
+              <p>{{ member.text }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -45,8 +61,16 @@ export default {
       return 'modal-trigger-' + this.id
     },
 
-    content () {
+    data () {
       return this.$store.state.modal.content
+    },
+
+    content () {
+      return this.data.modal && this.data.modal.content ? this.data.modal.content : false
+    },
+
+    staff () {
+      return this.data.modal && this.data.modal.staff ? this.data.modal.staff : false
     }
   },
 
@@ -57,6 +81,10 @@ export default {
 
     closeModal () {
       this.toggleModal()
+    },
+
+    hasTitle (content) {
+      return content.title
     }
   }
 }
