@@ -16,12 +16,9 @@ $logo-height-desktop: 50px;
     @include breakpoint($small) { width: $logo-width-tablet; height: $logo-height-tablet; }
     @include breakpoint($medium) { width: $logo-width-desktop; height: $logo-height-desktop; }
 
-    .footer & {
-      @include breakpoint-between($small, $medium) { width: 223px; height: 51px; }
-    }
-
     .section--hero & {
       width: 149px; height: 34px;
+      @include breakpoint($medium) { width: 227px; height: 52px; }
     }
   }
 }

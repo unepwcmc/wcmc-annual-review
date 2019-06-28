@@ -15,11 +15,20 @@
     color: $white;
     margin-left: 20px;
     padding-left: 20px;
+
+    @include breakpoint($medium) { font-size: 28px; }
   }
 
   &__link {
+    margin-bottom: 0;
+
     @include breakpoint-between($small, $medium) { 
       margin: 10px 0 0 0;
+    }
+
+    @include breakpoint($medium) { 
+      align-self: center; 
+      margin: 0;
     }
   }
 }
