@@ -7,7 +7,7 @@ $dropdown-width: rem-calc(240);
   @include v-nav-height;
 
   &__logo {
-    @extend .sg-h3;
+    
   }
 
   &__select {
@@ -23,10 +23,8 @@ $dropdown-width: rem-calc(240);
   }
 
   &__burger {
-    @extend .sg-h3;
-
-    background-color: transparent;
-    border: $border-regular $grey;
+    @include button-basic();
+    @extend .icon--burger;
   }
 
   &__close {

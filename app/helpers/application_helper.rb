@@ -44,6 +44,14 @@ module ApplicationHelper
     link_to '', href, title: title, class: 'social__icon social__icon--twitter', target: '_blank'
   end
 
+  def create_sharing_linkedin_link
+    title = url_encode('Share ' + page_title + ' on LinkedIn')
+    url = encoded_home_url
+    href = 'https://www.linkedin.com/shareArticle?url=' + url
+
+    link_to '', href, title: title, class: 'social__icon social__icon--linkedin', target: '_blank'
+  end
+
   def create_sharing_email_link
     title = url_encode('Share ' + page_title + ' via Email')
     url = encoded_home_url

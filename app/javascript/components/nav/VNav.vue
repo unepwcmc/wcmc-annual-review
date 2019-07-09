@@ -16,7 +16,7 @@
 
     </div>
 
-    <button :id="mixinTriggerId" class="nav__burger hover--pointer" v-show="isBurgerNav" @click="openNavPane">=</button>
+    <button :id="mixinTriggerId" class="nav__burger hover--pointer" v-show="isBurgerNav" @click="openNavPane"></button>
 
   </nav>
 </template>

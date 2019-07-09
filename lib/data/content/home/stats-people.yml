@@ -1,21 +1,26 @@
 id: stats-people
+countries-icon: icons/globe-leaf.svg
 countries-total: 58
 countries-title: Number of Countries Worked with
+countries-image: content/map.svg
 stats-totals:
   -
     number: 206
     icon:
     title: Live projects
+    icon: icons/leaves.svg
   -
     number: 200
     icon:
     title: Funders & Partners
+    icon: icons/funders.svg
   -
     number: 65
     icon:
     title: Published papers
-    url: http://google.com
+    icon: icons/document.svg
 stats-staff:
+  icon: icons/collaboration.svg
   number: 132
   title: Total number of staff
   introduction: 13 out of 118 of our permanent staff members started as interns
@@ -23,12 +28,15 @@ stats-staff:
     -
       number: 17
       title: Paid interns
+      icon: icons/identification.svg
     -
       number: 9
       title: Students
+      icon: icons/cap.svg
     -
       number: 20
       title: Nationalities
+      icon: icons/globe.svg
 activities_title: "2018 UN Biodiversity Conference: references to us or activities we led (cumulative)"
 activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to our work, 8 of which were in decisions.
 activities_legend:

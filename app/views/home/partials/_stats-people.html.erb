@@ -1,14 +1,19 @@
 <div class="container--medium white">
-  <div class="flex flex-column section-padding--top item-margin--bottom section__map-wrapper gutters">
-    <p class="section__stat-number"><%= data['countries-total'] %></p>
+  <div class="flex flex-column item-padding--top item-margin--bottom section__map-wrapper gutters">
+    <p class="section__stat-number flex flex-v-center">
+      <%= image_tag data['countries-icon'], alt: 'Icon', class: 'section__stat-icon' %>
+      <%= data['countries-total'] %>
+    </p>
     <span class="section__stat-text"><%= data['countries-title'] %></span>
-    <div class="section__map">MAP</div>
+    
+    <%= image_tag data['countries-image'], alt: 'Infographic showing the countries UNEP-WCMC has worked with', class: 'section__map' %>
   </div>
 
   <div class="section__circles flex item-padding--bottom">
     <% data['stats-totals'].each do |stat| %>
       <div class="section__circle">
-        <div class="section__circle-content flex flex-column">
+        <div class="section__circle-content flex flex-column text-center">
+          <%= image_tag stat['icon'], alt: 'Icon', class: 'section__circle-icon' %>
           <p class="section__stat-number"><%= stat['number'] %></p>
           <span class="section__stat-text"><%= stat['title'] %></span>
         </div>
@@ -18,7 +23,10 @@
 
   <div class="flex item-padding--bottom">
     <div class="section__employee-intro">
-      <p class="section__stat-number no-margin"><%= data['stats-staff']['number'] %></p>
+      <p class="section__stat-number no-margin flex flex-v-center">
+        <%= image_tag data['stats-staff']['icon'], alt: 'Icon', class: 'section__stat-icon' %>
+        <%= data['stats-staff']['number'] %>
+      </p>
       <p class="section__introduction no-margin--top"><%= data['stats-staff']['title'] %></p>
       <p class="section__introduction"><%= data['stats-staff']['introduction'] %></p>
     </div>
@@ -26,6 +34,7 @@
       <% data['stats-staff']['stats'].each do |stat| %>
         <div class="section__square">
           <div class="section__square-content flex flex-column">
+            <%= image_tag stat['icon'], alt: 'Icon', class: 'section__square-icon' %>
             <p class="section__stat-number"><%= stat['number'] %></p>
             <span class="section__stat-text"><%= stat['title'] %></span>
           </div>

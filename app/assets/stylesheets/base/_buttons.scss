@@ -1,6 +1,16 @@
 //--------------------------------------------------
 // settings
 //--------------------------------------------------
+@mixin button-basic {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  padding: 0;
+
+  &:hover { text-decoration: none; }
+}
+
 $button-text-mobile: 20px;
 $button-text-tablet: 25px;
 $button-text-desktop: 30px;
@@ -44,6 +54,8 @@ $button-padding-desktop: 16px 24px;
   }
 
   &--internal {
+    @include flex();
+    @include flex-v-center();
     @include button-font-size();
     background-color: transparent;
     border: 0;
@@ -53,6 +65,14 @@ $button-padding-desktop: 16px 24px;
     padding: 0;
 
     &:hover { color: lighten($primary, 10%); }
+
+    &::after {
+      @extend .icon--arrow-right;
+      content: '';
+      margin-left: 20px;
+      
+      display: block;
+    }
   }
 
   &--subtle {

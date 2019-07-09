@@ -1,0 +1,34 @@
+//--------------------------------------------------
+// mixins
+//--------------------------------------------------
+@mixin icon-basic() {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+//--------------------------------------------------
+// classes
+//--------------------------------------------------
+.icon {
+  &--arrow-down {
+    @include icon-basic();
+    background-image: image-url('icons/arrow-down.svg');
+    width: 28px; height: 41px;
+  }
+
+  &--arrow-right {
+    @include icon-basic();
+    background-image: image-url('icons/arrow-black.svg');
+    width: 21px; height: 29px;
+    
+    transform-origin: center;
+    transform: rotate(-90deg);
+  }
+
+  &--burger {
+    @include icon-basic();
+    background-image: image-url('icons/burger.svg');
+    width: 60px; height: 50px;
+  }
+}
