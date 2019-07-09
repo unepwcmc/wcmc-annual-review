@@ -8,7 +8,7 @@ $background-image-text-desktop: 16px;
 @mixin background-image($filepath) {
   background-image: image-url(#{$filepath});
   background-size: cover;
-  background-position: bottom;
+  background-position: bottom center;
 }
 
 .bg-image__caption {

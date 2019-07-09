@@ -134,12 +134,12 @@
 
 .bg-black-transparent { background-color: rgba($black, .66); }
 
-.bg-image-overlay {
+@mixin overlay($color) {
   position: relative;
   z-index: 1;
 
   &:before {
-    background-color: rgba(black, 0.4);
+    background-color: $color;
     content: '';
     position: absolute;
     top: 0;
@@ -148,6 +148,14 @@
     left: 0;
     z-index: -1;
   }
+}
+
+.bg-image-overlay {
+  @include overlay(rgba(black, 0.4));
+}
+
+.bg-image-overlay--blue {
+  @include overlay(rgba($primary, 0.77));
 }
 
 //--------------------------------------------------

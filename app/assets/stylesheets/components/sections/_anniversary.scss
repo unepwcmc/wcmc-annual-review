@@ -1,3 +1,5 @@
+@include background-image('hero/the-centre.png');
+
 @include breakpoint($medium) {
   @include full-height();
   padding: 0;
