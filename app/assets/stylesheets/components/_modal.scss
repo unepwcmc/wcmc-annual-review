@@ -46,6 +46,7 @@ $modal-padding-desktop: $modal-button-desktop;
 
     &__close {
       @include modal-button-sizing($modal-button-mobile);
+      @extend .icon--cross;
       background-color: $grey-dark;
       border-radius: 100%;
       cursor: pointer;

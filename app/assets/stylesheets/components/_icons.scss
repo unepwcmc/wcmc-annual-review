@@ -31,4 +31,11 @@
     background-image: image-url('icons/burger.svg');
     width: 60px; height: 50px;
   }
+
+  &--cross {
+    @include icon-basic();
+    @include responsive-styles('width', 27px, 40px, 40px);
+    @include responsive-styles('height', 27px, 40px, 40px);
+    background-image: image-url('icons/cross.svg');
+  }
 }

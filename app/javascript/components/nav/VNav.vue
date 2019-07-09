@@ -1,9 +1,10 @@
 <template>
   <nav aria-label="site-nav">
 
-    <div :id="mixinModalId" class="nav__item-container flex" :class="navType">
+    <div :id="mixinModalId" class="nav__item-container flex flex-v-center" :class="navType">
 
-      <button id="close-nav-pane" class="nav__close hover--pointer" v-show="isBurgerNav" @click="closeNavPane">X</button>
+      <button id="close-nav-pane" class="nav__close hover--pointer" v-show="isBurgerNav" @click="closeNavPane"></button>
+
       <ul role="menubar" class="nav__items ul--unstyled flex">
         <li role="none" class="nav__item relative" v-for="page in pages" :key="page.id">
           

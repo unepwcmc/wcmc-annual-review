@@ -119,6 +119,13 @@ $small: 720px;
 $medium: 1024px;
 $large: 1708px;
 
+@mixin responsive-styles ($property, $mobile, $tablet, $laptop) {
+  #{$property}: $mobile;
+  
+  @include breakpoint($small) { #{$property}: $tablet; }
+  @include breakpoint($medium) { #{$property}: $laptop; }
+}
+
 //--------------------------------------------------
 // z-indices
 //--------------------------------------------------

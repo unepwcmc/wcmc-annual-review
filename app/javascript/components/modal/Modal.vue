@@ -3,9 +3,7 @@
     <div role="dialog" aria-modal="true" class="modal__dialog">
 
       <div class="modal__content">
-        <button class="button--close modal__close" @click="closeModal">
-          <span>X</span>
-        </button>
+        <button class="modal__close" @click="closeModal"></button>
         
         <template v-for="section, index in content">
           <div class="container--medium">
