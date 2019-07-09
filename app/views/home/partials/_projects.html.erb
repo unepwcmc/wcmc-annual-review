@@ -11,7 +11,11 @@
 
 <div class="container--medium cards--projects section-padding--top">
   <% data['collection'].each_with_index do |project, index| %>
-    <div class="card--project">
+    <div class="card--project section-padding--bottom">
+      <div class="card__image-wrapper">
+        <%= image_tag project['image'], class: 'card__image' %>
+      </div>
+
       <div class="card__content-wrapper">
         <span class="card__index"><%= index + 1 %> of <%= data['collection'].length %></span>
         <h3><%= project['title'] %></h3>
@@ -25,8 +29,6 @@
           <modal-trigger id="<%= project['id'] %>" class="button--internal" :modal-content="<%= project.to_json %>">Read more</modal-trigger>
         <% end %>
       </div>
-
-      <div class="card__image-wrapper"></div>
     </div>
   <% end %>
 </div>

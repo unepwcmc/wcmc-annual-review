@@ -1,19 +1,20 @@
 .cards {
   &--projects {
-
+    
   }
 }
 
 .card {
   &--project {
-    padding: rem-calc(20 0 50 0); 
-
     display: flex-wrap;
 
-    @include breakpoint($small) { display: flex; }
+    @include breakpoint($small) { 
+      justify-content: space-between;
+      display: flex; 
+    }
 
-    &:nth-child(even) {
-      .card__content-wrapper { 
+    &:nth-child(odd) {
+      .card__image-wrapper { 
         @include breakpoint($small) { order: 1; }
       }
     }
@@ -23,7 +24,7 @@
         font-size: 18px;
         flex: 100%;
         
-        @include breakpoint($small) { flex: 0 1 50%; }
+        @include breakpoint($small) { flex: 0 1 47%; }
       }
         &__content {
           padding: rem-calc(14 0 20 0);
@@ -41,7 +42,9 @@
         text-align: center;
 
         @include breakpoint($small) { 
-          flex: 0 1 50%;
+          display: flex;
+          align-items: center;
+          flex: 0 0 47%;
         }
       }
 
