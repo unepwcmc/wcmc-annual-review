@@ -5,9 +5,13 @@
       <div class="modal__content">
         <button class="modal__close" @click="closeModal"></button>
         
+        <div class="container--small">
+          <h3>{{ data.title }}</h3>
+        </div>
+
         <template v-for="section, index in content">
-          <div class="container--medium">
-            <h3 v-if="hasTitle(section)">{{ section.title }}</h3>
+          <div class="container--small">
+            <h4 v-if="hasTitle(section)">{{ section.title }}</h4>
             <p v-for="p in section.text">{{ p }}</p>
           </div>
 
@@ -17,10 +21,10 @@
         </template>
         
         <div class="modal__staff item-padding item-margin--top">
-          <div v-for="member in staff">
-            <image :src="member.image" :alt="'Profile image of #{member.name}'" class="modal__staff-image" />
+          <div v-for="member in staff" class="flex">
+            <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
             <div>
-              <p><strong>{{ member.name }}<br>{{ member.job }}</strong></p>
+              <p class="no-margin"><strong>{{ member.name }}<br>{{ member.job }}</strong></p>
               <p>{{ member.text }}</p>
             </div>
           </div>

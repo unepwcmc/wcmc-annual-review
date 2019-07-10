@@ -138,10 +138,8 @@ span { font-size: inherit; }
 
 .sg-h4 {
   @include font-size('h4');
-  color: $primary;
   font-weight: $font-weight-h4;
   line-height: $line-height-h;
-  text-transform: uppercase;
 }
 
 .sg-p {
@@ -174,6 +172,11 @@ span { font-size: inherit; }
   @include breakpoint($large){ width: $site-width; }
 }
 
+.site-width-small {
+  @include breakpoint($small){ width: $site-width-small-tablet; }
+  @include breakpoint($medium){ width: $site-width-small-desktop; }
+}
+
 .site-width-medium {
   @include breakpoint($small){ width: $site-width-medium-tablet; }
   @include breakpoint($medium){ width: $site-width-medium-desktop; }
@@ -196,6 +199,11 @@ span { font-size: inherit; }
 .container {
   @extend .site-width;
   @extend %container;
+
+  &--small {
+    @extend .site-width-small;
+    @extend %container;
+  }
 
   &--medium {
     @extend .site-width-medium;

@@ -27,7 +27,7 @@ collection:
       staff:
         -
           name: Dr Naomi Kingston
-          image: 
+          image: /content/images/profile/naomi-kingston.jpg
           job: Head of Programme, Conserved Landscapes and Seascapes Programme 
           text: Naomi leads our work on protected and conserved areas, the marine environment, and knowledge management. This includes delivering high-quality, relevant information on the natural world to decision makers at all levels, as well as strengthening the knowledge base for national environmental policies and tracking global targets. Before joining us Naomi worked for 10 years as Biodiversity Informatics Manager for the Irish Government. She has also worked in academia and consultancy, and has a PhD in Conservation Biology.
   -
@@ -52,7 +52,7 @@ collection:
       staff:
         -
           name: Dr Eugenie Regan
-          image: 
+          image: /content/images/profile/eugenie-regan.jpg
           job: Manager - Integrated Biodiversity Assessment Tool (IBAT)
           text: Eugenie has managed IBAT on behalf of UNEP-WCMC, BirdLife International, IUCN, and Conservation International since 2017. IBAT brings together the World Database on Protected Areas, the World Database of Key Biodiversity Areas, and the IUCN Red List of Threatened Species with tools for their analysis. Eugenie has over 20 years’ of experience and has worked in the private sector, for government, and for international NGOs at the local, national, and international level. Her expertise spans biodiversity data management, entomology, and business administration.
   -
@@ -102,7 +102,7 @@ collection:
       staff:
         -
           name: Dr Katie Leach
-          image: 
+          image: /content/images/profile/katie-leach.jpg
           job: Senior Programme Officer, Business and Biodiversity Programme
           text: Katie supports the sustainability efforts of our private sector partners, as well as their influencers, by drawing on both our scientific and technical work. Crucially, this includes helping companies, governments and financial institutions understand how they impact, and depend upon, nature. She became part of our team after graduating with a PhD in Biological Sciences in 2015 during which she used a variety of modelling techniques to explore species’ responses to climate change.
   -
@@ -125,7 +125,7 @@ collection:
       staff:
         -
           name: Dr Steven King
-          image: 
+          image: /content/images/profile/steven-king.jpg
           job: Environmental Economist, Ecosystem Assessment and Policy Support
           text: Steven works to make nature a critical component of national decision-making across the world. He does so through a series of initiatives that integrate the values of nature into plans for sustainable economic development, and capture those values in national accounting systems. Before joining us in 2014 he’d gained nearly ten years’ experience as a consultant in the construction and transport industries, providing advice on contaminated land assessment and pollution abatement. He’d also just completed his PhD in Management Science and brings all this experience to bear when advising on economic aspects of a wide variety of our projects.
   -
@@ -145,7 +145,7 @@ collection:
       staff:
         -
           name: Charlotte Hicks
-          image: 
+          image: /content/images/profile/charlotte-hicks.jpg
           job: Senior Technical Officer, Climate Change and Biodiversity Programme
           text: Charlotte has been part of our team since 2013, helping decision makers with biodiversity and climate change policy. This has included understanding how different habitats can help us adapt to climate change, and how Reducing Emissions from Deforestation and forest Degradation (REDD+) can deliver additional benefits. She has an academic background in international relations, political science and Chinese studies, and professional experience ranging from the World Bank to the International Union for Conservation of Nature.
   -
@@ -170,7 +170,7 @@ collection:
       staff:
         -
           name: Lauren Weatherdon
-          image: 
+          image:
           job: Senior Programme Officer, Conserved Landscapes and Seascapes Programme
           text: First joining us as an Assistant Programme Officer in 2014, Lauren now manages a range of projects that focus on life in the ocean and the services they provide. As part of her role, she leads the development of digital knowledge products that help increase access to ocean biodiversity and spatial data. She has a background in geography, fisheries science, and communications, and is passionate about creating tools and products that bring the best data and information to decision makers around the world.
   -
@@ -190,6 +190,6 @@ collection:
       staff:
         - 
           name: Philip Bubb
-          image: 
+          image: /content/images/profile/philip-bubb.jpg
           job: Senior Programme Officer, Ecosystem Assessment and Policy Support Programme
           text: Philip helps countries around the world to create and use indicators to measure changes in nature, and to include the value of nature in decision-making. Part of our team since 2002, he is skilled in designing and running projects and workshops involving multiple partners across countries in Africa, Asia, Europe and Latin America. Before joining us he led community-based forest conservation work in southern Mexico and had gained a degree in Ecology as well as a Master’s in Resource Management.
