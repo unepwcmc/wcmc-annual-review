@@ -1,9 +1,5 @@
 @include background-image('hero/dry-season-cat-tien-national-park.jpg');
-
-@include breakpoint($medium) {
-  @include full-height();
-  padding: 0;
-}
+@include full-height();
 
 h2 {
   color: $white;
@@ -20,80 +16,71 @@ h2 {
     }
   }
 
-  &__column-wrapper {
-    @include breakpoint($medium) { flex-wrap: nowrap; }
+  &__stats {
+    @include responsive-styles(padding-top, $gutter-small, $gutter-medium, $gutter-large);
+    @include responsive-styles(padding-bottom, $gutter-small, $gutter-medium, $gutter-large);
   }
-
-//--------------------------------------------------
-// column left
-//--------------------------------------------------
-  &__counter-wrapper {
-    width: 100%;
-
-    @include breakpoint($medium) { 
-      padding-right: $gutter-large;
-      width: 48%; 
-    }
-  }
-    &__counter {
-      color: $black;
-      font-size: 18px;
-      margin: 0 0 20px 0;
-      padding: 0 20px;
-      width: 100%; height: 62px;
-
-      @include breakpoint($medium) { 
-        font-size: 18px;
-        justify-content: flex-start; 
-        height: 80px;
-      }
-    }
     
-      &__counter-total { 
-        font-size: 25px; 
-        font-weight: $fw-black;
-        margin-left: 10px;
-
-        @include breakpoint($medium) { 
-          font-size: 30px;
-          justify-content: flex-end; 
-        }
-      }
-
-//--------------------------------------------------
-// column right
-//--------------------------------------------------  
-  &__table-wrapper {
-    width: 100%;
-
-    @include breakpoint($medium) { width: 52%; }
-  }
-
-    &__table {
-      margin-bottom: 32px;
-      padding: 10px;
+    &__counters {
+    
     }
-
-      &__table-cell-header {
-        padding: 0 16px;
-        width: 33%;
-      }
-
-      &__table-cell {
-        padding: 0 16px;
-        width: 33%; height: 111px;
-
-        &:nth-child(1),
-        &:nth-child(2) { border-right: solid 1px $grey-dark; }
-      }
-
-      &__table-text {
-        font-size: 16px;
-        font-weight: $bold;  
-      }
-
-      &__table-number {
-        font-size: 20px;
+      &__counter-title {
+        @include responsive-styles(font-size, 20px, 28px, 28px);
         font-weight: $fw-medium;
       }
+
+      &__counter {
+        color: $black;
+        font-size: 18px;
+        font-weight: $fw-medium;
+        margin: 0 0 20px 0;
+        padding: 0 20px;
+        width: 100%; height: 62px;
+
+        @include breakpoint($medium) { 
+          font-size: 18px;
+          justify-content: flex-start; 
+          height: 80px;
+        }
+      }
+      
+        &__counter-total { 
+          font-size: 25px; 
+          font-weight: $fw-black;
+          margin-left: 20px;
+
+          @include breakpoint($medium) { 
+            font-size: 30px;
+            justify-content: flex-end; 
+          }
+        }
+
+    &__table {
+        @include responsive-styles(padding, 4px, 10px, 10px);
+      }
+
+        &__table-cell-header {
+          @include responsive-styles(font-size, 16px, 20px, 20px);
+          @include responsive-styles(padding, 0 6px 6px 6px, 0 16px 16px, 0 16px 16px 16px);
+          font-weight: $fw-medium;
+          width: 33%;
+        }
+
+        &__table-cell {
+          @include responsive-styles(padding, 24px 6px, 0 16px, 0 16px);
+          @include responsive-styles(height, auto, 111px, 111px);
+          width: 33%;
+
+          &:nth-child(1),
+          &:nth-child(2) { border-right: solid 1px $grey-dark; }
+        }
+
+        &__table-text {
+          @include responsive-styles(font-size, 14px, 16px, 16px);
+          font-weight: $bold;  
+        }
+
+        &__table-number {
+          @include responsive-styles(font-size, 16px, 20px, 20px);
+        }
 }

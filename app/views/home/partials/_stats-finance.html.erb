@@ -1,46 +1,43 @@
-<div class="container--medium section-padding--top">
+<div class="container--medium">
   <h2 class="heading--small"><%= data['title'] %></h2>
   <p class="section__introduction"><%= data['introduction'] %></p>
+</div>
 
-  <div class="section__column-wrapper bg-black-transparent gutters flex flex-wrap">
-    <div class="section__counter-wrapper">
-      <p class="section__heading">Total Income</p>
+<div class="section__stats container--small bg-black-transparent gutters item-margin--top item-margin--bottom">
+  <p class="section__counter-title no-margin--top">Total Income</p>
+  
+  <div class="item-padding--bottom">
+    <% data['income'].each do |i| %>
+      <p class="section__counter flex flex-center bg-white">
+        <span><%= i['year'] %>:</span>  
+        <span class="section__counter-total"><%= number_to_currency(i['total'], :unit => "£", precision: 0) %></span>  
+      </p>
+    <% end %>
 
-      <% data['income'].each do |i| %>
-        <p class="section__counter flex flex-center bg-white">
-          <span><%= i['year'] %>:</span>  
-          <span class="section__counter-total"><%= number_to_currency(i['total'], :unit => "£", precision: 0) %></span>  
-        </p>
-      <% end %>
+    <p class="section__counter flex flex-center bg-green">
+      <span class="section__counter-total">00??</span>  
+    </p>
+  </div> 
+  
 
-      <p class="section__counter flex flex-center bg-green">
-        <span class="section__counter-total">00??</span>  
-      </p>  
-      
-    </div>
+  <% data['table'].each_with_index do |row, index| %>
+    <% if (index == 0) %>
+      <p class="flex no-margin">
+        <span class="section__table-cell-header flex-inline flex-v-center"><%= row[0] %></span>
+        <span class="section__table-cell-header flex-inline flex-v-center section__heading"><%= row[1] %></span>
+        <span class="section__table-cell-header flex-inline flex-v-center section__heading"><%= row[2] %></span>
+      </p>
 
-    <div class="section__table-wrapper breakpoint-small-up">
-      <% data['table'].each_with_index do |row, index| %>
-        <% if (index == 0) %>
-          <p class="flex no-margin">
-            <span class="section__table-cell-header flex-inline flex-v-center"><%= row[0] %></span>
-            <span class="section__table-cell-header flex-inline flex-v-center section__heading"><%= row[1] %></span>
-            <span class="section__table-cell-header flex-inline flex-v-center section__heading"><%= row[2] %></span>
-          </p>
+      <div class="section__table bg-black-transparent">
 
-          <div class="section__table bg-black-transparent">
-
-        <% else %>
-          <div class="flex">
-            <span class="section__table-cell flex-inline flex-v-center section__table-text"><%= row[0] %></span>
-            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%=  number_to_currency(row[1], :unit => "£", precision: 0) %></span>
-            <span class="section__table-cell flex-inline flex-v-center section__table-number"><%=  number_to_currency(row[2], :unit => "£", precision: 0) %></span>
-          </div>
-        <% end %>
-      <% end %>
+    <% else %>
+      <div class="flex">
+        <span class="section__table-cell flex-inline flex-v-center section__table-text"><%= row[0] %></span>
+        <span class="section__table-cell flex-inline flex-v-center section__table-number"><%=  number_to_currency(row[1], :unit => "£", precision: 0) %></span>
+        <span class="section__table-cell flex-inline flex-v-center section__table-number"><%=  number_to_currency(row[2], :unit => "£", precision: 0) %></span>
       </div>
-    </div>
-  </div>
+    <% end %>
+  <% end %>
 </div>
 
 <%= render partial: 'home/shared/caption/', locals: { title: data['hero_title'], credit: data['hero_credit'] } %>
