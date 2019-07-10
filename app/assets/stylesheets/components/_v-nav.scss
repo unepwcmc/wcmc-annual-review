@@ -42,9 +42,10 @@ $pane-side-padding: 42px;
     @include button-basic();
     @extend .icon--cross;
 
+    @include responsive-styles('top', $gutter-small, $gutter-medium, $gutter-large);
+    @include responsive-styles('right', $gutter-small, $gutter-medium, $gutter-large);
+
     position: absolute;
-    top: $gutter-large;
-    right: $gutter-large;
     z-index: 1;
   }
 
