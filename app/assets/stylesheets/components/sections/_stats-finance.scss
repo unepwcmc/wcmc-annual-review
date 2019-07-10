@@ -1,5 +1,5 @@
 @include background-image('hero/dry-season-cat-tien-national-park.jpg');
-@include full-height();
+@include min-full-height();
 
 h2 {
   color: $white;

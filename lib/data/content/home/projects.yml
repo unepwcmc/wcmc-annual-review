@@ -79,7 +79,7 @@ collection:
       staff:
         -
           name: Hazel Thornton
-          image: 
+          image: /content/images/profile/hazel-thornton.jpg
           job: Programme Officer, Conserved Landscapes and Seascapes
           text: Hazel manages and provides technical and scientific input to a range of projects, specialising in the science-policy interface of marine and coastal ecosystem restoration. Before joining us as an intern in 2015, she was involved in island-based conservation in the Mediterranean and Caribbean, working with local fishing communities in the Eastern Aegean to understand pressures on seagrass meadows, and surveying of coral reefs and tropical forests in Montserrat to understand health, extent and pressures. Hazel has a BSc in Biological Sciences.
   -
@@ -177,7 +177,7 @@ collection:
       staff:
         -
           name: Lauren Weatherdon
-          image:
+          image: /content/images/profile/lauren-weatherdon.jpg
           job: Senior Programme Officer, Conserved Landscapes and Seascapes Programme
           text: First joining us as an Assistant Programme Officer in 2014, Lauren now manages a range of projects that focus on life in the ocean and the services they provide. As part of her role, she leads the development of digital knowledge products that help increase access to ocean biodiversity and spatial data. She has a background in geography, fisheries science, and communications, and is passionate about creating tools and products that bring the best data and information to decision makers around the world.
   -
