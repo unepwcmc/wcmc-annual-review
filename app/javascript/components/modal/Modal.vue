@@ -12,7 +12,7 @@
         <template v-for="section, index in content">
           <div class="container--small">
             <h4 v-if="hasTitle(section)">{{ section.title }}</h4>
-            <p v-for="p in section.text">{{ p }}</p>
+            <p v-for="p in section.text" v-html="p"></p>
           </div>
 
           <div v-if="index == 0" class="modal__bg-image item-margin--top item-margin--bottom" :style="{ 'background-image': `url(${data.modal.image})` }"></div>

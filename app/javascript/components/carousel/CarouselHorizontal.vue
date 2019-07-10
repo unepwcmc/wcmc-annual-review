@@ -5,8 +5,7 @@
         <div class="slide__image" :style="{ 'background-image': `url(${slide.image})` }"></div>
         <div class="slide__content">
           <h3 class="slide__title">{{ slide.title }}</h3>
-          <p class="slide__introduction">{{ slide.introduction }}</p>
-
+          <p v-for="p in slide.introduction" v-html="p" class="slide__introduction"></p>
           <span class="slide__index">{{ index + 1 }} of {{ totalSlides }}</span>
         </div>
       </div>
