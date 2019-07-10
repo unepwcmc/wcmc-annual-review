@@ -12,6 +12,7 @@ collection:
     introduction: 
       - In November 2018 we joined with the International Union for Conservation of Nature (IUCN) and National Geographic to launch Protected Planet Live, a portal into the very latest information on protected areas around the globe.
     modal:
+      image: /content/images/modal/seagrass.png
       content:
         -
           title: What is Protected Planet?
@@ -36,7 +37,8 @@ collection:
     image: content/project-ibat.png
     introduction: 
       - The Integrated Biodiversity Assessment Tool (IBAT) allows business to view and analyse some of the world’s most authoritative global biodiversity information. Recently, the International Olympic Committee has signed up, using it to screen potential host cities.
-    modal: 
+    modal:
+      image: /content/images/modal/seagrass.png 
       content:
         - 
           title: What is IBAT?
@@ -62,6 +64,7 @@ collection:
     introduction:
       - The oceans and coastal habitats provide us with food, protect us from extreme weather, and soak up carbon. They’re facing increasing pressures around the world, however, so we’re working throughout Europe to help restore these valuable environments. 
     modal:
+      image: /content/images/modal/seagrass.png
       content:
         -
           text: 
@@ -86,6 +89,7 @@ collection:
     introduction: 
       - Business are central to reversing the decline of nature. However, in the past it has been difficult for them to fully understand their relationship with the environment and biodiversity. In November we therefore joined with the Natural Capital Finance Alliance to launch ENCORE, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors on nature.
     modal:
+      image: /content/images/modal/seagrass.png
       content:
         -
           title: What is ENCORE?
@@ -112,6 +116,7 @@ collection:
     introduction: 
       - The natural world is critical to Uganda’s economy and the wellbeing of its people, providing essential support for food security, tourism, and livelihoods around the country. Traditional ways of looking at economic progress, however, can neglect or exclude the values that nature provides. We therefore worked with partners to identify and highlight trends in the ‘stocks’ of several of Uganda’s biodiversity-related natural resources - with concrete consequences for the Shea nut.
     modal:
+      image: /content/images/modal/seagrass.png
       content:
         -
           text:
@@ -135,6 +140,7 @@ collection:
     introduction: 
       - Escalating climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating and implementing solutions. Last year we helped Viet Nam to take a key step and become one of the first countries to complete a fundamental part of preparing for REDD+. It is now eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation.
     modal:
+      image: /content/images/modal/seagrass.png
       content:
         -
           text:
@@ -155,6 +161,7 @@ collection:
     introduction: 
       - The ocean covers 70% of the planet, regulating our weather, storing carbon, and providing us with food. It is threatened, however, by a wide range of pressures including climate change, overharvesting, pollution, and development. In 2018 we therefore launched Ocean+ - a portal into ocean data that makes it as easy as possible for decision makers to understand and account for the ocean’s value.
     modal:
+      image: /content/images/modal/seagrass.png
       content:
         -
           title: What is Ocean+?
@@ -180,6 +187,7 @@ collection:
     introduction: 
       - All countries that have signed up to the Convention on Biological Diversity have to report on their progress on implementing the Convention. Compiling relevant information to measure progress is, however, often a challenge. We therefore joined with NatureServe to launch the Biodiversity Indicators Partnership (BIP) Dashboard last November, bringing key biodiversity measurements to life and helping governments measure impact and progress. 
     modal:
+      image: /content/images/modal/seagrass.png
       content:
         -
           text: 

@@ -15,13 +15,11 @@
             <p v-for="p in section.text">{{ p }}</p>
           </div>
 
-          <div v-if="index == 0" class="modal__bg-image item-margin">
-            IMAGE
-          </div>
+          <div v-if="index == 0" class="modal__bg-image item-margin--top item-margin--bottom" :style="{ 'background-image': `url(${data.modal.image})` }"></div>
         </template>
         
         <div class="modal__staff item-padding item-margin--top">
-          <div v-for="member in staff" class="flex">
+          <div v-for="member in staff" class="modal__staff-member flex">
             <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
             <div>
               <p class="no-margin"><strong>{{ member.name }}<br>{{ member.job }}</strong></p>

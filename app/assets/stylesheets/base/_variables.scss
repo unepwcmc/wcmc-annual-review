@@ -89,7 +89,7 @@ $line-height-blockquote: 1.2;
   @if $el == 'h1' { font-size: 46px; }
   @if $el == 'h2' { font-size: 50px; }
   @if $el == 'h3' { font-size: 25px; }
-  @if $el == 'h4' { font-size: 16px; }
+  @if $el == 'h4' { font-size: 20px; }
   @if $el == 'p' { font-size: 16px; }
   @if $el == 'blockquote' { font-size: 18px; }
 
