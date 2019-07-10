@@ -22,6 +22,9 @@ collection:
           title: What is our role?
           text:
             - We manage both Protected Planet, with support from IUCN and its World Commission on Protected Areas, and the WDPA, a joint product of UN Environment and IUCN.
+        -
+          title: What is our impact?
+          text: 
             - Since 2010 it has been a global goal to secure 17% of the land and 10% of the ocean in networks of effective protected areas.
             - In November we launched Protected Planet Live with IUCN and National Geographic to ensure the very latest information on progress towards this ambition is widely available. 
             - ProtectedPlanet Live shows progress on global coverage and also identifies where gaps and opportunities remain for strengthening the coverage of protected and conserved areas – and it’s good news! There has been excellent progress towards the global targets of 17% terrestrial and 10% marine coverage of protected areas. The next challenge is scaling up area-based conservation and ensuring those areas are effective.
@@ -48,6 +51,9 @@ collection:
           title: What is our role?
           text:
             - We manage IBAT on behalf of our other IBAT partners, IUCN, Birdlife International and Conservation International.
+        -
+          title: What is our impact?
+          text:
             - Many businesses and governments wish to understand their impacts on biodiversity – whether that’s to ensure their practices are sustainable in the long-term, to follow their own ethical or legal guidelines, or as required by external regulations. It’s often difficult, however, to understand the consequences of any plans or actions on biodiversity. 
             - "This is where IBAT came in – launched in 2010, it is underpinned by three of the world’s most authoritative global biodiversity datasets: the World Database on Protected Areas, IUCN Red List of Threatened Species, and the World Database on Key Biodiversity Areas. Added functionality and expertise then allows people across businesses, governments, and the finance sector to screen potential projects and review potential risks in their investments or supply chain."
             - "Since the publication of their sustainability strategy and their collaboration with the International Union for Conservation of Nature, the International Olympic Committee (IOC) has used IBAT as part of its Interested Cities and Candidate Cities processes: “Thanks to IBAT, we can ensure that biodiversity is taken into consideration from the very early stages of a city’s Olympic journey” says Michelle Lemaitre, Head of Sustainability at the IOC. “Based on data provided by IBAT, cities can ascertain whether proposed location plans for Olympic venues need to be modified to avoid impacting areas of high biodiversity value. They can also go a step further, looking into ways in which hosting the Olympic Games can contribute to biodiversity conservation in the area.”"
@@ -98,7 +104,10 @@ collection:
         -
           title: What is our role?
           text:
-            - We developed the knowledge base underpinning ENCORE and the web-based tool, in collaboration with the Natural Capital Finance Alliance. The project was financed by the Swiss State Secretariat for Economic Affairs (SECO) and the MAVA Foundation. 
+            - We developed the knowledge base underpinning ENCORE and the web-based tool, in collaboration with the Natural Capital Finance Alliance. The project was financed by the Swiss State Secretariat for Economic Affairs (SECO) and the MAVA Foundation.
+        -
+          title: What is our impact?
+          text:
             - Increasingly the conservation community is recognising that not only are businesses part of the solution to biodiversity loss and ecosystem degradation– they are indispensably critical. Businesses, and their influencers such as governments and financial institutions, are also recognising more and more that nature lies at the foundation of everything they do, but lacked the data and tools to fully understand the ways in which they depend on the natural world.
             - Last November we therefore launched ENCORE in collaboration with the Natural Capital Finance Alliance, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors such as manufacturing or agriculture on nature, and the associated risks that may impact their lending and investment portfolios.
             - "Madeleine Ronquest, Head of Environmental and Social Risk, Climate Change Management at FirstRand in South Africa, said: “ENCORE really helped us to get a more holistic view of potential impacts on our lending portfolio and to incorporate natural capital risk mitigation into all our lending and investments. We’re now adding questions into our due diligence process for all new credit transactions, asking our clients how they are managing environmental risk and assessing how resilient they are to climate change and natural capital risk."
@@ -171,6 +180,9 @@ collection:
           title: What is our role?
           text:
             - We created and manage the Ocean+ portal, part -funded by Proteus - a unique collaboration between UNEP-WCMC and leading extractive companies.
+        -
+          title: What is our impact?
+          text:
             - "The ocean is our life support system: covering over 70% of the planet, it regulates our weather, stores carbon, and provides a home for many species that we depend on for our nutrition and livelihoods. Yet our actions—including those many miles from the coast—are affecting the health of the ocean, with climate change, overharvesting, pollution and other pressures from development threatening the continued supply of the services we all depend on."
             - "We therefore launched Ocean+ in January 2018, designed to make it as easy as possible for decision makers to better understand and account for the ocean’s value. By curating information through partnerships and networks with governmental, non-governmental, and business communities, Ocean+ allows users to:<ul><li>View and download quality-assured spatial datasets that are useful for policy and decision-making;</li><li>Locate more than 190 data resources globally that are important for marine and coastal biodiversity;</li><li>Learn about the state of knowledge on five ecologically-important ocean habitats, namely seagrasses, warm- and cold-water corals, saltmarshes, and mangroves.</li><li>Explore, through the associated initiative Protected Planet, nationally-validated statistics on marine protected area coverage all over the world.</li></ul>"
             - Ocean+ and complementary partnerships will become increasingly vital as the global community defines priorities for the upcoming United Nations ‘Decade of Ocean Science for Sustainable Development.’
