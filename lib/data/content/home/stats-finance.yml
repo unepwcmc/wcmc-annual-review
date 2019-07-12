@@ -1,15 +1,14 @@
 id: stats-finance
 title: Financial overview
-introduction: We welcomed a high-level delegation of China's National Forestry and Grassland Administration (NFGA), led by the Vice Administrator Peng Youdong, to discuss areas of mutual interest and opportunities for future collaboration. we welcomed a high-level delegation of China’s National Forestry and Grassland Administration (NFGA), led by the Vice Administrator.
 hero_title: Cat Tien National Park, Viet Nam (dry season)
 hero_credit: antonel - stock.adobe.com
 income:
   -
     year: 2017
-    total: 8779515
+    total: 8779000
   -
     year: 2018
-    total: 11073772
+    total: 11074000
 table: 
   -
     - ''
@@ -17,14 +16,14 @@ table:
     - 2018
   -
     - Total Expenditure
-    - 8959245
-    - 11319633
+    - 8959000
+    - 11320000
   -
-    - Total assets less liabilities
-    - 3944417
-    - 3698556
+    - Net movement in funds
+    - -180000
+    - -246000
   -  
-    - Surplus of deficit for period
-    - -179730
-    - -245861
+    - Total assests less liabilities
+    - 3699000
+    - 3944000
 

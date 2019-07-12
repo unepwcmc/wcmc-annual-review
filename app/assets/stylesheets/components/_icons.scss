@@ -39,4 +39,9 @@
     @include responsive-styles('height', 27px, 40px, 40px);
     background-image: image-url('icons/cross.svg');
   }
+
+  &--share {
+    @include icon-basic();
+    background-image: image-url('icons/share.svg');
+  }
 }
