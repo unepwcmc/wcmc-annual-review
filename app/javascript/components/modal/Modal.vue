@@ -23,7 +23,7 @@
             <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
             <div>
               <p class="no-margin"><strong>{{ member.name }}<br>{{ member.job }}</strong></p>
-              <p>{{ member.text }}</p>
+              <p v-html="member.text"></p>
             </div>
           </div>
         </div>
