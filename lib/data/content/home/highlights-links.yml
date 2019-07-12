@@ -1,0 +1,50 @@
+link-china-forestry:
+  text: China’s National Forestry and Grassland Administration
+  href: https://www.unep-wcmc.org/news/welcome-to-chinese-national-forests-and-grasslands-administration
+  title: Read about China’s National Forestry and Grassland Administration
+  target: _blank
+link-cites:
+  text: CITES Trade Database
+  href: https://www.unep-wcmc.org/resources-and-data/cites-trade-database
+  title: Read about the CITES Trade Database
+  target: _blank
+link-cites-review:
+  text: one of the first comprehensive reviews of CITES trade data,
+  href: https://www.sciencedirect.com/science/article/abs/pii/S0006320717312478
+  title: Read the first comprehensive reviews of CITES trade data
+  target: _blank
+link-development-corridors:
+  text: Development Corridors Partnership
+  href: https://www.unep-wcmc.org/news/launch-of-development-corridors-partnership
+  title: Read about the launch of the Development Corridors Partnership
+  target: _blank
+link-eel:
+  text: eel (<i>Anguilla anguilla</i>)
+  href: https://cites.org/sites/default/files/eng/com/AC/30/E-AC30-12-02-A2-Rev1.pdf
+  title: Read about the eel (Anguilla anguilla)
+  target: _blank
+link-egypt: 
+  text: We supported the UN Biodiversity Conference
+  href: https://www.unep-wcmc.org/news/meeting-in-egypt-for-global-change
+  title: Rad about the UN Biodiversity Conference UNEP-WCMC supported
+  target: _blank
+link-paper:
+  text: co-published a paper
+  href: https://www.unep-wcmc.org/news/bending-the-curve-of-biodiversity-loss
+  title: Read about the paper UNEP-WCMC co-published on the curve of biodiversity loss
+  target: _blank
+link-teak:
+  text: African teak (<i>Pericopsis elata</i>)
+  href: https://cites.org/sites/default/files/eng/com/pc/24/E-PC24-13-02-A2.pdf
+  title: Read about the African teak (Pericopsis elata)
+  target: _blank
+link-trade-for-good:
+  text: A multi-million pound project led by UNEP-WCMC is announced
+  href: https://www.unep-wcmc.org/news/project-announced-to-make-trade-a-force-for-good
+  title: Read about a multi-million pound project led by UNEP-WCMC to make trade a force for good
+  target: _blank
+link-zeichner-visit:
+  text: We welcomed Daniel Zeichner
+  href: https://www.unep-wcmc.org/news/unep-wcmc-hosts-cambridge-mp
+  title: Read about UNEP-WCMC hosting Daniel Zeichner
+  target: _blank

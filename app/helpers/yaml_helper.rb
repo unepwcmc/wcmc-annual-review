@@ -17,7 +17,7 @@ module YamlHelper
     new_hash = {}
 
     data.each do |key, value|
-      new_hash[key] = link_to value['text'], value['href'], target: value['target'], title: value['title']
+      new_hash[key] = link_to value['text'].html_safe, value['href'], target: value['target'], title: value['title']
     end
 
     new_hash

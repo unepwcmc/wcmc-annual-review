@@ -37,13 +37,8 @@ class HomeController < ApplicationController
     @hero = YAML.load(File.open("#{Rails.root}/lib/data/content/home/hero.yml", 'r'))
     @foreword = YAML.load(File.open("#{Rails.root}/lib/data/content/home/foreword.yml", 'r'))
     @anniversary = YAML.load(File.open("#{Rails.root}/lib/data/content/home/anniversary.yml", 'r'))
-    @highlights = YAML.load(File.open("#{Rails.root}/lib/data/content/home/highlights.yml", 'r'))
-    
-    # @projects ||= YAML.load(ERB.new(File.read("#{Rails.root}/lib/data/content/home/projects.yml.erb")).result(binding))
-
+    @highlights = load_yaml("lib/data/content/home/highlights.yml", highlight_links)
     @projects = load_yaml("lib/data/content/home/projects.yml", project_links)
-
-
     @stats_people = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-people.yml", 'r'))
     @stats_finance = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-finance.yml", 'r'))
     @future = YAML.load(File.open("#{Rails.root}/lib/data/content/home/future.yml", 'r'))
@@ -103,6 +98,10 @@ class HomeController < ApplicationController
         }
       ]
     }
+  end
+
+  def highlight_links
+    yaml_create_links("#{Rails.root}/lib/data/content/home/highlights-links.yml")
   end
 
   def project_links
