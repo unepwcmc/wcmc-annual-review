@@ -11,28 +11,25 @@
 
     .social {
       &__trigger {
-        margin: 0 20px 0 17px;
+        cursor: pointer;
 
         display: block;
-        
-        @include breakpoint($small) { margin: 0 30px 0 22px; }
+
         @include breakpoint($medium) { display: none; }
       }
 
       &__target {
         @include breakpoint_down($medium) { 
-          background-color: $grey;
+          background-color: $primary;
           border-radius: 2px;
           padding: 14px 12px;
           display: none;
           position: absolute;
-          top: 40px;
+          top: calc(100% + 16px);
           left: 50%;
 
           transform: translateX(-50%);
         }
-        
-        @include breakpoint($small) { top: 50px; }
 
         @include breakpoint($medium) { 
           display: block;
@@ -42,7 +39,7 @@
         &::before {
           @include breakpoint_down($medium) { 
             border-right: 12px solid transparent;
-            border-bottom: 12px solid $grey;
+            border-bottom: 12px solid $primary;
             border-left: 12px solid transparent;
             content: '';
             width: 0; height: 0; 

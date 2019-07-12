@@ -17,15 +17,13 @@ $topbar-title-desktop: 24px;
 }
 
 .topbar {
-  width: 100%; height: $topbar-height-mobile;
+  @include responsive-styles('height', $topbar-height-mobile, $topbar-height-tablet, $topbar-height-desktop);
+  @include responsive-styles('top', -$topbar-height-mobile, -$topbar-height-tablet, -$topbar-height-desktop);
+  width: 100%;
   
   position: absolute;
-  top: -$topbar-height-desktop;
 
   transition: top .25s ease-out;
-
-  @include breakpoint($small) { height: $topbar-height-tablet; }
-  @include breakpoint($medium) { height: $topbar-height-desktop; }
   
   &--foreword { @include topbar-style('grey'); }
   &--anniversary { @include topbar-style('blue'); }
@@ -56,15 +54,12 @@ $topbar-title-desktop: 24px;
     &__only-sticky { visibility: hidden; }
 
     &__title {
+      @include responsive-styles(font-size, $topbar-title-mobile, $topbar-title-tablet, $topbar-title-desktop);
       border-left: solid 1px $grey-light;
       color: $white;
-      font-size: $topbar-title-mobile;
       margin-left: 20px;
       padding-left: 20px;
 
       z-index: $z-300;
-
-      @include breakpoint($small) { font-size: $topbar-title-tablet; }
-      @include breakpoint($medium) { font-size: $topbar-title-desktop; }
     }
 }

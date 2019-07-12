@@ -4,12 +4,14 @@
     <span class="topbar__title topbar__only-sticky">Review</span>
     
     <div class="flex flex-v-center flex-h-end">
-      <social-share class="gutter-right">
-        <%= create_sharing_email_link %>
-        <%= create_sharing_linkedin_link %>
-        <%= create_sharing_facebook_link %>
-        <%= create_sharing_twitter_link %>
-      </social-share>
+      <div class="gutter-right">
+        <social-share>
+          <%= create_sharing_email_link %>
+          <%= create_sharing_linkedin_link %>
+          <%= create_sharing_facebook_link %>
+          <%= create_sharing_twitter_link %>
+        </social-share>
+      </div>
 
       <v-nav :pages="<%= @nav %>" :is-always-burger="true" :is-scroll-to-nav="true" class="topbar__only-sticky"></v-nav>
     </div>

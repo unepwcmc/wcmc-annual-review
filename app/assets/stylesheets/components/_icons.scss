@@ -28,8 +28,8 @@
 
   &--burger {
     @include icon-basic();
-    @include responsive-styles('width', 30px, 40px, 60px);
-    @include responsive-styles('height', 20px, 30px, 50px);
+    @include responsive-styles('width', 30px, 40px, 50px);
+    @include responsive-styles('height', 20px, 30px, 40px);
     background-image: image-url('icons/burger.svg');
   }
 
@@ -42,6 +42,8 @@
 
   &--share {
     @include icon-basic();
+    @include responsive-styles('width', 30px, 50px, 50px);
+    @include responsive-styles('height', 30px, 50px, 50px);
     background-image: image-url('icons/share.svg');
   }
 }

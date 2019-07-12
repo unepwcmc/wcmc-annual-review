@@ -186,10 +186,10 @@ $item-padding-desktop: 60px;
 // dimensions
 //--------------------------------------------------
 $site-width: $large;
-$site-width-small-tablet: calc(70% + #{$gutter-medium});
-$site-width-small-desktop: calc(42% + #{$gutter-large});
-$site-width-medium-tablet: calc(100% + #{$gutter-medium});
-$site-width-medium-desktop: calc(100% - 316px + #{$gutter-large});
+$site-width-small-tablet: calc(70%);
+$site-width-small-desktop: calc(42%);
+$site-width-medium-tablet: calc(100%);
+$site-width-medium-desktop: calc(96%);
 
 //--------------------------------------------------
 // tables

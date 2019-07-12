@@ -9,6 +9,8 @@ $logo-height-desktop: 50px;
 .logo {
   &--wcmc {
     background-image: url('https://s3.amazonaws.com/wcmc.logo/UN-Environment-WCMC+logo+2017+white.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
     width: $logo-width-mobile; height: $logo-height-mobile;
 
     display: block;
