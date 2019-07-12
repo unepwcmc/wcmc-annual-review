@@ -1,3 +1,5 @@
+include ActionView::Helpers::UrlHelper
+
 module ApplicationHelper
   def site_title 
     'UNEP-WCMC Annual Review'
