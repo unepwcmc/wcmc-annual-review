@@ -68,6 +68,8 @@
 
     mounted () {
       this.scrollMagicHandlers()
+
+      window.onresize = this.windowResized
     },
 
     methods: {
@@ -82,7 +84,7 @@
           timeline.to(`#${this.slidesId}`, 1, {x: x})
         }
 
-        new ScrollMagic.Scene({
+        this.scrollMagicScene = new ScrollMagic.Scene({
             triggerElement: `#${this.slidesWrapperId}`,
             triggerHook: 'onLeave',
             offset: '-180px',
@@ -91,6 +93,17 @@
           .setPin(`#${this.slidesWrapperId}`)
           .setTween(timeline)
           .addTo(controller)
+      },
+
+      updateScrollMagicOffsets () {
+        this.scrollMagicScene.offset('170px');
+        console.log(this.scrollMagicScene.offset())
+      },
+
+      windowResized () {
+        console.log('here')
+        this.windowWidth = window.innerWidth
+        this.updateScrollMagicOffsets()
       }
     }
   }
