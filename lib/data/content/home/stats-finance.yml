@@ -1,7 +1,7 @@
 id: stats-finance
 title: Financial overview
 hero_title: Cat Tien National Park, Viet Nam (dry season)
-hero_credit: antonel - stock.adobe.com
+hero_credit: Antonel, AdobeStock
 income:
   -
     year: 2017
@@ -24,6 +24,6 @@ table:
     - -246000
   -  
     - Total assests less liabilities
-    - 3699000
     - 3944000
+    - 3699000
 
