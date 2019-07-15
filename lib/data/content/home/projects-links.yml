@@ -185,7 +185,7 @@ link-redd:
   target: _blank
 link-red-list-index:
   text: Red List Index
-  href: https://www.iucnredlist.org/about/publication/red-list-index
+  href: https://www.iucnredlist.org/assessment/red-list-index
   title: View the Red List Index
   target: _blank
 link-red-list-long:
