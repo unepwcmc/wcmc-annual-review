@@ -28,8 +28,9 @@ $slide-index-desktop: 28px;
 //--------------------------------------------------
 .slides-wrapper {
   &--highlights {
+    @include responsive-styles('height', 90vh, 80vh, 70vh);
     overflow: hidden;
-    width: 100%; height: 70vh;
+    width: 100%;
     
     perspective: 1000;
   }

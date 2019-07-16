@@ -14,6 +14,7 @@
 </template>
 
 <script>
+  import { BREAKPOINTS } from '../../constants/constants-breakpoints.js'
   import { TimelineMax } from 'gsap'
   import ScrollMagic from 'scrollmagic'
   import 'imports-loader?define=>false!scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap'
@@ -35,7 +36,13 @@
     data () {
       return {
         config: {
-          speed: '300%'
+          speed: '300%',
+          offset: {
+            mobile: '-70px',
+            tablet: '-120px',
+            laptop: '-180px',
+            desktop: '-180px'
+          }
         }
       }
     },
@@ -62,20 +69,22 @@
       },
 
       slidesWidth () {
-        return Math.floor(this.totalSlides*100*.72)
+        return Math.floor(this.totalSlides*100*.78)
       }
     },
 
     mounted () {
       this.scrollMagicHandlers()
 
+      this.windowWidth = window.innerWidth
       window.onresize = this.windowResized
     },
 
     methods: {
       scrollMagicHandlers () {
         const controller = new ScrollMagic.Controller(),
-          timeline = new TimelineMax()
+          timeline = new TimelineMax(),
+          offset = this.getOffset()
 
         for(let i = 0; i < this.totalSlides - 1; i++) {
           
@@ -87,7 +96,7 @@
         this.scrollMagicScene = new ScrollMagic.Scene({
             triggerElement: `#${this.slidesWrapperId}`,
             triggerHook: 'onLeave',
-            offset: '-180px',
+            offset: offset,
             duration: this.config.speed
           })
           .setPin(`#${this.slidesWrapperId}`)
@@ -95,15 +104,46 @@
           .addTo(controller)
       },
 
-      updateScrollMagicOffsets () {
-        this.scrollMagicScene.offset('170px');
-        console.log(this.scrollMagicScene.offset())
+      updateScrollMagicScene () {
+        this.scrollMagicScene.removePin(true)
+
+        const offset = this.getOffset()
+
+        this.scrollMagicScene.offset(offset)
+        this.scrollMagicScene.setPin(`#${this.slidesWrapperId}`)
+        this.scrollMagicScene.refresh()
       },
 
       windowResized () {
-        console.log('here')
         this.windowWidth = window.innerWidth
-        this.updateScrollMagicOffsets()
+        this.updateScrollMagicScene()
+      },
+
+      getOffset() {
+        const size = this.getScreenSize()
+        let offset = 0
+
+        if(size) { offset = this.config.offset[size] }
+
+        return offset
+      },
+
+      getScreenSize() {
+        let size = ''
+
+        if(this.windowWidth <= BREAKPOINTS.small) {
+          size = 'mobile'
+        } else if(this.windowWidth > BREAKPOINTS.small && this.windowWidth <= BREAKPOINTS.medium) {
+          size = 'tablet'
+        } else if(this.windowWidth > BREAKPOINTS.medium && this.windowWidth <= BREAKPOINTS.large) {
+          size = 'laptop'
+        } else if(this.windowWidth > BREAKPOINTS.large) {
+          size = 'desktop'
+        } else {
+          size = false
+        }
+
+        return size
       }
     }
   }
