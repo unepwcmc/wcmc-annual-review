@@ -53,7 +53,10 @@ $side-nav-label-color: rgba($grey, .8);
           width: max-content;
 
           position: absolute;
+          bottom: 50%; //for IE11
           right: calc(100% + 12px);
+
+          transform: translateY(50%); //for IE11
 
           &::after {
             border-top: 8px solid transparent;
