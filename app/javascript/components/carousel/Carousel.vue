@@ -158,7 +158,7 @@ export default {
     },
 
     initSlideOrders () {
-      this.childSlideComponents.forEach( (child, index) => {
+      Array.prototype.forEach.call(this.childSlideComponents, (child, index) => {
         child.$el.style.order = index
       })
     },
@@ -260,13 +260,13 @@ export default {
     },
 
     reorderSlides (changeInIndex) {
-      this.childSlideComponents.forEach(child => {
+      Array.prototype.forEach.call(this.childSlideComponents, child => {
         child.$el.style.order = getNewOrder(child.$el.style.order, changeInIndex, this.totalSlides)
       })
     },
 
     setActiveStateOnChildren () {
-      this.childSlideComponents.forEach(child => {
+      Array.prototype.forEach.call(this.childSlideComponents, child => {
         child.isActive = this.isCurrentSlideElement(child.$el)
       })
     }

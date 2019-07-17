@@ -45,7 +45,7 @@ export default {
     setTabIndices() {
       const tabIndex = this.isActive ? 0 : -1
 
-      this.inputElements.forEach(el => {
+      Array.prototype.forEach.call(this.inputElements, el => {
         el.tabIndex = tabIndex
         if(tabIndex === -1) { el.blur() }
       })

@@ -82,11 +82,11 @@ $modal-padding-laptop: $modal-button-laptop;
       }
 
         &__staff-image {
+          @include responsive-styles(width, 30%, 25%, 16%); //dont this way for IE11
+          @include responsive-styles(height, 30%, 25%, 16%); //dont this way for IE11
           background-color: $grey;
+          flex-shrink: 0; //dont this way for IE11
           margin: 0 30px 30px 0;
-          width: 30%; height: 30%;
-          min-width: 172px;
-          max-width: 250px;
 
           display: block;
         }
