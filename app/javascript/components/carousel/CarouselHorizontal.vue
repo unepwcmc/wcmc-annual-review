@@ -76,12 +76,13 @@
     mounted () {
       this.scrollMagicHandlers()
 
-      this.windowWidth = window.innerWidth
       window.onresize = this.windowResized
     },
 
     methods: {
       scrollMagicHandlers () {
+        this.windowWidth = window.innerWidth
+        
         const controller = new ScrollMagic.Controller(),
           timeline = new TimelineMax(),
           offset = this.getOffset()
