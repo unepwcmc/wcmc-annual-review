@@ -24,7 +24,6 @@ export default {
 
   mixins: [
     mixinResponsive, 
-    
     mixinFocusCapture({toggleVariable: 'isNavPaneActive', closeCallback: 'closeNavPane', openCallback: 'openNavPane'}),
     mixinScrollMagic
   ],
