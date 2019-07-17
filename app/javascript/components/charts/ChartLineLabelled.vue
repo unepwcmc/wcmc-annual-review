@@ -1,6 +1,6 @@
 <template>
   <div class="chart--line">
-    <div class="chart__wrapper-ie11">
+    <div class="svg-wrapper-ie11">
       <div class="chart__scrollable">
         <div v-if="lines" class="chart__chart" style="width:100%;">
           <svg width="100%" height="100%" :viewBox="`-${chartPaddingSides} -${svgPaddingTop} ${config.width} ${config.height}`" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" class="chart__svg" :fill="svgBackgroundColour">

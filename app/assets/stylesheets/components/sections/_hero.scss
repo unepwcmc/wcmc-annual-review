@@ -19,5 +19,8 @@
   &__icon {
     position: absolute;
     bottom: 36px;
+    right: 50%; //for IE 11
+
+    transform: translateX(50%); //for IE11
   }
 }

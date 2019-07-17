@@ -59,6 +59,23 @@
 @mixin full-height() { height: 100vh; }
 @mixin min-full-height() { min-height: 100vh; }
 
+.svg-wrapper-ie11 { // do not remove - this is required to set the sizing for ie11
+  @include breakpoint($small) { 
+    padding-bottom: 63%; 
+    width: 100%;
+
+    position: relative;
+  }
+
+  svg {
+    @include breakpoint($small) { 
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
 //--------------------------------------------------
 // lists
 //--------------------------------------------------
