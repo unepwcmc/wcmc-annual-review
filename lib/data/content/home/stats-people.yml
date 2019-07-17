@@ -1,7 +1,7 @@
 id: stats-people
 countries-icon: icons/globe-leaf.svg
 countries-total: 58
-countries-title: Number of Countries Worked with
+countries-title: Number of countries worked with
 countries-image: content/map.svg
 stats-totals:
   -
@@ -12,7 +12,7 @@ stats-totals:
   -
     number: 200
     icon:
-    title: Funders & Partners
+    title: Funders and partners
     icon: icons/funders.svg
   -
     number: 65

@@ -1,9 +1,9 @@
 id: projects
-title: Operations & projects
+title: Operations and projects
 strapline: We can make change
 introduction: In the past year we’ve launched a range of projects and initiatives, helping inform decision makers on everything from financial investments to seagrass restoration.
 hero_title: Rice farmer
-hero_credit: thekob5123 - stock.adobe.com 
+hero_credit: thekob5123, AdobeStock 
 collection: 
   -
     id: protected-planet-live
@@ -27,7 +27,7 @@ collection:
           text: 
             - Since 2010 it has been a global goal to secure 17% of the land and 10% of the ocean in networks of effective protected areas.
             - In November we launched ${link-pp-live} with IUCN and National Geographic to ensure the very latest information on progress towards this ambition is widely available. 
-            - ProtectedPlanet Live shows progress on global coverage and also identifies where gaps and opportunities remain for strengthening the coverage of protected and conserved areas – and it’s good news! There has been excellent progress towards the global targets of 17% terrestrial and 10% marine coverage of protected areas. The next challenge is scaling up area-based conservation and ensuring those areas are effective.
+            - Protected Planet Live shows progress on global coverage and also identifies where gaps and opportunities remain for strengthening the coverage of protected and conserved areas – and it’s good news! There has been excellent progress towards the global targets of 17% terrestrial and 10% marine coverage of protected areas. The next challenge is scaling up area-based conservation and ensuring those areas are effective.
       staff:
         -
           name: Dr Naomi Kingston
@@ -86,11 +86,11 @@ collection:
         -
           name: Hazel Thornton
           image: /content/images/profile/hazel-thornton.jpg
-          job: Programme Officer, Conserved Landscapes and Seascapes
+          job: Programme Officer, Conserving Land and Seascapes Programme
           text: ${link-hazel} manages and provides technical and scientific input to a range of projects, specialising in the science-policy interface of marine and coastal ecosystem restoration. Before joining us as an intern in 2015, she was involved in island-based conservation in the Mediterranean and Caribbean, working with local fishing communities in the Eastern Aegean to understand pressures on seagrass meadows, and surveying of coral reefs and tropical forests in Montserrat to understand health, extent and pressures. Hazel has a BSc in Biological Sciences.
   -
     id: encore
-    title: ENCORE for finance tool
+    title: Plugging nature into the private sector
     image: content/project-encore.png
     introduction: 
       - Business are central to reversing the decline of nature. However, in the past it has been difficult for them to fully understand their relationship with the environment and biodiversity. In November we therefore joined with the Natural Capital Finance Alliance to launch ${link-encore}, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors on nature.
@@ -140,7 +140,7 @@ collection:
         -
           name: Dr Steven King
           image: /content/images/profile/steven-king.jpg
-          job: Environmental Economist, Ecosystem Assessment and Policy Support
+          job: Environmental Economist, Ecosystem Assessment and Policy Support Programme
           text: ${link-steven} works to make nature a critical component of national decision-making across the world. He does so through a series of initiatives that integrate the values of nature into plans for sustainable economic development, and capture those values in national accounting systems. Before joining us in 2014 he’d gained nearly ten years’ experience as a consultant in the construction and transport industries, providing advice on contaminated land assessment and pollution abatement. He’d also just completed his PhD in Management Science and brings all this experience to bear when advising on economic aspects of a wide variety of our projects.
   -
     id: redd
@@ -162,7 +162,7 @@ collection:
           name: Charlotte Hicks
           image: /content/images/profile/charlotte-hicks.jpg
           job: Senior Technical Officer, Climate Change and Biodiversity Programme
-          text: ${link-charlotte} has been part of our team since 2013, helping decision makers with biodiversity and climate change policy. This has included understanding how different habitats can help us adapt to climate change, and how ${link-redd-long} can deliver additional benefits. She has an academic background in international relations, political science and Chinese studies, and professional experience ranging from the World Bank to the International Union for Conservation of Nature.
+          text: ${link-charlotte} has been part of our team since 2013, helping decision makers with biodiversity and climate change policy. This has included understanding how different habitats can help us adapt to climate change, and how Reducing Emissions from Deforestation and forest Degradation (REDD+) can deliver additional benefits. She has an academic background in international relations, political science and Chinese studies, and professional experience ranging from the World Bank to the International Union for Conservation of Nature.
   -
     id: policy
     title: Making policy waves with marine data
@@ -179,18 +179,18 @@ collection:
         -
           title: What is our role?
           text:
-            - We created and manage the Ocean+ portal, part -funded by ${link-proteus} - a unique collaboration between UNEP-WCMC and leading extractive companies.
+            - We created and manage the Ocean+ portal, part-funded by ${link-proteus} - a unique collaboration between UNEP-WCMC and leading extractive companies.
         -
           title: What is our impact?
           text:
-            - "The ocean is our life support system: covering over 70% of the planet, it regulates our weather, stores carbon, and provides a home for many species that we depend on for our nutrition and livelihoods. Yet our actions—including those many miles from the coast—are affecting the health of the ocean, with climate change, overharvesting, pollution and other pressures from development threatening the continued supply of the services we all depend on."
+            - "The ocean is our life support system; covering over 70% of the planet, it regulates our weather, stores carbon, and provides a home for many species that we depend on for our nutrition and livelihoods. Yet our actions—including those many miles from the coast—are affecting the health of the ocean, with climate change, overharvesting, pollution and other pressures from development threatening the continued supply of the services we all depend on."
             - "We therefore launched ${link-ocean-plus} in January 2018, designed to make it as easy as possible for decision makers to better understand and account for the ocean’s value. By curating information through partnerships and networks with governmental, non-governmental, and business communities, Ocean+ allows users to:<ul><li>View and download quality-assured spatial datasets that are useful for policy and decision-making;</li><li>Locate more than 190 data resources globally that are important for marine and coastal biodiversity;</li><li>Learn about the state of knowledge on five ecologically-important ocean habitats, namely seagrasses, warm- and cold-water corals, saltmarshes, and mangroves.</li><li>Explore, through the associated initiative Protected Planet, nationally-validated statistics on marine protected area coverage all over the world.</li></ul>"
             - Ocean+ and complementary partnerships will become increasingly vital as the global community defines priorities for the upcoming United Nations ‘Decade of Ocean Science for Sustainable Development.’
       staff:
         -
           name: Lauren Weatherdon
           image: /content/images/profile/lauren-weatherdon.jpg
-          job: Senior Programme Officer, Conserved Landscapes and Seascapes Programme
+          job: Senior Programme Officer, Conserving Land and Seascapes Programme
           text: First joining us as an Assistant Programme Officer in 2014, ${link-lauren} now manages a range of projects that focus on life in the ocean and the services they provide. As part of her role, she leads the development of digital knowledge products that help increase access to ocean biodiversity and spatial data. She has a background in geography, fisheries science, and communications, and is passionate about creating tools and products that bring the best data and information to decision makers around the world.
   -
     id: nature-platform
@@ -212,4 +212,4 @@ collection:
           name: Philip Bubb
           image: /content/images/profile/philip-bubb.jpg
           job: Senior Programme Officer, Ecosystem Assessment and Policy Support Programme
-          text: ${link-philip} helps countries around the world to create and use indicators to measure changes in nature, and to include the value of nature in decision-making. Part of our team since 2002, he is skilled in designing and running projects and workshops involving multiple partners across countries in Africa, Asia, Europe and Latin America. Before joining us he led community-based forest conservation work in southern Mexico and had gained a degree in Ecology as well as a Master’s in Resource Management.
+          text: ${link-philip} helps countries around the world to create and use indicators to measure changes in nature, and to include the value of nature in decision-making. Part of our team since 2002, he is skilled in designing and running projects and workshops involving multiple partners across countries in Africa, Asia, Europe and Latin America. Before joining us he led community-based forest conservation work in southern Mexico and had gained a degree in ecology as well as a Master’s in Resource Management.

@@ -10,15 +10,15 @@ class HomeController < ApplicationController
       },
       {
         id: 'anniversary',
-        label: '40th Anniversary'
-      },
-      {
-        id: 'highlights',
-        label: '2018 Highlights'
+        label: '40th anniversary'
       },
       {
         id: 'projects',
-        label: 'Operations and Projects'
+        label: 'Operations and projects'
+      },
+      {
+        id: 'highlights',
+        label: '2018 highlights'
       },
       {
         id: 'stats-people',
