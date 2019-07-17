@@ -68,7 +68,6 @@ $pane-side-padding: 42px;
     .nav {
       &__item {
         @include v-nav-height('line');
-    
         padding: 0;
         margin-right: rem-calc(15);
     
@@ -142,6 +141,7 @@ $pane-side-padding: 42px;
         &__item, &__dropdown-item {
           @include responsive-styles('font-size', 25px, 30px, 30px);
           color: $link-color;
+          cursor: pointer;
           font-weight: $link-weight;
           margin-bottom: 20px;
 
