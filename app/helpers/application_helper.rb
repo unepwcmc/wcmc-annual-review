@@ -6,7 +6,7 @@ module ApplicationHelper
   end
 
   def site_description
-    'UNEP-WCMC Annual Review'
+    'Putting nature at the heart of decision-making'
   end
 
   def page_title
@@ -22,11 +22,11 @@ module ApplicationHelper
   end
 
   def social_image
-    # image_url('social.jpg')
+    image_url('social-nairobi-national-park.jpg')
   end
 
   def social_image_alt
-    ''
+    'Rhino, Nairobi skyline, Nairobi National Park, Kenya'
   end
 
   def create_sharing_facebook_link
@@ -39,7 +39,7 @@ module ApplicationHelper
 
   def create_sharing_twitter_link
     title = url_encode('Share ' + page_title + ' on Twitter')
-    text = url_encode('UNEP-WCMC Annual Review')
+    text = url_encode('Read about a year of impact in @unepwcmc’s 2018/19 Annual Review')
     url = encoded_home_url
     href = 'https://twitter.com/intent/tweet/?text=' + text + '&url=' + url
     
@@ -57,8 +57,8 @@ module ApplicationHelper
   def create_sharing_email_link
     title = url_encode('Share ' + page_title + ' via Email')
     url = encoded_home_url
-    subject = url_encode(site_title)
-    body = site_description + url_encode("\n\n") + url
+    subject = url_encode("UNEP-WCMC's Annual Review 2018–19")
+    body = url_encode("UNEP-WCMC's Annual Review 2018–19 puts nature at the heart of decision-making: ") + url
     href = 'mailto:?subject=' + subject + '&body=' + body
 
     link_to '', href, title: title, class: 'social__icon social__icon--email', target: '_self'
