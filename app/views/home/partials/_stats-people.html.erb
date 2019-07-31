@@ -6,7 +6,9 @@
     </p>
     <span class="section__stat-text"><%= data['countries-title'] %></span>
     
-    <%= image_tag data['countries-image'], alt: 'Infographic showing the countries UNEP-WCMC has worked with', class: 'section__map' %>
+    <div class="section__map">
+      <%= image_tag data['countries-image'], alt: 'Infographic showing the countries UNEP-WCMC has worked with', class: 'section__map-image' %>
+    </div>
   </div>
 
   <div class="section__circles flex item-padding--bottom">

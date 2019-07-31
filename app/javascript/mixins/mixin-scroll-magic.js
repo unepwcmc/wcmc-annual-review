@@ -1,10 +1,19 @@
 import ScrollMagic from 'scrollmagic'
+import smoothscroll from 'smoothscroll-polyfill'
+
+smoothscroll.polyfill()
 
 export default {
   mounted () {
     this.setTriggerOffset()
     this.scrollMagicHandlers()
     this.updateScrollMagicDurations()
+  },
+
+  computed: {
+    supportsNativeSmoothScroll() {
+      return 'scrollBehavior' in document.documentElement.style
+    }
   },
 
   methods: {
@@ -23,9 +32,14 @@ export default {
     // scroll down to the section of the page which corresponds to the
     // link that has been clicked
     scroll (id) {
-      const offset = document.getElementById('section-' + id).offsetTop
+      const offset = document.getElementById('section-' + id).offsetTop,
+        top = offset - this.triggerOffset
 
-      window.scrollTo({ top: offset - this.triggerOffset, behavior: 'smooth' })
+      if(this.supportsNativeSmoothScroll) {
+        window.scrollTo({ top: top, behavior: 'smooth' })
+      } else {
+        window.scroll({ top: top, left: 0, behavior: 'smooth' });
+      }
     },
 
     // add scroll magic event listener for each nav item
