@@ -9,7 +9,7 @@ link-cites:
   title: Read about the CITES Trade Database
   target: _blank
 link-cites-review:
-  text: one of the first comprehensive reviews of CITES trade data
+  text: read on
   href: https://www.sciencedirect.com/science/article/abs/pii/S0006320717312478
   title: Read the first comprehensive reviews of CITES trade data
   target: _blank
@@ -19,7 +19,7 @@ link-development-corridors:
   title: Read about the launch of the Development Corridors Partnership
   target: _blank
 link-eel:
-  text: eel (<i>Anguilla anguilla</i>)
+  text: eel
   href: https://cites.org/sites/default/files/eng/com/AC/30/E-AC30-12-02-A2-Rev1.pdf
   title: Read about the eel (Anguilla anguilla)
   target: _blank
@@ -34,14 +34,19 @@ link-paper:
   title: Read about the paper UNEP-WCMC co-published on the curve of biodiversity loss
   target: _blank
 link-teak:
-  text: African teak (<i>Pericopsis elata</i>)
+  text: African teak
   href: https://cites.org/sites/default/files/eng/com/pc/24/E-PC24-13-02-A2.pdf
   title: Read about the African teak (Pericopsis elata)
   target: _blank
 link-trade-for-good:
-  text: A multi-million pound project led by UNEP-WCMC is announced
+  text: 20 million-pound project led by UNEP-WCMC is announced
   href: https://www.unep-wcmc.org/news/project-announced-to-make-trade-a-force-for-good
   title: Read about a multi-million pound project let by UNEP-WCMC to make sustainable trade a force for good
+  target: _blank
+link-website:
+  text: visit our website
+  href: https://www.unep-wcmc.org/about-us/publications-2018-2019
+  title: Visit the UNEP-WCMC website to view our publications
   target: _blank
 link-zeichner-visit:
   text: We welcomed Daniel Zeichner

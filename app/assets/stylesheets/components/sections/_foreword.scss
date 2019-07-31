@@ -8,25 +8,30 @@
 }
 
 .section {
-  &__left {
-    margin-bottom: $item-padding-mobile;
-    width: 100%;
-
-    @include breakpoint($small) { 
-      margin-bottom: 0;
-      width: 55%;
-    }
+  &__container {
+    @include breakpoint($small){ @include flex; }
   }
+    &__left {
+      margin-bottom: $item-padding-mobile;
+      width: 100%;
 
-  &__right {
-    @include breakpoint($small) { 
-      padding-left: $gutter-medium;
-      width: 45%; 
+      @include breakpoint($small) { 
+        margin-bottom: 0;
+        width: 55%;
+      }
     }
-    
-    @include breakpoint($medium) { 
-      padding-right: $gutter-large;
-      padding-left: $gutter-large; 
+
+    &__right {
+      width: 100%;
+
+      @include breakpoint($small) { 
+        padding-left: $gutter-medium;
+        width: 45%; 
+      }
+      
+      @include breakpoint($medium) { 
+        padding-right: $gutter-large;
+        padding-left: $gutter-large; 
+      }
     }
-  }
 }

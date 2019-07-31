@@ -69,7 +69,7 @@
       },
 
       slidesWidth () {
-        return Math.floor(this.totalSlides*100*.78)
+        return Math.floor(this.totalSlides*100*.56)
       }
     },
 
