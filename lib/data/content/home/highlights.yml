@@ -53,5 +53,5 @@ collection:
     id: innovative
     title: Innovative research
     introduction: 
-      - Over the past year members of our team have published or co-published 65 publications! Please ${website} to learn more.
+      - Over the past year members of our team have published or co-published 65 publications! Please ${link-website} to learn more.
     image: /content/images/highlights/prince-charles.jpg
