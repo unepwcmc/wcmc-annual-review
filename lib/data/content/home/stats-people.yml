@@ -22,8 +22,8 @@ stats-totals:
 stats-staff:
   icon: icons/collaboration.svg
   number: 132
-  title: Total number of staff
-  introduction: 13 out of 118 of our permanent staff members started as interns
+  title: staff
+  introduction: 13 of our team started as interns
   stats: 
     -
       number: 17
@@ -38,7 +38,7 @@ stats-staff:
       title: Nationalities
       icon: icons/globe.svg
 activities_title: "2018 UN Biodiversity Conference: references to us or activities we led (cumulative)"
-activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to our work, 8 of which were in decisions.
+activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to our work, eight of which were in decisions.
 activities_legend:
   -
     colour: 'black'

@@ -183,6 +183,11 @@ link-redd:
   href: https://www.unredd.net/about/what-is-redd-plus.html
   title: Vist the REDD+ website
   target: _blank
+link-redd-long:
+  text: Reducing Emissions from Deforestation and forest Degradation (REDD+)
+  href: https://www.unredd.net/about/what-is-redd-plus.html
+  title: Vist the REDD+ website
+  target: _blank
 link-red-list-index:
   text: Red List Index
   href: https://www.iucnredlist.org/assessment/red-list-index

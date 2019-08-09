@@ -35,7 +35,7 @@ collection:
     id: goals
     title: Global goals for biodiversity
     introduction: 
-      - ${link-egypt} a biennial event to create international biodiversity action plans. A number of decisions refer to our guidance including visions for 2050, and how to make nature a part of decision-making across different sectors.
+      - ${link-egypt}, a biennial event to create international biodiversity action plans. A number of decisions refer to our guidance including visions for 2050, and how to make nature a part of decision-making across different sectors.
     image: /content/images/highlights/iisd-enb.jpg
   -
     id: tracking

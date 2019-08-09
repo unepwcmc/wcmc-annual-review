@@ -1,5 +1,5 @@
 id: projects
-title: Operations and projects
+title: Our work
 strapline: We can make change
 introduction: In the past year we’ve launched a range of projects and initiatives, helping inform decision makers on everything from financial investments to seagrass restoration.
 hero_title: Rice farmer
@@ -50,19 +50,19 @@ collection:
         -
           title: What is our role?
           text:
-            - "We manage IBAT on behalf of our other IBAT partners: ${link-iucn}, ${link-birdlife} and ${link-ci}."
+            - "We manage IBAT on behalf of our other IBAT partners: ${link-iucn-long}, ${link-birdlife} and ${link-ci}."
         -
           title: What is our impact?
           text:
             - Many businesses and governments wish to understand their impacts on biodiversity – whether that’s to ensure their practices are sustainable in the long-term, to follow their own ethical or legal guidelines, or as required by external regulations. It’s often difficult, however, to understand the consequences of any plans or actions on biodiversity. 
-            - "This is where ${link-ibat} came in – launched in 2010, it is underpinned by three of the world’s most authoritative global biodiversity datasets: the ${link-wdpa-long}, ${link-red-list-long}, and the ${link-kba-long}. Added functionality and expertise then allows people across businesses, governments, and the finance sector to screen potential projects and review potential risks in their investments or supply chain."
-            - "Since the publication of their sustainability strategy and their collaboration with the ${link-iucn-long}, the International Olympic Committee (IOC) has used IBAT as part of its Interested Cities and Candidate Cities processes: “Thanks to IBAT, we can ensure that biodiversity is taken into consideration from the very early stages of a city’s Olympic journey” says Michelle Lemaitre, Head of Sustainability at the IOC. “Based on data provided by IBAT, cities can ascertain whether proposed location plans for Olympic venues need to be modified to avoid impacting areas of high biodiversity value. They can also go a step further, looking into ways in which hosting the Olympic Games can contribute to biodiversity conservation in the area.”"
+            - "This is where ${link-ibat} came in – launched in 2010, it is underpinned by three of the world’s most authoritative global biodiversity datasets: the World Database on Protected Areas, ${link-red-list-long}, and the ${link-kba-long}. Added functionality and expertise then allows people across businesses, governments, and the finance sector to screen potential projects and review potential risks in their investments or supply chain."
+            - "Since the publication of their sustainability strategy and their collaboration with the ${link-iucn}, the International Olympic Committee (IOC) has used IBAT as part of its Interested Cities and Candidate Cities processes: “Thanks to IBAT, we can ensure that biodiversity is taken into consideration from the very early stages of a city’s Olympic journey” says Michelle Lemaitre, Head of Sustainability at the IOC. “Based on data provided by IBAT, cities can ascertain whether proposed location plans for Olympic venues need to be modified to avoid impacting areas of high biodiversity value. They can also go a step further, looking into ways in which hosting the Olympic Games can contribute to biodiversity conservation in the area.”"
       staff:
         -
           name: Dr Eugenie Regan
           image: /content/images/profile/eugenie-regan.jpg
           job: Manager - Integrated Biodiversity Assessment Tool (IBAT)
-          text: ${link-eugenie} has managed IBAT on behalf of UNEP-WCMC, BirdLife International, IUCN, and Conservation International since 2017. IBAT brings together the ${link-wdpa-long}, the ${link-kba-long}, and the ${link-red-list-long} with tools for their analysis. Eugenie has over 20 years’ of experience and has worked in the private sector, for government, and for international NGOs at the local, national, and international level. Her expertise spans biodiversity data management, entomology, and business administration.
+          text: ${link-eugenie} has managed IBAT on behalf of UNEP-WCMC, BirdLife International, IUCN, and Conservation International since 2017. IBAT brings together the World Database on Protected Areas, the World Database on Key Biodiversity Areas, and the IUCN Red List of Threatened Species with tools for their analysis. Eugenie has over 20 years’ of experience and has worked in the private sector, for government, and for international NGOs at the local, national, and international level. Her expertise spans biodiversity data management, entomology, and business administration.
   -
     id: restoration
     title: Marine restoration from Turkey to Norway
@@ -79,7 +79,7 @@ collection:
           text:
             - The UN declared 2021-30 as the UN Decade of Ecosystem Restoration, and we are already involved in a number of initiatives to restore both regionally and internationally important marine and coastal habitats, and bring together evidence to guide future restoration efforts. 
             - We are working as part of the ${link-merces-long} (‘MERCES’) Project, for example, which has launched more than 130 restoration activities across 12 European countries since July 2016. By working with field scientists, ecosystem modellers and mappers, we will be able to bring together state-of-the-art advice for decision makers about the most efficient way to upscale these restoration efforts and create healthy ecosystems that support marine life, as well as the people that depend upon them.
-            - The success of this project has led to the ${link-algal} initiative, where we will be looking specifically at the restoration of degraded seaweed forests across the Mediterranean - from southern Mediterranean to Northern Africa. 
+            - The success of this project has led to the ${link-algal} initiative, where we will be looking specifically at the restoration of degraded seaweed forests across the Mediterranean - from Northern Africa to Southern Europe. 
             - We are also working with the ${link-endangered} in southwestern Turkey to see how, by reducing and removing such threats as illegal fishing, anchoring pressures and invasive species, we can recover the marine ecosystems that support critical species such as Mediterranean monk seals and sandbar sharks. One of our key areas of involvement is around behavioural change, and encouraging people to see invasive fish as a key food source.
             - We’ll be tracking progress and impacts for all these initiatives, so please do keep an eye on the ${link-wcmc-website} where you can find more information about these and our other marine restoration activities.
       staff:
@@ -93,7 +93,7 @@ collection:
     title: Plugging nature into the private sector
     image: content/project-encore.png
     introduction: 
-      - Business are central to reversing the decline of nature. However, in the past it has been difficult for them to fully understand their relationship with the environment and biodiversity. In November we therefore joined with the Natural Capital Finance Alliance to launch ${link-encore}, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors on nature.
+      - Businesses are central to reversing the decline of nature. However, in the past it has been difficult for them to fully understand their relationship with the environment and biodiversity. In November we therefore joined with the Natural Capital Finance Alliance to launch ${link-encore}, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors on nature.
     modal:
       image: /content/images/modal/borneo.jpg
       content:
@@ -133,9 +133,9 @@ collection:
         -
           text:
             - To address this, ${link-joint-effort} designed to inform decisions around how best to manage natural areas – how much to invest in them, and how declining wildlife undermines the Ugandan economy. By working closely with partners (${link-planning-authority}, ${link-management-authority}, ${link-wildlife-conservation} and the ${link-ideea-long} (IDEEA) Group), we were able to identify and highlight trends in the ‘stocks’ of several of Uganda’s biodiversity-related natural resources.
-            - Findings from the work contributed in 2018 to a nationwide short-term ban on cutting, transportation and sale of Shea nut tree logs and their products. These trees have great economic importance and real potential as an export product to cosmetics and food industries, but they are a threatened species and were under increasing pressure from illegal harvesting for logs, charcoal and the Shea nuts themselves. 
-            - When scanning northern Uganda for areas that might suitable for Shea we found that most of the potential habitats were also not in protected areas – leaving them even more vulnerable to illegal harvesting. The Ugandan Government therefore decided on the short-term ban on their harvest, preserving the potential for Shea nut harvesting in the long-term.
-            - In the coming year we will be also be taking this thinking to the oceans, and investigating the Blue Economy – deepening our understanding on the economic value of the oceans, and our own ability to support decision makers to take that into account.
+            - In 2018, findings from the work contributed to a nationwide short-term ban on cutting, transportation and sale of Shea nut tree logs and their products. These trees have great economic importance and real potential as an export product to cosmetics and food industries, but they are a threatened species and were under increasing pressure from illegal harvesting for logs, charcoal and the Shea nuts themselves. 
+            - When scanning Northern Uganda for areas that might be suitable for Shea we found that most of the potential habitats were also not in protected areas – leaving them even more vulnerable to illegal harvesting. The Ugandan Government therefore decided on the short-term ban on their harvest, preserving the potential for Shea nut harvesting in the long-term.
+            - In the coming year we will also be taking this thinking to the oceans, and investigating the Blue Economy – deepening our understanding on the economic value of the oceans, and our own ability to support decision makers to take that into account.
       staff:
         -
           name: Dr Steven King
@@ -147,7 +147,7 @@ collection:
     title: Helping Viet Nam get ready for REDD+
     image: content/gibbon.png
     introduction: 
-      - Escalating climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating and implementing solutions. Last year we helped Viet Nam to take a key step and become one of the first countries to complete a fundamental part of preparing for ${link-redd}. It is now eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation.
+      - Escalating climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating and implementing solutions. Last year we helped Viet Nam to take a key step and become one of the first countries to complete a fundamental part of preparing for ${link-redd-long}. It is now eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation.
     modal:
       image: /content/images/modal/jungle.jpg
       content:
@@ -162,13 +162,13 @@ collection:
           name: Charlotte Hicks
           image: /content/images/profile/charlotte-hicks.jpg
           job: Senior Technical Officer, Climate Change and Biodiversity Programme
-          text: ${link-charlotte} has been part of our team since 2013, helping decision makers with biodiversity and climate change policy. This has included understanding how different habitats can help us adapt to climate change, and how Reducing Emissions from Deforestation and forest Degradation (REDD+) can deliver additional benefits. She has an academic background in international relations, political science and Chinese studies, and professional experience ranging from the World Bank to the International Union for Conservation of Nature.
+          text: ${link-charlotte} has been part of our team since 2013, helping decision makers with biodiversity and climate change policy. This has included understanding how different habitats can help us adapt to climate change, and how REDD+ can deliver additional benefits. She has an academic background in international relations, political science and Chinese studies, and professional experience ranging from the World Bank to the International Union for Conservation of Nature.
   -
     id: policy
     title: Making policy waves with marine data
     image: content/project-ocean-plus.png
     introduction: 
-      - The ocean covers 70% of the planet, regulating our weather, storing carbon, and providing us with food. It is threatened, however, by a wide range of pressures including climate change, overharvesting, pollution, and development. In 2018 we therefore launched ${link-ocean-plus} - a portal into ocean data that makes it as easy as possible for decision makers to understand and account for the ocean’s value.
+      - The ocean covers more than 70% of the planet, regulating our weather, storing carbon, and providing us with food. It is threatened, however, by a wide range of pressures including climate change, overharvesting, pollution, and development. In 2018 we therefore launched ${link-ocean-plus} - a portal into ocean data that makes it as easy as possible for decision makers to understand and account for the ocean’s value.
     modal:
       image: /content/images/modal/fish.jpg
       content:
@@ -184,7 +184,7 @@ collection:
           title: What is our impact?
           text:
             - "The ocean is our life support system; covering over 70% of the planet, it regulates our weather, stores carbon, and provides a home for many species that we depend on for our nutrition and livelihoods. Yet our actions—including those many miles from the coast—are affecting the health of the ocean, with climate change, overharvesting, pollution and other pressures from development threatening the continued supply of the services we all depend on."
-            - "We therefore launched ${link-ocean-plus} in January 2018, designed to make it as easy as possible for decision makers to better understand and account for the ocean’s value. By curating information through partnerships and networks with governmental, non-governmental, and business communities, Ocean+ allows users to:<ul><li>View and download quality-assured spatial datasets that are useful for policy and decision-making;</li><li>Locate more than 190 data resources globally that are important for marine and coastal biodiversity;</li><li>Learn about the state of knowledge on five ecologically-important ocean habitats, namely seagrasses, warm- and cold-water corals, saltmarshes, and mangroves.</li><li>Explore, through the associated initiative Protected Planet, nationally-validated statistics on marine protected area coverage all over the world.</li></ul>"
+            - "We therefore launched Ocean+ in January 2018, designed to make it as easy as possible for decision makers to better understand and account for the ocean’s value. By curating information through partnerships and networks with governmental, non-governmental, and business communities, Ocean+ allows users to:<ul><li>View and download quality-assured spatial datasets that are useful for policy and decision-making;</li><li>Locate more than 190 data resources globally that are important for marine and coastal biodiversity;</li><li>Learn about the state of knowledge on five ecologically-important ocean habitats, namely seagrasses, warm- and cold-water corals, saltmarshes, and mangroves.</li><li>Explore, through the associated initiative Protected Planet, nationally-validated statistics on marine protected area coverage all over the world.</li></ul>"
             - Ocean+ and complementary partnerships will become increasingly vital as the global community defines priorities for the upcoming United Nations ‘Decade of Ocean Science for Sustainable Development.’
       staff:
         -

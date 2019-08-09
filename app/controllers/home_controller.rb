@@ -14,7 +14,7 @@ class HomeController < ApplicationController
       },
       {
         id: 'projects',
-        label: 'Operations and projects'
+        label: 'Our work'
       },
       {
         id: 'highlights',
@@ -30,7 +30,7 @@ class HomeController < ApplicationController
       },
       {
         id: 'future',
-        label: 'Looking forward...'
+        label: 'Moving forward...'
       }
     ].to_json
 
