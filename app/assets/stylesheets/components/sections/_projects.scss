@@ -12,15 +12,17 @@
 h2 {
   display: inline;
   position: relative;
-
+  
   &::before {
-    @include hash-font-size();
-    content: '#';
-    color: rgba(white, 0.3);
+    @include breakpoint($small) {
+      @include hash-font-size();
+      content: '#';
+      color: rgba(white, 0.3);
 
-    position: absolute;
-    top: -.5em;
-    left: -.27em;
+      position: absolute;
+      top: -.5em;
+      left: -.27em;
+    }
   }
 }
 

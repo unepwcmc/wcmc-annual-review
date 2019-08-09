@@ -1,9 +1,9 @@
 //--------------------------------------------------
 // settings
 //--------------------------------------------------
-$modal-button-mobile: 56px;
-$modal-button-tablet: 75px;
-$modal-button-laptop: 108px;
+$modal-button-mobile: 30px;
+$modal-button-tablet: 50px;
+$modal-button-laptop: 70px;
 
 @mixin modal-button-sizing($mobile, $tablet, $laptop) {
   @include responsive-styles(width, $mobile, $tablet, $laptop);
@@ -35,7 +35,7 @@ $modal-padding-laptop: $modal-button-laptop;
 
   &__dialog {
     @extend .item-center;
-    @include responsive-styles('font-size', 20px, 25px, 25px);
+    @include responsive-styles('font-size', 16px, 18px, 18px);
     overflow-y: scroll;
     padding-top: $modal-padding-mobile;
     width: 100%; height: 100%;
@@ -82,10 +82,10 @@ $modal-padding-laptop: $modal-button-laptop;
       }
 
         &__staff-image {
-          @include responsive-styles(width, 30%, 25%, 16%); //dont this way for IE11
-          @include responsive-styles(height, 30%, 25%, 16%); //dont this way for IE11
+          @include responsive-styles(width, 30%, 25%, 16%); //done this way for IE11
+          @include responsive-styles(height, 30%, 25%, 16%); //done this way for IE11
           background-color: $grey;
-          flex-shrink: 0; //dont this way for IE11
+          flex-shrink: 0; //done this way for IE11
           margin: 0 30px 30px 0;
 
           display: block;

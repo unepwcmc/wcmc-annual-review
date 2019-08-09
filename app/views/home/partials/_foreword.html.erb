@@ -6,7 +6,7 @@
   </div>
 
   <div class="section__right">
-    <carousel>
+    <carousel :slide-interval-length="8000">
       <% data['collection'].each do |slide| %>
         <carousel-slide :margin-size="0">
           <div class="blockquote--quotes">
