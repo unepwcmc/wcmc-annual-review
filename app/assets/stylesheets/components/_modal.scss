@@ -79,14 +79,14 @@ $modal-padding-laptop: $modal-button-laptop;
 
       &__staff-member {
         @include responsive-styles(flex-wrap, wrap, nowrap, nowrap);
+        @include responsive-styles(width, 90%, 80%, 40%);
       }
 
         &__staff-image {
-          @include responsive-styles(width, 30%, 25%, 16%); //done this way for IE11
-          @include responsive-styles(height, 30%, 25%, 16%); //done this way for IE11
           background-color: $grey;
           flex-shrink: 0; //done this way for IE11
           margin: 0 30px 30px 0;
+          width: 30%; height: 30%; //done this way for IE11
 
           display: block;
         }

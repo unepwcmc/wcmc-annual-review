@@ -68,7 +68,7 @@ h2 {
 
         &__table-cell {
           @include responsive-styles(padding, 24px 6px, 0 16px, 0 16px);
-          @include responsive-styles(height, auto, 111px, 111px);
+          @include responsive-styles(height, auto, 90px, 90px);
           width: 33%;
 
           &:nth-child(1),

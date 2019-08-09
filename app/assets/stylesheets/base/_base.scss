@@ -150,9 +150,10 @@ span { font-size: inherit; }
 }
 
 .sg-li {
-  @include font-size('p');
+  font-size: inherit;
   font-weight: $font-weight-p;
-  line-height: $line-height-li;
+  line-height: $line-height-p;
+  margin-bottom: .5em;
 }
 
 //--------------------------------------------------

@@ -4,7 +4,7 @@
   height: 110px;
 
   @include breakpoint($medium) {
-    height: 132px;
+    height: 100px;
     align-content: center;
     flex-direction: row;
     justify-content: space-between;

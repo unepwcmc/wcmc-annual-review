@@ -19,8 +19,13 @@ $logo-height-desktop: 50px;
     @include breakpoint($medium) { width: $logo-width-desktop; height: $logo-height-desktop; }
 
     .section--hero & {
-      width: 149px; height: 34px;
-      @include breakpoint($medium) { width: 227px; height: 52px; }
+      @include responsive-styles(width, rem-calc(149), rem-calc(227), rem-calc(227));
+      @include responsive-styles(height, rem-calc(34), rem-calc(52), rem-calc(52));
+    }
+
+    .footer & {
+      @include responsive-styles(width, rem-calc(96), rem-calc(160), rem-calc(160));
+      @include responsive-styles(height, rem-calc(22), rem-calc(36), rem-calc(36));
     }
   }
 }
