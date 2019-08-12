@@ -62,6 +62,7 @@ export default {
           triggerElement: '#section-' + id,
         })
         .setClassToggle('#scroll-link-' + id, 'nav__link--active')
+        .setClassToggle('.nav--side', 'nav--' + id)
         .addTo(navScrollMagic)
 
         stickyBar.scene = new ScrollMagic.Scene({ 

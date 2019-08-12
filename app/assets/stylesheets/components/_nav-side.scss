@@ -1,5 +1,8 @@
-$side-nav-button-color: $white;
-$side-nav-label-color: rgba($grey, .8);
+$side-nav-style-1-button: $white;
+$side-nav-style-1-label: rgba($grey, .8);
+
+$side-nav-style-2-button: $grey-dark;
+$side-nav-style-2-label: rgba($grey, .8);
 
 @keyframes fadeInOut {
   0% { opacity: 0; }
@@ -7,8 +10,34 @@ $side-nav-label-color: rgba($grey, .8);
   70% { opacity: 1; }
 }
 
+@mixin nav-side-style ($button-color, $label-color) {
+  .nav__link {
+    &.nav__link--active > .nav__button {
+      background-color: $button-color;
+    }
+
+    &:hover > .nav__button {
+      background-color: $label-color;
+      border-color: $label-color;
+    }
+  }
+
+    .nav__button {
+      border: solid 1px $button-color;
+    }
+
+    .nav__label {
+      background-color: $label-color;
+      color: $button-color;
+
+      &::after { border-left: 8px solid $label-color; }
+    }
+}
+
 .nav {
   &--side {
+    @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
+
     position: fixed;
     top: 50%;
     right: 20px;
@@ -16,25 +45,20 @@ $side-nav-label-color: rgba($grey, .8);
 
     transform: translateY(-50%);
 
+    &.nav--hero { display: none; }
+
+    &.nav--projects { @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label); }
+
     .nav {
       &__link {
-        &.nav__link--active > .nav__button {
-          background-color: $side-nav-button-color;
-        }
-
         &.nav__link--active > .nav__label,
         &:hover > .nav__label {
           animation: fadeInOut 2s 1 alternate;
         }
-
-        &:hover > .nav__button {
-          background-color: $side-nav-label-color;
-          border-color: $side-nav-label-color;
-        }
       }
+
         &__button {
           background-color: transparent;
-          border: solid 1px $side-nav-button-color;
           border-radius: 100%;
           cursor: pointer;
           margin: 12px 0;
@@ -45,8 +69,6 @@ $side-nav-label-color: rgba($grey, .8);
         }
 
         &__label {
-          background-color: $side-nav-label-color;
-          color: $white;
           font-weight: $bold;
           opacity: 0;
           padding: 2px 10px;
@@ -61,7 +83,6 @@ $side-nav-label-color: rgba($grey, .8);
           &::after {
             border-top: 8px solid transparent;
             border-bottom: 8px solid transparent;
-            border-left: 8px solid $side-nav-label-color;
             content: '';
             width: 0; height: 0; 
 
