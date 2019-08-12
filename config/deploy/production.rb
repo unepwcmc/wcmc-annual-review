@@ -1,11 +1,11 @@
 set :stage, :production
-set :branch, "develop"
+set :branch, "production_deploy"
 
 
 server "web-supported-production.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
 
 set :application, "annual_review"
-set :server_name, "annual_review.web-supoorted-production.linode.unep-wcmc.org"
+set :server_name, "annual_review.web-supported-production.linode.unep-wcmc.org"
 set :sudo_user, "wcmc"
 set :app_port, "80"
 
