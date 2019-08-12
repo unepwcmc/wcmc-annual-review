@@ -79,7 +79,8 @@ $transition-options: 0.6s ease-in-out;
   &__control-bar { 
     @include slide-padding();   
     color: grey;
-    height: $indicator-row-height;
+    margin-top: rem-calc(14);
+    height: auto;
 
     display: flex;
     align-items: center;

@@ -6,9 +6,13 @@
 
 .card {
   &--project {
+    margin-bottom: rem-calc(30);
+
     display: flex-wrap;
 
     @include breakpoint($small) { 
+      margin-bottom: 0;
+      
       justify-content: space-between;
       display: flex; 
     }
@@ -18,6 +22,8 @@
         @include breakpoint($small) { order: 1; }
       }
     }
+
+    h3 { margin-top: rem-calc(16); }
 
     .card {
       &__content-wrapper { //ie11 fix
@@ -38,6 +44,8 @@
           }
 
       &__image-wrapper {
+        
+
         flex: 100%;
         text-align: center;
 

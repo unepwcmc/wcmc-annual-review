@@ -26,8 +26,6 @@ h2 {
   }
 }
 
-h3 { margin-top: 1.2em; } //because h2 needs to be inline to position hash responsively
-
 .section {
 
   &__header {
@@ -53,4 +51,6 @@ h3 { margin-top: 1.2em; } //because h2 needs to be inline to position hash respo
       text-align: center;
       @include breakpoint($small) { width: 59%; }
     }
+
+      &__title { margin-top: 1.2em; } //because h2 needs to be inline to position hash responsively
 }

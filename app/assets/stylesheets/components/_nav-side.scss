@@ -45,8 +45,6 @@ $side-nav-style-2-label: rgba($grey, .8);
 
     transform: translateY(-50%);
 
-    &.nav--hero { display: none; }
-
     &.nav--projects { @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label); }
 
     .nav {
