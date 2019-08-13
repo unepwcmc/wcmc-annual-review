@@ -25,7 +25,10 @@ $introduction-desktop: 28px;
 
   &--anniversary { @import './sections/anniversary.scss'; }
   
-  &--highlights { @import './sections/highlights.scss'; }
+  &--highlights { 
+    @import './sections/highlights.scss'; 
+    height: calc(100vh - #{$topbar-height-desktop});
+  }
 
   &--projects { @import './sections/projects.scss'; }
 

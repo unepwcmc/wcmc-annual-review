@@ -46,6 +46,73 @@ $indicator-row-height: $indicator-height-desktop + $padding-top-bottom * 2;
 $transition-options: 0.6s ease-in-out;
 
 //--------------------------------------------------
+// mixins
+//--------------------------------------------------
+@mixin carousel-indicator ($color) {
+  @include indicator-height();
+  background-color: rgba($grey, 0.4);
+  border: none;
+  border-radius: 50%;
+
+  display: inline-block;
+
+  transition: background-color $transition-options;
+
+  &--selected {
+    background-color: $color;
+  }
+}
+
+@mixin carousel () {
+  .carousel__slides-container {
+    color: $white;
+    padding: 0 $arrow-button-width;
+    height: calc(100% - #{$indicator-row-height});
+  }
+
+    .carousel__slides {
+      padding: 0;
+      height: 100%;
+      
+      position: relative;
+      display: flex;
+    }
+
+
+  .carousel__control-bar {
+    @include slide-padding();   
+    color: grey;
+    margin-top: rem-calc(14);
+    height: auto;
+
+    display: flex;
+    align-items: center;
+  }
+}
+
+$slide-index-mobile: 18px;
+$slide-index-tablet: 20px;
+$slide-index-desktop: 28px;
+
+@mixin slide-index-size() { 
+  font-size: $slide-index-mobile;
+
+  @include breakpoint($small) { font-size: $slide-index-tablet; }
+  @include breakpoint($medium) { font-size: $slide-index-desktop; }
+}
+
+$slide-text-mobile: 14px;
+$slide-text-tablet: 16px;
+$slide-text-desktop: 18px;
+
+@mixin slide-font-size() { 
+  font-size: $slide-text-mobile;
+
+  @include breakpoint($small) { font-size: $slide-text-tablet; }
+  @include breakpoint($medium) { font-size: $slide-text-desktop; }
+}
+
+//--------------------------------------------------
 // classes
 //--------------------------------------------------
 .transition {
@@ -55,51 +122,104 @@ $transition-options: 0.6s ease-in-out;
 }
 
 .carousel {
-  padding-top: 0;
-  height: $carousel-height;
+//--------------------------------------------------
+// class - foreword
+//--------------------------------------------------
+  &--foreword {
+    @include carousel;
+    padding-top: 0;
+    height: $carousel-height;
 
-  position: relative;
+    position: relative;
 
-  &__pause { display: none; }
+    .carousel {
+      &__pause { display: none; }
 
-  &__slides-container {
-    padding: 0 $arrow-button-width;
-    width: 100%; height: calc(100% - #{$indicator-row-height});
-    overflow: hidden;
-  }
+      &__control-bar { 
+        
+      }
+    
+      &__slides-container {
+        overflow: hidden;
+        width: 100%;
+      }
 
-    &__slides {
-      padding: 0;
-      height: 100%;
-      
-      position: relative;
-      display: flex;
-    }
-
-  &__control-bar { 
-    @include slide-padding();   
-    color: grey;
-    margin-top: rem-calc(14);
-    height: auto;
-
-    display: flex;
-    align-items: center;
-  }
-
-    &__indicator {
-      @include indicator-height();
-      background-color: rgba($grey, 0.4);
-      border: none;
-      border-radius: 50%;
-
-      display: inline-block;
-
-      transition: background-color $transition-options;
-
-      &--selected {
-        background-color: $white;
+      &__indicator {
+        @include carousel-indicator($white);
       }
     }
+  }
+
+//--------------------------------------------------
+// class - highlights
+//--------------------------------------------------
+  &--highlights {
+    @include carousel;
+    padding-top: 4%;
+    height: 100%;
+
+    .carousel {
+      &__slides-container {
+        @include responsive-styles(width, 100%, 60%, 60%);
+      }
+
+      &__slide {
+        @include responsive-styles(flex-direction, column, column, row);
+        height: 100%;
+        display: flex;
+        float: left;  
+      }
+
+      &__indicator {
+        @include carousel-indicator($grey-dark);
+      }
+    }
+
+    .carousel-slide {
+      &__content {
+        @include slide-font-size();
+        background-color: $pink;
+        padding: calc(1.5 * #{$gutter-small}) $gutter-small;
+        
+        display: flex;
+        flex: 100%;
+        flex-direction: column;
+
+        @include breakpoint($small) { 
+          padding: calc(3 * $gutter-medium) $gutter-medium;
+        }
+
+        @include breakpoint($medium) { 
+          order: -1;
+          padding: 55px;
+
+          flex: 0 1 42%; 
+        }
+      }
+
+        &__title {
+          color: inherit;
+          margin-bottom: 0;
+        }
+
+        &__introduction {
+          color: inherit;
+        }
+
+        &__index {
+          @include slide-index-size();
+          font-weight: $fw-medium;
+          margin-top: auto;
+        }
+
+      &__image {
+        @include responsive-styles(width, 100%, 100%, 58%);
+        @include responsive-styles(height, 130px, 70%, 100%);
+        background-position: center;
+        background-size: cover;
+      }
+    }
+  }
 }
 
 .carousel-slide {
