@@ -50,6 +50,10 @@ $side-nav-style-2-label: rgba($grey, .8);
       @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label); 
     }
 
+    &.nav--stats-people {
+      @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
+    }
+
     .nav {
       &__link {
         &.nav__link--active > .nav__label,
