@@ -155,6 +155,7 @@ $slide-text-desktop: 18px;
 //--------------------------------------------------
   &--highlights {
     @include carousel;
+    overflow: hidden;
     padding-top: 4%;
     height: 100%;
 
