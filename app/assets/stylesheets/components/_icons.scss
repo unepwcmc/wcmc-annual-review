@@ -7,6 +7,15 @@
   background-size: contain;
 }
 
+@mixin icon-theme($path) {
+  @include icon-basic;
+  @include responsive-styles('width', 90px, 120px, 150px);
+  @include responsive-styles('height', 180px, 200px, 240px);
+  background-image: image-url("icons/#{$path}");
+  background-position: center top;
+  display: inline-block;
+}
+
 //--------------------------------------------------
 // classes
 //--------------------------------------------------
@@ -46,4 +55,11 @@
     @include responsive-styles('height', 30px, 50px, 50px);
     background-image: image-url('icons/share.svg');
   }
+
+  &--theme-1 { @include icon-theme('nature-in-sustainable-development.svg'); }
+  &--theme-2 { @include icon-theme('business-and-nature.svg'); }
+  &--theme-3 { @include icon-theme('planning-for-places.svg'); }
+  &--theme-4 { @include icon-theme('nature-across-borders.svg'); }
+  &--theme-5 { @include icon-theme('healthy-ocean.svg'); }
+  &--theme-6 { @include icon-theme('international-environmental-policy.svg'); }
 }

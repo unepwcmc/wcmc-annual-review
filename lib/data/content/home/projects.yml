@@ -28,6 +28,9 @@ collection:
             - Since 2010 it has been a global goal to secure 17% of the land and 10% of the ocean in networks of effective protected areas.
             - In November 2018 we launched ${link-pp-live} with IUCN and National Geographic to ensure the very latest information on progress towards this ambition is widely available. 
             - Protected Planet Live shows progress on global coverage and also identifies where gaps and opportunities remain for strengthening the coverage of protected and conserved areas – and it’s good news! There has been excellent progress towards the global targets of 17% terrestrial and 10% marine coverage of protected areas. The next challenge is scaling up area-based conservation and ensuring those areas are effective.
+      themeTitle: "Themes:"
+      themes:
+        - 3
       staff:
         -
           name: Dr Naomi Kingston
@@ -57,6 +60,9 @@ collection:
             - Many businesses and governments wish to understand their impacts on biodiversity – whether that’s to ensure their practices are sustainable in the long-term, to follow their own ethical or legal guidelines, or as required by external regulations. It’s often difficult, however, to understand the consequences of any plans or actions on biodiversity. 
             - "This is where ${link-ibat} came in – launched in 2010, it is underpinned by three of the world’s most authoritative global biodiversity datasets: the World Database on Protected Areas, ${link-red-list-long}, and the ${link-kba-long}. Added functionality and expertise then allows people across businesses, governments, and the finance sector to screen potential projects and review potential risks in their investments or supply chain."
             - "Since the publication of their sustainability strategy and their collaboration with the ${link-iucn}, the International Olympic Committee (IOC) has used IBAT as part of its Interested Cities and Candidate Cities processes: “Thanks to IBAT, we can ensure that biodiversity is taken into consideration from the very early stages of a city’s Olympic journey” says Michelle Lemaitre, Head of Sustainability at the IOC. “Based on data provided by IBAT, cities can ascertain whether proposed location plans for Olympic venues need to be modified to avoid impacting areas of high biodiversity value. They can also go a step further, looking into ways in which hosting the Olympic Games can contribute to biodiversity conservation in the area.”"
+      themeTitle: "Themes:"
+      themes:
+        - 2
       staff:
         -
           name: Dr Eugenie Regan
@@ -82,6 +88,9 @@ collection:
             - The success of this project has led to the ${link-algal} initiative, where we will be looking specifically at the restoration of degraded seaweed forests across the Mediterranean - from Northern Africa to the Northern Mediterranean. 
             - We are also working with the ${link-endangered} in southwestern Turkey to see how, by reducing and removing such threats as illegal fishing, anchoring pressures and invasive species, we can recover the marine ecosystems that support critical species such as Mediterranean monk seals and sandbar sharks. One of our key areas of involvement is around behavioural change, and encouraging people to see invasive fish as a key food source.
             - We’ll be tracking progress and impacts for all these initiatives, so please do keep an eye on the ${link-wcmc-website} where you can find more information about these and our other marine restoration activities.
+      themeTitle: "Themes:"
+      themes:
+        - 5
       staff:
         -
           name: Hazel Thornton
@@ -112,6 +121,9 @@ collection:
             - Last November we therefore launched ENCORE in collaboration with the Natural Capital Finance Alliance, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors such as manufacturing or agriculture on nature, and the associated risks that may impact their lending and investment portfolios.
             - "Madeleine Ronquest, Head of Environmental and Social Risk, Climate Change Management at FirstRand in South Africa, said: “ENCORE really helped us to get a more holistic view of potential impacts on our lending portfolio and to incorporate natural capital risk mitigation into all our lending and investments. We’re now adding questions into our due diligence process for all new credit transactions, asking our clients how they are managing environmental risk and assessing how resilient they are to climate change and natural capital risk."
             - “Many larger companies are already building resilience which is great, but smaller businesses in particular often haven’t considered their dependence or impact on natural resources. ENCORE gives us the opportunity to engage with our clients, build stronger trust relationships and help build more sustainable and resilient businesses.”
+      themeTitle: "Themes:"
+      themes:
+        - 2
       staff:
         -
           name: Dr Katie Leach
@@ -136,6 +148,9 @@ collection:
             - In 2018, findings from the work contributed to a nationwide short-term ban on cutting, transportation and sale of Shea nut tree logs and their products. These trees have great economic importance and real potential as an export product to cosmetics and food industries, but they are a threatened species and were under increasing pressure from illegal harvesting for logs, charcoal and the Shea nuts themselves. 
             - When scanning Northern Uganda for areas that might be suitable for Shea we found that most of the potential habitats were also not in protected areas – leaving them even more vulnerable to illegal harvesting. The Ugandan Government therefore decided on the short-term ban on their harvest, preserving the potential for Shea nut harvesting in the long-term.
             - In the coming year we will also be taking this thinking to the oceans, and investigating the Blue Economy – deepening our understanding on the economic value of the oceans, and our own ability to support decision makers to take that into account.
+      themeTitle: "Themes:"
+      themes:
+        - 1
       staff:
         -
           name: Dr Steven King
@@ -157,6 +172,9 @@ collection:
         -
           text:
             - We work with partners all over the world to support a range of countries in their REDD+ planning and implementation. Last year, for example, we helped Viet Nam to become one of the first countries to complete a fundamental step in preparing for REDD+, making it eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation. This involved supporting Viet Nam to meet safeguards requirements, which aim to reduce the risks and increase the benefits of REDD+, including integrating information such as on forest cover and agribusiness ownership by ethnic minorities into its existing system for monitoring forests.
+      themeTitle: "Themes:"
+      themes:
+        - 3
       staff:
         -
           name: Charlotte Hicks
@@ -186,6 +204,9 @@ collection:
             - "The ocean is our life support system; covering over 70% of the planet, it regulates our weather, stores carbon, and provides a home for many species that we depend on for our nutrition and livelihoods. Yet our actions—including those many miles from the coast—are affecting the health of the ocean, with climate change, overharvesting, pollution and other pressures from development threatening the continued supply of the services we all depend on."
             - "We therefore launched Ocean+ in January 2018, designed to make it as easy as possible for decision makers to better understand and account for the ocean’s value. By curating information through partnerships and networks with governmental, non-governmental, and business communities, Ocean+ allows users to:<ul><li>View and download quality-assured spatial datasets that are useful for policy and decision-making;</li><li>Locate more than 190 data resources globally that are important for marine and coastal biodiversity;</li><li>Learn about the state of knowledge on five ecologically-important ocean habitats, namely seagrasses, warm- and cold-water corals, saltmarshes, and mangroves.</li><li>Explore, through the associated initiative Protected Planet, nationally-validated statistics on marine protected area coverage all over the world.</li></ul>"
             - Ocean+ and complementary partnerships will become increasingly vital as the global community defines priorities for the upcoming United Nations ‘Decade of Ocean Science for Sustainable Development.’
+      themeTitle: "Themes:"
+      themes:
+        - 5
       staff:
         -
           name: Lauren Weatherdon
@@ -207,6 +228,9 @@ collection:
         -
           text:
             - To help, we worked with ${link-natureserve} to launch the ${link-bip-long} last November, harnessing data from key measures of biodiversity such as the ${link-red-list-index}, the ${link-habitat-index} and the ${link-footprint} and bringing them to life with clear, informative graphics and maps. By helping to create as comprehensive an insight into biodiversity as possible, the BIP Dashboard helps governments measure impact and progress, and underpin evidence-based decisions about biodiversity.
+      themeTitle: "Themes:"
+      themes:
+        - 6
       staff:
         - 
           name: Philip Bubb

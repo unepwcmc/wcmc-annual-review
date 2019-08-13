@@ -18,6 +18,15 @@
           <div v-if="index == 0" class="modal__bg-image item-margin--top item-margin--bottom" :style="{ 'background-image': `url(${data.modal.image})` }"></div>
         </template>
         
+        <div class="container--small">
+          <h4>{{ themeTitle }}</h4>
+          <div class="flex">
+            <span 
+              v-for="theme in themes"
+              :class="`icon--theme-${theme}`" />
+          </div>
+        </div>
+
         <div class="modal__staff item-padding item-margin--top">
           <div v-for="member in staff" class="modal__staff-member flex">
             <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
@@ -71,6 +80,14 @@ export default {
 
     staff () {
       return this.data.modal && this.data.modal.staff ? this.data.modal.staff : false
+    },
+
+    themes () {
+      return this.data.modal && this.data.modal.themes ? this.data.modal.themes : false
+    },
+
+    themeTitle () {
+      return this.data.modal && this.data.modal.themeTitle ? this.data.modal.themeTitle : false
     }
   },
 
