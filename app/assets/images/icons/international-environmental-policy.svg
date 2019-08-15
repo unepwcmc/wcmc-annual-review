@@ -1,94 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 64 100.3" style="enable-background:new 0 0 64 100.3;" xml:space="preserve">
+	 viewBox="0 0 64 92" style="enable-background:new 0 0 64 92;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#EAEAEA;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#A0D9F7;}
-	.st3{fill:#1D1D1B;}
-	.st4{fill:#4D6B89;}
-	.st5{font-family:'Roboto-Regular';}
-	.st6{font-size:7.75px;}
-	.st7{font-family:'Roboto-Bold';}
+	.st3{fill:none;stroke:#1D1D1B;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#1D1D1B;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:#1D1D1B;}
+	.st6{font-family:'Roboto-Bold';}
+	.st7{font-size:7.75px;}
 </style>
 <g>
 	<rect y="0" class="st0" width="64" height="64"/>
 </g>
-<g>
-	<rect x="8" y="24" class="st1" width="14" height="12"/>
-</g>
-<g>
-	<path class="st1" d="M38.7,48H28V36h14v8.7C42,46.5,40.5,48,38.7,48z"/>
-</g>
-<g>
-	<path class="st1" d="M44.7,26H34V14h14v8.7C48,24.5,46.5,26,44.7,26z"/>
-</g>
-<g>
-	<rect x="18" y="20" class="st1" width="10" height="12"/>
-</g>
-<g>
-	<rect x="38" y="32" class="st1" width="10" height="12"/>
-</g>
-<g>
-	<rect x="44" y="10" class="st1" width="10" height="12"/>
-</g>
-<g>
-	<polygon class="st2" points="44,44 44,32 38,32 42,36 42,44 	"/>
-</g>
-<g>
-	<path class="st3" d="M39.5,48.5H28c-0.3,0-0.5-0.2-0.5-0.5V36c0-0.3,0.2-0.5,0.5-0.5h14c0.3,0,0.5,0.2,0.5,0.5v8
-		C42.5,46.5,41.1,48.5,39.5,48.5z M28.5,47.5h11c1.1,0,2-1.6,2-3.5v-7.5h-13V47.5z"/>
-</g>
-<g>
-	<path class="st3" d="M48,44.5h-6c-0.3,0-0.5-0.2-0.5-0.5v-7.8l-3.9-3.9c-0.1-0.1-0.2-0.4-0.1-0.5s0.3-0.3,0.5-0.3h10
-		c0.3,0,0.5,0.2,0.5,0.5v12C48.5,44.3,48.2,44.5,48,44.5z M42.5,43.5h5v-11h-8.3l3.1,3.1c0.1,0.1,0.1,0.2,0.1,0.4v7.5H42.5z"/>
-</g>
-<g>
-	<path class="st3" d="M28,58.8c-0.4,0-0.8-0.3-0.8-0.8V36c0-0.4,0.3-0.8,0.8-0.8s0.8,0.3,0.8,0.8v22C28.7,58.4,28.4,58.8,28,58.8z"
-		/>
-</g>
-<g>
-	<path class="st3" d="M38,36.5c-0.3,0-0.5-0.2-0.5-0.5v-4c0-0.3,0.2-0.5,0.5-0.5s0.5,0.2,0.5,0.5v4C38.5,36.3,38.2,36.5,38,36.5z"/>
-</g>
-<g>
-	<polygon class="st2" points="50,22 50,10 44,10 48,14 48,22 	"/>
-</g>
-<g>
-	<path class="st3" d="M45.5,26.5H34c-0.3,0-0.5-0.2-0.5-0.5V14c0-0.3,0.2-0.5,0.5-0.5h14c0.3,0,0.5,0.2,0.5,0.5v8
-		C48.5,24.5,47.1,26.5,45.5,26.5z M34.5,25.5h11c1.1,0,2-1.6,2-3.5v-7.5h-13V25.5z"/>
-</g>
-<g>
-	<path class="st3" d="M54,22.5h-6c-0.3,0-0.5-0.2-0.5-0.5v-7.8l-3.9-3.9c-0.1-0.1-0.2-0.4-0.1-0.5s0.3-0.3,0.5-0.3h10
-		c0.3,0,0.5,0.2,0.5,0.5v12C54.5,22.3,54.2,22.5,54,22.5z M48.5,21.5h5v-11h-8.3l3.1,3.1c0.1,0.1,0.1,0.2,0.1,0.4v7.5H48.5z"/>
-</g>
-<g>
-	<path class="st3" d="M34,30.8c-0.4,0-0.8-0.3-0.8-0.8V14c0-0.4,0.3-0.8,0.8-0.8s0.8,0.3,0.8,0.8v16C34.7,30.4,34.4,30.8,34,30.8z"
-		/>
-</g>
-<g>
-	<path class="st3" d="M44,14.5c-0.3,0-0.5-0.2-0.5-0.5v-4c0-0.3,0.2-0.5,0.5-0.5s0.5,0.2,0.5,0.5v4C44.5,14.3,44.2,14.5,44,14.5z"/>
-</g>
-<g>
-	<polygon class="st2" points="24,32 24,20 18,20 22,24 22,32 	"/>
-</g>
-<g>
-	<path class="st3" d="M20,36.5H8c-0.3,0-0.5-0.2-0.5-0.5V24c0-0.3,0.2-0.5,0.5-0.5h13.9c0.3,0,0.5,0.2,0.5,0.5v4
-		c0,0.3-0.2,0.5-0.5,0.5s-0.5-0.2-0.5-0.5v-3.5H8.5v11H20c0.3,0,0.5,0.2,0.5,0.5S20.2,36.5,20,36.5z"/>
-</g>
-<g>
-	<path class="st3" d="M28,32.5c-0.3,0-0.5-0.2-0.5-0.5V20.5h-8.3l3.1,3.1c0.1,0.1,0.1,0.2,0.1,0.4v8c0,0.3-0.2,0.5-0.5,0.5
-		s-0.5-0.2-0.5-0.5v-7.8l-3.9-3.9c-0.1-0.1-0.2-0.4-0.1-0.5c0.1-0.2,0.3-0.3,0.5-0.3h10c0.3,0,0.5,0.2,0.5,0.5v12
-		C28.5,32.3,28.2,32.5,28,32.5z"/>
-</g>
-<g>
-	<path class="st3" d="M8,46.8c-0.4,0-0.8-0.3-0.8-0.8V24c0-0.4,0.3-0.8,0.8-0.8s0.8,0.3,0.8,0.8v22C8.7,46.4,8.4,46.8,8,46.8z"/>
-</g>
-<g>
-	<path class="st3" d="M18,24.5c-0.3,0-0.5-0.2-0.5-0.5v-4c0-0.3,0.2-0.5,0.5-0.5s0.5,0.2,0.5,0.5v4C18.5,24.3,18.2,24.5,18,24.5z"/>
-</g>
-<text transform="matrix(1 0 0 1 2.136230e-04 73.9996)" class="st4 st5 st6">06</text>
-<text transform="matrix(1 0 0 1 2.136230e-04 81.9996)" class="st3 st7 st6">International  </text>
-<text transform="matrix(1 0 0 1 2.136230e-04 89.9996)" class="st3 st7 st6">Environmental  </text>
-<text transform="matrix(1 0 0 1 2.136230e-04 97.9996)" class="st3 st7 st6">Policy</text>
+<rect x="8" y="24" class="st1" width="14" height="12"/>
+<path class="st1" d="M38.7,48H28V36h14v8.7C42,46.5,40.5,48,38.7,48z"/>
+<path class="st1" d="M44.7,26H34V14h14v8.7C48,24.5,46.5,26,44.7,26z"/>
+<rect x="18" y="20" class="st1" width="10" height="12"/>
+<rect x="38" y="32" class="st1" width="10" height="12"/>
+<rect x="44" y="10" class="st1" width="10" height="12"/>
+<polygon class="st2" points="44,44 44,32 38,32 42,36 42,44 "/>
+<path class="st3" d="M42,36v8c0,2.2-1.1,4-2.5,4H28V36H42z"/>
+<polygon class="st3" points="48,32 48,44 42,44 42,36 38,32 "/>
+<line class="st4" x1="28" y1="58" x2="28" y2="36"/>
+<line class="st3" x1="38" y1="32" x2="38" y2="36"/>
+<polygon class="st2" points="50,22 50,10 44,10 48,14 48,22 "/>
+<path class="st3" d="M48,14v8c0,2.2-1.1,4-2.5,4H34V14H48z"/>
+<polygon class="st3" points="54,10 54,22 48,22 48,14 44,10 "/>
+<line class="st4" x1="34" y1="30" x2="34" y2="14"/>
+<line class="st3" x1="44" y1="10" x2="44" y2="14"/>
+<polygon class="st2" points="24,32 24,20 18,20 22,24 22,32 "/>
+<polyline class="st3" points="20,36 8,36 8,24 22,24 22,28 "/>
+<polyline class="st3" points="22,32 22,24 18,20 28,20 28,32 "/>
+<line class="st4" x1="8" y1="46" x2="8" y2="24"/>
+<line class="st3" x1="18" y1="20" x2="18" y2="24"/>
+<text transform="matrix(1 0 0 1 -2.441406e-04 73.9996)" class="st5 st6 st7">International  </text>
+<text transform="matrix(1 0 0 1 -2.441406e-04 81.9996)" class="st5 st6 st7">Environmental  </text>
+<text transform="matrix(1 0 0 1 -2.441406e-04 89.9996)" class="st5 st6 st7">Policy</text>
 </svg>
