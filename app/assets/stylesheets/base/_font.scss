@@ -22,7 +22,12 @@
 
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/3a0a3e");
-
   
-@font-face {font-family: 'ImpactMTStd';src: url('webfonts/3A0A3E_0_0.eot');src: url('webfonts/3A0A3E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/3A0A3E_0_0.woff2') format('woff2'),url('webfonts/3A0A3E_0_0.woff') format('woff'),url('webfonts/3A0A3E_0_0.ttf') format('truetype');}
- 
+@font-face {
+  font-family: 'ImpactMTStd';
+  src: font_url('3A0A3E_0_0.eot');
+  src: font_url('3A0A3E_0_0.eot?#iefix') format('embedded-opentype'),
+       font_url('3A0A3E_0_0.woff2') format('woff2'),
+       font_url('3A0A3E_0_0.woff') format('woff'),
+       font_url('3A0A3E_0_0.ttf') format('truetype');
+}
