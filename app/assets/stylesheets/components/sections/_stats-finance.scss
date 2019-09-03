@@ -1,5 +1,8 @@
 @include background-image('hero/dry-season-cat-tien-national-park.jpg');
-@include min-full-height();
+
+@include breakpoint($small) {
+  min-height: 100vh;
+}
 
 h2 {
   color: $white;

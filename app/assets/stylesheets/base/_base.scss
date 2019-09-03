@@ -253,6 +253,12 @@ span { font-size: inherit; }
   @extend .section-padding--bottom;
 }
 
+.section-padding--caption {
+  @include breakpoint-down($small) {
+    padding-bottom: rem-calc(110);
+  }
+}
+
 //--------------------------------------------------
 // item padding
 //--------------------------------------------------

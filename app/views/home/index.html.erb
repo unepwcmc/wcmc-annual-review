@@ -16,7 +16,7 @@
 
 <section 
   id="section-<%= @anniversary['id'] %>" 
-  class="section--anniversary section--full-window section-padding bg-primary bg-image-overlay--blue">
+  class="section--anniversary section--full-window section-padding section-padding--caption bg-primary bg-image-overlay--blue">
 
   <%= render partial: 'home/partials/anniversary', locals: { data: @anniversary } %>
 </section>
@@ -44,14 +44,14 @@
 
 <section 
   id="section-<%= @stats_finance['id'] %>" 
-  class="section--stats-finance section-padding bg-image-overlay white">
+  class="section--stats-finance section-padding section-padding--caption bg-image-overlay white">
   
   <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_finance } %>
 </section>
 
 <section 
   id="section-<%= @future['id'] %>" 
-  class="bg-grey section--future section-padding white flex flex-h-center flex-column bg-image-overlay">
+  class="bg-grey section--future section-padding section-padding--caption white flex flex-h-center flex-column bg-image-overlay">
 
   <%= render partial: 'home/partials/future', locals: { data: @future } %>
 </section>

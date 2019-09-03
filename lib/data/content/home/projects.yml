@@ -77,6 +77,7 @@ collection:
     id: restoration
     title: Marine restoration from Turkey to Norway
     image: content/grouper.png
+    image_alt: "Dusky Grouper, Spain. Credit: damedias - stock.adobe.com"
     introduction:
       - The oceans and coastal habitats provide us with food, protect us from extreme weather, and soak up carbon. They’re facing increasing pressures around the world, however, so we’re working throughout Europe to help restore these valuable environments. 
     modal:
@@ -142,6 +143,7 @@ collection:
     id: nature
     title: The value of nature - starting with a nut
     image: content/nut.png
+    image_alt: "Shea nuts and leaves. Credit: luisapuccini, AdobeStock"
     introduction: 
       - The natural world is critical to Uganda’s economy and the wellbeing of its people, providing essential support for food security, tourism, and livelihoods around the country. Traditional ways of looking at economic progress, however, can neglect or exclude the values that nature provides. We therefore worked with partners to identify and highlight trends in the ‘stocks’ of several of Uganda’s biodiversity-related natural resources - with concrete consequences for the Shea nut.
     modal:
@@ -171,6 +173,7 @@ collection:
     id: redd
     title: Helping Viet Nam get ready for REDD+
     image: content/gibbon.png
+    iamge_alt: "Yellow-cheeked Gibbon, Cát Tiên National Park, Vietnam. Credit: ondrejprosicky, AdobeStock"
     introduction: 
       - Escalating climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating and implementing solutions. Last year we helped Viet Nam to take a key step and become one of the first countries to complete a fundamental part of preparing for ${link-redd-long}. It is now eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation.
     modal:
@@ -231,6 +234,7 @@ collection:
     id: nature-platform
     title: Giving nature a new platform for change
     image: content/bee.png
+    image_alt: "Bee. Credit: Tristan, AdobeStock"
     introduction: 
       - All countries that have signed up to the ${link-cbd-long} have to report on their progress on implementing the Convention. Compiling relevant information to measure progress is, however, often a challenge. We therefore joined with NatureServe to launch the ${link-bip-long} last November, bringing key biodiversity measurements to life and helping governments measure impact and progress. 
     modal:

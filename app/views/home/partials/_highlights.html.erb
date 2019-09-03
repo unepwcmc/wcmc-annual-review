@@ -1,10 +1,8 @@
-<!-- <carousel-horizontal id="highlights" :slides="<%= data['collection'].to_json %>"></carousel-horizontal> -->
-
 <carousel id="highlights" class="carousel--highlights" :show-all-indicators="true">
   <% data['collection'].each_with_index do |slide, index| %>
     <carousel-slide :margin-size="0">
       <div class="carousel__slide">
-        <div class="carousel-slide__image" style="background-image: url('<%= image_url(slide['image'])%>');"></div>
+        <div class="carousel-slide__image" style="background-image: url('<%= image_url(slide['image'])%>');" title="<%= slide['image_alt'] %>"></div>
         <div class="carousel-slide__content">
           <h3 class="carousel-slide__title"><%= slide['title'] %></h3>
           

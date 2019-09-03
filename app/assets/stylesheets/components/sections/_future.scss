@@ -1,9 +1,5 @@
 @include background-image('hero/springbok-okavango-botswana.jpg');
 
-@include breakpoint-down($small) {
-  padding-bottom: rem-calc(110);
-}
-
 @include breakpoint($medium) {
   @include min-full-height();
 }
