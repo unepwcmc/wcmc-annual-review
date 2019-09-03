@@ -30,7 +30,7 @@ class HomeController < ApplicationController
       },
       {
         id: 'future',
-        label: 'Moving forward...'
+        label: 'Moving forward'
       }
     ].to_json
 
