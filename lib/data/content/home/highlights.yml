@@ -17,7 +17,7 @@ collection:
     id: partnerships
     title: Cross-continental partnerships
     introduction: 
-      - We launched the ${link-development-corridors}, an international collaboration aimed at sustainable infrastructure and development in East Africa and funded by the UK Research Council’s Global Challenges Research Fund.
+      - We launched the ${link-development-corridors}, funded by the UK Research Council’s Global Challenges Research Fund. This international collaboration aims to strengthen sustainability across infrastructure and development in East Africa.
     image: /content/images/highlights/dcp.jpg
   -
     id: heights
@@ -35,7 +35,7 @@ collection:
     id: goals
     title: Global goals for biodiversity
     introduction: 
-      - ${link-egypt}, a biennial event to create international biodiversity action plans. A number of decisions refer to our guidance including visions for 2050, and how to make nature a part of decision-making across different sectors.
+      - ${link-egypt}, a biennial event that provides international leadership on biodiversity. Several decisions of the Conference refer to our guidance, and the Conference also determined the way forwards on a future plan for the conservation and sustainable use of nature.
     image: /content/images/highlights/iisd-enb.jpg
   -
     id: tracking

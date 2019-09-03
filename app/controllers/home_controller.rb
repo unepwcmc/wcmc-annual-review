@@ -18,15 +18,15 @@ class HomeController < ApplicationController
       },
       {
         id: 'highlights',
-        label: '2018 highlights'
+        label: 'Highlights'
       },
       {
         id: 'stats-people',
-        label: 'People team stats'
+        label: 'Our team'
       },
       {
         id: 'stats-finance',
-        label: 'Finance stats'
+        label: 'Financial overview'
       },
       {
         id: 'future',

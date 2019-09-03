@@ -23,8 +23,8 @@ stats-totals:
 stats-staff:
   icon: icons/collaboration.svg
   number: 132
-  title: staff
-  introduction: 13 of our team started as interns
+  title: Number of staff at UNEP-WCMC
+  introduction: 13 of whom started as interns
   stats: 
     -
       number: 17
