@@ -29,7 +29,7 @@
   &--arrow-right {
     @include icon-basic();
     background-image: image-url('icons/arrow-black.svg');
-    width: 18px; height: 26px;
+    width: 14px; height: 20px;
     
     transform-origin: center;
     transform: rotate(-90deg);

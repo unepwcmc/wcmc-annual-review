@@ -30,7 +30,10 @@
         font-size: rem-calc(16);
         flex: 100%;
         
-        @include breakpoint($small) { flex: 0 1 47%; }
+        @include breakpoint($small) { 
+          flex: 0 1 47%; 
+          align-self: center;
+        }
       }
         &__content {
           padding: rem-calc(14 0 20 0);

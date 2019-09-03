@@ -209,7 +209,7 @@ $slide-text-desktop: 18px;
 
         &__index {
           @include slide-index-size();
-          font-weight: $fw-medium;
+          font-weight: $bold;
           margin-top: auto;
         }
 
