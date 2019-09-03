@@ -72,6 +72,11 @@ $modal-padding-laptop: $modal-button-laptop;
       width: 100%;
     }
 
+      &__bg-image-caption {
+        color: $white;
+        bottom: 0;
+      }
+
     &__staff {
       background-color: $grey-light;
       border-bottom: solid $grey-dark 36px;

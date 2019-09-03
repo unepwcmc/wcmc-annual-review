@@ -13,6 +13,8 @@ collection:
       - In November 2018 we joined with the International Union for Conservation of Nature (IUCN) and National Geographic to launch ${link-pp-live}, a portal into the very latest information on protected areas around the globe.
     modal:
       image: /content/images/modal/bryce-canyon-at-dawn.jpg
+      image_caption: Bryce Canyon at dawn, USA. 
+      image_credit: SeanPavonePhoto, AdobeStock
       content:
         -
           title: What is Protected Planet?
@@ -45,6 +47,8 @@ collection:
       - The ${link-ibat-long} allows business to view and analyse some of the world’s most authoritative global biodiversity information. Recently, the International Olympic Committee has signed up, using it to screen potential host cities.
     modal:
       image: /content/images/modal/penguin.jpg
+      image_caption: Penguin, Antarctica. 
+      image_credit: anyaberkut, AdobeStock
       content:
         - 
           title: What is IBAT?
@@ -77,6 +81,8 @@ collection:
       - The oceans and coastal habitats provide us with food, protect us from extreme weather, and soak up carbon. They’re facing increasing pressures around the world, however, so we’re working throughout Europe to help restore these valuable environments. 
     modal:
       image: /content/images/modal/seagrass-mediterranean-sea-andalusia-spain.jpg
+      image_caption: Seagrass, Spain. 
+      image_credit: damedias, AdobeStock
       content:
         -
           text: 
@@ -105,6 +111,8 @@ collection:
       - Businesses are central to reversing the decline of nature. However, in the past it has been difficult for them to fully understand their relationship with the environment and biodiversity. In November we therefore joined with the Natural Capital Finance Alliance to launch ${link-encore}, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors on nature.
     modal:
       image: /content/images/modal/borneo.jpg
+      image_caption: Danum Valley Conservation Area, Malaysia. 
+      image_credit: cn0ra, AdobeStock
       content:
         -
           title: What is ENCORE?
@@ -138,6 +146,8 @@ collection:
       - The natural world is critical to Uganda’s economy and the wellbeing of its people, providing essential support for food security, tourism, and livelihoods around the country. Traditional ways of looking at economic progress, however, can neglect or exclude the values that nature provides. We therefore worked with partners to identify and highlight trends in the ‘stocks’ of several of Uganda’s biodiversity-related natural resources - with concrete consequences for the Shea nut.
     modal:
       image: /content/images/modal/uganda.jpg
+      image_caption: Bwindi Impenetrable National Park, Uganda. 
+      image_credit: twitchy, AdobeStock
       content:
         -
           text:
@@ -165,6 +175,8 @@ collection:
       - Escalating climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating and implementing solutions. Last year we helped Viet Nam to take a key step and become one of the first countries to complete a fundamental part of preparing for ${link-redd-long}. It is now eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation.
     modal:
       image: /content/images/modal/jungle.jpg
+      image_caption: Cát Bà National Park, Vietnam. 
+      image_credit: Matyas Rehak, AdobeStock
       content:
         -
           text:
@@ -189,6 +201,8 @@ collection:
       - The ocean covers more than 70% of the planet, regulating our weather, storing carbon, and providing us with food. It is threatened, however, by a wide range of pressures including climate change, overharvesting, pollution, and development. In 2018 we therefore launched ${link-ocean-plus} - a portal into ocean data that makes it as easy as possible for decision makers to understand and account for the ocean’s value.
     modal:
       image: /content/images/modal/fish.jpg
+      image_caption: Blueline Sabretooth Blenny, <emphasis>Plagiotremus rhinorhynchos</emphasis>, Raja Ampat Islands, Indonesia. 
+      image_credit: New Media & Films, AdobeStock
       content:
         -
           title: What is Ocean+?
@@ -221,6 +235,8 @@ collection:
       - All countries that have signed up to the ${link-cbd-long} have to report on their progress on implementing the Convention. Compiling relevant information to measure progress is, however, often a challenge. We therefore joined with NatureServe to launch the ${link-bip-long} last November, bringing key biodiversity measurements to life and helping governments measure impact and progress. 
     modal:
       image: /content/images/modal/brazil.jpg
+      image_caption: Rio de Janeiro, Brazil. 
+      image_credit: marchello74, AdobeStock
       content:
         -
           text: 

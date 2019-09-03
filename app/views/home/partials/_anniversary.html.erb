@@ -6,5 +6,7 @@
     <% if data['url'] %>
       <%= link_to 'View timeline', data['url'], title: 'View the UNEP-WCMC 40th Anniversary timeline', target: '_blank', class: 'button--external-outline inline-block item-padding--top' %>
     <% end %>
+
+    <%= render partial: 'home/shared/caption/', locals: { title: data['hero_title'], credit: data['hero_credit'], classes: 'grey-dark text-left' } %>
   </div>
 </div>
