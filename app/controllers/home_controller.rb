@@ -22,7 +22,7 @@ class HomeController < ApplicationController
       },
       {
         id: 'stats-people',
-        label: 'Our team'
+        label: 'In numbers'
       },
       {
         id: 'stats-finance',
