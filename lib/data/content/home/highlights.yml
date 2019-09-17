@@ -28,7 +28,7 @@ collection:
     introduction: 
       - The ${link-cites} which we manage on behalf of the CITES Secretariat hit 20 million records. We also conducted one of the first comprehensive reviews of CITES trade data -  ${link-cites-review} to see what we found.
     image: /content/images/highlights/chameleon.jpg
-    image_alt: "Yemen chameleon, Chamaeleo calyptratus. Credit: pirotehnik, AdobeStock"
+    image_alt: "Yemen chameleon. Credit: pirotehnik, AdobeStock"
   -
     id: fifth
     title: Sustainable Trade
@@ -42,14 +42,14 @@ collection:
     introduction: 
       - ${link-egypt}, a biennial event that provides international leadership on biodiversity. Several decisions of the Conference refer to our guidance, and the Conference also determined the way forwards on a future plan for the conservation and sustainable use of nature.
     image: /content/images/highlights/iisd-enb.jpg
-    image_alt: "UN Environment delegates, including from the UNEP-WCMC team. Credit: IISD/ENB Franz Dejon - http://enb.iisd.org/biodiv/cop14/enb/29nov.html"
+    image_alt: "UN Environment Programme delegates, including from the UNEP-WCMC team. Credit: IISD/ENB Franz Dejon - http://enb.iisd.org/biodiv/cop14/enb/29nov.html"
   -
     id: tracking
     title: International wildlife trade
     introduction: 
       - We helped to see if trade in 27 “species-country combinations” was sustainable. The range States for ${link-eel} and ${link-teak} were subsequently asked to create more conservation export quotas, and Cameroon’s export of African teak was deemed sustainable.
     image: /content/images/highlights/anguilla-eel.jpg
-    image_alt: "European eel, Anguilla Anguilla. Credit: Witold Krasowski, AdobeStock"
+    image_alt: "European eel, Anguilla anguilla. Credit: Witold Krasowski, AdobeStock"
   -
     id: curve
     title: Reversing biodiversity loss 

@@ -1,29 +1,29 @@
 id: stats-finance
 title: Financial overview
-hero_title: Cat Tien National Park, Viet Nam (dry season)
+hero_title: Cát Tiên National Park, Viet Nam
 hero_credit: Antonel, AdobeStock
 income:
   -
     year: 2017
-    total: 8779000
+    total: 8779
   -
     year: 2018
-    total: 11074000
+    total: 11074
 table: 
   -
     - ''
-    - 2017
-    - 2018
+    - 2017 (£000’s)
+    - 2018 (£000’s)
   -
-    - Total Expenditure
-    - 8959000
-    - 11320000
+    - Total expenditure
+    - 8959
+    - 11320
   -
     - Net movement in funds
-    - -180000
-    - -246000
+    - -180
+    - -246
   -  
     - Total assests less liabilities
-    - 3944000
-    - 3699000
+    - 3944
+    - 3699
 
