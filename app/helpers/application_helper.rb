@@ -26,7 +26,7 @@ module ApplicationHelper
   end
 
   def social_image_alt
-    'Rhino, Nairobi skyline, Nairobi National Park, Kenya'
+    'Rhino, Nairobi National Park, Kenya'
   end
 
   def create_sharing_facebook_link
