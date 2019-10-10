@@ -38,12 +38,12 @@ stats-staff:
       number: 20
       title: Nationalities
       icon: icons/globe.svg
-activities_title: "2018 UN Biodiversity Conference: references to us or activities we led (cumulative)"
-activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to our work, eight of which were in decisions.
+activities_title: "Our Policy Relevance: UN Biodiversity Conference references to the Centre and our work"
+activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to the Centre and our work, in eight different Conference decisions.
 activities_legend:
   -
-    colour: 'black'
-    text: Cumulative no. of decisions that reference us
-  -
     colour: 'primary-light'
-    text: Total cumulative no. of decisions
+    text: Cumulative no. of references to the Centre and our work in UN Biodiversity Conference decisions
+  -
+    colour: 'black'
+    text: Cumulative no. of UN Biodiversity Conference decisions in which they occur
