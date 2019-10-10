@@ -42,8 +42,8 @@ activities_title: "Our Policy Relevance: UN Biodiversity Conference references t
 activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to the Centre and our work, in eight different Conference decisions.
 activities_legend:
   -
-    colour: 'black'
-    text: Cumulative no. of UN Biodiversity Conference decisions referencing the Centre and our work
-  -
     colour: 'primary-light'
     text: Cumulative no. of references to the Centre and our work in UN Biodiversity Conference decisions
+  -
+    colour: 'black'
+    text: Cumulative no. of UN Biodiversity Conference decisions in which they occur
