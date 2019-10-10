@@ -1,8 +1,14 @@
+## v1.0.2
+
+**Text fixes**
+
+- Small text fixes.
+
 ## v1.0.1
 
 **Theme icons**
 
-- Update theme icons
+- Update theme icons.
 
 ## v1.0.0
 
