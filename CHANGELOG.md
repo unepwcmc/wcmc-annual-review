@@ -1,5 +1,11 @@
 ## v1.0.2
 
+**Styling fixes**
+
+- Small styling fixes.
+
+## v1.0.2
+
 **Text fixes**
 
 - Small text fixes.
