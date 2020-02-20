@@ -23,7 +23,7 @@ link-eel:
   href: https://cites.org/sites/default/files/eng/com/AC/30/E-AC30-12-02-A2-Rev1.pdf
   title: Read about the eel (Anguilla anguilla)
   target: _blank
-link-egypt: 
+link-egypt:
   text: We supported the UN Biodiversity Conference
   href: https://www.unep-wcmc.org/news/meeting-in-egypt-for-global-change
   title: Read about UNEP-WCMC's support to the UN Biodiversity Conference'
@@ -52,4 +52,10 @@ link-zeichner-visit:
   text: We welcomed Daniel Zeichner
   href: https://www.unep-wcmc.org/news/unep-wcmc-hosts-cambridge-mp
   title: Read about the paper UNEP-WCMC co-published on bending the curve of biodiversity loss
+  target: _blank
+# 2019
+link-protected-planet:
+  text: World Database on Protected Areas
+  href: https://www.protectedplanet.net/
+  title: Visit the Protected Planet website
   target: _blank

@@ -1,4 +1,9 @@
 //--------------------------------------------------
+// variables
+//--------------------------------------------------
+$hero-image: 'hero/burchells_zebra_botswana.jpg';
+
+//--------------------------------------------------
 // settings
 //--------------------------------------------------
 @mixin hash-font-size() {
@@ -12,7 +17,7 @@
 h2 {
   display: inline;
   position: relative;
-  
+
   &::before {
     @include breakpoint($small) {
       @include hash-font-size();
@@ -29,7 +34,7 @@ h2 {
 .section {
 
   &__header {
-    background: image-url('hero/rice-farmer.jpg');
+    background: image-url(#{$hero-image});
     background-size: cover;
     height: 100vh;
 

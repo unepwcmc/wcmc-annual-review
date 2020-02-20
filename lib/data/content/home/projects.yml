@@ -2,19 +2,20 @@ id: projects
 title: Our work
 strapline: We can make change
 introduction: In 2019, we collaborated with partners across the world, leading the transformational change required to address the global nature crisis.
-hero_title: Rice farmer
-hero_credit: thekob5123, AdobeStock
+hero_title: Burchell's Zebra, Botswana
+hero_credit: Ondřej Prosický, Adobe Stock
 collection:
   -
     id: unsustainable-trade
     title: We exposed the link between unsustainable trade and loss of nature
-    image: content/project-protected-planet.png
+    image: /content/images/projects/giant_anteater_brazil.jpg
+    image_alt: Giant anteater, a threatened species in Cerrado, Brazil | Ondřej Prosický, Adobe Stock
     introduction:
       - Working with 50 partner organisations, we launched the Trade, Development and the Environment Hub with the goal of making trade a sustainable and positive force in the world.
     modal:
-      image: /content/images/modal/bryce-canyon-at-dawn.jpg
-      image_caption: Bryce Canyon at dawn, USA.
-      image_credit: SeanPavonePhoto, AdobeStock
+      image: /content/images/modal/industrial_port.jpg
+      image_caption: Industrial Port
+      image_credit: Lily, Adobe Stock
       title: Sustainable trade for people and the planet
       content:
         -
@@ -52,13 +53,14 @@ collection:
   -
     id: high-seas
     title: We moved the world closer to a legal framework to protect the high-seas
-    image: content/project-ibat.png
+    image: /content/images/projects/sea_turtle.jpg
+    image_alt: Turtle | Drew, Adobe Stock
     introduction:
       - The Areas Beyond National Jurisdiction-Deep Seas Project explores options to manage the high seas sustainably following an ecosystem-based approach.
     modal:
-      image: /content/images/modal/penguin.jpg
-      image_caption: Penguin, Antarctica.
-      image_credit: anyaberkut, AdobeStock
+      image: /content/images/modal/hammerhead_sharks.jpg
+      image_caption: Hammerhead Sharks
+      image_credit: hakbak, Adobe Stock
       title: Protecting the high-seas - Areas Beyond National Jurisdiction - Deep Seas Project
       content:
         -
@@ -79,20 +81,20 @@ collection:
       staff:
         -
           name: Nina Bhola
-          image: /content/images/profile/eugenie-regan.jpg
+          image: /content/images/profile/nina-bhola.jpg
           job: Senior Programme Officer, Conserving Land and Seascapes
           text: Nina leads the ABNJ related work at UNEP-WCMC and provides support and scientific input to technical projects. She also  supports the development of work related to connectivity and protected area management effectiveness. Before joining UNEP-WCMC, Nina completed a PhD in ecology from the University of Groningen, The Netherlands, and worked with the World Wide Fund for Nature-Eastern Africa Programme (WWF- EARPO).
   -
     id: super-year
     title: We provided critical science and knowledge for the 2020 super year for nature, climate and people
-    image: content/grouper.png
-    image_alt: "Dusky Grouper, Spain. Credit: damedias - stock.adobe.com"
+    image: /content/images/projects/beringei_baby_mountain_gorilla.jpg
+    image_alt: Beringei Baby Mountain Gorilla | photocech, Adobe Stock
     introduction:
       - In 2019, we have been working at the science-policy interface to support the development the next Global Biodiversity Framework.
     modal:
-      image: /content/images/modal/seagrass-mediterranean-sea-andalusia-spain.jpg
-      image_caption: Seagrass, Spain.
-      image_credit: damedias, AdobeStock
+      image: /content/images/modal/national_flags.jpg
+      image_caption: National Flags
+      image_credit: Tobias Arhelger, Adobe Stock
       title: Preparing for the 2020 super year for nature, climate, and people
       content:
         -
@@ -111,19 +113,20 @@ collection:
       staff:
         -
           name: Neil Burgess
-          image: /content/images/profile/hazel-thornton.jpg
+          image: /content/images/profile/neil-burgess.jpg
           job: Chief Scientist, Senior Management Team
           text: Neil has worked in conservation for more than 20 years. His role as Chief Scientist is to oversee the scientific and technical work of UNEP-WCMC, to develop our profile and collaborations with external partners interested in the conservation of nature, and to promote the role data and analysis play in effective conservation delivery. He also helps to publish leading scientific work at the science-policy interface, mentors staff in scientific delivery, and ensures overall quality and scientific credibility of outputs across UNEP-WCMC.
   -
     id: restoration
     title: We used our expertise to enhance ecosystem restoration for people and nature
-    image: content/project-encore.png
+    image: /content/images/projects/mangrove_roots_caribbean.jpg
+    image_alt: Mangrove roots, Caribbean | damedias, Adobe Stock
     introduction:
       - In the lead up to the ${link-ecosystem-restoration}, we are working with various partners to design, implement and monitor nature-based solutions to restore landscapes and seascapes around the world.
     modal:
-      image: /content/images/modal/borneo.jpg
-      image_caption: Danum Valley Conservation Area, Malaysia.
-      image_credit: cn0ra, AdobeStock
+      image: /content/images/modal/costa_brava_coast_spain.jpg
+      image_caption: Costa Brava coast, Spain
+      image_credit: Alexugalek, Adobe Stock
       title: Ecosystem restoration for people and nature
       content:
         -
@@ -151,14 +154,14 @@ collection:
   -
     id: protecting-species
     title: We protected species from unsustainable trade
-    image: content/nut.png
-    image_alt: "Shea nuts and leaves. Credit: luisapuccini, AdobeStock"
+    image: /content/images/projects/tokay_gecko.jpg
+    image_alt: Tokay Gecko | naturesauraphoto, Adobe Stock
     introduction:
       - Ahead of CITES CoP18, we worked with Parties to prepare proposals for three new species to be added to the CITES Appendices. As a result, trade in these species is now more tightly regulated and closely scrutinised.
     modal:
-      image: /content/images/modal/uganda.jpg
-      image_caption: Bwindi Impenetrable National Park, Uganda.
-      image_credit: twitchy, AdobeStock
+      image: /content/images/modal/cites_cop18.jpg
+      image_caption: CITES CoP18
+      image_credit: IISD/ENB, Kiara Worth
       title: Protecting species from unsustainable trade – the CITES Conference
       content:
         -
@@ -181,20 +184,20 @@ collection:
       staff:
         -
           name: Claire McLardy
-          image: /content/images/profile/steven-king.jpg
+          image: /content/images/profile/claire-mclardy.jpg
           job: Senior Programme Officer, Species Programme
           text: Claire leads on the production of scientific and technical reports to support the implementation of species-related conventions and agreements, with particular emphasis on CITES and the EU Wildlife Trade Regulations. Before joining UNEP-WCMC, Claire spent several years researching orangutan population density and distribution in Central Kalimantan, Borneo and worked for five years for the UK CITES Scientific Authority (Fauna), where she advised UK Government on scientific aspects of CITES implementation.
   -
     id: global-language
     title: We created a new global language for nature's resources
-    image: content/gibbon.png
-    iamge_alt: "Yellow-cheeked Gibbon, Cát Tiên National Park, Vietnam. Credit: ondrejprosicky, AdobeStock"
+    image: /content/images/projects/forestry.jpg
+    iamge_alt: Forestry | Elena, Adobe Stock
     introduction:
       - We developed a classification system for natural capital assets that provide benefits to people and the economy, ultimately helping decision makers understand how environmental degradation can disrupt businesses.
     modal:
-      image: /content/images/modal/jungle.jpg
-      image_caption: Cát Bà National Park, Vietnam.
-      image_credit: Matyas Rehak, AdobeStock
+      image: /content/images/modal/wheat_harvest.jpg
+      image_caption: Wheat Harvest
+      image_credit: Ruslan Khismatov, Adobe Stock
       title: A new global language for nature's resources
       content:
         -
