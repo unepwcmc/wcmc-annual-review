@@ -1,11 +1,13 @@
 //--------------------------------------------------
 // variables
 //--------------------------------------------------
-$hero-image: 'hero/burchells_zebra_botswana.jpg';
+
+$hero-image: 'hero/the_centre_at_sunrise_in_august.jpg';
 
 //--------------------------------------------------
 // settings
 //--------------------------------------------------
+
 @mixin hash-font-size() {
   font-size: 200px;
   @include breakpoint($medium) { font-size: 400px; }
@@ -14,6 +16,7 @@ $hero-image: 'hero/burchells_zebra_botswana.jpg';
 //--------------------------------------------------
 // classes
 //--------------------------------------------------
+
 h2 {
   display: inline;
   position: relative;
