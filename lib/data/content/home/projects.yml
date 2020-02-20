@@ -9,7 +9,7 @@ collection:
     id: unsustainable-trade
     title: We exposed the link between unsustainable trade and loss of nature
     image: /content/images/projects/giant_anteater_brazil.jpg
-    image_alt: Giant anteater, a threatened species in Cerrado, Brazil | Ondřej Prosický, Adobe Stock
+    image_alt: "Giant anteater, a threatened species in Cerrado, Brazil. Credit: Ondřej Prosický, Adobe Stock"
     introduction:
       - Working with 50 partner organisations, we launched the Trade, Development and the Environment Hub with the goal of making trade a sustainable and positive force in the world.
     modal:
@@ -54,7 +54,7 @@ collection:
     id: high-seas
     title: We moved the world closer to a legal framework to protect the high-seas
     image: /content/images/projects/sea_turtle.jpg
-    image_alt: Turtle | Drew, Adobe Stock
+    image_alt: "Turtle. Credit: Drew, Adobe Stock"
     introduction:
       - The Areas Beyond National Jurisdiction-Deep Seas Project explores options to manage the high seas sustainably following an ecosystem-based approach.
     modal:
@@ -88,7 +88,7 @@ collection:
     id: super-year
     title: We provided critical science and knowledge for the 2020 super year for nature, climate and people
     image: /content/images/projects/beringei_baby_mountain_gorilla.jpg
-    image_alt: Beringei Baby Mountain Gorilla | photocech, Adobe Stock
+    image_alt: "Beringei Baby Mountain Gorilla. Credit: photocech, Adobe Stock"
     introduction:
       - In 2019, we have been working at the science-policy interface to support the development the next Global Biodiversity Framework.
     modal:
@@ -120,7 +120,7 @@ collection:
     id: restoration
     title: We used our expertise to enhance ecosystem restoration for people and nature
     image: /content/images/projects/mangrove_roots_caribbean.jpg
-    image_alt: Mangrove roots, Caribbean | damedias, Adobe Stock
+    image_alt: "Mangrove roots, Caribbean. Credit: damedias, Adobe Stock"
     introduction:
       - In the lead up to the ${link-ecosystem-restoration}, we are working with various partners to design, implement and monitor nature-based solutions to restore landscapes and seascapes around the world.
     modal:
@@ -155,7 +155,7 @@ collection:
     id: protecting-species
     title: We protected species from unsustainable trade
     image: /content/images/projects/tokay_gecko.jpg
-    image_alt: Tokay Gecko | naturesauraphoto, Adobe Stock
+    image_alt: "Tokay Gecko. Credit: naturesauraphoto, Adobe Stock"
     introduction:
       - Ahead of CITES CoP18, we worked with Parties to prepare proposals for three new species to be added to the CITES Appendices. As a result, trade in these species is now more tightly regulated and closely scrutinised.
     modal:
@@ -191,7 +191,7 @@ collection:
     id: global-language
     title: We created a new global language for nature's resources
     image: /content/images/projects/forestry.jpg
-    iamge_alt: Forestry | Elena, Adobe Stock
+    iamge_alt: Forestry. Credit: Elena, Adobe Stock
     introduction:
       - We developed a classification system for natural capital assets that provide benefits to people and the economy, ultimately helping decision makers understand how environmental degradation can disrupt businesses.
     modal:
