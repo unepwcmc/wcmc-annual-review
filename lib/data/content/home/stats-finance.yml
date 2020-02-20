@@ -1,7 +1,7 @@
 id: stats-finance
 title: Financial overview
-hero_title: Cat Tien National Park, Viet Nam (dry season)
-hero_credit: Antonel, AdobeStock
+hero_title: Rainforest
+hero_credit: Richard Whitcombe, Adobe Stock
 income:
   -
     year: 2017
@@ -9,7 +9,7 @@ income:
   -
     year: 2018
     total: 11074000
-table: 
+table:
   -
     - ''
     - 2017
@@ -22,8 +22,7 @@ table:
     - Net movement in funds
     - -180000
     - -246000
-  -  
+  -
     - Total assests less liabilities
     - 3944000
     - 3699000
-
