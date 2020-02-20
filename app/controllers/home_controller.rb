@@ -9,10 +9,6 @@ class HomeController < ApplicationController
         label: 'Foreword'
       },
       {
-        id: 'anniversary',
-        label: '40th anniversary'
-      },
-      {
         id: 'projects',
         label: 'Our work'
       },
@@ -36,7 +32,6 @@ class HomeController < ApplicationController
 
     @hero = YAML.load(File.open("#{Rails.root}/lib/data/content/home/hero.yml", 'r'))
     @foreword = YAML.load(File.open("#{Rails.root}/lib/data/content/home/foreword.yml", 'r'))
-    @anniversary = YAML.load(File.open("#{Rails.root}/lib/data/content/home/anniversary.yml", 'r'))
     @highlights = load_yaml("lib/data/content/home/highlights.yml", highlight_links)
     @projects = load_yaml("lib/data/content/home/projects.yml", project_links)
     @stats_people = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-people.yml", 'r'))

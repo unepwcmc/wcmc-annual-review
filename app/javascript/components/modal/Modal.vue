@@ -4,9 +4,9 @@
 
       <div class="modal__content">
         <button class="modal__close" @click="closeModal"></button>
-        
+
         <div class="container--small">
-          <h3>{{ data.title }}</h3>
+          <h3>{{ title }}</h3>
         </div>
 
         <template v-for="section, index in content">
@@ -22,11 +22,11 @@
             </div>
           </div>
         </template>
-        
+
         <div class="container--small">
           <h4>{{ themeTitle }}</h4>
           <div class="flex">
-            <span 
+            <span
               v-for="theme in themes"
               :class="`icon--theme-${theme}`" />
           </div>
@@ -36,7 +36,7 @@
           <div v-for="member in staff" class="modal__staff-member flex">
             <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
             <div>
-              <p class="no-margin"><strong>{{ member.name }}<br>{{ member.job }}</strong></p>
+              <p class="no-margin" v-html="profileContent(member)"></p>
               <p v-html="member.text"></p>
             </div>
           </div>
@@ -55,7 +55,7 @@ export default {
   name: 'modal',
 
   mixins: [
-    mixinFocusCapture({toggleVariable: 'isActive', closeCallback: 'closeModal'}), 
+    mixinFocusCapture({toggleVariable: 'isActive', closeCallback: 'closeModal'}),
     mixinPopupCloseListeners({closeCallback: 'closeModal', closeOnClickOutside: false})
   ],
 
@@ -77,6 +77,10 @@ export default {
 
     data () {
       return this.$store.state.modal.content
+    },
+
+    title () {
+      return this.data.modal && this.data.modal.title ? this.data.modal.title : this.data.title
     },
 
     content () {
@@ -107,6 +111,10 @@ export default {
 
     hasTitle (content) {
       return content.title
+    },
+
+    profileContent (member) {
+      return `<strong>${member.name}<br>${member.job}</strong>`
     }
   }
 }

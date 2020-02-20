@@ -233,3 +233,81 @@ link-wildlife-conservation:
   href: https://www.wcs.org/
   title: Visit the Wildlife Conservation Society website
   target: _blank
+# # # # # # # #
+# 2019
+# # # # # # # #
+link-trade-hub:
+  text: Trade, Development, and the Environment Hub
+  href: https://tradehub.earth/
+  title: Visit the Trade, Development, and the Environment Hub website
+  target: _blank
+link-trade-hub-short:
+  text: Trade Hub
+  href: https://tradehub.earth/
+  title: Visit the Trade Hub website
+  target: _blank
+link-gcrf-trade-hub:
+  text: GCRF Trade, Development, and the Environment Hub
+  href: https://tradehub.earth/
+  title: Visit the GCRF Trade Hub website
+  target: _blank
+link-gcrf-development-corridors:
+  text: GCRF Development Corridors Partnership
+  href: https://tradehub.earth/
+  title: Visit the GCRF Trade Hub website
+  target: _blank
+link-abnj-deep-seas-project:
+  text: ABNJ Deep Seas Project
+  href: https://abnjdeepseasproject.com/en
+  title: Visit the ABNJ Deep Seas Project website
+  target: _blank
+link-biodiversity-indicators-partnership:
+  text: Biodiversity Indicators Partnership
+  href: https://www.bipindicators.net/
+  title: Visit the Biodiversity Indicators Partnership website
+  target: _blank
+link-global-biodiversity-patterns:
+  text: global biodiversity patterns overlaid with carbon
+  href: https://naturemap.earth/
+  title: Visit the Nature Map Earth website
+  target: _blank
+link-agricultural-commodity-trades:
+  text: agricultural commodity trades
+  href: https://www.unep-wcmc.org/news/consumer-markets-linked-to-habitat-loss-for-rare-species-in-brazils-savannah
+  title: Consumer markets linked to habitat loss for rare species in Brazil's savannah
+  target: _blank
+link-ecosystem-restoration:
+  text: UN Decade on Ecosystem Restoration
+  href: https://www.decadeonrestoration.org/
+  title: Visit the Decade on Ecosystem Restoration website
+  target: _blank
+link-nature-map:
+  text: Nature Map
+  href: https://naturemap.earth/
+  title: Visit the Nature Map Earth website
+  target: _blank
+link-restore-plus-project:
+  text: RESTORE+ project
+  href: http://www.restoreplus.org/
+  title: Visit the RESTORE+ website
+  target: _blank
+link-cop-medium:
+  text: Conference of the Parties
+  href: https://medium.com/@unepwcmc/11-lessons-from-the-wildlife-trade-conference-572c86759c48
+  title: "Medium.com: 11 lessons from the wildlife trade conference"
+  target: _blank
+link-new-classification-system:
+  text: new classification system
+  href: https://www.sciencedirect.com/science/article/pii/S221204161730815X
+  title: "ScienceDirect.com: A common framework of natural capital assets for use in public and private sector decision making"
+  target: _blank
+link-encore-tool:
+  text: ENCORE tool
+  href: https://encore.naturalcapital.finance/en
+  title: Visit the ENCORE website
+  target: _blank
+link-foen-long:
+  text: Swiss Federal Office for the Environment
+  href: https://www.bafu.admin.ch/bafu/en/home.html
+  title: Visit the Swiss Federal Office for the Environment website
+  target: _blank
