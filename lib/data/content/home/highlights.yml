@@ -3,64 +3,57 @@ title: 2019 Highlights
 collection:
   -
     id: sixty-years
-    title: Marking 60 years
+    title: Marking 60 Years
     introduction:
       - 2019 marked the 60th anniversary of the UN’s request for a global list of protected areas. Today, the ${link-protected-planet} contains over 240,000 sites and is a vital tool for safeguarding the most important places for nature across the world.
-    image: /content/images/highlights/chinese-delegation-of-the-national-forest-and-grasslands-adminstration-min.jpg
-    image_alt: "Peng Youdong, Vice Administrator of China’s National Forestry and Grassland Administration. Credit: UNEP-WCMC, Stephanie Foote"
+    image: /content/images/highlights/flap-necked_chameleon.jpg
+    image_alt: "Flap-necked chameleon. Credit: Simon Eeman, Adobe Stock"
   -
-    id: challenges
-    title: Discussing Environmental Challenges
+    id: clarity
+    title: Clarity on Biodiversity Measures
     introduction:
-      - ${link-zeichner-visit}, UK Member of Parliament for Cambridge, to UNEP-WCMC’s headquarters. Based on his visit he then raised the illegal wildlife trade with the UK Prime Minister, asking about the Government’s plans.
-    image: /content/images/highlights/daniel-zeichner-visiting-unep-wcmc.jpg
-    image_alt: "Daniel Zeichner Member of Parliament for Cambridge. Credit: UNEP-WCMC, Stephanie Foote"
+      - We held two workshops for the ${link-corporate-biodiversity-indicators} to bring together indicator developers and businesses to form a common view on measuring corporate biodiversity impact and dependence.
+    image: /content/images/highlights/workshop_rio_brazil_october_2019.jpg
+    image_alt: "Workshop, Rio, Brazil, October 2019. Credit: Julie Dimitrijevic, UNEP-WCMC"
   -
-    id: partnerships
-    title: Cross-continental partnerships
+    id: indicators
+    title: Improving Chemical Indicators
     introduction:
-      - We launched the ${link-development-corridors}, funded by the UK Research Council’s Global Challenges Research Fund. This international collaboration aims to strengthen sustainability across infrastructure and development in East Africa.
-    image: /content/images/highlights/dcp.jpg
-    image_alt: "Nairobi National Park, Kenya. Credit: UNEP-WCMC, Diego Juffe Bignoli"
+      - Working with the UK Government and UNEP, we ran a workshop to help improve indicators for the new post-2020 Strategic Approach to International Chemicals Management and to encourage the development of indicators in common with the post-2020 Global Biodiversity Framework.
+    image: /content/images/highlights/farmer_spraying_wheat_fields.jpg
+    image_alt: "Farmer spraying wheat fields. Credit: Oticki, Adobe Stock"
   -
-    id: heights
-    title: Reaching new heights
+    id: data
+    title: Better biodiversity data
     introduction:
-      - The ${link-cites} which we manage on behalf of the CITES Secretariat hit 20 million records. We also conducted one of the first comprehensive reviews of CITES trade data -  ${link-cites-review} to see what we found.
-    image: /content/images/highlights/chameleon.jpg
-    image_alt: "Yemen chameleon, Chamaeleo calyptratus. Credit: pirotehnik, AdobeStock"
+      - We supported the ${link-bid-rex} project aimed at streamlining biodiversity data into decision-making so that EU regional development policies can use this data to improve biodiversity conservation and the preservation of their natural heritage.
+    image: /content/images/highlights/alpine_ibex_france.jpg
+    image_alt: "Alpine ibex, France. Credit: Ondřej Prosický, Adobe Stock"
   -
-    id: fifth
-    title: Sustainable Trade
+    id: targets
+    title: Science-based Biodiversity Targets
     introduction:
-      - A ${link-trade-for-good} aiming to make sustainable trade a positive force for both people and nature. This UKRI GCRF Trade, Development and the Environment Hub is funded for five years.
-    image: /content/images/highlights/coffee.jpg
-    image_alt: "Arabica coffee berries. Credit: bonga1965, AdobeStock"
+      - We started work with the ${link-science-based-targets} and partners to develop science-based targets for biodiversity, and provide companies, cities and other actors with a clear framework to prevent further loss of species, ecosystems, and genetic diversity.
+    image: /content/images/highlights/hoverfly.jpg
+    image_alt: "Hoverfly. Credit: Dirk Daniel, Adobe Stock"
   -
-    id: goals
-    title: Global goals for biodiversity
+    id: benefits
+    title: Benefits Through REDD+
     introduction:
-      - ${link-egypt}, a biennial event that provides international leadership on biodiversity. Several decisions of the Conference refer to our guidance, and the Conference also determined the way forwards on a future plan for the conservation and sustainable use of nature.
-    image: /content/images/highlights/iisd-enb.jpg
-    image_alt: "UN Environment delegates, including from the UNEP-WCMC team. Credit: IISD/ENB Franz Dejon - http://enb.iisd.org/biodiv/cop14/enb/29nov.html"
+      - We published a ${link-redd-web-story} on the support we have provided to over ${link-redd-developing-countries} in the past 10 years to plan for and implement REDD+ in a way that achieves additional benefits, from soil erosion control to biodiversity conservation and support for livelihoods.
+    image: /content/images/highlights/cocoa.jpg
+    image_alt: "Cocoa. Credit: Pierre-Yves Babelon, Adobe Stock"
   -
-    id: tracking
-    title: International wildlife trade
+    id: citizen
+    title: Supporting Citizen Science
     introduction:
-      - We helped to see if trade in 27 “species-country combinations” was sustainable. The range States for ${link-eel} and ${link-teak} were subsequently asked to create more conservation export quotas, and Cameroon’s export of African teak was deemed sustainable.
-    image: /content/images/highlights/anguilla-eel.jpg
-    image_alt: "European eel, Anguilla Anguilla. Credit: Witold Krasowski, AdobeStock"
+      - ‘NatureMap-plants’, a successful ${link-citizen-science-effort} on flowering plant species distributions was launched, as part of the wider Nature Map project with iNaturalist, IIASA, SDSN, Kew Gardens, and other partners.
+    image: /content/images/highlights/citizen_science.jpg
+    image_alt: "Citizen science. Credit: Stephanie Foote, UNEP-WCMC"
   -
-    id: curve
-    title: Reversing biodiversity loss
+    id: adaptation
+    title: Accelerating Adaptation
     introduction:
-      - Neil Burgess, our Chief Scientist, ${link-paper} with proposals for how to ‘bend the curve’ of biodiversity loss. Critically, the paper emphasises that success largely depends on actions in sectors such as agriculture, business and finance.
-    image: /content/images/highlights/river-Iquitos-peru.jpg
-    image_alt: "Amazon River, Peru. Credit: christian vinces, AdobeStock"
-  -
-    id: innovative
-    title: Innovative research
-    introduction:
-      - Over the past year members of our team have published or co-published 65 publications! Please ${link-website} to learn more.
-    image: /content/images/highlights/prince-charles.jpg
-    image_alt: 'Neville Ash, Director of UNEP-WCMC, presenting a joint publication on coral reefs to Prince Charles at the event: "IYOR 2018- An Opportunity for Increasing Coral Reef Resilience."" The publication was produced by UNEP-WCMC, UN Environment and the International Coral Reef Initiative, and funded by the Government of France.'
+      - We prepared ${link-role-natural-environment} to increase recognition of the value of Nature-based Solutions and support the efforts of ${link-global-commission-adaptation} to accelerate adaptation action and increase political support for building climate resilience.
+    image: /content/images/highlights/mangrove_forest_in_phang_nga_bay_thailand.jpg
+    image_alt: "Mangrove forest, Thailand. Credit: photostriker, Adobe Stock"
