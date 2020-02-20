@@ -191,7 +191,7 @@ collection:
     id: global-language
     title: We created a new global language for nature's resources
     image: /content/images/projects/forestry.jpg
-    iamge_alt: Forestry. Credit: Elena, Adobe Stock
+    iamge_alt: "Forestry. Credit: Elena, Adobe Stock"
     introduction:
       - We developed a classification system for natural capital assets that provide benefits to people and the economy, ultimately helping decision makers understand how environmental degradation can disrupt businesses.
     modal:
