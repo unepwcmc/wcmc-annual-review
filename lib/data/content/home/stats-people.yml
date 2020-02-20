@@ -1,49 +1,40 @@
 id: stats-people
 countries-icon: icons/globe-leaf.svg
-countries-total: 93
-countries-title: Countries and territories worked with in 2018
+countries-total: 107
+countries-title: Countries and territories worked with in 2019
 countries-image: content/map.svg
 map-disclaimer: The designation employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or any of its authorities, or concerning the delimitation of its frontiers or boundaries.
 stats-totals:
   -
-    number: 206
+    number: 213
     icon:
     title: Live projects
     icon: icons/leaves.svg
   -
-    number: 200
+    number: 170
     icon:
     title: Funders and partners
     icon: icons/funders.svg
   -
-    number: 65
+    number: 35
     icon:
     title: Published papers
     icon: icons/document.svg
 stats-staff:
   icon: icons/collaboration.svg
-  number: 132
+  number: 136
   title: Number of staff at UNEP-WCMC
-  introduction: 13 of whom started as interns
-  stats: 
+  introduction: 8 of whom started as interns
+  stats:
     -
-      number: 17
+      number: 19
       title: Paid interns
       icon: icons/identification.svg
     -
-      number: 9
+      number: 14
       title: Students
       icon: icons/cap.svg
     -
       number: 20
       title: Nationalities
       icon: icons/globe.svg
-activities_title: "Our Policy Relevance: UN Biodiversity Conference references to the Centre and our work"
-activities_intro: At the 2018 UN Biodiversity Conference 19 references were made to the Centre and our work, in eight different Conference decisions.
-activities_legend:
-  -
-    colour: 'primary-light'
-    text: Cumulative no. of references to the Centre and our work in UN Biodiversity Conference decisions
-  -
-    colour: 'black'
-    text: Cumulative no. of UN Biodiversity Conference decisions in which they occur
