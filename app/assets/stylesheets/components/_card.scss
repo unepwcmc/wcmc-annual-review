@@ -8,11 +8,11 @@
   &--project {
     margin-bottom: rem-calc(30);
 
-    display: flex;
 
     @include breakpoint($small) {
       margin-bottom: 0;
 
+      display: flex;
       justify-content: space-between;
     }
 
