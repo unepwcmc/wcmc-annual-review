@@ -5,6 +5,10 @@ class HomeController < ApplicationController
   def index
     @nav = [
       {
+        id: 'forewords',
+        label: 'Forewords'
+      },
+      {
         id: 'foreword',
         label: 'Foreword'
       },
