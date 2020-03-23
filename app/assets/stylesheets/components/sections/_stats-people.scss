@@ -34,21 +34,21 @@ $text-font-desktop: 25px;
 
       &__map-image { width: 100%; }
 
-      &__map-disclaimer { @include responsive-styles(font-size, rem-calc(12), rem-calc(14), rem-calc(14)); }
+      &__map-text { @include responsive-styles(font-size, rem-calc(12), rem-calc(14), rem-calc(14)); }
 
   &__chart-stats {
     width: 100%;
-    
-    @include breakpoint($medium) { 
+
+    @include breakpoint($medium) {
       padding-left: $gutter-large;
-      width: 33%; 
+      width: 33%;
     }
   }
 
   &__chart {
     width: 66%; height: auto;
   }
-  
+
   &__stat {
     &-number {
       @include stat-number-font();
@@ -72,20 +72,20 @@ $text-font-desktop: 25px;
     flex-wrap: wrap;
     justify-content: center;
 
-    @include breakpoint($small) { 
+    @include breakpoint($small) {
       flex-wrap: nowrap;
       justify-content: space-around;
     }
   }
 
     &__circle {
-      @extend .flex-center; 
+      @extend .flex-center;
       background-color: $primary-light;
       border-radius: 100%;
-      margin: 22px 0; 
+      margin: 22px 0;
       width: 70%;
       max-width: 280px;
-      
+
       position: relative;
 
       @include breakpoint($small) { width: 30%; }
@@ -115,19 +115,19 @@ $text-font-desktop: 25px;
       }
     }
 
-  &__employee-intro { 
-    width: 100%; 
+  &__employee-intro {
+    width: 100%;
 
     @include breakpoint($small) { width: 33%; }
   }
-  
-  &__employee-stats { 
+
+  &__employee-stats {
     width: 100%;
 
-    @include breakpoint($small) { 
+    @include breakpoint($small) {
       width: 66%;
 
-      display: flex; 
+      display: flex;
     }
   }
 
@@ -147,7 +147,7 @@ $text-font-desktop: 25px;
 
       &-content {
         @extend .flex-center;
-        
+
         position: absolute;
         top: 0;
         right: 0;
