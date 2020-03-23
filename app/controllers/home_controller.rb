@@ -31,6 +31,7 @@ class HomeController < ApplicationController
     ].to_json
 
     @hero = YAML.load(File.open("#{Rails.root}/lib/data/content/home/hero.yml", 'r'))
+    @forewords = YAML.load(File.open("#{Rails.root}/lib/data/content/home/forewords.yml", 'r'))
     @foreword = YAML.load(File.open("#{Rails.root}/lib/data/content/home/foreword.yml", 'r'))
     @highlights = load_yaml("lib/data/content/home/highlights.yml", highlight_links)
     @projects = load_yaml("lib/data/content/home/projects.yml", project_links)

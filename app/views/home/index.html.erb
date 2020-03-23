@@ -8,6 +8,13 @@
 </section>
 
 <section
+  id="section-<%= @forewords['id'] %>"
+  class="section--forewords section--full-window sm-trigger-sticky flex-v-center">
+
+  <%= render partial: 'home/partials/forewords', locals: { data: @forewords } %>
+</section>
+
+<section
   id="section-<%= @foreword['id'] %>"
   class="section--foreword bg-grey-dark section-padding section--full-window sm-trigger-sticky flex-v-center">
 

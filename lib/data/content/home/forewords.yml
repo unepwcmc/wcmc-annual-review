@@ -1,0 +1,47 @@
+id: forewords
+title: Forewords
+content:
+  -
+    id: inger
+    img_src: /content/images/profile/inger-andersen.jpg
+    name: Inger Andersen
+    company: UNEP
+    position: Executive Director
+    text:
+      -
+        The collaboration between the United Nations Environment Programme and the World Conservation Monitoring Centre is long-standing and unique. UNEP-WCMC has been key to our biodiversity work worldwide, and 2019 was no exception.
+      -
+        During 2020, the Super Year for Nature, countries across the globe will come together to strike a new deal for nature, with new targets for the next decade. UNEP-WCMC is at the heart of UNEP's work during the Super Year, working at the interface of science and policy to help these international environment agreements to succeed.
+  -
+    id: robin
+    img_src: /content/images/profile/robin-bidwell.jpg
+    name: Robin Bidwell
+    company: WCMC
+    position: Chair of Trustees
+    text:
+      -
+        In the last year, UNEP-WCMC has strengthened engagement across the regions, including with EU institutions and the Government of China, and worked with over 100 countries and territories.
+      -
+        These deeper international partnerships, underpinned by the UNEP-WCMC collaboration, expand the reach and range of our work. Whether on nature-based solutions, ecosystem restoration, or assessing the impact of trade on species and products, we continue to give decision makers across the world the tools they need to make a positive impact for people and planet. Thank you to the Board of Trustees, our supporters and our staff.
+  -
+    id: neville
+    img_src: /content/images/profile/neville-ash.jpg
+    name: Neville Ash
+    company: UNEP-WCMC
+    position: Director
+    text:
+      -
+        2020, the Super Year for Nature, is a crucial year for biodiversity, and for our planet. Data, evidence and research will be the bedrock of the new, post-2020 targets under the Convention on Biological Diversity, and due to our special collaboration with UNEP, UNEP-WCMC is uniquely placed to contribute.
+      -
+        Our aim is to ensure that the new targets are ambitious, achievable, science-based and measurable. This is critical to tackling the global decline in nature. That's why in 2020, we will continue to build on our work on ways to monitor real-world impact and progress. Read on to find out more.
+  -
+    id: jonny
+    img_src: /content/images/profile/jonny-hughes.jpg
+    name: Jonny Hughes
+    company: WCMC
+    position: Chief Executive Officer
+    text:
+      -
+        The future of nature hangs in the balance; never in its history has UNEP-WCMC been more essential. We understand the power of collaboration and work with partners across the world to create innovative solutions to environmental challenges. In 2019 we brought together governments, businesses, NGOs and research bodies to tackle some of the biggest drivers of environmental degradation.
+      -
+        One such partnership - the Trade Hub - began in 2019 and is exploring how certain global trade pathways in agricultural commodities are causing biodiversity loss. The results are already feeding into public policy while equipping companies with the knowledge they need to transition to more sustainable business models.
