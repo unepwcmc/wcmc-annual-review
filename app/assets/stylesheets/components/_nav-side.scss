@@ -45,9 +45,17 @@ $side-nav-style-2-label: rgba($grey, .8);
 
     transform: translateY(-50%);
 
+    &.nav--forewords {
+      @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
+    }
+
+    &.nav--foreword {
+      @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
+    }
+
     &.nav--projects,
-    &.nav--highlights { 
-      @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label); 
+    &.nav--highlights {
+      @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
     }
 
     &.nav--stats-people {
@@ -89,7 +97,7 @@ $side-nav-style-2-label: rgba($grey, .8);
             border-top: 8px solid transparent;
             border-bottom: 8px solid transparent;
             content: '';
-            width: 0; height: 0; 
+            width: 0; height: 0;
 
             position: absolute;
             top: 50%;
