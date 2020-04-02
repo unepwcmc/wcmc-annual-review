@@ -26,7 +26,7 @@ collection:
     id: data
     title: Better biodiversity data
     introduction:
-      - We supported the ${link-bid-rex} project aimed at streamlining biodiversity data into decision-making so that EU regional development policies can use this data to improve biodiversity conservation and the preservation of their natural heritage.
+      - We supported the ${link-bid-rex} project aimed at streamlining biodiversity data into decision-making so that EU regional development policies can use this data to improve biodiversity conservation and the preservation of natural heritage.
     image: /content/images/highlights/alpine_ibex_france.jpg
     image_alt: "Alpine ibex, France. Credit: Ondřej Prosický, Adobe Stock"
   -
@@ -54,6 +54,6 @@ collection:
     id: adaptation
     title: Accelerating Adaptation
     introduction:
-      - We prepared ${link-role-natural-environment} to increase recognition of the value of Nature-based Solutions and support the efforts of ${link-global-commission-adaptation} to accelerate adaptation action and increase political support for building climate resilience.
+      - We prepared ${link-role-natural-environment} to increase recognition of the value of nature-based solutions and support the efforts of ${link-global-commission-adaptation} to accelerate adaptation action and increase political support for building climate resilience.
     image: /content/images/highlights/mangrove_forest_in_phang_nga_bay_thailand.jpg
     image_alt: "Mangrove forest, Thailand. Credit: photostriker, Adobe Stock"
