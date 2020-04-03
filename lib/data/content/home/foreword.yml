@@ -3,13 +3,17 @@ title: Foreword
 collection:
   -
     id: first
-    quote: The UNEP-WCMC team has long been a key part of UN Environment, and the past year has been no exception. We extend our huge congratulations on UNEP-WCMC’s 40th anniversary and look forward to continuing to work together for many years to come.
-    author: Joyce Msuya, UN Environment Programme Deputy Executive Director
+    quote: UNEP-WCMC is a vital part of UNEP’s efforts to demonstrate leadership for the environment.
+    author: Inger Andersen, Executive Director, UNEP
   -
     id: second
-    quote: I’m constantly amazed by the wide variety of work that we’re doing across the planet – and the commitment of everyone here to our mission of securing a future for the world’s biodiversity.
-    author: Robin Bidwell, Chair of WCMC Board of Trustees
+    quote: We give businesses and policy leaders the tools they need to make decisions that make a difference.
+    author: Robin Bidwell, Chair of Trustees, WCMC
   -
     id: third
-    quote: Building on our 40 years of core support to governments around the world, we're launching new areas of work, including leading a £20-million UKRI GCRF Trade, Development and the Environment Hub, which aims to reduce the impact of unsustainable trade on biodiversity.
-    author: Neville Ash, Director of UNEP-WCMC
+    quote: In 2019 we brought together governments, businesses, NGOs and research bodies to tackle the drivers of environmental degradation.
+    author: Jonny Hughes, CEO, WCMC
+  -
+    id: fourth
+    quote: In 2020 and beyond, UNEP-WCMC will be more important than ever in supporting our partners to deliver the new plan for nature.
+    author: Neville Ash, Director, UNEP-WCMC
