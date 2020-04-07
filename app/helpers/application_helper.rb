@@ -1,7 +1,7 @@
 include ActionView::Helpers::UrlHelper
 
 module ApplicationHelper
-  def site_title 
+  def site_title
     'UNEP-WCMC Annual Review'
   end
 
@@ -22,11 +22,11 @@ module ApplicationHelper
   end
 
   def social_image
-    image_url('social-nairobi-national-park.jpg')
+    image_url('social-le-thi-luan.jpg')
   end
 
   def social_image_alt
-    'Rhino, Nairobi skyline, Nairobi National Park, Kenya'
+    'Le Thi Luan tends to her rice paddy, Vietnam'
   end
 
   def create_sharing_facebook_link
@@ -42,7 +42,7 @@ module ApplicationHelper
     text = url_encode('Read about a year of impact in @unepwcmc’s 2018/19 Annual Review')
     url = encoded_home_url
     href = 'https://twitter.com/intent/tweet/?text=' + text + '&url=' + url
-    
+
     link_to '', href, title: title, class: 'social__icon social__icon--twitter', target: '_blank'
   end
 
