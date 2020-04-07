@@ -1,13 +1,13 @@
 id: projects
 title: Our work
 strapline: We can make change
-introduction: In 2019, we collaborated with partners across the world, leading the transformational change required to address the global nature crisis.
+introduction: In 2019, as we celebrated our 40th anniversary, we collaborated with partners across the world, leading the transformational change required to address the global nature crisis.
 hero_title: Our main office, Cambridge
 hero_credit: Stephanie Foote, UNEP-WCMC
 collection:
   -
     id: unsustainable-trade
-    title: We exposed the link between unsustainable trade and loss of nature
+    title: We highlighted the link between unsustainable trade and loss of nature
     image: /content/images/projects/giant_anteater_brazil.jpg
     image_alt: "Giant anteater, a threatened species in Cerrado, Brazil. Credit: Ondřej Prosický, Adobe Stock"
     introduction:
@@ -153,7 +153,7 @@ collection:
           text: ${link-hazel} manages and provides technical and scientific input to a range of projects, specialising in the science-policy interface of marine and coastal ecosystem restoration. Before joining us as an intern in 2015, she was involved in island-based conservation in the Mediterranean and Caribbean, working with local fishing communities in the Eastern Aegean to understand pressures on seagrass meadows, and surveying of coral reefs and tropical forests in Montserrat to understand health, extent and pressures.
   -
     id: protecting-species
-    title: We protected species from unsustainable trade
+    title: We underpinned species protection from unsustainable trade
     image: /content/images/projects/tokay_gecko.jpg
     image_alt: "Tokay Gecko. Credit: naturesauraphoto, Adobe Stock"
     introduction:
