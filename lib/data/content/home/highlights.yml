@@ -2,58 +2,64 @@ id: highlights
 title: 2019 Highlights
 collection:
   -
-    id: sixty-years
-    title: Marking 60 Years
+    id: forests
+    title: Reporting on the State of the World’s Forests
     introduction:
-      - 2019 marked the 60th anniversary of the UN’s request for a global list of protected areas. Today, the ${link-protected-planet} contains over 240,000 sites and is a vital tool for safeguarding the most important places for nature across the world.
+      - With the UN Food and Agriculture Organization, we launched the latest ${link-forests}, underlining that Earth’s biodiversity depends on the world’s forests. Urgent solutions are needed to safeguard forest biodiversity amid alarming ongoing rates of deforestation and degradation.
     image: /content/images/highlights/flap-necked_chameleon.jpg
     image_alt: "Flap-necked chameleon. Credit: Simon Eeman, Adobe Stock"
   -
-    id: clarity
-    title: Clarity on Biodiversity Measures
+    id: gender
+    title: Building a gender-responsive post-2020 global biodiversity framework
     introduction:
-      - We held two workshops for the ${link-corporate-biodiversity-indicators} to bring together indicator developers and businesses to form a common view on measuring corporate biodiversity impact and dependence.
+      - We developed a ${link-gender-framework} to support a gender-responsive post-2020 global biodiversity framework. This will help to ensure that progress towards tackling biodiversity loss and advancing gender equality go hand in hand.
     image: /content/images/highlights/workshop_rio_brazil_october_2019.jpg
     image_alt: "Workshop, Rio, Brazil, October 2019. Credit: Julie Dimitrijevic, UNEP-WCMC"
   -
-    id: indicators
-    title: Improving Chemical Indicators
+    id: protected-planet
+    title: Tracking progress towards global ambitions for protected and conserved areas
     introduction:
-      - Working with the UK Government and UNEP, we ran a workshop to help improve indicators for the new post-2020 Strategic Approach to International Chemicals Management and to encourage the development of indicators in common with the post-2020 Global Biodiversity Framework.
+      - With the help of governments and stakeholders from over 150 countries, the Protected Planet Initiative updated, verified or added 223,000 protected and conserved areas in the ${link-protected-planet-initiative} databases. The most recent progress can be found in the ${link-protected-planet-report}.
     image: /content/images/highlights/farmer_spraying_wheat_fields.jpg
     image_alt: "Farmer spraying wheat fields. Credit: Oticki, Adobe Stock"
   -
-    id: data
-    title: Better biodiversity data
+    id: trade-hub
+    title: Mainstreaming social and environmental considerations within global trade systems
     introduction:
-      - We supported the ${link-bid-rex} project aimed at streamlining biodiversity data into decision-making so that EU regional development policies can use this data to improve biodiversity conservation and the preservation of natural heritage.
+      - "Last year, the GCRF TRADE Hub teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to high-level publications and platforms beyond academia, including the ${link-wto-environment-week} ${link-bbc-extinction}."
     image: /content/images/highlights/alpine_ibex_france.jpg
     image_alt: "Alpine ibex, France. Credit: Ondřej Prosický, Adobe Stock"
   -
-    id: targets
-    title: Science-based Biodiversity Targets
+    id: felix
+    title: The next generation of conservation leaders
     introduction:
-      - We started work with the ${link-science-based-targets} and partners to develop science-based targets for biodiversity, and provide companies, cities and other actors with a clear framework to prevent further loss of species, ecosystems, and genetic diversity.
+      - Thirty students from 15 West African countries and Morocco have benefited from UNEP-WCMC teaching of modules on the MSc programme at the University Felix Houphouet-Boigny in Cote d’Ivoire on managing the science-policy interface on biodiversity and ecosystem services for sustainable development in West Africa.
     image: /content/images/highlights/hoverfly.jpg
     image_alt: "Hoverfly. Credit: Dirk Daniel, Adobe Stock"
   -
-    id: benefits
-    title: Benefits Through REDD+
+    id: encore
+    title: Urging the financial sector to set biodiversity targets
     introduction:
-      - We published a ${link-redd-web-story} on the support we have provided to over ${link-redd-developing-countries} in the past 10 years to plan for and implement REDD+ in a way that achieves additional benefits, from soil erosion control to biodiversity conservation and support for livelihoods.
+      - A new ${link-encore} highlighted the need for banks, investors and insurers to set targets to reduce biodiversity loss, starting with nine critical sectors. Work with our partners continued towards enhancing the ENCORE tool to help financial institutions align their portfolios with global biodiversity targets.
     image: /content/images/highlights/cocoa.jpg
     image_alt: "Cocoa. Credit: Pierre-Yves Babelon, Adobe Stock"
   -
-    id: citizen
-    title: Supporting Citizen Science
+    id: nea
+    title: More countries are assessing their natural capital
     introduction:
-      - ‘NatureMap-plants’, a successful ${link-citizen-science-effort} on flowering plant species distributions was launched, as part of the wider Nature Map project with iNaturalist, IIASA, SDSN, Kew Gardens, and other partners.
+      - Bosnia & Herzegovina, Colombia and Grenada made further progress towards developing their National Ecosystem Assessments with technical support from UNEP-WCMC and our partners. 
     image: /content/images/highlights/citizen_science.jpg
     image_alt: "Citizen science. Credit: Stephanie Foote, UNEP-WCMC"
   -
-    id: adaptation
-    title: Accelerating Adaptation
+    id: icca
+    title: Supporting indigenous peoples and local communities
     introduction:
-      - We prepared ${link-role-natural-environment} to increase recognition of the value of nature-based solutions and support the efforts of ${link-global-commission-adaptation} to accelerate adaptation action and increase political support for building climate resilience.
+      - Dozens of territories and areas conserved by indigenous peoples and local communities (ICCAs) were self-reported by their custodians and added to the ${link-icca-registry}. Each registration marks a major achievement in custodians’ journey to protect their territories and areas and adds to the understanding of their contribution to global conservation.
+    image: /content/images/highlights/mangrove_forest_in_phang_nga_bay_thailand.jpg
+    image_alt: "Mangrove forest, Thailand. Credit: photostriker, Adobe Stock"
+  id: covid
+    title: Achieving global reach while staying at home
+    introduction:
+      - Like so many others, our team of around 150 worked from home to help prevent the spread of COVID-19. While working remotely, we continued to deliver our work and build our relationships with partners across the world to benefit people and the planet.
     image: /content/images/highlights/mangrove_forest_in_phang_nga_bay_thailand.jpg
     image_alt: "Mangrove forest, Thailand. Credit: photostriker, Adobe Stock"

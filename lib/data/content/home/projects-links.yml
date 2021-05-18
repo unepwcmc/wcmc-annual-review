@@ -8,15 +8,35 @@ link-agricultural-commodity-trades:
   href: https://www.unep-wcmc.org/news/consumer-markets-linked-to-habitat-loss-for-rare-species-in-brazils-savannah
   title: Consumer markets linked to habitat loss for rare species in Brazil's savannah
   target: _blank
+link-bending-the-curve:
+  text: Bending the Curve
+  href: https://www.nature.com/articles/s41586-020-2705-y
+  title: View the Bending the Curve analysis
+  target: _blank
 link-biodiversity-indicators-partnership:
   text: Biodiversity Indicators Partnership
   href: https://www.bipindicators.net/
   title: Visit the Biodiversity Indicators Partnership website
   target: _blank
-link-claire:
-  text: Claire
-  href: https://www.unep-wcmc.org/employees/claire-mclardy
-  title: View the online profile for Claire McLardy
+link-cbd:
+  text: Analysis conducted during 2020 
+  href: https://www.cbd.int/doc/c/a571/b25e/544f7e2b1843a86bb062ad06/sbstta-24-inf-20-en.pdf
+  title: ""
+  target: _blank
+link-chris:
+  text: Chris
+  href: https://www.unep-wcmc.org/employees/chris-mcowen
+  title: View the online profile for Chris McOwen
+  target: _blank
+link-ciara:
+  text: Ciara
+  href: https://www.unep-wcmc.org/employees/ciara-stafford
+  title: "View the online profile for Ciara Stafford"
+  target: _blank
+link-cites-checklist:
+  text: Checklist of CITES Species
+  href: http://checklist.cites.org/#/en
+  title: Visit the Checklist of CITES Species
   target: _blank
 link-cop-medium:
   text: Conference of the Parties
@@ -53,20 +73,15 @@ link-gcrf-trade-hub:
   href: https://tradehub.earth/
   title: Visit the GCRF Trade Hub website
   target: _blank
-link-hazel:
-  text: Hazel
-  href: https://www.unep-wcmc.org/employees/hazel-thornton
-  title: View the online profile for Hazel Thornton
+link-joe:
+  text: Joe
+  href: https://www.unep-wcmc.org/employees/joe-gosling
+  title: View the online profile for Joe Gosling
   target: _blank
-link-katie:
-  text: Katie
-  href: https://www.unep-wcmc.org/employees/katie-leach
-  title: View the online profile for Katie Leach
-  target: _blank
-link-lisen:
-  text: Lisen
-  href: https://www.unep-wcmc.org/employees/lisen-runsten
-  title: View the online profile for Lisen Runsten
+link-katherine: 
+  text: Katherine
+  href: https://www.unep-wcmc.org/employees/katherine-despot-belmonte
+  title: View the online profile for Katherine Despot Belmonte
   target: _blank
 link-mava:
   text: MAVA Foundation
@@ -83,30 +98,35 @@ link-ncfa-long:
   href: https://naturalcapital.finance/
   title: Visit the Natural Capital Finance Alliance website
   target: _blank
-link-neil:
-  text: Neil
-  href: https://www.unep-wcmc.org/employees/neil-burgess
-  title: View the online profile for Neil Burgess
-  target: _blank
 link-new-classification-system:
   text: new classification system
   href: https://www.sciencedirect.com/science/article/pii/S221204161730815X
   title: "ScienceDirect.com: A common framework of natural capital assets for use in public and private sector decision making"
-  target: _blank
-link-nina:
-  text: Nina
-  href: https://www.unep-wcmc.org/employees/nina-bhola
-  title: View the online profile for Nina Bhola
   target: _blank
 link-restore-plus-project:
   text: RESTORE+ project
   href: http://www.restoreplus.org/
   title: Visit the RESTORE+ website
   target: _blank
+link-sam: 
+  text: Sam
+  href: https://www.unep-wcmc.org/employees/samantha-hill
+  title: View the online profile for Sam Hill
+  target: _blank
 link-seco-long:
   text: Swiss State Secretariat for Economic Affairs
   href: https://www.seco.admin.ch/seco/en/home.html
   title: Visit the Swiss State Secretariat for Economic Affairs website
+  target: _blank
+link-species-plus: 
+  text: Species+
+  href: https://speciesplus.net/
+  title: Visit the Species+ website
+  target: _blank
+link-strengthening-synergies:
+  text: Strengthening Synergies
+  href: https://www.unep-wcmc.org/resources-and-data/strengthening-synergies#:~:text=Strengthening%20Synergies%3A%20How%20action%20to,contribute%20to%20mitigating%20climate%20change&text=The%20climate%20and%20biodiversity%20crises,needed%20to%20address%20them%20effectively.
+  title: View the Strengthening Synergies report
   target: _blank
 link-trade-hub:
   text: Trade, Development, and the Environment Hub
