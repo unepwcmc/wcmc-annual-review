@@ -57,7 +57,8 @@ collection:
       - Dozens of territories and areas conserved by indigenous peoples and local communities (ICCAs) were self-reported by their custodians and added to the ${link-icca-registry}. Each registration marks a major achievement in custodians’ journey to protect their territories and areas and adds to the understanding of their contribution to global conservation.
     image: /content/images/highlights/mangrove_forest_in_phang_nga_bay_thailand.jpg
     image_alt: "Mangrove forest, Thailand. Credit: photostriker, Adobe Stock"
-  id: covid
+  -
+    id: covid
     title: Achieving global reach while staying at home
     introduction:
       - Like so many others, our team of around 150 worked from home to help prevent the spread of COVID-19. While working remotely, we continued to deliver our work and build our relationships with partners across the world to benefit people and the planet.
