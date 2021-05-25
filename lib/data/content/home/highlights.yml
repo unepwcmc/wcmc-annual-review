@@ -5,7 +5,7 @@ collection:
     id: forests
     title: Reporting on the State of the World’s Forests
     introduction:
-      - With the UN Food and Agriculture Organization, we launched the latest ${link-forests}, underlining that Earth’s biodiversity depends on the world’s forests. Urgent solutions are needed to safeguard forest biodiversity amid alarming ongoing rates of deforestation and degradation.
+      - With the UN Food and Agriculture Organization, we launched the latest ${link-state-of-world-forests} Report, underlining that Earth’s biodiversity depends on the world’s forests. Urgent solutions are needed to safeguard forest biodiversity amid alarming ongoing rates of deforestation and degradation.
     image: /content/images/highlights/flap-necked_chameleon.jpg
     image_alt: "Flap-necked chameleon. Credit: Simon Eeman, Adobe Stock"
   -
@@ -26,7 +26,7 @@ collection:
     id: trade-hub
     title: Mainstreaming social and environmental considerations within global trade systems
     introduction:
-      - "Last year, the GCRF TRADE Hub teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to high-level publications and platforms beyond academia, including the ${link-wto-environment-week} ${link-bbc-extinction}."
+      - "Last year, the GCRF TRADE Hub teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to high-level publications and platforms beyond academia, including the ${link-wto-environment-week} ${link-bbc-extinction}, narrated by Sir David Attenborough."
     image: /content/images/highlights/alpine_ibex_france.jpg
     image_alt: "Alpine ibex, France. Credit: Ondřej Prosický, Adobe Stock"
   -
