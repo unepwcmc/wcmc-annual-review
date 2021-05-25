@@ -39,14 +39,14 @@ collection:
   -
     id: healthy-ocean
     title: We helped restore precious ecosystems in European seas
-    image: /content/images/projects/sea_turtle.jpg
-    image_alt: "Turtle. Credit: Drew, Adobe Stock"
+    image: /content/images/projects/schooling-fish.jpg
+    image_alt: "Raja Ampat, Indonesia. Photo: Fabrice Dudenhofer / Coral Reef Image Bank"
     introduction:
       - Ahead of the UN Decade on Ecosystem Restoration, we used our expertise to support ecosystem restoration in shallow and deep-water habitats from Norway to Turkey.
     modal:
-      image: /content/images/modal/hammerhead_sharks.jpg
-      image_caption: Hammerhead Sharks
-      image_credit: hakbak, Adobe Stock
+      image: /content/images/modal/reef.jpg
+      image_caption: Nelson Island (outside), Chagos 
+      image_credit: "Photo: the ocean agency / xl catlin seaview survey"
       title: Restoring vital ecosystems to secure a healthy ocean
       content:
         -
