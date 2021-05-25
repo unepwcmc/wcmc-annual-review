@@ -8,8 +8,8 @@ collection:
   -
     id: business-and-nature
     title: We helped businesses and investors avoid impacts on nature
-    image: /content/images/projects/giant_anteater_brazil.jpg
-    image_alt: "Giant anteater, a threatened species in Cerrado, Brazil. Credit: Ondřej Prosický, Adobe Stock"
+    image: /content/images/projects/solar-panel-wind-turbine.jpg
+    image_alt: "A solar panel with a wind turbine in the background. Credit: Eyematrix - stock.adobe.com"
     introduction:
       - New research and a novel data layer to support business decision making was supported by the Proteus Partnership, which also agreed a new and ambitious five-year strategy to enable and support companies in becoming nature positive.
     modal:
@@ -69,14 +69,14 @@ collection:
   -
     id: international-environmental-policy
     title: We underpinned plans to monitor progress towards new global ambitions for biodiversity
-    image: /content/images/projects/beringei_baby_mountain_gorilla.jpg
-    image_alt: "Beringei Baby Mountain Gorilla. Credit: photocech, Adobe Stock"
+    image: /content/images/projects/geneva.jpg
+    image_alt: "Geneva, Switzerland - a row of flags at entrance of United Nations Offices or Palais des Nations in Ariana Park, on shore of Lake Geneva. Credit: bennymarty - stock.adobe.com"
     introduction:
       - UNEP-WCMC has provided critical work in support of efforts to deliver an effective monitoring system for the post-2020 global biodiversity framework. 
     modal:
-      image: /content/images/modal/national_flags.jpg
+      image: /content/images/modal/flags-blue-sky.jpg
       image_caption: National Flags
-      image_credit: Tobias Arhelger, Adobe Stock
+      image_credit: Coprid - stock.adobe.com
       title: Informing an effective monitoring system that enables ongoing “stocktaking” of progress
       content:
         -
@@ -97,8 +97,8 @@ collection:
   -
     id: planning-for-places
     title: We highlighted the benefits of joint action for climate and nature
-    image: /content/images/projects/mangrove_roots_caribbean.jpg
-    image_alt: "Mangrove roots, Caribbean. Credit: damedias, Adobe Stock"
+    image: /content/images/projects/earth-north-sea.jpg
+    image_alt: "Earth from space. The United Kingdom and the North Sea. Credit: Anton Balazh - stock.adobe.com"
     introduction:
       - Work by UNEP-WCMC and our partners to map priority areas for biodiversity and carbon drew the climate and nature agendas closer together.
     modal:
@@ -127,14 +127,14 @@ collection:
   -
     id: nature-across-borders
     title: We helped ensure international wildlife trade is legal and sustainable
-    image: /content/images/projects/tokay_gecko.jpg
-    image_alt: "Tokay Gecko. Credit: naturesauraphoto, Adobe Stock"
+    image: /content/images/projects/macaw.jpg
+    image_alt: "Wild macaw in a cage. Credit: Vinicius Bacarin - stock.adobe.com"
     introduction:
       - Together with the CITES Secretariat, we made over 4000 species identification resources accessible in new, dynamic forms, helping to regulate international wildlife trade.
     modal:
-      image: /content/images/modal/cites_cop18.jpg
-      image_caption: CITES CoP18
-      image_credit: IISD/ENB, Kiara Worth
+      image: /content/images/modal/coral-reef-panorama.jpg
+      image_caption: 
+      image_credit: stockphoto-graf - stock.adobe.com
       title: Providing trusted information to ensure legal, sustainable wildlife trade
       content:
         -
@@ -157,14 +157,14 @@ collection:
   -
     id: nature-in-sustainable-development
     title: We helped develop a strategy to bend the curve on biodiversity loss
-    image: /content/images/projects/forestry.jpg
-    iamge_alt: "Forestry. Credit: Elena, Adobe Stock"
+    image: /content/images/projects/rhinos.jpg
+    image_alt: "Southern white rhinoceros cow and calf. Credit: Nicola.K.photos - stock.adobe.com"
     introduction:
       - With partners, we developed research identifying the key actions needed to halt and reverse terrestrial biodiversity loss from land use change.
     modal:
-      image: /content/images/modal/wheat_harvest.jpg
-      image_caption: Wheat Harvest
-      image_credit: Ruslan Khismatov, Adobe Stock
+      image: /content/images/modal/zebras-nairobi.jpg
+      image_caption: Two zebras in Nairobi National Park
+      image_credit: mbrand85 - stock.adobe.com 
       title: Bending the curve of biodiversity loss on land
       content:
         -
