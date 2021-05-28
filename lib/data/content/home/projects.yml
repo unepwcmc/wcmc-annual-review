@@ -13,9 +13,9 @@ collection:
     introduction:
       - New research and a novel data layer to support business decision making was supported by the Proteus Partnership, which also agreed a new and ambitious five-year strategy to enable and support companies in becoming nature positive.
     modal:
-      image: /content/images/modal/industrial_port.jpg
-      image_caption: Industrial Port
-      image_credit: Lily, Adobe Stock
+      image:
+      image_caption:
+      image_credit:
       title: Working together towards nature-positive business
       content:
         -
