@@ -22,6 +22,7 @@ collection:
       - With the help of governments and stakeholders from over 150 countries, the Protected Planet Initiative updated, verified or added 223,000 protected and conserved areas in the ${link-protected-planet-initiative} databases. The most recent progress can be found in the ${link-protected-planet-report}.
     image: /content/images/highlights/zebras-and-flamingos.jpg
     image_alt: "Zebras in the Ngorongoro Crater, Tanzania. Credit: Travel Stock - stock.adobe.com"
+    image_position: '40% 0%'
   -
     id: trade-hub
     title: Mainstreaming social and environmental considerations within global trade systems
@@ -36,6 +37,7 @@ collection:
       - Thirty students from 15 West African countries and Morocco have benefited from UNEP-WCMC teaching of modules on the MSc programme at the University Felix Houphouet-Boigny in Cote d’Ivoire on managing the science-policy interface on biodiversity and ecosystem services for sustainable development in West Africa.
     image: /content/images/highlights/student-at-library.jpg
     image_alt: "Student in a library. Credit: NDABCREATIVITY – stock.adobe.com"
+    image_position: '70% 0%'
   -
     id: encore
     title: Urging the financial sector to set biodiversity targets
@@ -50,6 +52,7 @@ collection:
       - Bosnia & Herzegovina, Colombia and Grenada made further progress towards developing their National Ecosystem Assessments with technical support from UNEP-WCMC and our partners. 
     image: /content/images/highlights/fishing-boat-beach.jpg
     image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela – stock.adobe.com"
+    image_position: '30% 0%'
   -
     id: icca
     title: Supporting indigenous peoples and local communities
