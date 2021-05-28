@@ -23,6 +23,8 @@ collection:
             - "<strong>In 2020, we published a global data layer revealing the “naturalness” of each 1km² of land on Earth. The layer was designed to help both businesses and investors to protect important habitats by bolstering screening approaches and helping companies to apply the mitigation hierarchy.</strong>"
             - "This global data layer can help businesses identify natural terrestrial habitat early in screening processes, helping to avoid impacts on nature. For example, the layer can be considered as businesses assess sites for potential developments, particularly in high-impact sectors such as infrastructure, agribusiness, forestry, energy and mining."
             - "It can also help investors by improving investment screening and guiding decision-making in global and regional banks and international corporations. The layer can support portfolio-level analysis of existing operations and analysis of supply chains to understand the scale of businesses’ presence in natural or modified habitats."
+        -
+          text:
             - "<strong>The research for the natural/modified habitat data layer was funded through the Proteus Partnership.</strong> Since 2003, the Proteus Partnership has been a vehicle through which leading companies have taken steps to address their relationship with biodiversity and have contributed to the mission of UNEP-WCMC and biodiversity conservation globally."
             - "<strong>In 2020, a new and ambitious five-year strategy for Proteus was agreed.</strong> Central to the new strategy is a mission to enable and support companies in becoming nature positive. After 17 years changing the way extractive industries responded to biodiversity risks, Proteus will now expand to leading companies in other sectors. The impact of Proteus will be magnified by engaging with smaller companies and strengthening engagement with global policy processes."
             - "<strong>Successfully tackling the global nature crisis will require action from all sectors of society, including the private sector. Ambitious partnerships, like Proteus, are critical to that success.</strong>"
@@ -53,6 +55,8 @@ collection:
           text:
             - <strong>In 2020, we celebrated the successful conclusion of the four-year Marine Ecosystem Restoration in Changing European Seas (MERCES) Project.</strong> MERCES, funded through the European Union’s Horizon 2020 programme, has delivered restoration efforts in <strong>over 120 sites</strong> across a range of habitats, focusing on <strong>35 important species across Europe</strong>.
             - The results and lessons learned from the MERCES Project are particularly timely given the upcoming launch of the UN Decade on Ecosystem Restoration, which aims to increase ambition and action in scaling up restoration efforts worldwide, including in the ocean.
+        -
+          text:
             - <strong>Marine ecosystems are invaluable to society</strong>. They regulate our climate, provide the primary source of food for billions of people, attract tourists from around the world, and contain 99% of the living space for life on Earth. Unfortunately, marine and coastal ecosystems are being lost and degraded at an alarming rate due to human activities, including over-exploitation, pollution, the introduction of invasive species and loss of habitat.
             - From Norway to Turkey, MERCES explored both active and passive restoration techniques. The project focused on shallow and deep-water habitats across European seas including seagrass meadows, kelp forests, cold-water corals, hydrothermal vents, canyons and fjords.
             - Almost half of MERCES sites focused on seagrass restoration. Seagrass meadows play a key role as nursery grounds for fish and in protecting the coast from storms and floods. At over 20 sites, efforts focused on the restoration of deep-sea habitats, such as cold-water corals.
@@ -83,6 +87,8 @@ collection:
           text:
             - <strong>While the UN Biodiversity Conference was delayed due to the COVID-19 pandemic, work towards the post-2020 global biodiversity framework - and its new global ambitions for biodiversity - continued throughout the year.</strong>  The Centre worked closely with our partners, including the Secretariat of the Convention on Biological Diversity, to provide the scientific analysis to help shape the new draft framework and identify available and suitable indicators to monitor and measure progress towards its goals and targets.
             - <strong>In addition to ambitious and measurable goals and targets, enhanced transparency will be key to driving the action needed to successfully tackle the global nature crisis</strong>. A robust and comprehensive means of tracking progress in as near real time as possible will allow Parties and other stakeholders to understand where additional efforts, resources and capacity may be required.
+        -
+          text:
             - Working with the Secretariat to the Convention, UNEP-WCMC has a leading role in identifying indicators and assessing their suitability for monitoring draft goals and targets under the post-2020 global biodiversity framework. ${link-cbd} identified 155 available indicators that are well-aligned with the proposed goals and targets and pinpointed where key indicator gaps remain. This work will underpin efforts to deliver an effective monitoring system that allows for the global “stocktaking” of progress.
             - <strong>For many years, UNEP-WCMC has held a unique role as the global convenor of expertise on biodiversity indicators.</strong> We create and maintain multiple core indicator datasets on nature and bring together indicator data from other partners for use by governments through the Biodiversity Indicators Partnership. <strong>As we enter this crucial time for tackling the global nature crisis, that work in monitoring and enabling action is more important than ever before.</strong>
       themeTitle: "Themes:"
@@ -111,6 +117,8 @@ collection:
           text:
           - <strong>In 2020, the climate and nature agendas drew ever closer together, with efforts from UNEP-WCMC and our partners to map priority areas for biodiversity and carbon playing a crucial part in this process.</strong>
           - <strong>The climate and biodiversity crises are fundamentally connected and must be addressed together.</strong> Climate change is a present and growing threat to biodiversity, and actions to protect, manage or restore nature to help alleviate societal challenges, known as nature-based solutions, are crucial to tackling the climate crisis. Such actions should be based on inclusive decision-making that recognises the roles and rights of indigenous peoples and local communities.
+        -
+          text:
           - This was borne out in the ${link-strengthening-synergies} report, which demonstrated that conserving 30% of land in strategic locations could safeguard 500 gigatonnes of carbon stored in vegetation and soils – around half the world’s vulnerable terrestrial carbon stocks – and reduce the extinction risk of nearly 90% of threatened terrestrial species. 
           - <strong>The methodology underpinning these findings is that of the ${link-nature-map},</strong> which brings together an international consortium of research institutes and conservation organisations to support area-based prioritisation for conservation and restoration. 
           - Decision makers need trusted information on the spatial distribution of biodiversity, carbon and other ecosystem services and human impacts, to identify how and where they overlap. <strong>Nature Map has made freely-available global maps of terrestrial biodiversity, carbon stocks and water supply, designed to support countries to integrate nature and climate in decision making and promote nature-based solutions.</strong>
@@ -141,6 +149,8 @@ collection:
           text:
             - <strong>In 2020, UNEP-WCMC and the CITES Secretariat added over 4,000 identification resources from the CITES Identification Manual and the CITES Virtual College to the ${link-cites-checklist} and ${link-species-plus} platforms.</strong>
             - All these species identification resources are now centralised, searchable and freely available to download.
+        -
+          text:
             - <strong>Easy access to trusted information is crucial to ensuring international wildlife trade is legal and sustainable.</strong> Accurately identifying traded species remains a major challenge for enforcement and other agencies when implementing the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES). <strong>Access to these materials on the Checklist and Species+ platforms will help to simplify this process, aiding accurate decision-making and saving time.</strong>
             - The CITES Identification Manual is a collection of materials designed to help identify species of animals and plants for which international trade is regulated by the Convention. They contain drawings, photographs, maps of ranges and concise descriptions to help CITES Management and Scientific Authorities, customs and other agencies involved in implementing and enforcing CITES. 
             - Users can now access materials for specific species or search and create custom downloads of materials for groups of species, locations, or Appendix listings under the Convention. The CITES Identification Manual is now available to download in English, Spanish, and French. 
@@ -171,6 +181,8 @@ collection:
           text:
           - <strong>2020 marked the beginning of a “last chance decade” to tackle the global nature crisis and the beginning the UN Decade of Action on the Sustainable Development Goals (SDGs)</strong>. The ${link-bending-the-curve} analysis demonstrated that halting and reversing biodiversity loss and progressing towards other SDGs can be achieved together. 
           - <strong>Coordinated action can make progress towards multiple SDGs.</strong> Bending the Curve explored how we can halt and reverse biodiversity loss (SDG 15) from land use change whilst also feeding a growing population (SDG 2).
+        -
+          text:
           - "Land use change resulting in habitat conversion is the main driver of biodiversity loss on land. <strong>UNEP-WCMC worked with IIASA to use ground-breaking modelling and newly developed scenarios to identify six key integrated actions needed to stop these losses.</strong> These are:"
           - "<ul>
               <li>Sustainable increases in crop yields;</li>
