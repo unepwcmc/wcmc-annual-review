@@ -1,10 +1,10 @@
 id: stats-people
 countries-icon: icons/globe-leaf.svg
 countries-total: 134
-countries-title: Countries and territories worked with in 2019
+countries-title: Countries and territories worked with in 2020
 countries-image: content/map.svg
 map-disclaimer: The designation employed and the presentation of material on this map do not imply the expression of any opinion whatsoever on the part of the Secretariat of the United Nations concerning the legal status of any country, territory, city or area or any of its authorities, or concerning the delimitation of its frontiers or boundaries.
-map-info: Dark blue represents countries and territories UNEP-WCMC has worked with in 2019. Grey represents a data deficiency.
+map-info: Dark blue represents countries and territories UNEP-WCMC has worked with in 2020. Grey represents a data deficiency.
 stats-totals:
   -
     number: 226
