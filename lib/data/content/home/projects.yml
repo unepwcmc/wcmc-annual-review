@@ -13,9 +13,6 @@ collection:
     introduction:
       - New research and a novel data layer to support business decision making was supported by the Proteus Partnership, which also agreed a new and ambitious five-year strategy to enable and support companies in becoming nature positive.
     modal:
-      image:
-      image_caption:
-      image_credit:
       title: Working together towards nature-positive business
       content:
         -
@@ -47,6 +44,7 @@ collection:
       - Ahead of the UN Decade on Ecosystem Restoration, we used our expertise to support ecosystem restoration in shallow and deep-water habitats from Norway to Turkey.
     modal:
       image: /content/images/modal/reef.jpg
+      image_position: 0% 45%
       image_caption: Nelson Island (outside), Chagos 
       image_credit: "Photo: the ocean agency / xl catlin seaview survey"
       title: Restoring vital ecosystems to secure a healthy ocean
@@ -79,6 +77,7 @@ collection:
       - UNEP-WCMC has provided critical work in support of efforts to deliver an effective monitoring system for the post-2020 global biodiversity framework. 
     modal:
       image: /content/images/modal/flags-blue-sky.jpg
+      image_position: 0% 60%
       image_caption: National Flags
       image_credit: Coprid - stock.adobe.com
       title: Informing an effective monitoring system that enables ongoing “stocktaking” of progress
@@ -111,6 +110,7 @@ collection:
       image: /content/images/modal/costa_brava_coast_spain.jpg
       image_caption: Costa Brava coast, Spain
       image_credit: Alexugalek, Adobe Stock
+      image_position: 0% 75%
       title: Revealing and highlighting the benefits of joint action for nature and climate
       content:
         -
@@ -174,7 +174,8 @@ collection:
     modal:
       image: /content/images/modal/zebras-nairobi.jpg
       image_caption: Two zebras in Nairobi National Park
-      image_credit: mbrand85 - stock.adobe.com 
+      image_credit: mbrand85 - stock.adobe.com
+      image_position: 0 52%
       title: Bending the curve of biodiversity loss on land
       content:
         -

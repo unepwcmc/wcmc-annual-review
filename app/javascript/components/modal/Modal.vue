@@ -15,7 +15,13 @@
             <p v-for="p in section.text" v-html="p"></p>
           </div>
 
-          <div v-if="index == 0 && data.modal.image" class="modal__bg-image item-margin--top item-margin--bottom relative" :style="{ 'background-image': `url(${data.modal.image})` }">
+          <div 
+            v-if="index == 0 && data.modal.image"
+            class="modal__bg-image item-margin--top item-margin--bottom relative"
+            :style="{
+              'background-image': `url(${data.modal.image})`,
+              'background-position': `${data.modal.image_position ? data.modal.image_position : '0% 0%'}`
+              }">
             <div class="bg-image__caption modal__bg-image-caption flex flex-column gutter-left">
               <span class="bg-image__title" v-html="data.modal.image_caption" />
               <span class="bg-image__credit">{{ data.modal.image_credit }}</span>
@@ -76,6 +82,7 @@ export default {
     },
 
     data () {
+      console.log(this.$store.state.modal.content)
       return this.$store.state.modal.content
     },
 
