@@ -42,7 +42,7 @@ $trigger-height: $trigger-width;
     position: absolute;
     top: $gutter-large;
     right: $gutter-small;
-    z-index: 100;
+    z-index: $z-100;
 
     .forewords__item:first-child & {
       top: 0;
