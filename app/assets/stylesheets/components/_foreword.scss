@@ -10,13 +10,11 @@ $trigger-height: $trigger-width;
     padding-top: 0;
   }
 
-  .forewords__item:nth-child(1) &,
-  .forewords__item:nth-child(3) & {
+  .forewords__item:nth-child(odd) & {
     background-color: $blue-light;
   }
 
-  .forewords__item:nth-child(2) &,
-  .forewords__item:nth-child(4) & {
+  .forewords__item:nth-child(even) & {
     background-color: $grey-lighter;
   }
 
