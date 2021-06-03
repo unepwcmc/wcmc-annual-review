@@ -44,6 +44,9 @@ $trigger-height: $trigger-width;
     right: $gutter-small;
     z-index: $z-100;
 
+    background: transparent;
+    border: none;
+
     .forewords__item:first-child & {
       top: 0;
     }
