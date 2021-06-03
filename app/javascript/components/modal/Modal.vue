@@ -18,10 +18,7 @@
           <div 
             v-if="index == 0 && data.modal.image"
             class="modal__bg-image item-margin--top item-margin--bottom relative"
-            :style="{
-              'background-image': `url(${data.modal.image})`,
-              'background-position': `${data.modal.image_position ? data.modal.image_position : '0% 0%'}`
-              }">
+            :style="backgroundStyles">
             <div class="bg-image__caption modal__bg-image-caption flex flex-column gutter-left">
               <span class="bg-image__title" v-html="data.modal.image_caption" />
               <span class="bg-image__credit">{{ data.modal.image_credit }}</span>
@@ -104,6 +101,14 @@ export default {
 
     themeTitle () {
       return this.data.modal && this.data.modal.themeTitle ? this.data.modal.themeTitle : false
+    },
+
+    backgroundStyles () {
+      let { image, image_position } = this.data.modal;
+      return {
+        'background-image': `url(${image})`,
+        'background-position': `${image_position ? image_position : '0% 0%'}`
+        }
     }
   },
 
