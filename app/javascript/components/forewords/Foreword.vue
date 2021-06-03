@@ -18,10 +18,6 @@
   export default {
     name: 'foreword',
 
-    props: {
-      classes: String
-    },
-
     data () {
       return {
         isActive: false
