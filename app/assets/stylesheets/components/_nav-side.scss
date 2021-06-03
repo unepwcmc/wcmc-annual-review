@@ -45,16 +45,13 @@ $side-nav-style-2-label: rgba($grey, .8);
 
     transform: translateY(-50%);
 
-    &.nav--forewords {
-      @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
-    }
-
     &.nav--foreword {
       @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
     }
 
     &.nav--projects,
-    &.nav--highlights {
+    &.nav--highlights,
+    &.nav--forewords {
       @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
     }
 
