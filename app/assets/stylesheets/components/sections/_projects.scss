@@ -37,7 +37,7 @@ h2 {
 .section {
 
   &__header {
-    background: image-url(#{$hero-image});
+    background: image-url($hero-image);
     background-size: cover;
     height: 100vh;
 
