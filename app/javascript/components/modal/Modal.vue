@@ -79,7 +79,6 @@ export default {
     },
 
     data () {
-      console.log(this.$store.state.modal.content)
       return this.$store.state.modal.content
     },
 
