@@ -3,37 +3,6 @@ class HomeController < ApplicationController
   require 'json'
 
   def index
-    @nav = [
-      {
-        id: 'forewords',
-        label: 'Forewords'
-      },
-      {
-        id: 'foreword',
-        label: 'Foreword'
-      },
-      {
-        id: 'projects',
-        label: 'Our work'
-      },
-      {
-        id: 'highlights',
-        label: 'Highlights'
-      },
-      {
-        id: 'stats-people',
-        label: 'Our team'
-      },
-      {
-        id: 'stats-finance',
-        label: 'Financial overview'
-      },
-      {
-        id: 'future',
-        label: 'Moving forward'
-      }
-    ].to_json
-
     @hero = YAML.load(File.open("#{Rails.root}/lib/data/content/home/hero.yml", 'r'))
     @forewords = YAML.load(File.open("#{Rails.root}/lib/data/content/home/forewords.yml", 'r'))
     @foreword = YAML.load(File.open("#{Rails.root}/lib/data/content/home/foreword.yml", 'r'))
@@ -43,6 +12,15 @@ class HomeController < ApplicationController
     @stats_finance = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-finance.yml", 'r'))
     @future = YAML.load(File.open("#{Rails.root}/lib/data/content/home/future.yml", 'r'))
 
+    @nav = [
+      @forewords,
+      @foreword,
+      @projects,
+      @highlights,
+      @stats_people,
+      @stats_finance,
+      @future].map { |data| { id: data['id'], label: data['nav-label'] } }.to_json
+   
     @references = {
       config: {
         svgPaddingTop: 70,
