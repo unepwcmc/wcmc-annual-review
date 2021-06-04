@@ -9,7 +9,7 @@
           <div class="foreword__header">
             <div class="foreword__columns">
               <div class="foreword__column">
-                <img src="<%= c['img_src'] %>" alt="<%= c['name'] %>" class="foreword__image">
+                <%= image_tag c['img_src'], alt: c['name'], class: "foreword__image" %>
               </div>
               <div class="foreword__column">
                 <h3 class="foreword__heading"><%= c['name'] %></h3>
