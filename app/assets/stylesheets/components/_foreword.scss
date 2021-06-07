@@ -2,7 +2,7 @@ $trigger-width: 30px;
 $trigger-height: $trigger-width;
 
 .foreword {
-  padding: $gutter-large $gutter-small;
+  padding: 32px $gutter-small;
   background-color: $blue-light;
   position: relative;
 
@@ -19,10 +19,10 @@ $trigger-height: $trigger-width;
   }
 
   @include breakpoint($xs) {
-    padding: $gutter-large;
+    padding: 32px;
 
     .forewords__item:nth-child(1) & {
-      padding-top: $gutter-large;
+      padding-top: 32px;
     }
 
     .forewords__item:nth-child(3) & {
@@ -40,7 +40,7 @@ $trigger-height: $trigger-width;
     height: $trigger-height;
 
     position: absolute;
-    top: $gutter-large;
+    top: 32px;
     right: $gutter-small;
     z-index: $z-100;
 
