@@ -14,6 +14,10 @@ collection:
     introduction:
       - New research and a novel data layer to support business decision making was supported by the Proteus Partnership, which also agreed a new and ambitious five-year strategy to enable and support companies in becoming nature positive.
     modal:
+      image: /content/images/modal/cityscape.jpg
+      image_position: 0% 55%
+      image_caption: THIS NEEDS A CAPTION
+      image_credit: THIS NEEDS A CREDIT
       title: Working together towards nature-positive business
       content:
         -
