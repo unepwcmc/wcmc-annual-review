@@ -16,8 +16,8 @@ collection:
     modal:
       image: /content/images/modal/cityscape.jpg
       image_position: 0% 55%
-      image_caption: THIS NEEDS A CAPTION
-      image_credit: THIS NEEDS A CREDIT
+      image_caption: Bangkok city skyline from top view in Thailand
+      image_credit: f11photo - stock.adobe.com
       title: Working together towards nature-positive business
       content:
         -
