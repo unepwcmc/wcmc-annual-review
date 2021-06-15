@@ -1,0 +1,18 @@
+id: 'impacts'
+collection:
+  -
+    id: marine-data
+    emphasis: 20,000
+    text: Our marine data was accessed 20,000 times, supporting organisations in spatial planning, reporting and decision-making 
+  -
+    id: european-seas
+    emphasis: "120"
+    text: 120 sites in European Seas where UNEP-WCMC supported marine restoration 
+  -
+    id: protected-planet
+    emphasis: 50,000
+    text: 50,000 new records were added to Protected Planet, tracking progress towards global goals 
+  -
+    id: species-identification
+    emphasis: 4,000+
+    text: 4,000+ species identification resources were made accessible in a new, more dynamic way, helping on the ground enforcement
