@@ -45,5 +45,7 @@ $introduction-desktop-small: 24px;
 
   &--stats-finance { @import './sections/stats-finance.scss'; }
 
+  &--impacts { @import './sections/impacts.scss'; }
+
   &--future { @import './sections/future.scss'; }
 }
