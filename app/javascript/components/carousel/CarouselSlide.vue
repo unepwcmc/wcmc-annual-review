@@ -6,6 +6,8 @@
 
 <script>
 import { getInputs } from '../../helpers/focus-helpers';
+import { eventHub } from '../../vue';
+import '../../mixins/mixin-responsive';
 
 export default {
   name: 'carousel-slide',
@@ -33,12 +35,18 @@ export default {
     this.setSlideStyle()
     this.inputElements = getInputs(this.$el)
     this.setTabIndices()
+
+    eventHub.$on('windowResized', this.setSlideStyle)
   },
 
   watch: {
     isActive () {
       this.setTabIndices() 
     }
+  },
+
+  computed: {
+    impacts () { return this.$parent.$el.id == 'impacts' },
   },
 
   methods: {
@@ -54,6 +62,10 @@ export default {
     setSlideStyle () {
       const style = this.$el.style
 
+      if (this.impacts) {
+        this.slidesPerFrame = screen.width > 720 ? (2/3) : 1
+      }
+      
       style.marginLeft = style.marginRight = this.marginSize + 'px'
       style.width = `calc(${100/this.slidesPerFrame}% - ${2*this.marginSize}px)`
     }
