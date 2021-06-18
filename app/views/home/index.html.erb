@@ -48,6 +48,14 @@
 </section>
 
 <section
+  id="section-<%= @impacts['id'] %>"
+  class="section--impacts section-padding white">
+
+  <%= render partial: 'home/partials/impacts', locals: { data: @impacts } %>
+  
+</section>
+
+<section
   id="section-<%= @future['id'] %>"
   class="bg-grey section--future section-padding section-padding--caption white flex flex-h-center flex-column bg-image-overlay">
 
