@@ -11,22 +11,22 @@ collection:
     image_alt: "Ariel shot of a road surrounded by green trees. Credit: Geran de Klerk on Unsplash"
   -
     id: gender
-    title: Building a gender-responsive post-2020 global biodiversity framework
+    title: Women and the post-2020 global biodiversity framework
     introduction:
-      - We developed a ${link-gender-framework} to support a gender-responsive post-2020 global biodiversity framework. This will help to ensure that progress towards tackling biodiversity loss and advancing gender equality go hand in hand.
+      - We developed a ${link-gender-framework} to support a gender-responsive post-2020 framework, helping to ensure that tackling biodiversity loss and advancing gender equality go hand in hand.
     image: /content/images/highlights/women-tea-plantation.jpg
     image_alt: "African women plucking tea leaves on plantation. Credit: Bartosz Hadyniak - iStock.com"
   -
     id: protected-planet
-    title: Tracking progress towards global ambitions for protected and conserved areas
+    title: Tracking progress on protected and conserved areas
     introduction:
-      - With the help of governments and stakeholders from over 150 countries, the Protected Planet Initiative updated, verified or added 223,000 protected and conserved areas in the ${link-protected-planet-initiative} databases. The most recent progress can be found in the ${link-protected-planet-report}.
+      - With the help of governments and stakeholders from over 150 countries, the ${link-protected-planet-initiative} updated, verified or added 223,000 protected and conserved areas to global databases.  
     image: /content/images/highlights/zebras-and-flamingos.jpg
     image_alt: "Zebras in the Ngorongoro Crater, Tanzania. Credit: Travel Stock - stock.adobe.com"
     image_position: '40% 0%'
   -
     id: trade-hub
-    title: Mainstreaming social and environmental considerations within global trade systems
+    title: Building more sustainable global trade systems 
     introduction:
       - "Last year, the GCRF TRADE Hub teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to high-level publications and platforms beyond academia, including the ${link-wto-environment-week} ${link-bbc-extinction}, narrated by Sir David Attenborough."
     image: /content/images/highlights/person-basket-grapes.jpg
@@ -35,7 +35,7 @@ collection:
     id: felix
     title: The next generation of conservation leaders
     introduction:
-      - Thirty students from 15 West African countries and Morocco have benefited from <a href='https://wabes.org/index_en.html' target='_blank'>UNEP-WCMC teaching of modules</a> on the MSc programme at the University Felix Houphouet-Boigny in Cote d’Ivoire on managing the science-policy interface on biodiversity and ecosystem services for sustainable development in West Africa.
+      - 30 students from 15 West African countries and Morocco have benefited from <a href='https://wabes.org/index_en.html' target='_blank'>UNEP-WCMC teaching of modules</a> on the MSc programme at the University Felix Houphouet-Boigny in Cote d’Ivoire on managing the science-policy interface on biodiversity and ecosystem services for sustainable development in West Africa.
     image: /content/images/highlights/student-at-library.jpg
     image_alt: "Student in a library. Credit: NDABCREATIVITY – stock.adobe.com"
     image_position: '70% 0%'
@@ -43,7 +43,7 @@ collection:
     id: encore
     title: Urging the financial sector to set biodiversity targets
     introduction:
-      - A new ${link-encore} highlighted the need for banks, investors and insurers to set targets to reduce biodiversity loss, starting with nine critical sectors. Work with our partners continued towards enhancing the ENCORE tool to help financial institutions align their portfolios with global biodiversity targets.
+      - A new ${link-encore} highlighted the need for banks, investors and insurers to set targets to reduce biodiversity loss, starting with nine critical sectors. Work with our partners continued towards helping financial institutions align their portfolios with global biodiversity targets.
     image: /content/images/highlights/windmills-nebraska.jpg
     image_alt: "Five windmills in front of the ocean. Credit: American Public Power Association on Unsplash"
   -
@@ -58,7 +58,7 @@ collection:
     id: icca
     title: Supporting indigenous peoples and local communities
     introduction:
-      - Dozens of territories and areas conserved by indigenous peoples and local communities (ICCAs) were self-reported by their custodians and added to the ${link-icca-registry}. Each registration marks a major achievement in custodians’ journey to protect their territories and areas and adds to the understanding of their contribution to global conservation.
+      - Dozens of territories and areas conserved by indigenous peoples and local communities (ICCAs) were self-reported by their custodians and added to the ${link-icca-registry}. Each is a major achievement in custodians’ journey to protect their lands and adds to the understanding of their contribution to conservation. 
     image: /content/images/highlights/sarayaku.jpg
     image_alt: "Pueblo Originario Kichwa de Sarayaku, Ecuador. Credit: Fundación Aldea"
   -
