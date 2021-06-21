@@ -222,6 +222,87 @@ $slide-text-desktop: 18px;
       }
     }
   }
+
+//--------------------------------------------------
+// class - impacts
+//--------------------------------------------------
+
+  &--impacts {
+    @include carousel;
+    overflow: hidden;
+    height: 100%;
+
+    .carousel {
+      &__slides-container {
+        width: 100%;
+      }
+
+      &__slide {
+        @include responsive-styles(flex-direction, column, column, row);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        float: left;
+      }
+
+      &__indicator {
+        @include carousel-indicator($white);
+      }
+    }
+
+    .carousel-slide {
+      &__content {
+        @include responsive-styles(flex-direction, column, row, row);
+        @include responsive-styles(padding, $gutter-medium, $gutter-extra-large $gutter-medium,auto);
+        @include responsive-styles(align-items, center, flex-start, flex-start);
+
+        @include slide-font-size();
+        background-color: $primary-light;
+        border-radius: 25px;
+
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+
+        @include breakpoint($medium) {
+          order: -1;
+        }
+      }
+
+      &__icon {
+        @include responsive-styles(max-width, 50%, 33%, 20%);
+        @include responsive-styles(padding, 0px, 0px 25px, 0px 25px);
+        @include responsive-styles(margin, 50px 0px 66px, 0px, 0px);
+      }
+
+      &__subtitle > * {
+        font-size: 14px;
+      }
+
+      &__impact {
+        font-weight: $fw-medium;
+      }
+
+      &__index {
+          margin-top: auto;
+      }
+
+      &__stat {
+        color: $white;
+        font-size: 64px;
+        margin-bottom: 20px;
+        font-family: $header-font;
+        font-weight: $regular;
+      }
+
+      &__text {
+        @include responsive-styles(font-size, 18px, auto, 25px);
+        @include responsive-styles(line-height, 1.6, 1.4, 25px);
+
+        margin: 0 0 12px;
+      }
+    }
+  }
 }
 
 .carousel-slide {
