@@ -22,7 +22,7 @@ module ApplicationHelper
   end
 
   def social_image
-    image_url('social-le-thi-luan.jpg')
+    image_url('riverside-house.jpg')
   end
 
   def social_image_alt
