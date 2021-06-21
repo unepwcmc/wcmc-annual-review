@@ -53,7 +53,7 @@ export default {
 
     setSlideStyle () {
       const style = this.$el.style
-      
+
       style.marginLeft = style.marginRight = this.marginSize + 'px'
       style.width = `calc(${100/this.slidesPerFrame}% - ${2*this.marginSize}px)`
     }
