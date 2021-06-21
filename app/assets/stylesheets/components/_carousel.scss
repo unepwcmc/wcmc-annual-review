@@ -275,7 +275,7 @@ $slide-text-desktop: 18px;
         @include responsive-styles(margin, rem-calc(50px) rem-calc(0px) rem-calc(66px), rem-calc(0px), rem-calc(0px));
       }
 
-      &__subtitle > * {
+      &__subtitle {
         font-size: rem-calc(14px);
       }
 
