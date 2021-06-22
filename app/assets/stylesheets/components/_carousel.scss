@@ -280,7 +280,7 @@ $slide-text-desktop: 18px;
       }
 
       &__impact {
-        font-weight: $fw-medium;
+        font-weight: $bold;
         text-transform: uppercase;
       }
 
@@ -299,6 +299,7 @@ $slide-text-desktop: 18px;
       &__text {
         @include responsive-styles(font-size, 18px, auto, 25px);
         @include responsive-styles(line-height, 1.6, 1.4, 25px);
+        font-weight: $fw-medium;
 
         margin: 0 0 12px;
       }
