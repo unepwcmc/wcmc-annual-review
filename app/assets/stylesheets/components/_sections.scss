@@ -19,7 +19,7 @@ $introduction-desktop-small: 24px;
 
   &__text {
     font-size: 18px;
-    font-weight: $regular
+    font-weight: $fw-regular
   }
 
 //--------------------------------------------------
@@ -44,6 +44,8 @@ $introduction-desktop-small: 24px;
   }
 
   &--stats-finance { @import './sections/stats-finance.scss'; }
+
+  &--impacts { @import './sections/impacts.scss'; }
 
   &--future { @import './sections/future.scss'; }
 }
