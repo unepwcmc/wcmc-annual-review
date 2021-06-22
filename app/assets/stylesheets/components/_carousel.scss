@@ -210,7 +210,7 @@ $slide-text-desktop: 18px;
 
         &__index {
           @include slide-index-size();
-          font-weight: $bold;
+          font-weight: $fw-bold;
           margin-top: auto;
         }
 
@@ -280,7 +280,7 @@ $slide-text-desktop: 18px;
       }
 
       &__impact {
-        font-weight: $bold;
+        font-weight: $fw-bold;
         text-transform: uppercase;
       }
 
@@ -293,7 +293,7 @@ $slide-text-desktop: 18px;
         font-size: 64px;
         margin-bottom: 20px;
         font-family: $header-font;
-        font-weight: $regular;
+        font-weight: $fw-regular;
       }
 
       &__text {

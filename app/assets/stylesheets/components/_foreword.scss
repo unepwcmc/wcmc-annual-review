@@ -147,11 +147,11 @@ $trigger-height: $trigger-width;
   }
 
   &__subheading--light {
-    font-weight: $light;
+    font-weight: $fw-light;
   }
 
   &__text {
-    font-weight: $regular;
+    font-weight: $fw-regular;
 
     @include breakpoint($medium) {
       margin-right: $gutter-large / 2;
