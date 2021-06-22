@@ -10,6 +10,7 @@ class HomeController < ApplicationController
     @projects = load_yaml("lib/data/content/home/projects.yml", project_links)
     @stats_people = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-people.yml", 'r'))
     @stats_finance = YAML.load(File.open("#{Rails.root}/lib/data/content/home/stats-finance.yml", 'r'))
+    @impacts = YAML.load(File.open("#{Rails.root}/lib/data/content/home/impacts.yml"))
     @future = YAML.load(File.open("#{Rails.root}/lib/data/content/home/future.yml", 'r'))
 
     @nav = [

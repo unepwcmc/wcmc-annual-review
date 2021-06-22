@@ -6,8 +6,10 @@ export default {
       windowWidth: 0,
       currentBreakpoint: '',
       breakpoints: {
+        xs: 640,
         small: 720,
-        medium: 960,
+        medium: 1024,
+        large: 1708
       }
     }
   },
