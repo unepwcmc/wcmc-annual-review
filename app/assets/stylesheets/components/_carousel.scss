@@ -253,7 +253,7 @@ $slide-text-desktop: 18px;
     .carousel-slide {
       &__content {
         @include responsive-styles(flex-direction, column, row, row);
-        @include responsive-styles(padding, $gutter-medium, $gutter-extra-large $gutter-medium,auto);
+        @include responsive-styles(padding, $gutter-medium, $gutter-extra-large $gutter-medium $gutter-extra-large * 2.5, auto);
         @include responsive-styles(align-items, center, flex-start, flex-start);
 
         @include slide-font-size();
