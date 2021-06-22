@@ -32,7 +32,12 @@ export default {
   },
 
   mounted () {
-    this.setSlideStyle()
+    if (!this.isSmall() && this.isImpactsCarousel) { 
+      this.setSlideStyle(1.15)
+    } else { 
+      this.setSlideStyle()
+    }
+
     this.inputElements = getInputs(this.$el)
     this.setTabIndices()
   },
