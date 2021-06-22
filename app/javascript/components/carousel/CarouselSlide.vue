@@ -6,6 +6,7 @@
 
 <script>
 import { getInputs } from '../../helpers/focus-helpers';
+import mixinResponsive from '../../mixins/mixin-responsive';
 
 export default {
   name: 'carousel-slide',
