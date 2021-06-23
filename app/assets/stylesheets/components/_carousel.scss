@@ -71,6 +71,10 @@ $transition-options: 0.6s ease-in-out;
     height: calc(100% - #{$indicator-row-height});
   }
 
+  .carousel__slide {
+    width: 100%; // IE11
+  }
+
     .carousel__slides {
       padding: 0;
       height: 100%;
