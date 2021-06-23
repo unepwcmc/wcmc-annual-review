@@ -7,17 +7,17 @@ $padding-side-mobile: 16px;
 $padding-side-tablet: 16px;
 $padding-side-desktop: 48px;
 
-@mixin slide-padding() {
-  padding-left: calc(#{$padding-side-mobile} + 10px);
+@mixin slide-padding($padding-constant: 10px) {
+  padding-left: calc(#{$padding-side-mobile + $padding-constant});
   padding-right: $padding-side-mobile;
 
   @include breakpoint($small) {
-    padding-left: calc(#{$padding-side-tablet} + 10px);
+    padding-left: calc(#{$padding-side-tablet + $padding-constant});
     padding-right: $padding-side-tablet;
   }
 
   @include breakpoint($medium) {
-    padding-left: calc(#{$padding-side-desktop} + 10px);
+    padding-left: calc(#{$padding-side-desktop + $padding-constant});
     padding-right: $padding-side-desktop;
   }
 }
@@ -255,6 +255,10 @@ $slide-text-desktop: 18px;
     }
 
     .carousel-slide {
+      @include breakpoint-down($small) {
+        @include slide-padding(0px);
+      }
+
       &__content {
         @include responsive-styles(flex-direction, column, row, row);
         @include responsive-styles(padding, $gutter-medium, $gutter-extra-large $gutter-medium $gutter-extra-large * 2.5, auto);
