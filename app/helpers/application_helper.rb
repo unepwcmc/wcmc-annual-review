@@ -26,20 +26,20 @@ module ApplicationHelper
   end
 
   def social_image_alt
-    'Le Thi Luan tends to her rice paddy, Vietnam'
+    'A house by the side of a river'
   end
 
   def create_sharing_facebook_link
     title = url_encode('Share ' + page_title + ' on Facebook')
     url = encoded_home_url
-    href = 'https://facebook.com/sharer/sharer.php?u=' + url
+    href = 'https://facebook.com/sharer/sharer.php?href=' + url
 
     link_to '', href, title: title, class: 'social__icon social__icon--facebook', target: '_blank'
   end
 
   def create_sharing_twitter_link
     title = url_encode('Share ' + page_title + ' on Twitter')
-    text = url_encode('Read about a year of impact in @unepwcmc’s 2018/19 Annual Review')
+    text = url_encode('In 2020, we put nature at the heart of decision-making, while also working from home. Read @unepwcmc’s 2020 Annual Review: https://annualreview.unep-wcmc.org/')
     url = encoded_home_url
     href = 'https://twitter.com/intent/tweet/?text=' + text + '&url=' + url
 
@@ -49,7 +49,7 @@ module ApplicationHelper
   def create_sharing_linkedin_link
     title = url_encode('Share ' + page_title + ' on LinkedIn')
     url = encoded_home_url
-    href = 'https://www.linkedin.com/shareArticle?url=' + url
+    href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url
 
     link_to '', href, title: title, class: 'social__icon social__icon--linkedin', target: '_blank'
   end
@@ -57,8 +57,8 @@ module ApplicationHelper
   def create_sharing_email_link
     title = url_encode('Share ' + page_title + ' via Email')
     url = encoded_home_url
-    subject = url_encode("UNEP-WCMC's Annual Review 2018–19")
-    body = url_encode("UNEP-WCMC's Annual Review 2018–19 puts nature at the heart of decision-making: ") + url
+    subject = url_encode("UNEP-WCMC's Annual Review 2020")
+    body = url_encode("In 2020, we put nature at the heart of decision-making, while also working from home. Read @unepwcmc’s 2020 Annual Review: https://annualreview.unep-wcmc.org/") + url
     href = 'mailto:?subject=' + subject + '&body=' + body
 
     link_to '', href, title: title, class: 'social__icon social__icon--email', target: '_self'
