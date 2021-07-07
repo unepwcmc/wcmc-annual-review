@@ -32,7 +32,7 @@ module ApplicationHelper
   def create_sharing_facebook_link
     title = url_encode('Share ' + page_title + ' on Facebook')
     url = encoded_home_url
-    href = 'https://facebook.com/sharer/sharer.php?href=' + url
+    href = 'https://facebook.com/sharer/sharer.php?u=' + url
 
     link_to '', href, title: title, class: 'social__icon social__icon--facebook', target: '_blank'
   end
@@ -49,7 +49,7 @@ module ApplicationHelper
   def create_sharing_linkedin_link
     title = url_encode('Share ' + page_title + ' on LinkedIn')
     url = encoded_home_url
-    href = 'https://www.linkedin.com/sharing/share-offsite/?url=' + url
+    href = 'https://www.linkedin.com/shareArticle?url=' + url
 
     link_to '', href, title: title, class: 'social__icon social__icon--linkedin', target: '_blank'
   end
