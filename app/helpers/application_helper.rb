@@ -58,7 +58,7 @@ module ApplicationHelper
     title = url_encode('Share ' + page_title + ' via Email')
     url = encoded_home_url
     subject = url_encode("UNEP-WCMC's Annual Review 2020")
-    body = url_encode("In 2020, we put nature at the heart of decision-making, while also working from home. Read @unepwcmc’s 2020 Annual Review: https://annualreview.unep-wcmc.org/") + url
+    body = url_encode("In 2020, we put nature at the heart of decision-making, while also working from home.\n\n Read @unepwcmc’s 2020 Annual Review: ") + url
     href = 'mailto:?subject=' + subject + '&body=' + body
 
     link_to '', href, title: title, class: 'social__icon social__icon--email', target: '_self'
