@@ -9,8 +9,8 @@ collection:
   -
     id: business-and-nature
     title: We helped businesses and investors avoid impacts on nature
-    image: /content/images/projects/corn-field.jpg
-    image_alt: "A corn field at sunset. Credit: Bits and Splits, Adobe Stock"
+    image: /content/images/projects/germany.jpg
+    image_alt: "A vista of the German countryside with cropfields and wind turbines."
     introduction:
       - New research and a novel data layer to support business decision making was supported by the Proteus Partnership, which also agreed a new and ambitious five-year strategy to enable and support companies in becoming nature positive.
     modal:
@@ -77,14 +77,14 @@ collection:
     id: international-environmental-policy
     title: We underpinned plans to monitor progress towards new global ambitions for biodiversity
     image: /content/images/projects/geneva.jpg
-    image_alt: "Geneva, Switzerland - a row of flags at entrance of United Nations Offices or Palais des Nations in Ariana Park, on shore of Lake Geneva. Credit: bennymarty - stock.adobe.com"
+    image_alt: "Geneva, Switzerland - a row of flags at entrance of United Nations Offices or Palais des Nations in Ariana Park, on shore of Lake Geneva. Credit: bennymarty, Adobe Stock"
     introduction:
       - UNEP-WCMC has provided critical work in support of efforts to deliver an effective monitoring system for the post-2020 global biodiversity framework. 
     modal:
       image: /content/images/modal/flags-blue-sky.jpg
       image_position: 0% 60%
       image_caption: National Flags
-      image_credit: Coprid - stock.adobe.com
+      image_credit: Coprid, Adobe Stock
       title: Informing an effective monitoring system that enables ongoing “stocktaking” of progress
       content:
         -
@@ -108,7 +108,7 @@ collection:
     id: planning-for-places
     title: We highlighted the benefits of joint action for climate and nature
     image: /content/images/projects/earth-north-sea.jpg
-    image_alt: "Earth from space. The United Kingdom and the North Sea. Credit: Anton Balazh - stock.adobe.com"
+    image_alt: "Earth from space. The United Kingdom and the North Sea. Credit: Anton Balazh, Adobe Stock"
     introduction:
       - Work by UNEP-WCMC and our partners to map priority areas for biodiversity and carbon drew the climate and nature agendas closer together.
     modal:
@@ -147,7 +147,7 @@ collection:
     modal:
       image: /content/images/modal/coral-reef-panorama.jpg
       image_caption: 
-      image_credit: stockphoto-graf - stock.adobe.com
+      image_credit: stockphoto-graf, Adobe Stock
       title: Providing trusted information to ensure legal, sustainable wildlife trade
       content:
         -
@@ -173,13 +173,13 @@ collection:
     id: nature-in-sustainable-development
     title: We helped develop a strategy to bend the curve on biodiversity loss
     image: /content/images/projects/rhinos.jpg
-    image_alt: "Southern white rhinoceros cow and calf. Credit: Nicola.K.photos - stock.adobe.com"
+    image_alt: "Southern white rhinoceros cow and calf. Credit: Nicola.K.photos, Adobe Stock"
     introduction:
       - With partners, we developed research identifying the key actions needed to halt and reverse terrestrial biodiversity loss from land use change.
     modal:
       image: /content/images/modal/zebras-nairobi.jpg
       image_caption: Two zebras in Nairobi National Park
-      image_credit: mbrand85 - stock.adobe.com
+      image_credit: mbrand85, Adobe Stock
       image_position: 0 52%
       title: Bending the curve of biodiversity loss on land
       content:

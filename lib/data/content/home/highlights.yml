@@ -8,7 +8,7 @@ collection:
     introduction:
       - With the UN Food and Agriculture Organization, we launched the latest ${link-state-of-world-forests} Report, underlining that Earth’s biodiversity depends on the world’s forests. Urgent solutions are needed to safeguard forest biodiversity amid alarming ongoing rates of deforestation and degradation.
     image: /content/images/highlights/forest-road.jpg
-    image_alt: "Ariel shot of a road surrounded by green trees. Credit: Geran de Klerk on Unsplash"
+    image_alt: "Ariel shot of a road surrounded by green trees. Credit: Geran de Klerk, Unsplash"
   -
     id: gender
     title: Women and the post-2020 global biodiversity framework
@@ -22,7 +22,7 @@ collection:
     introduction:
       - With the help of governments and stakeholders from over 150 countries, the ${link-protected-planet-initiative} updated, verified or added 223,000 protected and conserved areas to global databases.  
     image: /content/images/highlights/zebras-and-flamingos.jpg
-    image_alt: "Zebras in the Ngorongoro Crater, Tanzania. Credit: Travel Stock - stock.adobe.com"
+    image_alt: "Zebras in the Ngorongoro Crater, Tanzania. Credit: Travel Stock, Adobe Stock"
     image_position: '40% 0%'
   -
     id: trade-hub
@@ -30,14 +30,14 @@ collection:
     introduction:
       - "The GCRF TRADE Hub teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to publications and platforms beyond academia, including the ${link-bbc-extinction}, narrated by Sir David Attenborough."
     image: /content/images/highlights/person-basket-grapes.jpg
-    image_alt: "Person holding a basket of grapes. Credit: Emmanuel – stock.adobe.com"
+    image_alt: "Person holding a basket of grapes. Credit: Emmanuel, Adobe Stock"
   -
     id: felix
     title: The next generation of conservation leaders
     introduction:
       - 30 students from 15 West African countries and Morocco have benefited from UNEP-WCMC teaching of modules on the MSc programme at the University Felix Houphouet-Boigny, Cote d’Ivoire, on managing the science-policy interface.
     image: /content/images/highlights/student-at-library.jpg
-    image_alt: "Student in a library. Credit: NDABCREATIVITY – stock.adobe.com"
+    image_alt: "Student in a library. Credit: NDABCREATIVITY, Adobe Stock"
     image_position: '70% 0%'
   -
     id: encore
@@ -45,14 +45,14 @@ collection:
     introduction:
       - An ${link-encore} urged banks, investors and insurers to set targets to reduce biodiversity loss, starting with nine critical sectors. Work with partners continued towards helping institutions align portfolios with global biodiversity targets. 
     image: /content/images/highlights/windmills-nebraska.jpg
-    image_alt: "Five windmills in front of the ocean. Credit: American Public Power Association on Unsplash"
+    image_alt: "Five windmills in front of the ocean. Credit: American Public Power Association, Unsplash"
   -
     id: nea
     title: More countries are assessing their natural capital
     introduction:
       - Bosnia & Herzegovina, Colombia and Grenada made further progress towards developing their National Ecosystem Assessments with support from UNEP-WCMC and partners.
     image: /content/images/highlights/fishing-boat-beach.jpg
-    image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela – stock.adobe.com"
+    image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela, Adobe Stock"
     image_position: '30% 0%'
   -
     id: icca
