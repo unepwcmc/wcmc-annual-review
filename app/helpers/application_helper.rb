@@ -39,7 +39,7 @@ module ApplicationHelper
 
   def create_sharing_twitter_link
     title = url_encode('Share ' + page_title + ' on Twitter')
-    text = url_encode('In 2020, we put nature at the heart of decision-making, while also working from home. Read @unepwcmc’s 2020 Annual Review: https://annualreview.unep-wcmc.org/')
+    text = url_encode('In 2020, we put nature at the heart of decision-making, while also working from home. Read @unepwcmc’s 2020 Annual Review:')
     url = encoded_home_url
     href = 'https://twitter.com/intent/tweet/?text=' + text + '&url=' + url
 
