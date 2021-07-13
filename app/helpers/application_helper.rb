@@ -63,4 +63,12 @@ module ApplicationHelper
 
     link_to '', href, title: title, class: 'social__icon social__icon--email', target: '_self'
   end
+
+  def render_nea_logo
+    return image_tag(
+      '/content/images/highlights/NEA_LOGO_COLOUR.jpg',
+      alt: 'The official logo of the National Ecosystem Assessment Initiative ',
+      class: 'nea_logo'
+    )
+  end
 end

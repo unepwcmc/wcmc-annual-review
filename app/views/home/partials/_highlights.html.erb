@@ -17,13 +17,7 @@
             <p><%= p.html_safe %></p>
           <% end %>
 
-          <% if slide['id'] == 'nea' %>
-            <%= image_tag(
-              '/content/images/highlights/NEA_LOGO_COLOUR.jpg',
-              alt: 'The official logo of the National Ecosystem Assessment Initiative ',
-              style: 'align-self: center; width: 100%;'
-            )%>
-          <% end %>
+          <%= render_nea_logo if slide['id'] == 'nea' %>
 
           <span class="carousel-slide__index"><%= index + 1 %> of <%= data['collection'].length %></span>
         </div>

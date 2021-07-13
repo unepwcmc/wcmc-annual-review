@@ -1,0 +1,11 @@
+& {
+    height: calc(100vh - #{$topbar-height-desktop});
+    
+    @each $breakpoint, $min-height in (
+        (0px, 630px),
+        ($xs, 500px),
+        ($small, 750px),
+        ($medium, 820px),
+        ($large, 600px)
+    ) { @include breakpoint($breakpoint) { min-height: $min-height; } }
+}
