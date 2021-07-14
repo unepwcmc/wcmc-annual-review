@@ -4,7 +4,7 @@ collection:
   -
     id: marine-data
     emphasis: "20,000"
-    text: Our marine data was accessed 20,000 times, supporting organisations in spatial planning, reporting and decision-making 
+    text: Our marine data were accessed 20,000 times, supporting organisations in spatial planning, reporting and decision-making 
     icon: icons/impact_1.svg
   -
     id: european-seas
