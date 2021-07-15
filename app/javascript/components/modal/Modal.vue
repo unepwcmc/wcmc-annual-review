@@ -36,6 +36,7 @@
         </div>
 
         <div class="modal__staff item-padding item-margin--top">
+          <h4 class="modal__staff__title">Featured staff member working in this area</h4>
           <div v-for="member in staff" class="modal__staff-member flex">
             <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
             <div>
