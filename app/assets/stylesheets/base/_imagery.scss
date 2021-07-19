@@ -24,5 +24,5 @@ $background-image-text-desktop: 16px;
   @include breakpoint($medium) { font-size: $background-image-text-desktop; }
 }
 
-  .bg-image__title { font-weight: $bold;}
+  .bg-image__title { font-weight: $fw-bold;}
   .bg-image__credit { margin-bottom: 30px; }

@@ -15,7 +15,10 @@
             <p v-for="p in section.text" v-html="p"></p>
           </div>
 
-          <div v-if="index == 0" class="modal__bg-image item-margin--top item-margin--bottom relative" :style="{ 'background-image': `url(${data.modal.image})` }">
+          <div 
+            v-if="index == 0 && data.modal.image"
+            class="modal__bg-image item-margin--top item-margin--bottom relative"
+            :style="backgroundStyles">
             <div class="bg-image__caption modal__bg-image-caption flex flex-column gutter-left">
               <span class="bg-image__title" v-html="data.modal.image_caption" />
               <span class="bg-image__credit">{{ data.modal.image_credit }}</span>
@@ -33,6 +36,7 @@
         </div>
 
         <div class="modal__staff item-padding item-margin--top">
+          <h4 class="modal__staff__title">Featured staff member working in this area</h4>
           <div v-for="member in staff" class="modal__staff-member flex">
             <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
             <div>
@@ -97,6 +101,15 @@ export default {
 
     themeTitle () {
       return this.data.modal && this.data.modal.themeTitle ? this.data.modal.themeTitle : false
+    },
+
+    backgroundStyles () {
+      const { image, image_position } = this.data.modal
+
+      return {
+        'background-image': `url(${image})`,
+        'background-position': `${image_position ? image_position : '0% 0%'}`
+      }
     }
   },
 

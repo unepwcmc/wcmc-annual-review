@@ -3,7 +3,7 @@ $legend-circle-size: 27px;
 %legend {
   &--circle {
     font-size: 18px;
-    font-weight: $regular;
+    font-weight: $fw-regular;
     margin: 22px 0;
     padding-left: calc(1.7 * #{$legend-circle-size});
 

@@ -3,13 +3,14 @@
     class="foreword"
     :class="{ active: isActive }"
   >
-    <div
+    <button
+      type="button"
       class="foreword__trigger"
       @click="toggle"
     >
       <span class="foreword__trigger-line"></span>
       <span class="foreword__trigger-line"></span>
-    </div>
+    </button>
     <slot />
   </div>
 </template>
@@ -17,10 +18,6 @@
 <script>
   export default {
     name: 'foreword',
-
-    props: {
-      classes: String
-    },
 
     data () {
       return {

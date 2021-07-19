@@ -2,7 +2,7 @@
 // variables
 //--------------------------------------------------
 
-$hero-image: 'hero/the_centre_at_sunrise_in_august.jpg';
+$hero-image: '/content/images/highlights/tea.jpg';
 
 //--------------------------------------------------
 // settings
@@ -37,7 +37,7 @@ h2 {
 .section {
 
   &__header {
-    background: image-url(#{$hero-image});
+    background: image-url($hero-image);
     background-size: cover;
     height: 100vh;
 

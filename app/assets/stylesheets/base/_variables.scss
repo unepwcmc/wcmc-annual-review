@@ -69,18 +69,18 @@ $body-font: 'Roboto', sans-serif;
 $header-font: 'ImpactMTStd', Impact, Charcoal, sans-serif;
 $body-font-color: #363636;
 
-$thin: 100;
-$light: 300;
-$regular: 400;
+$fw-thin: 100;
+$fw-light: 300;
+$fw-regular: 400;
 $fw-medium: 500;
-$bold: 700;
+$fw-bold: 700;
 $fw-black: 900;
 
-$font-weight-h1: $regular;
-$font-weight-h2: $regular;
+$font-weight-h1: $fw-regular;
+$font-weight-h2: $fw-regular;
 $font-weight-h3: $fw-black;
 $font-weight-h4: $fw-black;
-$font-weight-p: $light;
+$font-weight-p: $fw-light;
 
 $line-height-h1: 1.25;
 $line-height-h: 1.16;
@@ -143,6 +143,7 @@ $z-300: 300;
 $gutter-small: 16px;
 $gutter-medium: 24px;
 $gutter-large: 32px;
+$gutter-extra-large: 40px;
 
 $page-padding-top-small: 16px;
 $page-padding-top-medium: 24px;

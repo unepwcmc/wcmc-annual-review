@@ -31,8 +31,8 @@
         <%= image_tag data['stats-staff']['icon'], alt: 'Icon', class: 'section__stat-icon' %>
         <%= data['stats-staff']['number'] %>
       </p>
-      <p class="section__introduction no-margin--top"><%= data['stats-staff']['title'] %></p>
-      <p class="section__introduction"><%= data['stats-staff']['introduction'] %></p>
+      <p class="section__introduction--small no-margin--top"><%= data['stats-staff']['title'] %></p>
+      <p class="section__introduction--small"><%= data['stats-staff']['introduction'] %></p>
     </div>
     <div class="section__employee-stats flex flex-h-between flex-v-start breakpoint-medium-up">
       <% data['stats-staff']['stats'].each do |stat| %>

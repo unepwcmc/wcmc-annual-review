@@ -3,6 +3,11 @@ link-china-forestry:
   href: https://www.unep-wcmc.org/news/welcome-to-chinese-national-forests-and-grasslands-administration
   title: Read about UNEP-WCMC hosting China's National Forestry and Grassland Administration
   target: _blank
+link-bbc-extinction:
+  text: "BBC’s ‘Extinction: The Facts’"
+  href: https://www.bbc.co.uk/programmes/p08rg347
+  title: "View a clip from BBC's 'Extinction: The Facts"
+  target: _blank
 link-cites:
   text: CITES Trade Database
   href: https://trade.cites.org/
@@ -12,6 +17,11 @@ link-cites-review:
   text: read on
   href: https://www.sciencedirect.com/science/article/abs/pii/S0006320717312478
   title: Read the first comprehensive reviews of CITES trade data
+  target: _blank
+link-cambridge-conservation-leadership:
+  text: Cambridge University MPhil in Conservation Leadership
+  href: https://www.postgraduate.study.cam.ac.uk/courses/directory/eaggmpmcl
+  title: Learn more about Cambridge University's MPhil in Conservation Leadership
   target: _blank
 link-development-corridors:
   text: Development Corridors Partnership
@@ -28,10 +38,51 @@ link-egypt:
   href: https://www.unep-wcmc.org/news/meeting-in-egypt-for-global-change
   title: Read about UNEP-WCMC's support to the UN Biodiversity Conference'
   target: _blank
+link-encore:
+  text: ENCORE report
+  href: https://encore.naturalcapital.finance/en/
+  title: Visit ENCORE's website
+  target: _blank
+link-gcrf-trade-hub:
+  text: GCRF TRADE Hub
+  href: https://tradehub.earth/
+  title: Visit GCRF TRADE Hub's website
+  target: _blank
+link-gender-framework:
+  text: collaboration with UN Women
+  href: https://www.unep-wcmc.org/news/women-and-the-environment--25-years-on
+  title: Learn more about our collaboration with UN Women
+  target: _blank
+link-icca-registry:
+  text: ICCA Registry
+  href: https://www.iccaregistry.org/
+  title: Learn more about our collaboration with UN Women
+  target: _blank
+link-nea:
+  text: National Ecosystem Assessments
+  href: https://www.unep-wcmc.org/featured-projects/national-ecosystem-assessments
+  title: Learn more about National Ecosystem Assessments
+  target: _blank
 link-paper:
   text: co-published a paper
   href: https://www.unep-wcmc.org/news/bending-the-curve-of-biodiversity-loss
   title: Read about the paper UNEP-WCMC co-published on the curve of biodiversity loss
+  target: _blank
+link-protected-planet-initiative:
+  text: Protected Planet Initiative
+  href: https://www.protectedplanet.net/en
+  title: Visit the Protected Planet website
+  target: _blank
+link-protected-planet-report:
+  text: Protected Planet Report
+  href: https://livereport.protectedplanet.net/
+  title: Visit the Protected Planet Report website
+  target: _blank
+link-state-of-world-forests:
+link-state-of-world-forests:
+  text: State of the World's Forests
+  href: http://www.fao.org/3/ca8642en/online/ca8642en.html
+  title: Visit the website for the State of the World's Forests report
   target: _blank
 link-teak:
   text: African teak
@@ -47,6 +98,11 @@ link-website:
   text: visit our website
   href: https://www.unep-wcmc.org/about-us/publications-2018-2019
   title: Visit the UNEP-WCMC website to view our publications
+  target: _blank
+link-wto-environment-week:
+  text: World Trade Organization’s Environment Week and
+  href: https://tradehub.earth/2020/11/16/the-wto-environment-week-nov-16-20/
+  title: Visit the Trade, Environment and Development Hub's website to learn more about the WTO's environment week
   target: _blank
 link-zeichner-visit:
   text: We welcomed Daniel Zeichner

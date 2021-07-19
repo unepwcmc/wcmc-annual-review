@@ -1,0 +1,26 @@
+<carousel 
+  id="impacts"
+  class="carousel--impacts"
+  >
+  <% data['collection'].each_with_index do |slide, index| %>
+    <carousel-slide :margin-size="0" >
+      <div class="carousel__slide">
+        <div class="carousel-slide__content">
+
+          <%= image_tag(slide['icon'], class: "carousel-slide__icon") %>
+
+          <div class="carousel-slide__body">
+            <div class="carousel-slide__subtitle">
+              <span class="carousel-slide__impact"><%= data['our_impact'] %> · </span>
+              <span class="carousel-slide__index"><%= index + 1 %> of <%= data['collection'].length %></span>
+            </div>
+
+            <h3 class="carousel-slide__stat"><%= slide['emphasis'] %></h3>
+            <p class="carousel-slide__text"><%= slide['text'] %></p>
+          </div>
+
+        </div>
+      </div>
+    </carousel-slide>
+  <% end %>
+</carousel>

@@ -49,7 +49,8 @@ export default {
       let navScrollMagic = new ScrollMagic.Controller()
       let scrollMagicScenes = []
 
-      // add scene for each item in the nav
+      // add scene for each item in the nav, plus '#section-our-work'
+      this.pages.push({ id: 'our-work' })
       this.pages.forEach(link => {
         let sideNav = {},
           stickyBar = {}

@@ -38,6 +38,10 @@ $topbar-title-desktop: 24px;
       top: inherit;
     }
 
+    .nav__burger {
+      display: inline;
+    }
+
     .topbar__only-sticky { visibility: visible; }
   }
 
