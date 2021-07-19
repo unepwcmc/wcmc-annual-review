@@ -18,6 +18,11 @@ link-cites-review:
   href: https://www.sciencedirect.com/science/article/abs/pii/S0006320717312478
   title: Read the first comprehensive reviews of CITES trade data
   target: _blank
+link-cambridge-conservation-leadership:
+  text: Cambridge University MPhil in Conservation Leadership
+  href: https://www.postgraduate.study.cam.ac.uk/courses/directory/eaggmpmcl
+  title: Learn more about Cambridge University's MPhil in Conservation Leadership
+  target: _blank
 link-development-corridors:
   text: Development Corridors Partnership
   href: https://www.unep-wcmc.org/news/launch-of-development-corridors-partnership
@@ -38,6 +43,11 @@ link-encore:
   href: https://encore.naturalcapital.finance/en/
   title: Visit ENCORE's website
   target: _blank
+link-gcrf-trade-hub:
+  text: GCRF TRADE Hub
+  href: https://tradehub.earth/
+  title: Visit GCRF TRADE Hub's website
+  target: _blank
 link-gender-framework:
   text: collaboration with UN Women
   href: https://www.unep-wcmc.org/news/women-and-the-environment--25-years-on
@@ -47,6 +57,11 @@ link-icca-registry:
   text: ICCA Registry
   href: https://www.iccaregistry.org/
   title: Learn more about our collaboration with UN Women
+  target: _blank
+link-nea:
+  text: National Ecosystem Assessments
+  href: https://www.unep-wcmc.org/featured-projects/national-ecosystem-assessments
+  title: Learn more about National Ecosystem Assessments
   target: _blank
 link-paper:
   text: co-published a paper

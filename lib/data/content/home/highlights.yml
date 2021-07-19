@@ -28,14 +28,14 @@ collection:
     id: trade-hub
     title: Building more sustainable global trade systems 
     introduction:
-      - "The GCRF TRADE Hub teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to publications and platforms beyond academia, including the ${link-bbc-extinction}, narrated by Sir David Attenborough."
+      - "The ${link-gcrf-trade-hub} teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to publications and platforms beyond academia, including the ${link-bbc-extinction}, narrated by Sir David Attenborough."
     image: /content/images/highlights/person-basket-grapes.jpg
     image_alt: "Person holding a basket of grapes. Credit: Emmanuel, Adobe Stock"
   -
     id: felix
     title: The next generation of conservation leaders
     introduction:
-      - 30 students from 15 countries in West and North Africa have benefited from UNEP-WCMC teaching of modules on the MSc programme at the University Felix Houphouet-Boigny, Cote d’Ivoire, on managing the science-policy interface. UNEP-WCMC has also provided ongoing teaching, mentoring and placement opportunities for students on the Cambridge University MPhil in Conservation Leadership.
+      - 30 students from 15 countries in West and North Africa have benefited from UNEP-WCMC teaching of modules on the MSc programme at the University Felix Houphouet-Boigny, Cote d’Ivoire, on managing the science-policy interface. UNEP-WCMC has also provided ongoing teaching, mentoring and placement opportunities for students on the ${link-cambridge-conservation-leadership}.
     image: /content/images/highlights/student-at-library.jpg
     image_alt: "Student in a library. Credit: NDABCREATIVITY, Adobe Stock"
     image_position: '70% 0%'
@@ -50,7 +50,7 @@ collection:
     id: nea
     title: More countries are assessing their natural capital
     introduction:
-      - UNEP-WCMC is working with partners in supporting 11 countries to deliver National Ecosystem Assessments (NEAs). For example, in 2020, Bosnia & Herzegovina completed their initial scoping assessment, and Colombia published their NEA report. 
+      - UNEP-WCMC is working with partners in supporting 11 countries to deliver ${link-nea} (NEAs). For example, in 2020, Bosnia & Herzegovina completed their initial scoping assessment, and Colombia published their NEA report. 
     image: /content/images/highlights/fishing-boat-beach.jpg
     image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela, Adobe Stock"
     image_position: '30% 0%'
