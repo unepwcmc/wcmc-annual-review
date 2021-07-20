@@ -16,7 +16,7 @@
           </div>
 
           <div 
-            v-if="index == 0 && data.modal.image"
+            v-if="index === 0 && modalHasImage"
             class="modal__bg-image item-margin--top item-margin--bottom relative"
             :style="backgroundStyles">
             <div class="bg-image__caption modal__bg-image-caption flex flex-column gutter-left">
@@ -101,6 +101,15 @@ export default {
 
     themeTitle () {
       return this.data.modal && this.data.modal.themeTitle ? this.data.modal.themeTitle : false
+    },
+
+    modalHasImage () {
+      try { 
+        return this.data.modal.image !== undefined // if you know what the unset value would be
+      } catch (e) {
+        console.error(e)
+      }
+      return false
     },
 
     backgroundStyles () {
