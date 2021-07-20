@@ -38,7 +38,7 @@ export default {
       if(this.supportsNativeSmoothScroll) {
         window.scrollTo({ top: top, behavior: 'smooth' })
       } else {
-        window.scroll({ top: top, left: 0, behavior: 'smooth' });
+        window.scroll({ top: top, left: 0, behavior: 'smooth' })
       }
     },
 

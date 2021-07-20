@@ -29,7 +29,7 @@ import mixinScrollMagic from "../../mixins/mixin-scroll-magic"
 import mixinResponsive from "../../mixins/mixin-responsive"
 import mixinPopupCloseListeners from "../../mixins/mixin-popup-close-listeners"
 import mixinFocusCapture from "../../mixins/mixin-focus-capture"
-import { disableTabbing, reenableTabbing } from '../../helpers/focus-helpers';
+import { disableTabbing, reenableTabbing } from '../../helpers/focus-helpers'
 
 export default {
   components: {

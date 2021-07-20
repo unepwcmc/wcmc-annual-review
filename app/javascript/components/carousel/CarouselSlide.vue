@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import { getInputs } from '../../helpers/focus-helpers';
-import mixinResponsive from '../../mixins/mixin-responsive';
+import { getInputs } from '../../helpers/focus-helpers'
+import mixinResponsive from '../../mixins/mixin-responsive'
 
 export default {
   name: 'carousel-slide',
@@ -48,7 +48,7 @@ export default {
     },
 
     currentBreakpoint () {
-      const isSmall = this.isSmall();
+      const isSmall = this.isSmall()
       if (this.isImpactsCarousel) {
         this.setSlideStyle(isSmall ? 1 : 1.15)
       }
