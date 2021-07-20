@@ -1,16 +1,12 @@
 import { eventHub } from '../vue'
+import { BREAKPOINTS } from '../constants/constants-breakpoints'
 
 export default {
   data () {
     return {
       windowWidth: 0,
       currentBreakpoint: '',
-      breakpoints: {
-        xs: 640,
-        small: 720,
-        medium: 1024,
-        large: 1708
-      }
+      breakpoints: BREAKPOINTS
     }
   },
 
