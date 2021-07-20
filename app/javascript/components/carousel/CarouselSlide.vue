@@ -20,6 +20,10 @@ export default {
     marginSize: {
       default: 10,
       type: Number
+    },
+    isImpactsCarousel: {
+      default: false,
+      type: Boolean
     }
   },
 
@@ -53,10 +57,6 @@ export default {
         this.setSlideStyle(isSmall ? 1 : 1.15)
       }
     }
-  },
-
-  computed: {
-    isImpactsCarousel () { return this.$parent.$el.id == 'impacts'}
   },
 
   methods: {
