@@ -65,7 +65,7 @@ module ApplicationHelper
   end
 
   def render_nea_logo
-    return image_tag(
+    image_tag(
       '/content/images/highlights/NEA_LOGO_COLOUR.jpg',
       alt: 'The official logo of the National Ecosystem Assessment Initiative ',
       class: 'nea_logo'
