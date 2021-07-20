@@ -2,7 +2,7 @@
     height: calc(100vh - #{$topbar-height-desktop});
 
     @each $breakpoint, $min-height, $max-height in (
-        (0px, 700px, 850px),
+        (0, 700px, 850px),
         (450px, 600px, 750px),
         ($xs, 550px, 650px),
         ($small, 820px, 1000px),
