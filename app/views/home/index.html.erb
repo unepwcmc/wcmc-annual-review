@@ -1,5 +1,5 @@
 <%= content_for :title do %>
-  UNEP-WCMC's Annual Review 2019
+  UNEP-WCMC's Annual Review 2020
 <% end %>
 
 
@@ -21,9 +21,7 @@
   <%= render partial: 'home/partials/foreword', locals: { data: @foreword } %>
 </section>
 
-<section
-  id="section-<%= @projects['id'] %>"
-  class="section--projects">
+<section class="section--projects">
 
   <%= render partial: 'home/partials/projects', locals: { data: @projects } %>
 </section>
@@ -47,6 +45,14 @@
   class="section--stats-finance section-padding section-padding--caption bg-image-overlay white">
 
   <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_finance } %>
+</section>
+
+<section
+  id="section-<%= @impacts['id'] %>"
+  class="section--impacts section-padding white">
+
+  <%= render partial: 'home/partials/impacts', locals: { data: @impacts } %>
+  
 </section>
 
 <section

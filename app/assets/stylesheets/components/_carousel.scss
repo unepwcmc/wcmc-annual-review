@@ -7,17 +7,17 @@ $padding-side-mobile: 16px;
 $padding-side-tablet: 16px;
 $padding-side-desktop: 48px;
 
-@mixin slide-padding() {
-  padding-left: calc(#{$padding-side-mobile} + 10px);
+@mixin slide-padding($padding-constant: 10px) {
+  padding-left: calc(#{$padding-side-mobile + $padding-constant});
   padding-right: $padding-side-mobile;
 
   @include breakpoint($small) {
-    padding-left: calc(#{$padding-side-tablet} + 10px);
+    padding-left: calc(#{$padding-side-tablet + $padding-constant});
     padding-right: $padding-side-tablet;
   }
 
   @include breakpoint($medium) {
-    padding-left: calc(#{$padding-side-desktop} + 10px);
+    padding-left: calc(#{$padding-side-desktop + $padding-constant});
     padding-right: $padding-side-desktop;
   }
 }
@@ -69,6 +69,10 @@ $transition-options: 0.6s ease-in-out;
     color: $white;
     padding: 0 $arrow-button-width;
     height: calc(100% - #{$indicator-row-height});
+  }
+
+  .carousel__slide {
+    width: 100%; // IE11
   }
 
     .carousel__slides {
@@ -210,7 +214,7 @@ $slide-text-desktop: 18px;
 
         &__index {
           @include slide-index-size();
-          font-weight: $bold;
+          font-weight: $fw-bold;
           margin-top: auto;
         }
 
@@ -219,6 +223,99 @@ $slide-text-desktop: 18px;
         @include responsive-styles(height, 130px, 70%, 100%);
         background-position: center;
         background-size: cover;
+      }
+    }
+
+    .nea_logo {
+      align-self: center;
+      max-width: 100%;
+      max-height: 100px;
+    }
+  }
+
+//--------------------------------------------------
+// class - impacts
+//--------------------------------------------------
+
+  &--impacts {
+    @include carousel;
+    overflow: hidden;
+    height: 100%;
+
+    .carousel {
+      &__slides-container {
+        width: 100%;
+      }
+
+      &__slide {
+        @include responsive-styles(flex-direction, column, column, row);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        float: left;
+      }
+
+      &__indicator {
+        @include carousel-indicator($white);
+      }
+    }
+
+    .carousel-slide {
+      @include breakpoint-down($small) {
+        @include slide-padding(0px);
+      }
+
+      &__content {
+        @include responsive-styles(flex-direction, column, row, row);
+        @include responsive-styles(padding, $gutter-medium, $gutter-extra-large $gutter-medium $gutter-extra-large * 2.5, auto);
+        @include responsive-styles(align-items, center, flex-start, flex-start);
+
+        @include slide-font-size();
+        background-color: $primary-light;
+        border-radius: 25px;
+
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+
+        @include breakpoint($medium) {
+          order: -1;
+        }
+      }
+
+      &__icon {
+        @include responsive-styles(max-width, 50%, 33%, 20%);
+        @include responsive-styles(padding, rem-calc(0px), rem-calc(0px) rem-calc(25px), rem-calc(0px) rem-calc(25px));
+        @include responsive-styles(margin, rem-calc(50px) rem-calc(0px) rem-calc(66px), rem-calc(0px), rem-calc(0px));
+      }
+
+      &__subtitle {
+        font-size: rem-calc(14px);
+      }
+
+      &__impact {
+        font-weight: $fw-bold;
+        text-transform: uppercase;
+      }
+
+      &__index {
+          margin-top: auto;
+      }
+
+      &__stat {
+        color: $white;
+        font-size: 64px;
+        margin-bottom: 20px;
+        font-family: $header-font;
+        font-weight: $fw-regular;
+      }
+
+      &__text {
+        @include responsive-styles(font-size, 18px, auto, 25px);
+        @include responsive-styles(line-height, 1.6, 1.4, 25px);
+        font-weight: $fw-medium;
+
+        margin: 0 0 12px;
       }
     }
   }

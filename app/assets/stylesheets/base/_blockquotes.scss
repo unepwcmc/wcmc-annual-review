@@ -57,7 +57,7 @@ $blockquote-author-desktop: 18px;
       &__author {
         color: $white;
         font-size: $blockquote-author-mobile;
-        font-weight: $bold;
+        font-weight: $fw-bold;
         line-height: $line-height-blockquote;
 
         display: block;

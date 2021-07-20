@@ -1,19 +1,20 @@
 id: foreword
+nav-label: Foreword
 title: Foreword
 collection:
   -
     id: first
-    quote: UNEP-WCMC is a vital part of UNEP’s efforts to demonstrate leadership for the environment.
+    quote: As we strive for system-wide shifts and transformation across each and every sector of society, UNEP-WCMC’s science and insights will be critical.
     author: Inger Andersen, Executive Director, UNEP
   -
     id: second
-    quote: We give businesses and policy leaders the tools they need to make decisions that make a difference.
+    quote: WCMC took steps to strengthen its regional engagement and relationships across the world.
     author: Robin Bidwell, Chair of Trustees, WCMC
   -
     id: third
-    quote: In 2019 we brought together governments, businesses, NGOs and research bodies to tackle the drivers of environmental degradation.
-    author: Jonny Hughes, CEO, WCMC
+    quote: Last year, the Centre produced more high-quality outputs than in any other year in its history.
+    author: Jonny Hughes, WCMC CEO
   -
     id: fourth
-    quote: In 2020 and beyond, UNEP-WCMC will be more important than ever in supporting our partners to deliver the new plan for nature.
+    quote: The Centre continued crucial work towards shaping an ambitious and measurable post-2020 global biodiversity framework.
     author: Neville Ash, Director, UNEP-WCMC

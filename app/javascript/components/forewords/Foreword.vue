@@ -3,13 +3,14 @@
     class="foreword"
     :class="{ active: isActive }"
   >
-    <div
+    <button
+      type="button"
       class="foreword__trigger"
-      @click="toggle"
+      @click="onForewordTriggerClick"
     >
       <span class="foreword__trigger-line"></span>
       <span class="foreword__trigger-line"></span>
-    </div>
+    </button>
     <slot />
   </div>
 </template>
@@ -18,10 +19,6 @@
   export default {
     name: 'foreword',
 
-    props: {
-      classes: String
-    },
-
     data () {
       return {
         isActive: false
@@ -29,7 +26,10 @@
     },
 
     methods: {
-      toggle () {
+      onForewordTriggerClick () {
+        this.expandForeword()
+      },
+      expandForeword () {
         this.isActive = !this.isActive
       }
     }

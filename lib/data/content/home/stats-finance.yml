@@ -1,28 +1,29 @@
 id: stats-finance
+nav-label: Financial overview
 title: WCMC Financial overview
-hero_title: Rainforest
-hero_credit: Richard Whitcombe, Adobe Stock
+hero_title: 
+hero_credit: Blue Planet Studio - Adobe Stock
 income:
-  -
-    year: 2018
-    total: 11074000
   -
     year: 2019
     total: 12731000
+  -
+    year: 2020
+    total: 15281399
 table:
   -
     - ''
-    - 2018
     - 2019
+    - 2020
   -
     - Total Expenditure
-    - 11320000
-    - 12508000
+    - 12509086
+    - 15161603
   -
     - Net movement in funds
-    - -246000
-    - 223000
+    - 222531
+    - 111796
   -
     - Total assests less liabilities
-    - 3699000
-    - 3922000
+    - 3921087
+    - 4040883

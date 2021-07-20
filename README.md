@@ -1,3 +1,4 @@
 - `yarn install`
-- `bundle install`
+- If missing Ruby v2.4.1, run `rbenv install` followed by `gem install bundler -v 2.0.2` (as specified in the *Gemfile.lock*)
+- `bundle _2.0.2_ install`
 - `rails s` in one tab and `./bin/webpack-dev-server` in another

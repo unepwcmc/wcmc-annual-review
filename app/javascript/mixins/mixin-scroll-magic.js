@@ -20,7 +20,7 @@ export default {
     currentEvent () {
       const event = document.getElementById('v-current-event')
       
-      if(event) {
+      if (event) {
         const location = window.pageYOffset + event.getBoundingClientRect().top - this.triggerOffset - 10
 
         this.$store.commit('filters/updateCurrentEvent', location)
@@ -38,7 +38,7 @@ export default {
       if(this.supportsNativeSmoothScroll) {
         window.scrollTo({ top: top, behavior: 'smooth' })
       } else {
-        window.scroll({ top: top, left: 0, behavior: 'smooth' });
+        window.scroll({ top: top, left: 0, behavior: 'smooth' })
       }
     },
 
@@ -49,10 +49,11 @@ export default {
       let navScrollMagic = new ScrollMagic.Controller()
       let scrollMagicScenes = []
 
-      // add scene for each item in the nav
+      // add scene for each item in the nav, plus '#section-our-work'
+      this.pages.push({ id: 'our-work' })
       this.pages.forEach(link => {
-        let sideNav = {},
-          stickyBar = {}
+        let sideNav = {}
+        let stickyBar = {}
         const id = link.id
 
         sideNav.id = id

@@ -1,13 +1,10 @@
-$gutter-small: 16px;
-$gutter: 40px;
-
 .forewords {
   &__header {
-    padding: $gutter $gutter-small;
+    padding: $gutter-extra-large $gutter-small;
     background-color: $blue-light;
 
     @include breakpoint($xs) {
-      padding: $gutter;
+      padding: $gutter-extra-large;
     }
   }
 
@@ -15,7 +12,7 @@ $gutter: 40px;
     color: $wcmc-blue;
     font-family: $body-font;
     font-size: 26px;
-    font-weight: $bold;
+    font-weight: $fw-bold;
     margin-bottom: 0;
 
     @include breakpoint($xs) {

@@ -37,7 +37,6 @@ $side-nav-style-2-label: rgba($grey, .8);
 .nav {
   &--side {
     @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
-
     position: fixed;
     top: 50%;
     right: 20px;
@@ -45,16 +44,17 @@ $side-nav-style-2-label: rgba($grey, .8);
 
     transform: translateY(-50%);
 
+    // These classes accumulate on the nav--side element as the page is scrolled.
+    // Since they apply to the same object with the same specificity, the order these styles are written in is relevant.
     &.nav--forewords {
       @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
     }
-
+    
     &.nav--foreword {
       @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
     }
-
-    &.nav--projects,
-    &.nav--highlights {
+    
+    &.nav--projects {
       @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
     }
 
@@ -82,7 +82,7 @@ $side-nav-style-2-label: rgba($grey, .8);
         }
 
         &__label {
-          font-weight: $bold;
+          font-weight: $fw-bold;
           opacity: 0;
           padding: 2px 10px;
           width: max-content;

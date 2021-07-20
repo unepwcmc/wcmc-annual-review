@@ -36,6 +36,8 @@ $pane-side-padding: 42px;
   &__burger {
     @include button-basic();
     @extend .icon--burger;
+
+    display: none;
   }
 
   &__close {
