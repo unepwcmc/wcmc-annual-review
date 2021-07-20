@@ -44,6 +44,8 @@ $side-nav-style-2-label: rgba($grey, .8);
 
     transform: translateY(-50%);
 
+    // These classes accumulate on the nav--side element as the page is scrolled.
+    // Since they apply to the same object with the same specificity, the order these styles are written in is relevant.
     &.nav--forewords {
       @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
     }
