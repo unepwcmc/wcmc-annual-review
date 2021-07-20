@@ -6,7 +6,7 @@
     <button
       type="button"
       class="foreword__trigger"
-      @click="toggle"
+      @click="onForewordTriggerClick"
     >
       <span class="foreword__trigger-line"></span>
       <span class="foreword__trigger-line"></span>
@@ -26,7 +26,10 @@
     },
 
     methods: {
-      toggle () {
+      onForewordTriggerClick () {
+        this.expandForeword()
+      },
+      expandForeword () {
         this.isActive = !this.isActive
       }
     }
