@@ -116,8 +116,8 @@ export default {
       const { image, image_position } = this.data.modal
 
       return {
-        'background-image': `url(${image})`,
-        'background-position': `${image_position ? image_position : '0% 0%'}`
+        backgroundImage: `url(${image})`,
+        backgroundPosition: image_position ? image_position : '0% 0%'
       }
     }
   },
