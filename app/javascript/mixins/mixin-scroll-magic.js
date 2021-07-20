@@ -20,7 +20,7 @@ export default {
     currentEvent () {
       const event = document.getElementById('v-current-event')
       
-      if(event) {
+      if (event) {
         const location = window.pageYOffset + event.getBoundingClientRect().top - this.triggerOffset - 10
 
         this.$store.commit('filters/updateCurrentEvent', location)
@@ -52,8 +52,8 @@ export default {
       // add scene for each item in the nav, plus '#section-our-work'
       this.pages.push({ id: 'our-work' })
       this.pages.forEach(link => {
-        let sideNav = {},
-          stickyBar = {}
+        let sideNav = {}
+        let stickyBar = {}
         const id = link.id
 
         sideNav.id = id
