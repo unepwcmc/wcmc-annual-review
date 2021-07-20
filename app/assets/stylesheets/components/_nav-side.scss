@@ -44,16 +44,20 @@ $side-nav-style-2-label: rgba($grey, .8);
 
     transform: translateY(-50%);
 
-    @for $index from 1 through 4 {
-      $point-of-change: nth(('--forewords', '--foreword', '--projects', '--stats-people'), $index);
+    &.nav--forewords {
+      @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
+    }
+    
+    &.nav--foreword {
+      @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
+    }
+    
+    &.nav--projects {
+      @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
+    }
 
-      &.nav#{$point-of-change} {
-        @if $index % 2 == 0 {
-          @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
-        } @else {
-          @include nav-side-style($side-nav-style-2-button, $side-nav-style-2-label);
-        }
-      }
+    &.nav--stats-people {
+      @include nav-side-style($side-nav-style-1-button, $side-nav-style-1-label);
     }
 
     .nav {
