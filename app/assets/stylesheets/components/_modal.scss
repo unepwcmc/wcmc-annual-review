@@ -73,10 +73,13 @@ $modal-padding-laptop: $modal-button-laptop;
 
   &__bg-image {
     @include responsive-styles(height, 270px, 370px, 300px);
+    @include item-padding(('top', 'bottom'), 'margin');
 
     background-color: $grey;
     background-size: cover;
     width: 100%;
+
+    position: relative;
   }
 
   &__bg-image-caption {

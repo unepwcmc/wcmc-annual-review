@@ -17,7 +17,7 @@
 
           <div 
             v-if="index === 0 && modalHasImage"
-            class="modal__bg-image item-margin--top item-margin--bottom relative"
+            class="modal__bg-image"
             :style="backgroundStyles">
             <div class="bg-image__caption modal__bg-image-caption flex flex-column gutter-left">
               <span class="bg-image__title" v-html="data.modal.image_caption" />
