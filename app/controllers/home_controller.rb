@@ -21,7 +21,12 @@ class HomeController < ApplicationController
       @stats_people,
       @stats_finance,
       @future
-    ].map { |data| { id: data['id'], label: data['nav-label'] } }.to_json
+    ].map do |data|
+      {
+        id: data['id'],
+        label: data['nav-label']
+      }
+    end.to_json
    
     @references = {
       config: {
