@@ -48,9 +48,9 @@ collection:
     image_alt: "Five windmills in front of the ocean. Credit: American Public Power Association, Unsplash"
   -
     id: nea
-    title: More countries are assessing their natural capital
+    title: More countries are assessing their ecosystems
     introduction:
-      - UNEP-WCMC is working with partners in supporting 11 countries to deliver ${link-nea} (NEAs). For example, in 2020, Bosnia & Herzegovina completed their initial scoping assessment, and Colombia published their NEA report. 
+      - UNEP-WCMC is working with partners in supporting 11 countries to deliver ${link-nea} (NEAs). In 2020, Azerbaijan, Bosnia & Herzegovina, Grenada and Cambodia completed the scoping for their assessments.
     image: /content/images/highlights/fishing-boat-beach.jpg
     image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela, Adobe Stock"
     image_position: '30% 0%'
