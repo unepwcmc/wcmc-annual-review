@@ -1,11 +1,11 @@
 set :stage, :production
-set :branch, "2020_annual_review"
+set :branch, "2021_annual_review"
 
 
 server "web-supported-production.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
 
-set :application, "2020_annual_review"
-set :server_name, "2020_annual_review.web-supoorted-production.linode.unep-wcmc.org"
+set :application, "2021_annual_review"
+set :server_name, "2021_annual_review.web-supoorted-production.linode.unep-wcmc.org"
 set :sudo_user, "wcmc"
 set :app_port, "80"
 
