@@ -13,6 +13,7 @@ import CarouselHorizontal from './components/carousel/CarouselHorizontal'
 import CarouselSlide from './components/carousel/CarouselSlide'
 import ChartLineArea from './components/charts/ChartLineArea'
 import ChartLineLabelled from './components/charts/ChartLineLabelled'
+import Foreword from './components/forewords/Foreword'
 import Modal from './components/modal/Modal'
 import ModalTrigger from './components/modal/ModalTrigger'
 import NavSide from './components/nav/NavSide'
@@ -23,7 +24,7 @@ import StickyBar from './components/sticky/StickyBar'
 // create event hub and export so that it can be imported into .vue files
 export const eventHub = new Vue()
 
-document.addEventListener('DOMContentLoaded', () => { 
+document.addEventListener('DOMContentLoaded', () => {
   if(document.getElementById('v-app')) {
 
     Vue.use(Vue2TouchEvents)
@@ -39,7 +40,8 @@ document.addEventListener('DOMContentLoaded', () => {
         CarouselSlide,
         ChartLineArea,
         ChartLineLabelled,
-        Modal, 
+        Foreword,
+        Modal,
         ModalTrigger,
         NavSide,
         VNav,

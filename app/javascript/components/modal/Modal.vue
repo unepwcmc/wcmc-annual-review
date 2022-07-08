@@ -4,9 +4,9 @@
 
       <div class="modal__content">
         <button class="modal__close" @click="closeModal"></button>
-        
+
         <div class="container--small">
-          <h3>{{ data.title }}</h3>
+          <h3>{{ title }}</h3>
         </div>
 
         <template v-for="section, index in content">
@@ -15,28 +15,32 @@
             <p v-for="p in section.text" v-html="p"></p>
           </div>
 
-          <div v-if="index == 0" class="modal__bg-image item-margin--top item-margin--bottom relative" :style="{ 'background-image': `url(${data.modal.image})` }">
+          <div 
+            v-if="index === 0 && modalHasImage"
+            class="modal__bg-image"
+            :style="backgroundStyles">
             <div class="bg-image__caption modal__bg-image-caption flex flex-column gutter-left">
               <span class="bg-image__title" v-html="data.modal.image_caption" />
               <span class="bg-image__credit">{{ data.modal.image_credit }}</span>
             </div>
           </div>
         </template>
-        
+
         <div class="container--small">
           <h4>{{ themeTitle }}</h4>
           <div class="flex">
-            <span 
+            <span
               v-for="theme in themes"
               :class="`icon--theme-${theme}`" />
           </div>
         </div>
 
         <div class="modal__staff item-padding item-margin--top">
+          <h4 class="modal__staff__title">Featured staff member working in this area</h4>
           <div v-for="member in staff" class="modal__staff-member flex">
             <img :src="member.image" :alt="`Profile image of ${member.name}`" class="modal__staff-image" />
             <div>
-              <p class="no-margin"><strong>{{ member.name }}<br>{{ member.job }}</strong></p>
+              <p class="no-margin" v-html="profileContent(member)"></p>
               <p v-html="member.text"></p>
             </div>
           </div>
@@ -55,7 +59,7 @@ export default {
   name: 'modal',
 
   mixins: [
-    mixinFocusCapture({toggleVariable: 'isActive', closeCallback: 'closeModal'}), 
+    mixinFocusCapture({toggleVariable: 'isActive', closeCallback: 'closeModal'}),
     mixinPopupCloseListeners({closeCallback: 'closeModal', closeOnClickOutside: false})
   ],
 
@@ -79,6 +83,10 @@ export default {
       return this.$store.state.modal.content
     },
 
+    title () {
+      return this.data.modal && this.data.modal.title ? this.data.modal.title : this.data.title
+    },
+
     content () {
       return this.data.modal && this.data.modal.content ? this.data.modal.content : false
     },
@@ -93,6 +101,24 @@ export default {
 
     themeTitle () {
       return this.data.modal && this.data.modal.themeTitle ? this.data.modal.themeTitle : false
+    },
+
+    modalHasImage () {
+      try { 
+        return this.data.modal.image !== undefined // if you know what the unset value would be
+      } catch (e) {
+        console.error(e)
+      }
+      return false
+    },
+
+    backgroundStyles () {
+      const { image, image_position } = this.data.modal
+
+      return {
+        backgroundImage: `url(${image})`,
+        backgroundPosition: image_position ? image_position : '0% 0%'
+      }
     }
   },
 
@@ -107,6 +133,10 @@ export default {
 
     hasTitle (content) {
       return content.title
+    },
+
+    profileContent (member) {
+      return `<strong>${member.name}<br>${member.job}</strong>`
     }
   }
 }

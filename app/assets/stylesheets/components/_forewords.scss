@@ -1,0 +1,44 @@
+.forewords {
+  &__header {
+    padding: $gutter-extra-large $gutter-small;
+    background-color: $blue-light;
+
+    @include breakpoint($xs) {
+      padding: $gutter-extra-large;
+    }
+  }
+
+  &__title {
+    color: $wcmc-blue;
+    font-family: $body-font;
+    font-size: 26px;
+    font-weight: $fw-bold;
+    margin-bottom: 0;
+
+    @include breakpoint($xs) {
+      font-size: 46px;
+    }
+  }
+
+  &__items {
+    margin: 0;
+    padding: 0;
+
+    @include breakpoint($xs) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    list-style: none;
+    margin-bottom: 0;
+
+    @include breakpoint($xs) {
+      flex: 0 0 50%;
+      width: 50%;
+
+      display: flex;
+    }
+  }
+}

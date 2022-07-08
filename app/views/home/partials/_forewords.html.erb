@@ -1,0 +1,30 @@
+<div class="forewords__header">
+  <h2 class="forewords__title"><%= data['title'] %></h2>
+</div>
+<div class="forewords__body">
+  <ul class="forewords__items">
+    <% data['content'].each do |c| %>
+      <li class="forewords__item">
+        <foreword>
+          <div class="foreword__header">
+            <div class="foreword__columns">
+              <div class="foreword__column">
+                <%= image_tag c['img_src'], alt: c['name'], class: "foreword__image" %>
+              </div>
+              <div class="foreword__column">
+                <h3 class="foreword__heading"><%= c['name'] %></h3>
+                <h4 class="foreword__subheading"><%= c['company'] %></h4>
+                <h5 class="foreword__subheading foreword__subheading--light"><%= c['position'] %></h5>
+              </div>
+            </div>
+          </div>
+          <div class="foreword__body">
+            <% c['text'].each do |p| %>
+              <p class="foreword__text"><%= p.html_safe %></p>
+            <% end %>
+          </div>
+        </foreword>
+      </li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,48 @@
+id: forewords
+nav-label: Forewords
+title: Forewords
+content:
+  -
+    id: inger
+    img_src: /content/images/profile/inger-andersen.jpg
+    name: Inger Andersen
+    company: UN Environment Programme
+    position: UN Under-Secretary-General and Executive Director
+    text:
+      -
+        The UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC) is vital to UNEP’s work driving positive change for people and planet. The COVID-19 pandemic has placed huge challenges on us all and is an urgent reminder of the importance of rebalancing the relationship between people and nature.
+      -
+        Through the Centre’s expertise, information, and analyses, UNEP-WCMC is supporting the science, the policy and the action to tackle the global nature crisis. The Centre seeks to do so by providing the information and tools to help shape policy and enable business and the finance sector to make nature positive transformations. UNEP-WCMC is also at the heart of our work to bring the nature and climate agendas ever closer together. As we strive for system-wide shifts and transformation across each and every sector of society, UNEP-WCMC’s science and insights will be critical.
+  -
+    id: robin
+    img_src: /content/images/profile/robin-bidwell.jpg
+    name: Robin Bidwell
+    company: WCMC
+    position: Chair of Trustees
+    text:
+      -
+        During the course of 2020, WCMC took steps to strengthen its regional engagement and relationships across the world, in support of the collaboration that underpins UNEP-WCMC. This included fostering closer engagement in Asia and with EU institutions.
+      -
+        Across all six areas of the Centre’s strategy, it’s clear that UNEP-WCMC has continued to support decision makers in both the public and the private sector with the information they need to make positive choices for our planet. From leading cutting-edge analysis of trade across a range of sectors, to enabling national governments to build biodiversity considerations into their decision making, UNEP-WCMC has made huge achievements, in a very challenging year. My thanks go to the WCMC Board of Trustees, to our supporters and to all our staff.
+  -
+    id: neville
+    img_src: /content/images/profile/neville-ash.jpg
+    name: Neville Ash
+    company: UNEP-WCMC
+    position: Director
+    text:
+      -
+        Although 2020 was not the year that we expected, and many events in the international biodiversity community were postponed or repositioned online, our work continued at all scales. Through working in over 130 countries with more than 200 partners, UNEP-WCMC has had great impact during the year on the global nature and sustainability agenda.
+      -
+        The Centre continued crucial work in support of an ambitious and measurable post-2020 global biodiversity framework. If we are to succeed in addressing biodiversity loss and ensuring its benefits are enjoyed by all, then ambition will need to translate into action to deliver the framework. We are gearing up to support its implementation, including with our partners across the UN system through collective action on biodiversity and nature-based solutions.
+  -
+    id: jonny
+    img_src: /content/images/profile/jonny-hughes.jpg
+    name: Jonny Hughes
+    company: WCMC
+    position: Chief Executive Officer
+    text:
+      -
+        Throughout 2020, the team across UNEP-WCMC demonstrated tremendous agility in dealing with the effects of the pandemic, constantly shifting circumstances, and transitioning to working remotely. It is a testament to the team’s hard work and dedication that last year, the Centre produced more high-quality outputs than in any other year in its history.
+      -
+        Amongst the many achievements of 2020 was the Centre’s contribution to the ground-breaking “Bending the Curve” analysis which set out a path for halting and reversing terrestrial biodiversity loss from land use change. The futures modelling identifies the six key actions required, including ecosystem restoration and food system transformations. Such research, and the underpinning modelling, is one example of how the Centre continues to inform and catalyse effective global action for nature.

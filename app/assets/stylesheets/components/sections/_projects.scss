@@ -1,6 +1,13 @@
 //--------------------------------------------------
+// variables
+//--------------------------------------------------
+
+$hero-image: '/content/images/highlights/tea.jpg';
+
+//--------------------------------------------------
 // settings
 //--------------------------------------------------
+
 @mixin hash-font-size() {
   font-size: 200px;
   @include breakpoint($medium) { font-size: 400px; }
@@ -9,10 +16,11 @@
 //--------------------------------------------------
 // classes
 //--------------------------------------------------
+
 h2 {
   display: inline;
   position: relative;
-  
+
   &::before {
     @include breakpoint($small) {
       @include hash-font-size();
@@ -29,7 +37,7 @@ h2 {
 .section {
 
   &__header {
-    background: image-url('hero/rice-farmer.jpg');
+    background: image-url($hero-image);
     background-size: cover;
     height: 100vh;
 

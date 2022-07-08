@@ -13,7 +13,7 @@ import NavLinkScroll from "./NavLinkScroll"
 import mixinScrollMagic from "../../mixins/mixin-scroll-magic"
 import mixinResponsive from "../../mixins/mixin-responsive"
 import mixinFocusCapture from "../../mixins/mixin-focus-capture"
-import { disableTabbing, reenableTabbing } from '../../helpers/focus-helpers';
+import { disableTabbing, reenableTabbing } from '../../helpers/focus-helpers'
 
 export default {
   name: 'nav-side',

@@ -2,13 +2,23 @@
   <% data['collection'].each_with_index do |slide, index| %>
     <carousel-slide :margin-size="0">
       <div class="carousel__slide">
-        <div class="carousel-slide__image" style="background-image: url('<%= image_url(slide['image'])%>');" title="<%= slide['image_alt'] %>"></div>
+        <div 
+            title="<%= slide['image_alt'] %>"
+            class="carousel-slide__image" 
+            style="
+              background-image: url('<%= image_url(slide['image'])%>');
+              <%= "background-position: #{slide['image_position']} " unless slide['image_position'].nil? %>
+            "
+          ></div>
         <div class="carousel-slide__content">
           <h3 class="carousel-slide__title"><%= slide['title'] %></h3>
           
           <% slide['introduction'].each do |p| %>
             <p><%= p.html_safe %></p>
           <% end %>
+
+          <%= render_nea_logo if slide['id'] == 'nea' %>
+
           <span class="carousel-slide__index"><%= index + 1 %> of <%= data['collection'].length %></span>
         </div>
       </div>

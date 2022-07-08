@@ -7,18 +7,18 @@ $padding-side-mobile: 16px;
 $padding-side-tablet: 16px;
 $padding-side-desktop: 48px;
 
-@mixin slide-padding() {
-  padding-left: calc(#{$padding-side-mobile} + 10px);
+@mixin slide-padding($padding-constant: 10px) {
+  padding-left: calc(#{$padding-side-mobile + $padding-constant});
   padding-right: $padding-side-mobile;
 
   @include breakpoint($small) {
-    padding-left: calc(#{$padding-side-tablet} + 10px);
-    padding-right: $padding-side-tablet;    
+    padding-left: calc(#{$padding-side-tablet + $padding-constant});
+    padding-right: $padding-side-tablet;
   }
 
   @include breakpoint($medium) {
-    padding-left: calc(#{$padding-side-desktop} + 10px);
-    padding-right: $padding-side-desktop;    
+    padding-left: calc(#{$padding-side-desktop + $padding-constant});
+    padding-right: $padding-side-desktop;
   }
 }
 
@@ -30,13 +30,13 @@ $indicator-height-desktop: 19px;
   margin-right: $indicator-height-mobile / 3;
   width: $indicator-height-mobile; height: $indicator-height-mobile;
 
-  @include breakpoint($small) { 
+  @include breakpoint($small) {
     margin-right: $indicator-height-tablet / 3;
     width: $indicator-height-tablet; height: $indicator-height-tablet; }
 
-  @include breakpoint($medium) { 
+  @include breakpoint($medium) {
     margin-right: $indicator-height-desktop / 3;
-    width: $indicator-height-desktop; height: $indicator-height-desktop; 
+    width: $indicator-height-desktop; height: $indicator-height-desktop;
   }
 }
 
@@ -53,7 +53,7 @@ $transition-options: 0.6s ease-in-out;
   background-color: rgba($grey, 0.4);
   border: none;
   border-radius: 50%;
-  padding: 0; 
+  padding: 0;
 
   display: inline-block;
 
@@ -71,17 +71,21 @@ $transition-options: 0.6s ease-in-out;
     height: calc(100% - #{$indicator-row-height});
   }
 
+  .carousel__slide {
+    width: 100%; // IE11
+  }
+
     .carousel__slides {
       padding: 0;
       height: 100%;
-      
+
       position: relative;
       display: flex;
     }
 
 
   .carousel__control-bar {
-    @include slide-padding();   
+    @include slide-padding();
     color: grey;
     margin-top: rem-calc(14);
     height: auto;
@@ -95,7 +99,7 @@ $slide-index-mobile: 18px;
 $slide-index-tablet: 20px;
 $slide-index-desktop: 28px;
 
-@mixin slide-index-size() { 
+@mixin slide-index-size() {
   font-size: $slide-index-mobile;
 
   @include breakpoint($small) { font-size: $slide-index-tablet; }
@@ -106,7 +110,7 @@ $slide-text-mobile: 14px;
 $slide-text-tablet: 16px;
 $slide-text-desktop: 18px;
 
-@mixin slide-font-size() { 
+@mixin slide-font-size() {
   font-size: $slide-text-mobile;
 
   @include breakpoint($small) { font-size: $slide-text-tablet; }
@@ -136,10 +140,10 @@ $slide-text-desktop: 18px;
     .carousel {
       &__pause { display: none; }
 
-      &__control-bar { 
-        
+      &__control-bar {
+
       }
-    
+
       &__slides-container {
         overflow: hidden;
         width: 100%;
@@ -169,7 +173,7 @@ $slide-text-desktop: 18px;
         @include responsive-styles(flex-direction, column, column, row);
         height: 100%;
         display: flex;
-        float: left;  
+        float: left;
       }
 
       &__indicator {
@@ -181,25 +185,25 @@ $slide-text-desktop: 18px;
       &__content {
         @include slide-font-size();
         background-color: $pink;
-        padding: calc(1.5 * #{$gutter-small}) $gutter-small;
-        
+        padding: $gutter-small;
+
         display: flex;
         flex: 100%;
         flex-direction: column;
 
-        @include breakpoint($small) { 
-          padding: calc(3 * $gutter-medium) $gutter-medium;
+        @include breakpoint($small) {
+          padding: $gutter-medium;
         }
 
-        @include breakpoint($medium) { 
+        @include breakpoint($medium) {
           order: -1;
-          padding: 55px;
 
-          flex: 0 1 42%; 
+          flex: 0 1 42%;
         }
       }
 
         &__title {
+          font-size: rem-calc(28);
           color: inherit;
           margin-bottom: 0;
         }
@@ -210,7 +214,7 @@ $slide-text-desktop: 18px;
 
         &__index {
           @include slide-index-size();
-          font-weight: $bold;
+          font-weight: $fw-bold;
           margin-top: auto;
         }
 
@@ -219,6 +223,99 @@ $slide-text-desktop: 18px;
         @include responsive-styles(height, 130px, 70%, 100%);
         background-position: center;
         background-size: cover;
+      }
+    }
+
+    .nea_logo {
+      align-self: center;
+      max-width: 100%;
+      max-height: 100px;
+    }
+  }
+
+//--------------------------------------------------
+// class - impacts
+//--------------------------------------------------
+
+  &--impacts {
+    @include carousel;
+    overflow: hidden;
+    height: 100%;
+
+    .carousel {
+      &__slides-container {
+        width: 100%;
+      }
+
+      &__slide {
+        @include responsive-styles(flex-direction, column, column, row);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        float: left;
+      }
+
+      &__indicator {
+        @include carousel-indicator($white);
+      }
+    }
+
+    .carousel-slide {
+      @include breakpoint-down($small) {
+        @include slide-padding(0px);
+      }
+
+      &__content {
+        @include responsive-styles(flex-direction, column, row, row);
+        @include responsive-styles(padding, $gutter-medium, $gutter-extra-large $gutter-medium $gutter-extra-large * 2.5, auto);
+        @include responsive-styles(align-items, center, flex-start, flex-start);
+
+        @include slide-font-size();
+        background-color: $primary-light;
+        border-radius: 25px;
+
+        display: flex;
+        flex-direction: column;
+        flex: 100%;
+
+        @include breakpoint($medium) {
+          order: -1;
+        }
+      }
+
+      &__icon {
+        @include responsive-styles(max-width, 50%, 33%, 20%);
+        @include responsive-styles(padding, rem-calc(0px), rem-calc(0px) rem-calc(25px), rem-calc(0px) rem-calc(25px));
+        @include responsive-styles(margin, rem-calc(50px) rem-calc(0px) rem-calc(66px), rem-calc(0px), rem-calc(0px));
+      }
+
+      &__subtitle {
+        font-size: rem-calc(14px);
+      }
+
+      &__impact {
+        font-weight: $fw-bold;
+        text-transform: uppercase;
+      }
+
+      &__index {
+          margin-top: auto;
+      }
+
+      &__stat {
+        color: $white;
+        font-size: 64px;
+        margin-bottom: 20px;
+        font-family: $header-font;
+        font-weight: $fw-regular;
+      }
+
+      &__text {
+        @include responsive-styles(font-size, 18px, auto, 25px);
+        @include responsive-styles(line-height, 1.6, 1.4, 25px);
+        font-weight: $fw-medium;
+
+        margin: 0 0 12px;
       }
     }
   }

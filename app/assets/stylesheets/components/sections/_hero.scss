@@ -1,5 +1,19 @@
-@include background-image('hero/nairobi-national-park.jpg');
+//--------------------------------------------------
+// variables
+//--------------------------------------------------
+
+$hero-image: 'riverside-house.jpg';
+
+//--------------------------------------------------
+// settings
+//--------------------------------------------------
+
+@include background-image($hero-image);
 @include full-height();
+
+//--------------------------------------------------
+// classes
+//--------------------------------------------------
 
 .section {
   &__header {
@@ -12,7 +26,7 @@
       text-align: center;
 
       @include breakpoint($small) {
-        width: 59%;        
+        width: 59%;
       }
     }
 

@@ -5,10 +5,11 @@
       <%= data['countries-total'] %>
     </p>
     <span class="section__stat-text"><%= data['countries-title'] %></span>
-    
+
     <div class="section__map">
       <%= image_tag data['countries-image'], alt: 'Infographic showing the countries UNEP-WCMC has worked with', class: 'section__map-image item-padding--top item-padding--bottom' %>
-      <p class="section__map-disclaimer"><%= data['map-disclaimer'] %></p>
+      <p class="section__map-text"><%= data['map-disclaimer'] %></p>
+      <p class="section__map-text"><%= data['map-info'] %></p>
     </div>
   </div>
 
@@ -24,14 +25,14 @@
     <% end %>
   </div>
 
-  <div class="flex item-padding--bottom">
+  <div class="flex">
     <div class="section__employee-intro">
       <p class="section__stat-number no-margin flex flex-v-center">
         <%= image_tag data['stats-staff']['icon'], alt: 'Icon', class: 'section__stat-icon' %>
         <%= data['stats-staff']['number'] %>
       </p>
-      <p class="section__introduction no-margin--top"><%= data['stats-staff']['title'] %></p>
-      <p class="section__introduction"><%= data['stats-staff']['introduction'] %></p>
+      <p class="section__introduction--small no-margin--top"><%= data['stats-staff']['title'] %></p>
+      <p class="section__introduction--small"><%= data['stats-staff']['introduction'] %></p>
     </div>
     <div class="section__employee-stats flex flex-h-between flex-v-start breakpoint-medium-up">
       <% data['stats-staff']['stats'].each do |stat| %>
@@ -46,23 +47,4 @@
     </div>
   </div>
 
-  <div class="flex item-padding--top">
-    <div class="section__chart breakpoint-medium-up">
-      <chart-line-labelled 
-        :lines="<%= @references[:data].to_json %>" 
-        :options="<%= @references[:config].to_json %>">
-      </chart-line-labelled>
-    </div>
-
-    <div class="section__chart-stats">
-      <p class="section__introduction--small no-margin--top"><%= data['activities_title'] %></p>
-      <p class="section__text"><%= data['activities_intro'] %></p>
-      
-      <p class="breakpoint-medium-up">
-        <% data['activities_legend'].each do |item| %>
-          <span class="legend--circle-<%= item['colour'] %>"><%= item['text'] %></span> 
-        <% end %>
-      </p>
-    </div>
-  </div>
 </div>

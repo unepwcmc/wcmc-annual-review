@@ -1,259 +1,211 @@
 id: projects
+nav-label: Our work
 title: Our work
 strapline: We can make change
-introduction: In the past year we’ve launched a range of projects and initiatives, helping inform decision makers on everything from financial investments to seagrass restoration.
-hero_title: Rice farmer
-hero_credit: thekob5123, AdobeStock 
-collection: 
+introduction: In 2020, as we all responded to the COVID-19 pandemic, we continued to work with our partners worldwide to bring about the transformative change needed to tackle the global nature crisis and build back better for people and planet. 
+hero_title: Wednesday Tea at UNEP-WCMC
+hero_credit: "Photo: UNEP-WCMC"
+collection:
   -
-    id: protected-planet-live
-    title: A live portal into our protected planet
-    image: content/project-protected-planet.png
-    introduction: 
-      - In November 2018 we joined with the International Union for Conservation of Nature (IUCN) and National Geographic to launch ${link-pp-live}, a portal into the very latest information on protected areas around the globe.
+    id: business-and-nature
+    title: We helped businesses and investors avoid impacts on nature
+    image: /content/images/projects/germany.jpg
+    image_alt: "A vista of the German countryside with cropfields and wind turbines."
+    introduction:
+      - New research and a novel data layer to support business decision making was supported by the Proteus Partnership, which also agreed a new and ambitious five-year strategy to enable and support companies in becoming nature positive.
     modal:
-      image: /content/images/modal/bryce-canyon-at-dawn.jpg
-      image_caption: Bryce Canyon at dawn, USA. 
-      image_credit: SeanPavonePhoto, AdobeStock
+      image: /content/images/modal/cityscape.jpg
+      image_position: 0% 55%
+      image_caption: Bangkok city skyline from top view in Thailand
+      image_credit: f11photo - stock.adobe.com
+      title: Working together towards nature-positive business
       content:
         -
-          title: What is Protected Planet?
-          text: 
-            - ${link-pp} is an online portal into the World Database on Protected Areas (WDPA), the most comprehensive and authoritative global database of marine and terrestrial protected areas. A responsive tool, it is one of the key global biodiversity data sets for scientists, businesses, governments, international secretariats and others to inform planning and policy decisions and track progress towards various international targets.
-        -
-          title: What is our role?
           text:
-            - We manage both ${link-pp}, with support from IUCN and its World Commission on Protected Areas, and the ${link-wdpa}, a joint product of UN Environment and IUCN.
+            - "<strong>In 2020, we published a global data layer revealing the “naturalness” of each 1km² of land on Earth. The layer was designed to help both businesses and investors to protect important habitats by bolstering screening approaches and helping companies to apply the mitigation hierarchy.</strong>"
+            - "This global data layer can help businesses identify natural terrestrial habitat early in screening processes, helping to avoid impacts on nature. For example, the layer can be considered as businesses assess sites for potential developments, particularly in high-impact sectors such as infrastructure, agribusiness, forestry, energy and mining."
+            - "It can also help investors by improving investment screening and guiding decision-making in global and regional banks and international corporations. The layer can support portfolio-level analysis of existing operations and analysis of supply chains to understand the scale of businesses’ presence in natural or modified habitats."
         -
-          title: What is our impact?
-          text: 
-            - In 2010 the international community made a commitment - to protect 17% of land and 10% of the ocean in well-managed protected areas around the world by 2020. As of August 2019 15% of land and nearly 8% of the ocean are covered in formally-designated protected areas, but there is still little information on how well these areas act as a network to conserve nature.
-            - So in November 2018, UNEP, IUCN, and National Geographic Society launched ${link-pp-live}. This monthly-updated portal maintained by UNEP-WCMC is the global authority for protected areas information and shows progress towards these international protection targets, helping to prioritise the next steps in addressing the loss of nature.
-            - Protected Planet Live shows progress on global coverage and also identifies where gaps and opportunities remain for strengthening the coverage of protected and conserved areas – and it’s good news! There has been excellent progress towards the global targets of 17% terrestrial and 10% marine coverage of protected areas. The next challenge is scaling up area-based conservation and ensuring those areas are effective.
-      themeTitle: "Themes:"
-      themes:
-        - 3
-      staff:
-        -
-          name: Dr Naomi Kingston
-          image: /content/images/profile/naomi-kingston.jpg
-          job: Head of Programme, Conserved Landscapes and Seascapes Programme 
-          text: ${link-naomi} leads our work on protected and conserved areas, the marine environment, and knowledge management. This includes delivering high-quality, relevant information on the natural world to decision makers at all levels, as well as strengthening the knowledge base for national environmental policies and tracking global targets. Before joining us Naomi worked for 10 years as Biodiversity Informatics Manager for the Irish Government. She has also worked in academia and consultancy, and has a PhD in Conservation Biology.
-  -
-    id: impacts
-    title: Gold medal for mapping impacts of biodiversity
-    image: content/project-ibat.png
-    introduction: 
-      - The ${link-ibat-long} allows business to view and analyse some of the world’s most authoritative global biodiversity information. Recently, the International Olympic Committee has signed up, using it to screen potential host cities.
-    modal:
-      image: /content/images/modal/penguin.jpg
-      image_caption: Penguin, Antarctica. 
-      image_credit: anyaberkut, AdobeStock
-      content:
-        - 
-          title: What is IBAT?
-          text: 
-            - ${link-ibat}, the Integrated Biodiversity Assessment Tool, is a ‘one-stop shop’ data service for those seeking authoritative global biodiversity information to inform their decisions.
-        -
-          title: What is our role?
           text:
-            - "We manage IBAT on behalf of our other IBAT partners: ${link-iucn-long}, ${link-birdlife} and ${link-ci}."
-        -
-          title: What is our impact?
-          text:
-            - Many businesses and governments wish to understand their impacts on biodiversity – whether that’s to ensure their practices are sustainable in the long-term, to follow ethical or legal guidelines, or as required by external regulations. It’s often difficult, however, to understand the consequences of any plans or actions on biodiversity. 
-            - "This is where ${link-ibat} comes in - launched in 2010, it is underpinned by three of the world’s most authoritative global biodiversity datasets: the World Database on Protected Areas, IUCN Red List of Threatened Species, and the World Database on Key Biodiversity Areas. Added functionality and expertise then allows people across businesses, governments, and the finance sector to screen potential projects and review potential risks in their investments or supply chains."
-            - "Since the publication of their sustainability strategy and their collaboration with the ${link-iucn}, the International Olympic Committee (IOC) has used IBAT as part of its Interested Cities and Candidate Cities processes: “Thanks to IBAT, we can ensure that biodiversity is taken into consideration from the very early stages of a city’s Olympic journey” says Michelle Lemaitre, Head of Sustainability at the IOC. “Based on data provided by IBAT, cities can ascertain whether proposed location plans for Olympic venues need to be modified to avoid impacting areas of high biodiversity value. They can also go a step further, looking into ways in which hosting the Olympic Games can contribute to biodiversity conservation in the area.”"
+            - "<strong>The research for the natural/modified habitat data layer was funded through the Proteus Partnership.</strong> Since 2003, the Proteus Partnership has been a vehicle through which leading companies have taken steps to address their relationship with biodiversity and have contributed to the mission of UNEP-WCMC and biodiversity conservation globally."
+            - "<strong>In 2020, a new and ambitious five-year strategy for Proteus was agreed.</strong> Central to the new strategy is a mission to enable and support companies in becoming nature positive. After 17 years changing the way extractive industries responded to biodiversity risks, Proteus will now expand to leading companies in other sectors. The impact of Proteus will be magnified by engaging with smaller companies and strengthening engagement with global policy processes."
+            - "<strong>Successfully tackling the global nature crisis will require action from all sectors of society, including the private sector. Ambitious partnerships, like Proteus, are critical to that success.</strong>"
       themeTitle: "Themes:"
       themes:
         - 2
       staff:
         -
-          name: Dr Eugenie Regan
-          image: /content/images/profile/eugenie-regan.jpg
-          job: Manager - Integrated Biodiversity Assessment Tool (IBAT)
-          text: ${link-eugenie} has managed IBAT on behalf of UNEP-WCMC, BirdLife International, IUCN, and Conservation International since 2017. IBAT brings together the World Database on Protected Areas, the World Database on Key Biodiversity Areas, and the IUCN Red List of Threatened Species with tools for their analysis. Eugenie has over 20 years’ of experience and has worked in the private sector, for government, and for international NGOs at the local, national, and international level. Her expertise spans biodiversity data management, entomology, and business administration.
+          name: Joe Gosling
+          image: /content/images/profile/joe-gosling.jpg
+          job: Programme Officer
+          text: 
+            ${link-joe} leads and supports technical work on a variety of projects across the Centre with a focus on spatial analysis. He has a particular interest in biodiversity threats and sensitivity analysis, as well as habitat intactness mapping. With his technical knowledge, he also assists with capacity building workshops in a range of countries.
   -
-    id: restoration
-    title: Marine restoration from Turkey to Norway
-    image: content/grouper.png
-    image_alt: "Dusky Grouper, Spain. Credit: damedias - stock.adobe.com"
+    id: healthy-ocean
+    title: We helped restore precious ecosystems in European seas
+    image: /content/images/projects/diver.jpg
+    image_alt: "A diver swimming on the sea floor."
     introduction:
-      - The oceans and coastal habitats provide us with food, protect us from extreme weather, and soak up carbon. They’re facing increasing pressures around the world, however, so we’re working throughout Europe to help restore these valuable environments. 
+      - Ahead of the UN Decade on Ecosystem Restoration, we used our expertise to support ecosystem restoration in shallow and deep-water habitats from Norway to Turkey.
     modal:
-      image: /content/images/modal/seagrass-mediterranean-sea-andalusia-spain.jpg
-      image_caption: Seagrass, Spain. 
-      image_credit: damedias, AdobeStock
+      image: /content/images/modal/fish-school.jpg
+      image_position: 0% 45%
+      image_caption: 
+      image_credit: "Photo: Richard Carey, Adobe Stock"
+      title: Restoring vital ecosystems to secure a healthy ocean
       content:
         -
-          text: 
-            - Marine and coastal habitats are immensely valuable, on both a local and global scale. Coral reefs act as nurseries for schools of fish, mangroves and seagrasses can stem tidal surges, and both the ocean and the life it holds act as sponges that soak up carbon. Many coasts and seas are facing increasing pressures, however, so marine habitat restoration projects are underway all over the world. 
+          text:
+            - <strong>In 2020, we celebrated the successful conclusion of the four-year Marine Ecosystem Restoration in Changing European Seas (MERCES) Project.</strong> MERCES, funded through the European Union’s Horizon 2020 programme, has delivered restoration efforts in <strong>over 120 sites</strong> across a range of habitats, focusing on <strong>35 important species across Europe</strong>.
+            - The results and lessons learned from the MERCES Project are particularly timely given the launch of the UN Decade on Ecosystem Restoration, which aims to increase ambition and action in scaling up restoration efforts worldwide, including in the ocean. 
         -
           text:
-            - The UN declared 2021-30 as the UN Decade of Ecosystem Restoration, and we are already involved in a number of initiatives to restore both regionally and internationally important marine and coastal habitats, and bring together evidence to guide future restoration efforts. 
-            - We are working as part of the ${link-merces-long} (‘MERCES’) Project, for example, which has launched more than 130 restoration activities across 12 European countries since July 2016. By working with field scientists, ecosystem modellers and mappers, we will be able to bring together state-of-the-art advice for decision makers about the most efficient way to upscale these restoration efforts and create healthy ecosystems that support marine life, as well as the people that depend upon them.
-            - The success of this project has led to the ${link-algal} initiative, where we will be looking specifically at the restoration of degraded seaweed forests across the Mediterranean Sea.
-            - We are also working with the ${link-endangered} in southwestern Turkey to see how, by reducing and removing such threats as illegal fishing, anchoring pressures and invasive species, we can recover the marine ecosystems that support critical species such as Mediterranean monk seals and sandbar sharks. One of our key areas of involvement is around behavioural change, and encouraging people to see invasive fish as a key food source.
-            - We’ll be tracking progress and impacts for all these initiatives, so please do keep an eye on the ${link-wcmc-website} where you can find more information about these and our other marine restoration activities.
+            - <strong>Marine ecosystems are invaluable to society</strong>. They regulate our climate, provide the primary source of food for billions of people, attract tourists from around the world, and contain 99% of the living space for life on Earth. Unfortunately, marine and coastal ecosystems are being lost and degraded at an alarming rate due to human activities, including over-exploitation, pollution, the introduction of invasive species and conversion of habitat.
+            - From Norway to Turkey, MERCES explored both active and passive restoration techniques. The project focused on shallow and deep-water habitats across European seas including seagrass meadows, kelp forests, cold-water corals, hydrothermal vents, canyons and fjords.
+            - Almost half of MERCES sites focused on seagrass restoration. Seagrass meadows play a key role as nursery grounds for fish and in protecting the coast from storms and floods. At over 20 sites, efforts focused on the restoration of deep-sea habitats, such as cold-water corals.
+            - <strong>Ecosystem restoration is key to securing a healthy ocean. During the UN Decade on Ecosystem Restoration and the UN Decade of Ocean Science for Sustainable Development, UNEP-WCMC will continue to build and deploy our expertise on ecosystem restoration and its benefits to both people and nature. The results of MERCES and other ambitious projects can help progress by guiding restoration practitioners, as well as decision and policy makers, with crucial insights into where and how to restore our ocean ecosystems.</strong>
       themeTitle: "Themes:"
       themes:
         - 5
       staff:
         -
-          name: Hazel Thornton
-          image: /content/images/profile/hazel-thornton.jpg
-          job: Programme Officer, Conserving Land and Seascapes Programme
-          text: ${link-hazel} manages and provides technical and scientific input to a range of projects, specialising in the science-policy interface of marine and coastal ecosystem restoration. Before joining us as an intern in 2015, she was involved in island-based conservation in the Mediterranean and Caribbean, working with local fishing communities in the Eastern Aegean to understand pressures on seagrass meadows, and surveying of coral reefs and tropical forests in Montserrat to understand health, extent and pressures. Hazel has a BSc in Biological Sciences.
+          name: Chris McOwen
+          image: /content/images/profile/chris-mcowen.jpg
+          job: Lead Marine Scientist
+          text: ${link-chris} is an interdisciplinary marine conservation scientist, using his knowledge of marine ecosystems, conservation approaches and policy processes to help address societal problems across a range of scales and geographies. Within UNEP-WCMC Chris manages and provides technical oversight and scientific knowledge to a range of projects at the science-policy interface. He remains active in academia, supervising PhD and post-doctoral students, writing scientific papers and providing expertise to a number of research council’s funding agencies and government agencies.
   -
-    id: encore
-    title: Plugging nature into the private sector
-    image: content/project-encore.png
-    introduction: 
-      - Businesses are central to reversing the decline of nature. However, in the past it has been difficult for them to fully understand their relationship with the environment and biodiversity. In November we therefore joined with the Natural Capital Finance Alliance to launch ${link-encore}, helping financial institutions to determine, for the first time ever, the dependence of over 150 economic sectors on nature.
+    id: international-environmental-policy
+    title: We underpinned plans to monitor progress towards new global ambitions for biodiversity
+    image: /content/images/projects/geneva.jpg
+    image_alt: "Geneva, Switzerland - a row of flags at entrance of United Nations Offices or Palais des Nations in Ariana Park, on shore of Lake Geneva. Credit: bennymarty, Adobe Stock"
+    introduction:
+      - UNEP-WCMC has provided critical work in support of efforts to deliver an effective monitoring system for the post-2020 global biodiversity framework. 
     modal:
-      image: /content/images/modal/borneo.jpg
-      image_caption: Danum Valley Conservation Area, Malaysia. 
-      image_credit: cn0ra, AdobeStock
+      image: /content/images/modal/flags-blue-sky.jpg
+      image_position: 0% 60%
+      image_caption: National Flags
+      image_credit: Coprid, Adobe Stock
+      title: Informing an effective monitoring system to understand progress towards future goals and targets
       content:
         -
-          title: What is ENCORE?
           text:
-            - ${link-encore} (Exploring Natural Capital Opportunities, Risks and Exposure) helps private investors and the finance sector to visualise how the economy depends on nature, and how environmental change may create risks for businesses. These risks can be explored further in the tool to understand location-specific risks with maps of natural capital, such as soil and habitats, and the drivers of change that may influence them, such as floods and droughts.
+            - <strong>While the UN Biodiversity Conference was delayed due to the COVID-19 pandemic, work towards the post-2020 global biodiversity framework - and its new global ambitions for biodiversity - continued throughout the year.</strong>  The Centre worked closely with our partners, including the Secretariat of the Convention on Biological Diversity, to provide the scientific analysis to help shape the new draft framework and identify available and suitable indicators to monitor and measure progress towards its goals and targets.
+            - <strong>In addition to ambitious and measurable goals and targets, enhanced transparency will be key to driving the action needed to successfully tackle the global nature crisis</strong>. A robust and comprehensive means of tracking progress in as near real time as possible will allow Parties and other stakeholders to understand where additional efforts, resources and capacity may be required.
         -
-          title: What is our role?
           text:
-            - We developed the knowledge base underpinning ENCORE and the web-based tool, in collaboration with the ${link-ncfa-long}. The project was financed by the ${link-seco-long} (SECO) and the ${link-mava}.
-        -
-          title: What is our impact?
-          text:
-            - Businesses have a key role in the solutions to biodiversity loss. They themselves are also increasingly recognising that natural resources lie at the foundation of everything they do, but lack the data and tools to fully understand their dependencies and impacts.
-            - Last November we therefore launched ENCORE in collaboration with the Natural Capital Finance Alliance, helping financial and other institutions to determine, for the first time ever, the dependence of over 150 economic sectors such as manufacturing or agriculture on nature, and the associated risks that may impact their lending and investment portfolios.
-            - "Madeleine Ronquest, Head of Environmental and Social Risk, Climate Change Management at FirstRand in South Africa, said: “ENCORE really helped us to get a more holistic view of potential impacts on our lending portfolio and to incorporate natural capital risk mitigation into all our lending and investments. We’re now adding questions into our due diligence process for all new credit transactions, asking our clients how they are managing environmental risk and assessing how resilient they are to climate change and natural capital risk."
-            - “Many larger companies are already building resilience which is great, but smaller businesses in particular often haven’t considered their dependence or impact on natural resources. ENCORE gives us the opportunity to engage with our clients, build stronger trust relationships and help build more sustainable and resilient businesses.”
+            - Working with the Secretariat to the Convention, UNEP-WCMC has a leading role in identifying indicators and assessing their suitability for monitoring draft goals and targets under the post-2020 global biodiversity framework. ${link-cbd} identified 155 available indicators that are well-aligned with the proposed goals and targets and pinpointed where key indicator gaps remain. This work will underpin efforts to deliver an effective monitoring system that allows for the global “stocktaking” of progress.
+            - <strong>For many years, UNEP-WCMC has held a unique role as the global convenor of expertise on biodiversity indicators.</strong> We create and maintain multiple core indicator datasets on nature and bring together indicator data from other partners for use by governments through the Biodiversity Indicators Partnership. <strong>As we enter this crucial time for tackling the global nature crisis, that work in monitoring and enabling action is more important than ever before.</strong>
       themeTitle: "Themes:"
       themes:
-        - 2
+        - 6
       staff:
         -
-          name: Dr Katie Leach
-          image: /content/images/profile/katie-leach.jpg
-          job: Senior Programme Officer, Business and Biodiversity Programme
-          text: ${link-katie} supports the sustainability efforts of our private sector partners, as well as their influencers, by drawing on both our scientific and technical work. Crucially, this includes helping companies, governments and financial institutions understand how they impact, and depend upon, nature. She became part of our team after graduating with a PhD in Biological Sciences in 2015 during which she used a variety of modelling techniques to explore species’ responses to climate change.
+          name: Katherine Despote Belmonte
+          image: /content/images/profile/katherine-despot-belmonte.jpg
+          job: Senior Programme Officer
+          text: ${link-katherine} is responsible for the Centre’s gender and biodiversity work. Katherine leads our collaboration with UN Women and her technical expertise on biodiversity indicators and gender issues has been instrumental in raising awareness of the need to address gender-biodiversity data gaps in the post-2020 global biodiversity framework. Katherine helps us ensure that our publications and projects are gender sensitive. She recently developed the Gender Action Plan for the GEF CONNECT project and supported the TradeHub to ensure that their outputs are gender-responsive.
   -
-    id: nature
-    title: The value of nature - starting with a nut
-    image: content/nut.png
-    image_alt: "Shea nuts and leaves. Credit: luisapuccini, AdobeStock"
-    introduction: 
-      - The natural world is critical to Uganda’s economy and the wellbeing of its people, providing essential support for food security, tourism, and livelihoods around the country. Traditional ways of looking at economic progress, however, can neglect or exclude the values that nature provides. We therefore worked with partners to identify and highlight trends in the ‘stocks’ of several of Uganda’s biodiversity-related natural resources - with concrete consequences for the Shea nut.
+    id: planning-for-places
+    title: We highlighted the benefits of joint action for climate and nature
+    image: /content/images/projects/earth-north-sea.jpg
+    image_alt: "Earth from space. The United Kingdom and the North Sea. Credit: Anton Balazh, Adobe Stock"
+    introduction:
+      - Work by UNEP-WCMC and our partners to map priority areas for biodiversity and carbon drew the climate and nature agendas closer together.
     modal:
-      image: /content/images/modal/uganda.jpg
-      image_caption: Bwindi Impenetrable National Park, Uganda. 
-      image_credit: twitchy, AdobeStock
+      image: /content/images/modal/costa_brava_coast_spain.jpg
+      image_caption: Costa Brava coast, Spain
+      image_credit: Alexugalek, Adobe Stock
+      image_position: 0% 75%
+      title: Revealing and highlighting the benefits of joint action for nature and climate
       content:
         -
           text:
-            - The natural world is critical to Uganda’s economy and the wellbeing of its people, providing essential support for food security, tourism, and livelihoods around the country. However, traditional ways of looking at economic progress can neglect or exclude the values that nature provides. This means decision makers can’t take it fully into account, often leading to inefficient and unsustainable growth.
+          - <strong>In 2020, the climate and nature agendas drew ever closer together, with efforts from UNEP-WCMC and our partners to map priority areas for biodiversity and carbon playing a crucial part in this process.</strong>
+          - <strong>The climate and biodiversity crises are fundamentally connected and must be addressed together.</strong> Climate change is a present and growing threat to biodiversity, and actions to protect, manage or restore nature to help alleviate societal challenges, known as nature-based solutions, are crucial to tackling the climate crisis. Such actions should be based on inclusive decision-making that recognises the roles and rights of indigenous peoples and local communities.
         -
           text:
-            - To address this, ${link-joint-effort} designed to inform decisions around how best to manage natural areas – how much to invest in them, and how declining wildlife undermines the Ugandan economy. By working closely with partners (${link-planning-authority}, ${link-management-authority}, ${link-wildlife-conservation} and the ${link-ideea-long} (IDEEA) Group), we were able to identify and highlight trends in the ‘stocks’ of several of Uganda’s biodiversity-related natural resources.
-            - In 2018, findings from the work contributed to a nationwide short-term ban on cutting, transportation and sale of Shea nut tree logs and their products. These trees have great economic importance and real potential as an export product to cosmetics and food industries, but they are a threatened species and were under increasing pressure from illegal harvesting for logs, charcoal and the Shea nuts themselves. 
-            - When scanning Northern Uganda for areas that might be suitable for Shea we found that most of the potential habitats were also not in protected areas – leaving them even more vulnerable to illegal harvesting. The Ugandan Government therefore decided on the short-term ban on their harvest, preserving the potential for Shea nut harvesting in the long-term.
-            - In the coming year we will also be taking this thinking to the oceans, and investigating the Blue Economy – deepening our understanding on the economic value of the oceans, and our own ability to support decision makers to take that into account.
+          - This was borne out in the ${link-strengthening-synergies} report, which demonstrated that conserving 30% of land in strategic locations could safeguard 500 gigatonnes of carbon stored in vegetation and soils – around half the world’s vulnerable terrestrial carbon stocks – and reduce the extinction risk of nearly 90% of threatened terrestrial species. 
+          - <strong>The methodology underpinning these findings is that of the ${link-nature-map},</strong> which brings together an international consortium of research institutes and conservation organisations to support area-based prioritisation for conservation and restoration. 
+          - Decision makers need trusted information on the spatial distribution of biodiversity, carbon and other ecosystem services and human impacts, to identify how and where they overlap. <strong>Nature Map has made freely-available global maps of terrestrial biodiversity, carbon stocks and water supply, designed to support countries to integrate nature and climate in decision making and promote nature-based solutions.</strong>
+          - As the world looks ahead to crucial international meetings on both climate and nature in the coming year, Nature Map is one of the tools that can help nations to identify the areas where nature-based solutions could provide the highest joint benefits for biodiversity conservation, climate change mitigation and other ecosystem services on which people depend across the planet.
+      themeTitle: "Themes:"
+      themes:
+        - 3
+      staff:
+        -
+          name: Lera Miles
+          image: /content/images/profile/lera-miles.jpg
+          job: Principal Technical Specialist - Planning for Places 
+          text: Dr Lera Miles leads the Planning for Places theme at UNEP-WCMC, which promotes good use of biodiversity and ecosystem services information within spatial planning of all kinds. She is especially interested in practical tools and data that can help decision-makers to plan for, achieve and track multiple benefits from nature-based solutions. Lera also helps to manage the Climate Change and Biodiversity team, overseeing a wide range of work on global mapping, ecosystem restoration, peatlands and REDD+.
+  -
+    id: nature-across-borders
+    title: We helped ensure international wildlife trade is legal and sustainable
+    image: /content/images/projects/parrot.jpg
+    image_alt: "A close-up of a parrot / macaw. Credit: Martin, Adobe Stock "
+    introduction:
+      - Together with the CITES Secretariat, we made over 4000 species identification resources accessible in new, dynamic forms, helping to regulate international wildlife trade.
+    modal:
+      image: /content/images/modal/coral-reef-panorama.jpg
+      image_caption: 
+      image_credit: stockphoto-graf, Adobe Stock
+      title: Providing trusted information to ensure legal, sustainable wildlife trade
+      content:
+        -
+          text:
+            - <strong>In 2020, UNEP-WCMC and the CITES Secretariat added over 4,000 identification resources from the CITES Identification Manual and the CITES Virtual College to the ${link-cites-checklist} and ${link-species-plus} platforms.</strong>
+            - All these species identification resources are now centralised, searchable and freely available to download.
+        -
+          text:
+            - <strong>Easy access to trusted information is crucial to ensuring international wildlife trade is legal and sustainable.</strong> Accurately identifying traded species remains a major challenge for enforcement and other agencies when implementing the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES). <strong>Access to these materials on the Checklist and Species+ platforms will help to simplify this process, aiding accurate decision-making and saving time.</strong>
+            - The CITES Identification Manual is a collection of materials designed to help identify species of animals and plants for which international trade is regulated by the Convention. They contain drawings, photographs, maps of ranges and concise descriptions to help CITES Management and Scientific Authorities, customs and other agencies involved in implementing and enforcing CITES. 
+            - Users can now access materials for specific species or search and create custom downloads of materials for groups of species, locations, or Appendix listings under the Convention. The CITES Identification Manual is now available to download in English, Spanish, and French. 
+            - The inclusion of these materials and increased accessibility, made possible thanks to the financial support from the European Union, is an exciting step forward in ensuring the legality, sustainability, and safety of international wildlife trade.
+      themeTitle: "Themes:"
+      themes:
+        - 4
+      staff:
+        -
+          name: Ciara Stafford
+          image: /content/images/profile/ciara-stafford.jpg
+          job: Programme Officer
+          text: ${link-ciara}’s work focusses on assessing the sustainability of trade in a wide range of plant and animal species. The projects she leads on support the implementation of species-related conventions and agreements, including the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), the EU Wildlife Trade Regulations, and the Convention on Migratory Species (CMS).
+  -
+    id: nature-in-sustainable-development
+    title: We helped develop a strategy to bend the curve on biodiversity loss
+    image: /content/images/projects/rhinos.jpg
+    image_alt: "Southern white rhinoceros cow and calf. Credit: Nicola.K.photos, Adobe Stock"
+    introduction:
+      - With partners, we developed research identifying the key actions needed to halt and reverse terrestrial biodiversity loss from land use change.
+    modal:
+      image: /content/images/modal/zebras-nairobi.jpg
+      image_caption: Two zebras in Nairobi National Park
+      image_credit: mbrand85, Adobe Stock
+      image_position: 0 52%
+      title: Bending the curve of biodiversity loss on land
+      content:
+        -
+          text:
+          - <strong>2020 marked the beginning of a “last chance decade” to tackle the global nature crisis and the beginning the UN Decade of Action on the Sustainable Development Goals (SDGs)</strong>. The ${link-bending-the-curve} analysis demonstrated that halting and reversing biodiversity loss and progressing towards other SDGs can be achieved together. 
+          - <strong>Coordinated action can make progress towards multiple SDGs.</strong> Bending the Curve explored how we can halt and reverse biodiversity loss (SDG 15) from land use change whilst also feeding a growing population (SDG 2).
+        -
+          text:
+          - "Land use change resulting in habitat conversion is the main driver of biodiversity loss on land. <strong>UNEP-WCMC worked with IIASA to use ground-breaking modelling and newly developed scenarios to identify six key integrated actions needed to stop these losses.</strong> These are:"
+          - "<ul>
+              <li>Sustainable increases in crop yields;</li>
+              <li>Trade increases in agricultural goods with reduced trade barriers;</li>
+              <li>Reducing the waste of agricultural goods from field to fork by 50%;</li>
+              <li>Cutting the share of animal calories in human diets by 50% except in regions in which the share of animal products in diets is already estimated to be low (the Middle East, sub-Saharan Africa, India, Southeast Asia, and other Pacific Islands);</li>
+              <li>Increasing Protected Area extent to 40% terrestrial coverage, covering important sites for biodiversity and with improved management; and</li>
+              <li>Increasing restoration (reaching about 8% of terrestrial areas by 2050) and landscape-level conservation planning that balances production and conservation objectives on all managed land.</li>
+            </ul>"
+          - <strong>By combining these six actions in an integrated strategy, the futures modelling shows that it is possible to avoid more than two thirds of future terrestrial biodiversity losses caused by land use change and continue to feed a growing population. Joined up actions can therefore benefit both people and nature.</strong>
+          - These insights will be crucial to informing the direction of global action over the next decade and beyond. With integrated strategy and ambitious action, evidence shows that we can achieve multiple SDGs, together. 
       themeTitle: "Themes:"
       themes:
         - 1
       staff:
         -
-          name: Dr Steven King
-          image: /content/images/profile/steven-king.jpg
-          job: Environmental Economist, Ecosystem Assessment and Policy Support Programme
-          text: ${link-steven} works to make nature a critical component of national decision-making across the world. He does so through a series of initiatives that integrate the values of nature into plans for sustainable economic development, and capture those values in national accounting systems. Before joining us in 2014 he’d gained nearly ten years’ experience as a consultant in the construction and transport industries, providing advice on contaminated land assessment and pollution abatement. He’d also just completed his PhD in Management Science and brings all this experience to bear when advising on economic aspects of a wide variety of our projects.
-  -
-    id: redd
-    title: Helping Viet Nam get ready for REDD+
-    image: content/gibbon.png
-    iamge_alt: "Yellow-cheeked Gibbon, Cát Tiên National Park, Vietnam. Credit: ondrejprosicky, AdobeStock"
-    introduction: 
-      - Escalating climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating and implementing solutions. Last year we helped Viet Nam to take a key step and become one of the first countries to complete a fundamental part of preparing for ${link-redd-long}. It is now eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation.
-    modal:
-      image: /content/images/modal/jungle.jpg
-      image_caption: Cát Bà National Park, Vietnam. 
-      image_credit: Matyas Rehak, AdobeStock
-      content:
-        -
-          text:
-            - Escalating climate change and biodiversity loss are global challenges, with decision makers at both national and international levels faced with creating and implementing solutions. One such effort is the ${link-unfccc} (UNFCCC) ${link-redd} mechanism, designed to provide financial incentives for developing countries to reduce CO2 emissions from deforestation and forest degradation, and to secure carbon through conserving, managing, and enhancing forests.
-        -
-          text:
-            - We work with partners all over the world to support a range of countries in their REDD+ planning and implementation. Last year, for example, we helped Viet Nam to become one of the first countries to complete a fundamental step in preparing for REDD+, making it eligible to receive payments in return for reducing carbon emissions from deforestation and forest degradation. This involved supporting Viet Nam to meet safeguards requirements, which aim to reduce the risks and increase the benefits of REDD+, including integrating information such as on forest cover and agribusiness ownership by ethnic minorities into its existing system for monitoring forests.
-      themeTitle: "Themes:"
-      themes:
-        - 3
-      staff:
-        -
-          name: Charlotte Hicks
-          image: /content/images/profile/charlotte-hicks.jpg
-          job: Senior Technical Officer, Climate Change and Biodiversity Programme
-          text: ${link-charlotte} has been part of our team since 2013, helping decision makers with biodiversity and climate change policy. This has included understanding how different habitats can help us adapt to climate change, and how REDD+ can deliver additional benefits. She has an academic background in international relations, political science and Chinese studies, and professional experience ranging from the World Bank to the International Union for Conservation of Nature.
-  -
-    id: policy
-    title: Making policy waves with marine data
-    image: content/project-ocean-plus.png
-    introduction: 
-      - The ocean covers more than 70% of the planet, regulating our weather, storing carbon, and providing us with food. It is threatened, however, by a wide range of pressures including climate change, overharvesting, pollution, and development. In 2018 we therefore launched ${link-ocean-plus} - a portal into ocean data that makes it as easy as possible for decision makers to understand and account for the ocean’s value.
-    modal:
-      image: /content/images/modal/fish.jpg
-      image_caption: Blueline Sabretooth Blenny, <emphasis>Plagiotremus rhinorhynchos</emphasis>, Raja Ampat Islands, Indonesia. 
-      image_credit: New Media & Films, AdobeStock
-      content:
-        -
-          title: What is Ocean+?
-          text:
-            - The ${link-ocean-initiative} aims to make it easier to both find and use ocean data and information, helping inform decisions around the conservation and sustainable use of marine ecosystems. Together with its associated products, including ${link-ocean-library} and the ${link-ocean-viewer}, it helps to create a more complete picture of the state of the ocean, and the important habitats and services that are essential to human wellbeing.
-        -
-          title: What is our role?
-          text:
-            - We created and manage the Ocean+ portal, part-funded by ${link-proteus} - a unique collaboration between UNEP-WCMC and leading extractive companies.
-        -
-          title: What is our impact?
-          text:
-            - "The ocean is our life support system; covering over 70% of the planet, it regulates our weather, stores carbon, and provides a home for many species that we depend on for our nutrition and livelihoods. Yet our actions—including those many miles from the coast—are affecting the health of the ocean, with climate change, overharvesting, pollution and other pressures from development threatening the continued supply of the services we all depend on."
-            - "We therefore launched Ocean+ in January 2018 at the UN Biodiversity Conference in Egypt, designed to make it as easy as possible for decision makers to better understand and account for the ocean’s value. By curating information through partnerships and networks with governmental, non-governmental, and business communities, Ocean+ allows users to:<ul><li>View and download quality-assured spatial datasets that are useful for policy and decision-making;</li><li>Locate more than 190 data resources globally that are important for marine and coastal biodiversity;</li><li>Learn about the state of knowledge on five ecologically-important ocean habitats, namely seagrasses, warm- and cold-water corals, saltmarshes, and mangroves.</li><li>Explore, through the associated initiative Protected Planet, nationally-validated statistics on marine protected area coverage all over the world.</li></ul>"
-            - Ocean+ and complementary partnerships will become increasingly vital in the run-up to 2020, when the global community will be shaping the future agenda for biodiversity, and in the time thereafter as we track progress towards future biodiversity targets.
-      themeTitle: "Themes:"
-      themes:
-        - 5
-      staff:
-        -
-          name: Lauren Weatherdon
-          image: /content/images/profile/lauren-weatherdon.jpg
-          job: Senior Programme Officer, Conserving Land and Seascapes Programme
-          text: First joining us as an Assistant Programme Officer in 2014, ${link-lauren} now manages a range of projects that focus on life in the ocean and the services they provide. As part of her role, she leads the development of digital knowledge products that help increase access to ocean biodiversity and spatial data. She has a background in geography, fisheries science, and communications, and is passionate about creating tools and products that bring the best data and information to decision makers around the world.
-  -
-    id: nature-platform
-    title: Giving nature a new platform for change
-    image: content/bee.png
-    image_alt: "Bee. Credit: Tristan, AdobeStock"
-    introduction: 
-      - All countries that have signed up to the ${link-cbd-long} have to report on their progress on implementing the Convention. Compiling relevant information to measure progress is, however, often a challenge. We therefore joined with NatureServe to launch the ${link-bip-long} last November, bringing key biodiversity measurements to life and helping governments measure impact and progress. 
-    modal:
-      image: /content/images/modal/brazil.jpg
-      image_caption: Rio de Janeiro, Brazil. 
-      image_credit: marchello74, AdobeStock
-      content:
-        -
-          text: 
-            - All countries that have signed up to the ${link-cbd-long} have to report on their progress on implementing the Convention. These reports help countries to track their national biodiversity strategies, and together they inform an understanding of the state of the world’s biodiversity. Compiling relevant information to measure progress is, however, often a challenge.
-        -
-          text:
-            - To help, we worked with ${link-natureserve} to launch the ${link-bip-long} last November, harnessing data from key measures of biodiversity such as the ${link-red-list-index}, the ${link-habitat-index} and the ${link-footprint} and bringing them to life with clear, informative graphics and maps. By helping to create as comprehensive an insight into biodiversity as possible, the BIP Dashboard helps governments measure impact and progress, and underpin evidence-based decisions about biodiversity.
-      themeTitle: "Themes:"
-      themes:
-        - 6
-      staff:
-        - 
-          name: Philip Bubb
-          image: /content/images/profile/philip-bubb.jpg
-          job: Senior Programme Officer, Ecosystem Assessment and Policy Support Programme
-          text: ${link-philip} helps countries around the world to create and use indicators to measure changes in nature, and to include the value of nature in decision-making. Part of our team since 2002, he is skilled in designing and running projects and workshops involving multiple partners across countries in Africa, Asia, Europe and Latin America. Before joining us he led community-based forest conservation work in southern Mexico and had gained a degree in ecology as well as a Master’s in Resource Management.
+          name: Sam Hill
+          image: /content/images/profile/samantha-hill.jpg
+          job: Deputy Head of the Science Programme
+          text: ${link-sam} is a technical specialist in the Science Programme. Sam’s work focuses on the use of statistical models to gain a deeper understanding of how humans have impacted biodiversity and what steps we can take to ensure the continuance of humanity together with the natural world.

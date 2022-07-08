@@ -1,66 +1,70 @@
 id: highlights
-title: 2018 Highlights
+nav-label: Highlights
+title: 2020 Highlights
 collection:
   -
-    id: welcome
-    title: We welcome Peng Youdong
-    introduction: 
-      - We welcomed a high-level delegation of ${link-china-forestry}, led by the Vice Administrator Peng Youdong, to discuss areas of mutual interest and opportunities for future collaboration.
-    image: /content/images/highlights/chinese-delegation-of-the-national-forest-and-grasslands-adminstration-min.jpg
-    image_alt: "Peng Youdong, Vice Administrator of China’s National Forestry and Grassland Administration. Credit: UNEP-WCMC, Stephanie Foote"
+    id: forests
+    title: Reporting on the State of the World’s Forests
+    introduction:
+      - With the UN Food and Agriculture Organization, we launched the latest ${link-state-of-world-forests} Report, underlining that Earth’s biodiversity depends on the world’s forests. Urgent solutions are needed to safeguard forest biodiversity amid alarming ongoing rates of deforestation and degradation.
+    image: /content/images/highlights/forest-road.jpg
+    image_alt: "Ariel shot of a road surrounded by green trees. Credit: Geran de Klerk, Unsplash"
   -
-    id: challenges
-    title: Discussing Environmental Challenges
-    introduction: 
-      - ${link-zeichner-visit}, UK Member of Parliament for Cambridge, to UNEP-WCMC’s headquarters. Based on his visit he then raised the illegal wildlife trade with the UK Prime Minister, asking about the Government’s plans.
-    image: /content/images/highlights/daniel-zeichner-visiting-unep-wcmc.jpg
-    image_alt: "Daniel Zeichner Member of Parliament for Cambridge. Credit: UNEP-WCMC, Stephanie Foote"
+    id: gender
+    title: Women and the post-2020 global biodiversity framework
+    introduction:
+      - We developed a ${link-gender-framework} to support a gender-responsive post-2020 framework, helping to ensure that tackling biodiversity loss and advancing gender equality go hand in hand.
+    image: /content/images/highlights/women-tea-plantation.jpg
+    image_alt: "African women plucking tea leaves on plantation. Credit: Bartosz Hadyniak - iStock.com"
   -
-    id: partnerships
-    title: Cross-continental partnerships
-    introduction: 
-      - We launched the ${link-development-corridors}, funded by the UK Research Council’s Global Challenges Research Fund. This international collaboration aims to strengthen sustainability across infrastructure and development in East Africa.
-    image: /content/images/highlights/dcp.jpg
-    image_alt: "Nairobi National Park, Kenya. Credit: UNEP-WCMC, Diego Juffe Bignoli"
+    id: protected-planet
+    title: Tracking progress on protected and conserved areas
+    introduction:
+      - With the help of governments and stakeholders from over 150 countries, the ${link-protected-planet-initiative} updated, verified or added 223,000 protected and conserved areas to global databases.  
+    image: /content/images/highlights/zebras-and-flamingos.jpg
+    image_alt: "Zebras in the Ngorongoro Crater, Tanzania. Credit: Travel Stock, Adobe Stock"
+    image_position: '40% 0%'
   -
-    id: heights
-    title: Reaching new heights
-    introduction: 
-      - The ${link-cites} which we manage on behalf of the CITES Secretariat hit 20 million records. We also conducted one of the first comprehensive reviews of CITES trade data -  ${link-cites-review} to see what we found.
-    image: /content/images/highlights/chameleon.jpg
-    image_alt: "Yemen chameleon, Chamaeleo calyptratus. Credit: pirotehnik, AdobeStock"
+    id: trade-hub
+    title: Building more sustainable global trade systems 
+    introduction:
+      - "The ${link-gcrf-trade-hub} teams based in Brazil, Indonesia, Central Africa, Tanzania, China, and the UK contributed to publications and platforms beyond academia, including the ${link-bbc-extinction}, narrated by Sir David Attenborough."
+    image: /content/images/highlights/person-basket-grapes.jpg
+    image_alt: "Person holding a basket of grapes. Credit: Emmanuel, Adobe Stock"
   -
-    id: fifth
-    title: Sustainable Trade
-    introduction: 
-      - A ${link-trade-for-good} aiming to make sustainable trade a positive force for both people and nature. This UKRI GCRF Trade, Development and the Environment Hub is funded for five years.
-    image: /content/images/highlights/coffee.jpg
-    image_alt: "Arabica coffee berries. Credit: bonga1965, AdobeStock"
+    id: felix
+    title: The next generation of conservation leaders
+    introduction:
+      - 30 students from 15 countries in West and North Africa have benefited from UNEP-WCMC teaching of modules on the MSc programme at the University Felix Houphouet-Boigny, Cote d’Ivoire, on managing the science-policy interface. UNEP-WCMC has also provided ongoing teaching, mentoring and placement opportunities for students on the ${link-cambridge-conservation-leadership}.
+    image: /content/images/highlights/student-at-library.jpg
+    image_alt: "Student in a library. Credit: NDABCREATIVITY, Adobe Stock"
+    image_position: '70% 0%'
   -
-    id: goals
-    title: Global goals for biodiversity
-    introduction: 
-      - ${link-egypt}, a biennial event that provides international leadership on biodiversity. Several decisions of the Conference refer to our guidance, and the Conference also determined the way forwards on a future plan for the conservation and sustainable use of nature.
-    image: /content/images/highlights/iisd-enb.jpg
-    image_alt: "UN Environment delegates, including from the UNEP-WCMC team. Credit: IISD/ENB Franz Dejon - http://enb.iisd.org/biodiv/cop14/enb/29nov.html"
+    id: encore
+    title: Urging the financial sector to set biodiversity targets
+    introduction:
+      - An ${link-encore} urged banks, investors and insurers to set targets to reduce biodiversity loss, starting with nine sectors. Work with partners continued to help institutions align with global biodiversity targets.
+    image: /content/images/highlights/windmills-nebraska.jpg
+    image_alt: "Five windmills in front of the ocean. Credit: American Public Power Association, Unsplash"
   -
-    id: tracking
-    title: International wildlife trade
-    introduction: 
-      - We helped to see if trade in 27 “species-country combinations” was sustainable. The range States for ${link-eel} and ${link-teak} were subsequently asked to create more conservation export quotas, and Cameroon’s export of African teak was deemed sustainable.
-    image: /content/images/highlights/anguilla-eel.jpg
-    image_alt: "European eel, Anguilla Anguilla. Credit: Witold Krasowski, AdobeStock"
+    id: nea
+    title: More countries are assessing their ecosystems
+    introduction:
+      - UNEP-WCMC is working with partners in supporting 11 countries to deliver ${link-nea} (NEAs). In 2020, Azerbaijan, Bosnia & Herzegovina, Grenada and Cambodia completed the scoping for their assessments.
+    image: /content/images/highlights/fishing-boat-beach.jpg
+    image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela, Adobe Stock"
+    image_position: '30% 0%'
   -
-    id: curve
-    title: Reversing biodiversity loss 
-    introduction: 
-      - Neil Burgess, our Chief Scientist, ${link-paper} with proposals for how to ‘bend the curve’ of biodiversity loss. Critically, the paper emphasises that success largely depends on actions in sectors such as agriculture, business and finance.
-    image: /content/images/highlights/river-Iquitos-peru.jpg
-    image_alt: "Amazon River, Peru. Credit: christian vinces, AdobeStock"
+    id: icca
+    title: Supporting indigenous peoples and local communities
+    introduction:
+      - Dozens of territories and areas conserved by indigenous peoples and local communities were self-reported by their custodians and added to the ${link-icca-registry}. Each is a major achievement in custodians’ journey to protect their lands.
+    image: /content/images/highlights/sarayaku.jpg
+    image_alt: "Pueblo Originario Kichwa de Sarayaku, Ecuador. Credit: Fundación Aldea"
   -
-    id: innovative
-    title: Innovative research
-    introduction: 
-      - Over the past year members of our team have published or co-published 65 publications! Please ${link-website} to learn more.
-    image: /content/images/highlights/prince-charles.jpg
-    image_alt: 'Neville Ash, Director of UNEP-WCMC, presenting a joint publication on coral reefs to Prince Charles at the event: "IYOR 2018- An Opportunity for Increasing Coral Reef Resilience."" The publication was produced by UNEP-WCMC, UN Environment and the International Coral Reef Initiative, and funded by the Government of France.'
+    id: covid
+    title: Achieving global reach while staying at home
+    introduction:
+      - Like so many others, our team of around 150 worked from home to help prevent the spread of COVID-19. While working remotely, we continued to deliver our work and build our relationships with partners across the world to benefit people and the planet.
+    image: /content/images/highlights/tea.jpg
+    image_alt: "UNEP-WCMC's Wednesday Afternoon Tea, while working remotely"

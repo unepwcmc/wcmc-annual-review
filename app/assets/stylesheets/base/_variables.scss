@@ -35,6 +35,9 @@ $pink: #E84157;
 
 $green: #8EC154;
 
+$blue-light: #EAF6FB;
+
+$grey-lighter: #F7F7F7;
 $grey-light: #e1e1e1;
 $grey: #C3C3C3;
 $grey-dark: #333333;
@@ -66,18 +69,18 @@ $body-font: 'Roboto', sans-serif;
 $header-font: 'ImpactMTStd', Impact, Charcoal, sans-serif;
 $body-font-color: #363636;
 
-$thin: 100;
-$light: 300;
-$regular: 400;
+$fw-thin: 100;
+$fw-light: 300;
+$fw-regular: 400;
 $fw-medium: 500;
-$bold: 700;
+$fw-bold: 700;
 $fw-black: 900;
 
-$font-weight-h1: $regular;
-$font-weight-h2: $regular;
+$font-weight-h1: $fw-regular;
+$font-weight-h2: $fw-regular;
 $font-weight-h3: $fw-black;
 $font-weight-h4: $fw-black;
-$font-weight-p: $light;
+$font-weight-p: $fw-light;
 
 $line-height-h1: 1.25;
 $line-height-h: 1.16;
@@ -115,13 +118,14 @@ $line-height-blockquote: 1.2;
 //--------------------------------------------------
 // breakpoints
 //--------------------------------------------------
+$xs: 640px;
 $small: 720px;
 $medium: 1024px;
 $large: 1708px;
 
 @mixin responsive-styles ($property, $mobile, $tablet, $laptop) {
   #{$property}: $mobile;
-  
+
   @include breakpoint($small) { #{$property}: $tablet; }
   @include breakpoint($medium) { #{$property}: $laptop; }
 }
@@ -139,6 +143,7 @@ $z-300: 300;
 $gutter-small: 16px;
 $gutter-medium: 24px;
 $gutter-large: 32px;
+$gutter-extra-large: 40px;
 
 $page-padding-top-small: 16px;
 $page-padding-top-medium: 24px;
@@ -213,7 +218,7 @@ $footer-height-desktop: rem-calc(140);
 
 @mixin nav-height {
   height: $navbar-height-small;
-  
+
   @include breakpoint($small) {
     height: $navbar-height-medium;
   }
@@ -223,9 +228,9 @@ $footer-height-desktop: rem-calc(140);
   @if $height-type != '' {
     $height-type: $height-type + '-'
   }
-  
+
   #{$height-type}height: $v-navbar-height-small;
-  
+
   @include breakpoint($small) {
     #{$height-type}height: $v-navbar-height-medium;
   }

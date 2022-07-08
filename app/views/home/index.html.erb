@@ -1,5 +1,5 @@
 <%= content_for :title do %>
-  UNEP-WCMC's Annual Review 2018–19
+  UNEP-WCMC's Annual Review 2020
 <% end %>
 
 
@@ -7,50 +7,56 @@
   <%= render partial: 'home/partials/hero', locals: { data: @hero } %>
 </section>
 
-<section 
-  id="section-<%= @foreword['id'] %>" 
-  class="section--foreword bg-grey-dark section-padding section--full-window sm-trigger-sticky flex-v-center">
+<section
+  id="section-<%= @forewords['id'] %>"
+  class="section--forewords section--full-window sm-trigger-sticky flex-v-center">
+
+  <%= render partial: 'home/partials/forewords', locals: { data: @forewords } %>
+</section>
+
+<section
+  id="section-<%= @foreword['id'] %>"
+  class="section--foreword bg-grey-dark section-padding section--full-window flex-v-center">
 
   <%= render partial: 'home/partials/foreword', locals: { data: @foreword } %>
 </section>
 
-<section 
-  id="section-<%= @anniversary['id'] %>" 
-  class="section--anniversary section--full-window section-padding section-padding--caption bg-primary bg-image-overlay--blue">
-
-  <%= render partial: 'home/partials/anniversary', locals: { data: @anniversary } %>
-</section>
-
-<section 
-  id="section-<%= @projects['id'] %>" 
-  class="section--projects">
+<section class="section--projects">
 
   <%= render partial: 'home/partials/projects', locals: { data: @projects } %>
 </section>
 
-<section 
-  id="section-<%= @highlights['id'] %>" 
+<section
+  id="section-<%= @highlights['id'] %>"
   class="section--highlights gradient-right">
 
   <%= render partial: 'home/partials/highlights', locals: { data: @highlights } %>
 </section>
 
-<section 
-  id="section-<%= @stats_people['id'] %>" 
+<section
+  id="section-<%= @stats_people['id'] %>"
   class="section--stats-people section-padding">
 
   <%= render partial: 'home/partials/stats-people', locals: { data: @stats_people } %>
 </section>
 
-<section 
-  id="section-<%= @stats_finance['id'] %>" 
+<section
+  id="section-<%= @stats_finance['id'] %>"
   class="section--stats-finance section-padding section-padding--caption bg-image-overlay white">
-  
+
   <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_finance } %>
 </section>
 
-<section 
-  id="section-<%= @future['id'] %>" 
+<section
+  id="section-<%= @impacts['id'] %>"
+  class="section--impacts section-padding white">
+
+  <%= render partial: 'home/partials/impacts', locals: { data: @impacts } %>
+  
+</section>
+
+<section
+  id="section-<%= @future['id'] %>"
   class="bg-grey section--future section-padding section-padding--caption white flex flex-h-center flex-column bg-image-overlay">
 
   <%= render partial: 'home/partials/future', locals: { data: @future } %>

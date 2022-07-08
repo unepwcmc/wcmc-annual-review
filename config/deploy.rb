@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock "3.11.0"
 
-set :application, 'annual_review'
+set :application, '2020_annual_review'
 
 set :repo_url, 'git@github.com:unepwcmc/wcmc-annual-review.git'
 

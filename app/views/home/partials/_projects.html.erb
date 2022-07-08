@@ -1,4 +1,6 @@
-<div class="section__header flex flex-center bg-image-overlay">
+<div 
+  class="section__header flex flex-center bg-image-overlay"
+  id="section-our-work">
   <div class="section__header-content white gutters">
     <h2><%= data['strapline'] %></h2>
     <h3 class="white section__title"><%= data['title'] %></h3>
@@ -8,7 +10,10 @@
   <%= render partial: 'home/shared/caption/', locals: { title: data['hero_title'], credit: data['hero_credit'], classes: 'grey-dark' } %>
 </div>
 
-<div class="container--medium cards--projects section-padding--top">
+<div 
+  class="container--medium cards--projects section-padding--top"
+  id="section-<%= @projects['id'] %>">
+
   <% data['collection'].each_with_index do |project, index| %>
     <div class="card--project section-padding--bottom">
       <div class="card__image-wrapper">

@@ -1,235 +1,140 @@
-link-algal:
-  text: Algal Forest Restoration in the Mediterranean Sea
-  href: https://ec.europa.eu/easme/en/afrimed-algal-forest-restoration-mediterranean-sea
-  title: Read about the Algal Forest Restoration in the Mediterranean Sea initiative
+link-abnj-deep-seas-project:
+  text: ABNJ Deep Seas Project
+  href: https://abnjdeepseasproject.com/en
+  title: Visit the ABNJ Deep Seas Project website
   target: _blank
-link-birdlife:
-  text: Birdlife International
-  href: https://www.birdlife.org/
-  title: Visit the Birdlife website
+link-agricultural-commodity-trades:
+  text: agricultural commodity trades
+  href: https://www.unep-wcmc.org/news/consumer-markets-linked-to-habitat-loss-for-rare-species-in-brazils-savannah
+  title: Consumer markets linked to habitat loss for rare species in Brazil's savannah
   target: _blank
-link-bip-long:
-  text: Biodiversity Indicators Partnership (BIP) Dashboard
-  href: http://bipdashboard.natureserve.org/bip/SelectCountry.html
-  title: Visit the the Biodiversity Indicators Partnership Dashboard website
+link-bending-the-curve:
+  text: Bending the Curve
+  href: https://www.nature.com/articles/s41586-020-2705-y
+  title: View the Bending the Curve analysis
   target: _blank
-link-charlotte:
-  text: Charlotte
-  href: https://www.unep-wcmc.org/employees/charlotte-hicks
-  title: Visit the online profile for Charlotte Hicks
+link-biodiversity-indicators-partnership:
+  text: Biodiversity Indicators Partnership
+  href: https://www.bipindicators.net/
+  title: Visit the Biodiversity Indicators Partnership website
   target: _blank
-link-ci:
-  text: Conservation International
-  href: https://www.conservation.org/Pages/default.aspx
-  title: Visit the Conservation International website
+link-cbd:
+  text: Analysis conducted during 2020 
+  href: https://www.cbd.int/doc/c/a571/b25e/544f7e2b1843a86bb062ad06/sbstta-24-inf-20-en.pdf
+  title: ""
   target: _blank
-link-cbd-long:
-  text: Convention on Biological Diversity
-  href: https://www.cbd.int/
-  title: Visit the Convention on Biological Diversity website
+link-chris:
+  text: Chris
+  href: https://www.unep-wcmc.org/employees/chris-mcowen
+  title: View the online profile for Chris McOwen
   target: _blank
-link-endangered:
-  text: Endangered Landscapes Programme
-  href: https://www.endangeredlandscapes.org/
-  title: Visit the Endangered Landscapes Programme website
+link-ciara:
+  text: Ciara
+  href: https://www.unep-wcmc.org/employees/ciara-stafford
+  title: "View the online profile for Ciara Stafford"
   target: _blank
-link-eugenie:
-  text: Eugenie
-  href: https://www.unep-wcmc.org/employees/eugenie-regan
-  title: View the online profile for Eugenie Regan
+link-cites-checklist:
+  text: Checklist of CITES Species
+  href: http://checklist.cites.org/#/en
+  title: Visit the Checklist of CITES Species
   target: _blank
-link-encore:
-  text: ENCORE
+link-cop-medium:
+  text: Conference of the Parties
+  href: https://medium.com/@unepwcmc/11-lessons-from-the-wildlife-trade-conference-572c86759c48
+  title: "Medium.com: 11 lessons from the wildlife trade conference"
+  target: _blank
+link-ecosystem-restoration:
+  text: UN Decade on Ecosystem Restoration
+  href: https://www.decadeonrestoration.org/
+  title: Visit the Decade on Ecosystem Restoration website
+  target: _blank
+link-encore-tool:
+  text: ENCORE tool
   href: https://encore.naturalcapital.finance/en
   title: Visit the ENCORE website
   target: _blank
-link-footprint:
-  text: Ecological Footprint
-  href: http://ecologicalfootprint.com/
-  title: Visit the Ecological Footprint website
+link-global-biodiversity-patterns:
+  text: global biodiversity patterns overlaid with carbon
+  href: https://naturemap.earth/
+  title: Visit the Nature Map Earth website
   target: _blank
-link-habitat-index:
-  text: Biodiversity Habitat Index
-  href: https://www.bipindicators.net/indicators/biodiversity-habitat-index
-  title: view the Biodiversity Habitat Index
+link-foen-long:
+  text: Swiss Federal Office for the Environment
+  href: https://www.bafu.admin.ch/bafu/en/home.html
+  title: Visit the Swiss Federal Office for the Environment website
   target: _blank
-link-hazel:
-  text: Hazel
-  href: https://www.unep-wcmc.org/employees/hazel-thornton
-  title: View the online profile for Hazel Thornton
+link-gcrf-development-corridors:
+  text: GCRF Development Corridors Partnership
+  href: https://tradehub.earth/
+  title: Visit the GCRF Trade Hub website
   target: _blank
-link-ibat:
-  text: IBAT
-  href: https://ibat-alliance.org/
-  title: Visit the IBAT website
+link-gcrf-trade-hub:
+  text: GCRF Trade, Development, and the Environment Hub
+  href: https://tradehub.earth/
+  title: Visit the GCRF Trade Hub website
   target: _blank
-link-ibat-long:
-  text: Integrated Biodiversity Assessment Tool (IBAT)
-  href: https://ibat-alliance.org/
-  title: Visit the Integrated Biodiversity Assessment Tool website
+link-joe:
+  text: Joe
+  href: https://www.unep-wcmc.org/employees/joe-gosling
+  title: View the online profile for Joe Gosling
   target: _blank
-link-ideea-long:
-  text: Institute for Development of Environmental-Economic Accounting
-  href: https://www.ideeagroup.com/
-  title: Visit the Institute for Development of Environmental-Economic Accounting website
-  target: _blank
-link-iucn:
-  text: IUCN
-  href: https://www.iucn.org/
-  title: Visit the International Union for Conservation of Nature website
-  target: _blank
-link-iucn-long:
-  text: International Union for Conservation of Nature
-  href: https://www.iucn.org/
-  title: Visit the International Union for Conservation of Nature website
-  target: _blank
-link-joint-effort:
-  text: we initiated a joint effort
-  href: https://www.unep-wcmc.org/featured-projects/nca-in-uganda
-  title: Read about the project in Uganda
-  target: _blank
-link-katie:
-  text: Katie
-  href: https://www.unep-wcmc.org/employees/katie-leach
-  title: View the online profile for Katie Leach
-  target: _blank
-link-kba-long:
-  text: World Database on Key Biodiversity Areas
-  href: http://www.keybiodiversityareas.org/home
-  title: Visit the Key Biodiversity Areas website
-  target: _blank
-link-lauren:
-  text: Lauren
-  href: https://www.unep-wcmc.org/employees/lauren-weatherdon
-  title: Visit the online profile for Lauren Weatherdon
-  target: _blank
-link-management-authority:
-  text: National Environmental Management Authority
-  href: https://www.nema.go.ke/
-  title: Visit the National Environmental Management Authority website
+link-katherine: 
+  text: Katherine
+  href: https://www.unep-wcmc.org/employees/katherine-despot-belmonte
+  title: View the online profile for Katherine Despot Belmonte
   target: _blank
 link-mava:
   text: MAVA Foundation
   href: http://mava-foundation.org/
   title: Visit the MAVA Foundation website
   target: _blank
-link-merces-long:
-  text: Marine Ecosystem Restoration in Changing European Seas
-  href: http://www.merces-project.eu/
-  title: View the Marine Ecosystem Restoration in Changing European Seas website
-  target: _blank
-link-naomi:
-  text: Naomi
-  href: https://www.unep-wcmc.org/employees/naomi-kingston
-  title: View the online profile for Naomi Kingston
-  target: _blank
-link-natureserve:
-  text: NatureServe
-  href: http://www.natureserve.org/
-  title: View the NatureServe website
+link-nature-map:
+  text: Nature Map
+  href: https://naturemap.earth/
+  title: Visit the Nature Map Earth website
   target: _blank
 link-ncfa-long:
   text: Natural Capital Finance Alliance
   href: https://naturalcapital.finance/
   title: Visit the Natural Capital Finance Alliance website
   target: _blank
-link-ocean-initiative:
-  text: Ocean+ initiative
-  href: https://www.oceanplus.org/
-  title: Visit the Ocean+ initiative website
+link-new-classification-system:
+  text: new classification system
+  href: https://www.sciencedirect.com/science/article/pii/S221204161730815X
+  title: "ScienceDirect.com: A common framework of natural capital assets for use in public and private sector decision making"
   target: _blank
-link-ocean-library:
-  text: Ocean+ Library
-  href: https://library.oceanplus.org/
-  title: Visit the Ocean+ Library website
+link-restore-plus-project:
+  text: RESTORE+ project
+  href: http://www.restoreplus.org/
+  title: Visit the RESTORE+ website
   target: _blank
-link-ocean-plus:
-  text: Ocean+
-  href: https://www.oceanplus.org/
-  title: Visit the Ocean+ website
-  target: _blank
-link-ocean-viewer:
-  text: Ocean+ Data Viewer
-  href: http://data.unep-wcmc.org/
-  title: Visit the Ocean+ Data Viewer website
-  target: _blank
-link-philip:
-  text: Philip
-  href: https://www.unep-wcmc.org/employees/philip-bubb
-  title: Visit the online profile for Philip Bubb
-  target: _blank
-link-planning-authority:
-  text: the National Planning Authority
-  href: http://www.npa.go.ug/
-  title: Visit the National Planning Authority website
-  target: _blank
-link-pp:
-  text: Protected Planet
-  href: https://www.protectedplanet.net/
-  title: View the Protected Planet website
-  target: _blank
-link-pp-live:
-  text: Protected Planet Live
-  href: https://livereport.protectedplanet.net/
-  title: Visit the Protected Planet Live website
-  target: _blank
-link-proteus:
-  text: Proteus
-  href: http://www.proteuspartners.org/
-  title: Visit the Proteus website
-  target: _blank
-link-redd:
-  text: REDD+
-  href: https://www.unredd.net/about/what-is-redd-plus.html
-  title: Vist the REDD+ website
-  target: _blank
-link-redd-long:
-  text: Reducing Emissions from Deforestation and forest Degradation (REDD+)
-  href: https://www.unredd.net/about/what-is-redd-plus.html
-  title: Vist the REDD+ website
-  target: _blank
-link-red-list-index:
-  text: Red List Index
-  href: https://www.iucnredlist.org/assessment/red-list-index
-  title: View the Red List Index
-  target: _blank
-link-red-list-long:
-  text: IUCN Red List of Threatened Species
-  href: https://www.iucn.org/resources/conservation-tools/iucn-red-list-threatened-species
-  title: Read about the IUCN Red List of Threatened Species
+link-sam: 
+  text: Sam
+  href: https://www.unep-wcmc.org/employees/samantha-hill
+  title: View the online profile for Sam Hill
   target: _blank
 link-seco-long:
   text: Swiss State Secretariat for Economic Affairs
   href: https://www.seco.admin.ch/seco/en/home.html
   title: Visit the Swiss State Secretariat for Economic Affairs website
   target: _blank
-link-steven:
-  text: Steven
-  href: https://www.unep-wcmc.org/employees/steven-king
-  title: Visit the online profile for Steven King
+link-species-plus: 
+  text: Species+
+  href: https://speciesplus.net/
+  title: Visit the Species+ website
   target: _blank
-link-unfccc:
-  text: UN Framework Convention on Climate Change
-  href: https://unfccc.int/
-  title: Visit the UN Framework Convention on Climate Change website
+link-strengthening-synergies:
+  text: Strengthening Synergies
+  href: https://www.unep-wcmc.org/resources-and-data/strengthening-synergies#:~:text=Strengthening%20Synergies%3A%20How%20action%20to,contribute%20to%20mitigating%20climate%20change&text=The%20climate%20and%20biodiversity%20crises,needed%20to%20address%20them%20effectively.
+  title: View the Strengthening Synergies report
   target: _blank
-link-wcmc-website:
-  text: UNEP-WCMC website
-  href: https://www.unep-wcmc.org/
-  title: Visit the UNEP-WCMC website
+link-trade-hub:
+  text: Trade, Development, and the Environment Hub
+  href: https://tradehub.earth/
+  title: Visit the Trade, Development, and the Environment Hub website
   target: _blank
-link-wdpa:
-  text: WDPA
-  href: https://www.protectedplanet.net/c/world-database-on-protected-areas
-  title: Read about the World Database on Protected Areas
-  target: _blank
-link-wdpa-long:
-  text: World Database on Protected Areas
-  href: https://www.protectedplanet.net/c/world-database-on-protected-areas
-  title: Read about the World Database on Protected Areas
-  target: _blank
-link-wildlife-conservation:
-  text: Wildlife Conservation Society
-  href: https://www.wcs.org/
-  title: Visit the Wildlife Conservation Society website
+link-trade-hub-short:
+  text: Trade Hub
+  href: https://tradehub.earth/
+  title: Visit the Trade Hub website
   target: _blank

@@ -4,11 +4,11 @@ $topbar-title-desktop: 24px;
 
 @mixin topbar-style($style) {
   @if $style == 'blue' {
-    background-color: $primary; 
+    background-color: $primary;
     box-shadow: $grey-dark 0px 3px 6px;
   } @else if $style == 'grey' {
     background-color: $grey-dark;
-    box-shadow: $black 0px 3px 6px;  
+    box-shadow: $black 0px 3px 6px;
   }
 }
 
@@ -16,11 +16,12 @@ $topbar-title-desktop: 24px;
   @include responsive-styles('height', $topbar-height-mobile, $topbar-height-tablet, $topbar-height-desktop);
   @include responsive-styles('top', -$topbar-height-mobile, -$topbar-height-tablet, -$topbar-height-desktop);
   width: 100%;
-  
+
   position: absolute;
 
   transition: top .25s ease-out;
-  
+
+  &--forewords { @include topbar-style('grey'); }
   &--foreword { @include topbar-style('grey'); }
   &--anniversary { @include topbar-style('blue'); }
   &--highlights { @include topbar-style('grey'); }
@@ -32,19 +33,23 @@ $topbar-title-desktop: 24px;
     top: 0;
     z-index: $z-300;
 
-    .topbar__content { 
-      position: relative; 
+    .topbar__content {
+      position: relative;
       top: inherit;
+    }
+
+    .nav__burger {
+      display: inline;
     }
 
     .topbar__only-sticky { visibility: visible; }
   }
 
   &__content {
-    width: 100%; height: 100%; 
+    width: 100%; height: 100%;
 
-    position: absolute; 
-    top: 100%; 
+    position: absolute;
+    top: 100%;
   }
 
     &__only-sticky { visibility: hidden; }

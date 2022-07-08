@@ -1,7 +1,7 @@
 include ActionView::Helpers::UrlHelper
 
 module ApplicationHelper
-  def site_title 
+  def site_title
     'UNEP-WCMC Annual Review'
   end
 
@@ -22,11 +22,11 @@ module ApplicationHelper
   end
 
   def social_image
-    image_url('social-nairobi-national-park.jpg')
+    image_url('riverside-house.jpg')
   end
 
   def social_image_alt
-    'Rhino, Nairobi skyline, Nairobi National Park, Kenya'
+    'A house by the side of a river'
   end
 
   def create_sharing_facebook_link
@@ -39,10 +39,10 @@ module ApplicationHelper
 
   def create_sharing_twitter_link
     title = url_encode('Share ' + page_title + ' on Twitter')
-    text = url_encode('Read about a year of impact in @unepwcmc’s 2018/19 Annual Review')
+    text = url_encode('In 2020, we put nature at the heart of decision-making, while also working from home. Read @unepwcmc’s 2020 Annual Review:')
     url = encoded_home_url
     href = 'https://twitter.com/intent/tweet/?text=' + text + '&url=' + url
-    
+
     link_to '', href, title: title, class: 'social__icon social__icon--twitter', target: '_blank'
   end
 
@@ -57,10 +57,18 @@ module ApplicationHelper
   def create_sharing_email_link
     title = url_encode('Share ' + page_title + ' via Email')
     url = encoded_home_url
-    subject = url_encode("UNEP-WCMC's Annual Review 2018–19")
-    body = url_encode("UNEP-WCMC's Annual Review 2018–19 puts nature at the heart of decision-making: ") + url
+    subject = url_encode("UNEP-WCMC's Annual Review 2020")
+    body = url_encode("In 2020, we put nature at the heart of decision-making, while also working from home.\n\n Read @unepwcmc’s 2020 Annual Review: ") + url
     href = 'mailto:?subject=' + subject + '&body=' + body
 
     link_to '', href, title: title, class: 'social__icon social__icon--email', target: '_self'
+  end
+
+  def render_nea_logo
+    image_tag(
+      '/content/images/highlights/NEA_LOGO_COLOUR.jpg',
+      alt: 'The official logo of the National Ecosystem Assessment Initiative ',
+      class: 'nea_logo'
+    )
   end
 end
