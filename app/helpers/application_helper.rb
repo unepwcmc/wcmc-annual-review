@@ -22,11 +22,11 @@ module ApplicationHelper
   end
 
   def social_image
-    image_url('riverside-house.jpg')
+    image_url('three-fishermen.jpg')
   end
 
   def social_image_alt
-    'A house by the side of a river'
+    'Three fishermen on their boat'
   end
 
   def create_sharing_facebook_link
