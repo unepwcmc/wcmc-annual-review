@@ -2,18 +2,11 @@ id: highlights
 nav-label: Highlights
 title: 2020 Highlights
 collection:
-  # -
-  #   id: forests
-  #   title: Reporting on the State of the World’s Forests
-  #   introduction:
-  #     - With the UN Food and Agriculture Organization, we launched the latest ${link-state-of-world-forests} Report, underlining that Earth’s biodiversity depends on the world’s forests. Urgent solutions are needed to safeguard forest biodiversity amid alarming ongoing rates of deforestation and degradation.
-  #   image: /content/images/highlights/forest-road.jpg
-  #   image_alt: "Ariel shot of a road surrounded by green trees. Credit: Geran de Klerk, Unsplash"
   -
     id: restoration
     title: "Championing #GenerationRestoration"
     introduction:
-      - "We helped launch the ${link-ecosystem-restoration}, supporting an international campaign and resource hub to mobilise and inform the world about the urgency of restoring and safeguarding nature. The campaign launch saw the release of the ${link-becoming-generation-restoration} report, authored by a team including UNEP-WCMC experts."
+      - We helped launch the ${link-ecosystem-restoration}, supporting an international campaign and resource hub to mobilise and inform the world about the urgency of restoring and safeguarding nature. The campaign launch saw the release of the ${link-becoming-generation-restoration} report, authored by a team including UNEP-WCMC experts.
     image: /content/images/highlights/generation-restoration.jpeg
     image_alt: "Young lady with headphones and mobile phone"
   
