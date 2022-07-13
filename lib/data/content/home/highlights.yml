@@ -13,7 +13,7 @@ collection:
     id: restoration
     title: "Championing #GenerationRestoration"
     introduction:
-      - "We helped launch the UN Decade on Ecosystems Restoration, supporting an international campaign and resource hub to mobilise and inform the world about the urgency of restoring and safeguarding nature. The campaign launch saw the release of the Becoming #GenerationRestoration report, authored by a team including UNEP-WCMC experts."
+      - "We helped launch the ${link-ecosystem-restoration}, supporting an international campaign and resource hub to mobilise and inform the world about the urgency of restoring and safeguarding nature. The campaign launch saw the release of the ${link-becoming-generation-restoration} report, authored by a team including UNEP-WCMC experts."
     image: /content/images/highlights/generation-restoration.jpeg
     image_alt: "Young lady with headphones and mobile phone"
   
@@ -21,14 +21,14 @@ collection:
     id: africa-infrastructure
     title: Ensuring sustainability in Africa’s infrastructure boom 
     introduction:
-      - UNEP-WCMC leads the Development Corridors Partnership, a collaborative research initiative which works to fill gaps in understanding around the environmental and social impacts of large-scale linear infrastructure development. In 2021, we completed a global review of biodiversity impacts of development corridors and compiled a corridors database for Africa.
+      - UNEP-WCMC leads the ${link-dcp}, a collaborative research initiative which works to fill gaps in understanding around the environmental and social impacts of large-scale linear infrastructure development. In 2021, we completed a global review of biodiversity impacts of development corridors and compiled a corridors database for Africa.
     image: /content/images/highlights/sustainability-Africa.jpeg
     image_alt: "African man smiling in front of wind turbines"
   -
     id: protected-oceans
     title: Protecting Oceans
     introduction:
-      - UNEP-WCMC combined marine biodiversity datasets into an upgraded Ocean+ Habitats tool, a highly functional data platform enabling governments and businesses to map and manage key ocean ecosystems. We also helped develop and launch a new authoritative guide on Marine Protected Areas (MPAs) to help policymakers and practitioners understand the level and type of protection that MPAs can offer.
+      - UNEP-WCMC combined marine biodiversity datasets into an upgraded ${link-wcmc-oceans}, a highly functional data platform enabling governments and businesses to map and manage key ocean ecosystems. We also helped develop and launch a ${link-wcmc-MPA} on Marine Protected Areas (MPAs) to help policymakers and practitioners understand the level and type of protection that MPAs can offer.
     image: /content/images/highlights/protecting-oceans.jpeg
     image_alt: "Fishes swimming in coral"
     image_position: '40% 0%'
@@ -36,14 +36,14 @@ collection:
     id: collaboration
     title: Strengthening collaboration on a post-covid planet 
     introduction:
-      - Though UNEP-WCMC continued to operate as a largely virtual organisation throughout 2021, the Centre’s staff continued to work tirelessly to progress our global partnerships and knowledge sharing. We organised numerous online conferences, webinars and training sessions, but also helped shape discussions at major in-person summits, including COP26.
+      - Though UNEP-WCMC continued to operate as a largely virtual organisation throughout 2021, the Centre’s staff continued to work tirelessly to progress our global partnerships and knowledge sharing. We organised numerous online conferences, webinars and training sessions, but also helped shape discussions at major in-person summits, including ${link-ukcop26}.
     image: /content/images/highlights/collaboration.jpeg
     image_alt: "Aerial view of a bridge with two cars"
   -
     id: urban-resilience
     title: Promoting nature’s role in urban resilience 
     introduction:
-      - In China, we helped two cities better understanding their interdependencies with nature. We pursued our collaboration with the provincial capital Chengdu to support its Green Belt ecological zone and measure the impact of its green infrastructure projects. We also began work with one of China’s largest cities, Shenzhen, quantifying the benefits and use of nature in urban planning.
+      - In China, we helped two cities better understanding their interdependencies with nature. We pursued our collaboration with the provincial capital ${link-wcmc-Chengdu} to support its Green Belt ecological zone and measure the impact of its green infrastructure projects. We also began work with one of China’s largest cities, ${link-wcmc-Shenzhen}, quantifying the benefits and use of nature in urban planning.
     image: /content/images/highlights/urban-resilience.jpeg
     image_alt: "Aerial view of Singapore"
     image_position: '70% 40%'
@@ -51,14 +51,14 @@ collection:
     id: uganda
     title: Unlocking natural capital accounting for Uganda 
     introduction:
-      - Through our four-year Darwin Initiative-funded project “Integrating Natural Capital Accounting into Sustainable Development in Uganda”, we have worked with Ugandan and international partners to develop three sets of natural capital accounts (NCA), now adopted by the Ugandan government. The findings and resources developed during this project contributed to creating a blueprint for other countries interested in deploying NCA.
+      - Through our four-year Darwin Initiative-funded project ${link-wcmc-Uganda}, we have worked with Ugandan and international partners to develop three sets of natural capital accounts (NCA), now adopted by the Ugandan government. The findings and resources developed during this project contributed to creating a blueprint for other countries interested in deploying NCA.
     image: /content/images/highlights/fishing-uganda.jpeg
     image_alt: "Two people on a small boat fishing with a net"
   -
     id: threats
     title: Mapping biodiversity threats 
     introduction:
-      - "With UN partners, we launched in October the UN Biodiversity Lab 2.0. Combining information collected from satellites, scientists in the field, indigenous people and local communities, this free platform provides users with more than 400 data layers to explore and map the interaction between nature, climate change, and human health and development. As a result of the platform's launch, the hashtag #UNBiodiversityLab gained 7 million viewers and 35 million impressions on social media, which helped expand the platform's membership to over 5,000 today."
+      - "With UN partners, we launched in October the ${link-wcmc-lab}. Combining information collected from satellites, scientists in the field, indigenous people and local communities, this free platform provides users with more than 400 data layers to explore and map the interaction between nature, climate change, and human health and development. As a result of the platform's launch, the hashtag #UNBiodiversityLab gained 7 million viewers and 35 million impressions on social media, which helped expand the platform's membership to over 5,000 today."
     image: /content/images/highlights/fishing-boat-beach.jpg
     image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela, Adobe Stock"
     image_position: '30% 0%'
@@ -66,6 +66,6 @@ collection:
     id: integrating
     title: Integrating nature across the UN system
     introduction:
-      - In 2021, we played a major role in the development and adoption of a UN “common approach” to biodiversity and nature-based solutions, which outlines crucial connections between nature, society and the economy and champions the integration of considerations for nature across the UN system in support of member States’ action for biodiversity.
-    image: /content/images/highlights/sarayaku.jpg
-    image_alt: "Pueblo Originario Kichwa de Sarayaku, Ecuador. Credit: Fundación Aldea"
+      - In 2021, we played a major role in the development and adoption of a ${link-un-pdf}, which outlines crucial connections between nature, society and the economy and champions the integration of considerations for nature across the UN system in support of member States’ action for biodiversity.
+    image: /content/images/highlights/student-amphitheatre.jpeg
+    image_alt: "Students in an amphitheatre"

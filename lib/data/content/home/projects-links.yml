@@ -1,140 +1,130 @@
-link-abnj-deep-seas-project:
-  text: ABNJ Deep Seas Project
-  href: https://abnjdeepseasproject.com/en
-  title: Visit the ABNJ Deep Seas Project website
+link-protected-planet:
+  text: Protected Planet initiative
+  href: https://www.protectedplanet.net/en
+  title: Visit the Protected Planet website
   target: _blank
-link-agricultural-commodity-trades:
-  text: agricultural commodity trades
-  href: https://www.unep-wcmc.org/news/consumer-markets-linked-to-habitat-loss-for-rare-species-in-brazils-savannah
-  title: Consumer markets linked to habitat loss for rare species in Brazil's savannah
+link-wcmc-target-1:
+  text: 22.5 million km2 of land and inland water systems – 16.6% of the potential global area – had been reported as protected
+  href: https://www.unep-wcmc.org/en/news/world-met-target-for-protected-area-coverage-on-land--but-quality-must-improve
+  title: Visit unep-wcmc
   target: _blank
-link-bending-the-curve:
-  text: Bending the Curve
-  href: https://www.nature.com/articles/s41586-020-2705-y
-  title: View the Bending the Curve analysis
+link-wcmc-target-2:
+  text: 28 million km2 within documented protected and conserved areas, hitting 7.7% of the 10% target by 2020
+  href: https://www.unep-wcmc.org/en/news/world-met-target-for-protected-area-coverage-on-land--but-quality-must-improve
+  title: Visit unep-wcmc
   target: _blank
-link-biodiversity-indicators-partnership:
-  text: Biodiversity Indicators Partnership
-  href: https://www.bipindicators.net/
-  title: Visit the Biodiversity Indicators Partnership website
+link-wcmc-indicator:
+  text: dedicated Post-2020 Indicators site
+  href: https://www.unep-wcmc.org/en/news/monitoring-global-biodiversity-goals-and-targets--a-new-website-offers-insight
+  title: Visit unep-wcmc
   target: _blank
-link-cbd:
-  text: Analysis conducted during 2020 
-  href: https://www.cbd.int/doc/c/a571/b25e/544f7e2b1843a86bb062ad06/sbstta-24-inf-20-en.pdf
-  title: ""
+link-wcmc-resources:
+  text: opportunities for strengthening the integration of gender considerations
+  href: https://resources.unep-wcmc.org/products/WCMC_RT080
+  title: Visit the resources from unep-wcmc
   target: _blank
-link-chris:
-  text: Chris
-  href: https://www.unep-wcmc.org/employees/chris-mcowen
-  title: View the online profile for Chris McOwen
+link-wcmc-policy-smart:
+  text: biodiversity index
+  href: https://www.unep-wcmc.org/en/news/towards-a-policy-smart-and-multidimensional-biodiversity-measure
+  title: Visit unep-wcmc
   target: _blank
-link-ciara:
-  text: Ciara
-  href: https://www.unep-wcmc.org/employees/ciara-stafford
-  title: "View the online profile for Ciara Stafford"
+link-cop26:
+  text: COP26 Climate Conference
+  href: https://ukcop26.org/
+  title: Visit ukcop26.org
   target: _blank
-link-cites-checklist:
-  text: Checklist of CITES Species
-  href: http://checklist.cites.org/#/en
-  title: Visit the Checklist of CITES Species
+link-wcmc-solutions:
+  text: deliver emission reductions and removals of up to nearly 12 GtCO2e per year by 2030
+  href: https://www.unep-wcmc.org/en/news/in-order-to-keep-global-warming-below-15c-a-significant-contribution-from-nature-based-solutions-is-both-necessary-and-possible
+  title: Visit unep-wcmc
   target: _blank
-link-cop-medium:
-  text: Conference of the Parties
-  href: https://medium.com/@unepwcmc/11-lessons-from-the-wildlife-trade-conference-572c86759c48
-  title: "Medium.com: 11 lessons from the wildlife trade conference"
+link-unep-report:
+  text: which are above 40GtCO2/year
+  href: https://www.unep.org/resources/emissions-gap-report-2021
+  title: Visit unep
   target: _blank
-link-ecosystem-restoration:
-  text: UN Decade on Ecosystem Restoration
-  href: https://www.decadeonrestoration.org/
-  title: Visit the Decade on Ecosystem Restoration website
+link-wcmc-research:
+  text: study found that a quarter of the continent’s peatlands are now degraded
+  href: https://www.unep-wcmc.org/en/news/research-reveals-a-quarter-of-europes-peatlands-are-degraded--ahead-of-key-climate-and-biodiversity-summits
+  title: Visit unep-wcmc
+  target: _blank
+link-NEA-pdf:
+  text: document
+  href: https://www.ecosystemassessments.net/content/uploads/2021/11/Colombia-COP-26-Key-Messages_Final.pdf
+  title: Read pdf
+  target: _blank
+link-wcmc-Glasgow:
+  text: highlighted the importance of decisive action and transparent monitoring of progress
+  href: https://www.unep-wcmc.org/en/news/climate-and-nature--what-glasgow-could-mean-for-kunming
+  title: Visit unep-wcmc
+  target: _blank
+link-wcmc-lab:
+  text: UN Biodiversity Lab 2.0
+  href: https://www.unep-wcmc.org/en/news/launch-of-un-biodiversity-lab-20--spatial-data-and-the-future-of-our-planet
+  title: Visit unep-wcmc
+  target: _blank
+link-wcmc-threats:
+  text: map the location and intensity of key threats to biodiversity
+  href: https://www.unep-wcmc.org/en/news/research-reveals-location-and-intensity-of-global-threats-to-biodiversity
+  title: Visit unep-wcmc
+  target: _blank
+link-wcmc-objectives:
+  text: strategically protecting 30% of land on Earth
+  href: https://www.unep-wcmc.org/en/news/meeting-biodiversity--climate--and-water-objectives-through-integrated-strategies
+  title: Visit unep-wcmc
   target: _blank
 link-encore-tool:
-  text: ENCORE tool
+  text: Exploring Natural Capital Opportunities, Risks and Exposure (ENCORE)
   href: https://encore.naturalcapital.finance/en
   title: Visit the ENCORE website
   target: _blank
-link-global-biodiversity-patterns:
-  text: global biodiversity patterns overlaid with carbon
-  href: https://naturemap.earth/
-  title: Visit the Nature Map Earth website
+link-IUCN:
+  text: International Union for Conservation of Nature’s 2021 World Conservation Congress
+  href: https://www.iucn.org/about-iucn
+  title: Visit the IUCN website
   target: _blank
-link-foen-long:
-  text: Swiss Federal Office for the Environment
-  href: https://www.bafu.admin.ch/bafu/en/home.html
-  title: Visit the Swiss Federal Office for the Environment website
+link-NEA:
+  text: National Ecosystem Assessment Initiative
+  href: https://www.ecosystemassessments.net/
+  title: Visit the NEA website
   target: _blank
-link-gcrf-development-corridors:
-  text: GCRF Development Corridors Partnership
+link-wcmc-Columbia:
+  text: Colombia completed and launched its national assessment
+  href: https://www.unep-wcmc.org/en/news/from-knowledge-to-action--colombias-national-ecosystem-assessment
+  title: Visit unep-wcmc
+  target: _blank
+link-NEA-connect:
+  text: knowledge-exchange platform
+  href: https://www.ecosystemassessments.net/national-biodiversity-platforms-connect-diverse-stakeholders-for-nature-and-policymaking/
+  title: Visit the NEA website
+  target: _blank
+link-NEA-pdf-2:
+  text: ecosystem assessments can help states meet their climate ambitions
+  href: https://www.ecosystemassessments.net/content/uploads/2021/11/Colombia-COP-26-Key-Messages_Final.pdf
+  title: Visit the NEA website
+  target: _blank
+link-NEA-lessons:
+  text: cross-cutting elements
+  href: https://www.ecosystemassessments.net/resource/capturing-lessons-learned-from-national-ecosystem-assessment-volume-1-common-elements/
+  title: Visit the NEA website
+  target: _blank
+link-NEA-new-website:
+  text: a new website
+  href: https://www.ecosystemassessments.net/
+  title: Visit the NEA website
+  target: _blank
+link-tradehub:
+  text: TRADE Hub
   href: https://tradehub.earth/
-  title: Visit the GCRF Trade Hub website
+  title: Visit the TradeHub website
   target: _blank
-link-gcrf-trade-hub:
-  text: GCRF Trade, Development, and the Environment Hub
-  href: https://tradehub.earth/
-  title: Visit the GCRF Trade Hub website
+link-JNCC:
+  text: various national policies and programmes that reduce deforestation risk
+  href: https://jncc.gov.uk/about-jncc/
+  title: Visit the JNCC website
   target: _blank
-link-joe:
-  text: Joe
-  href: https://www.unep-wcmc.org/employees/joe-gosling
-  title: View the online profile for Joe Gosling
-  target: _blank
-link-katherine: 
-  text: Katherine
-  href: https://www.unep-wcmc.org/employees/katherine-despot-belmonte
-  title: View the online profile for Katherine Despot Belmonte
-  target: _blank
-link-mava:
-  text: MAVA Foundation
-  href: http://mava-foundation.org/
-  title: Visit the MAVA Foundation website
-  target: _blank
-link-nature-map:
-  text: Nature Map
-  href: https://naturemap.earth/
-  title: Visit the Nature Map Earth website
-  target: _blank
-link-ncfa-long:
-  text: Natural Capital Finance Alliance
-  href: https://naturalcapital.finance/
-  title: Visit the Natural Capital Finance Alliance website
-  target: _blank
-link-new-classification-system:
-  text: new classification system
-  href: https://www.sciencedirect.com/science/article/pii/S221204161730815X
-  title: "ScienceDirect.com: A common framework of natural capital assets for use in public and private sector decision making"
-  target: _blank
-link-restore-plus-project:
-  text: RESTORE+ project
-  href: http://www.restoreplus.org/
-  title: Visit the RESTORE+ website
-  target: _blank
-link-sam: 
-  text: Sam
-  href: https://www.unep-wcmc.org/employees/samantha-hill
-  title: View the online profile for Sam Hill
-  target: _blank
-link-seco-long:
-  text: Swiss State Secretariat for Economic Affairs
-  href: https://www.seco.admin.ch/seco/en/home.html
-  title: Visit the Swiss State Secretariat for Economic Affairs website
-  target: _blank
-link-species-plus: 
-  text: Species+
-  href: https://speciesplus.net/
-  title: Visit the Species+ website
-  target: _blank
-link-strengthening-synergies:
-  text: Strengthening Synergies
-  href: https://www.unep-wcmc.org/resources-and-data/strengthening-synergies#:~:text=Strengthening%20Synergies%3A%20How%20action%20to,contribute%20to%20mitigating%20climate%20change&text=The%20climate%20and%20biodiversity%20crises,needed%20to%20address%20them%20effectively.
-  title: View the Strengthening Synergies report
-  target: _blank
-link-trade-hub:
-  text: Trade, Development, and the Environment Hub
-  href: https://tradehub.earth/
-  title: Visit the Trade, Development, and the Environment Hub website
-  target: _blank
-link-trade-hub-short:
-  text: Trade Hub
-  href: https://tradehub.earth/
-  title: Visit the Trade Hub website
+link-WTO:
+  text: World Trade Organisation
+  href: https://www.wto.org/
+  title: Visit the WTO website
   target: _blank

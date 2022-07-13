@@ -9,30 +9,26 @@ collection:
   -
     id: business-and-nature
     title: We showcased international progress on protected areas
-    # title: We helped businesses and investors avoid impacts on nature
     image: /content/images/projects/forest.jpeg
     image_alt: "A view from above of a tropical forest with a thin layer of clouds."
     introduction:
       - As work to forge new global goals and targets for nature continued, our flagship Protected Planet initiative issued the definitive progress report on previous international targets for protected area conservation.
-    # introduction:
-    #   - New research and a novel data layer to support business decision making was supported by the Proteus Partnership, which also agreed a new and ambitious five-year strategy to enable and support companies in becoming nature positive.
     modal:
       image: /content/images/modal/cityscape.jpg
       image_position: 0% 55%
       image_caption: Bangkok city skyline from top view in Thailand
       image_credit: f11photo - stock.adobe.com
       title: Issuing the definitive global report of progress on protected areas
-      # title: Working together towards nature-positive business
       content:
         -
           text:
             - "<strong>Well-managed protected areas play a vital role in safeguarding nature, contributing to human livelihoods and bolstering climate resilience. </strong>"
-            - "UNEP-WCMC’s flagship Protected Planet initiative is the authoritative source of global data and knowledge on protected and conserved areas. It is a collaborative, open-access platform that brings together a range of information on formally protected areas, and other notable conservation areas."
+            - "UNEP-WCMC’s flagship ${link-protected-planet} is the authoritative source of global data and knowledge on protected and conserved areas. It is a collaborative, open-access platform that brings together a range of information on formally protected areas, and other notable conservation areas."
             - "In 2021, Protected Planet delivered the definitive report on progress towards Aichi Target 11 – the previous global 10-year target on protected areas – revealing that while targets on terrestrial coverage were met, progress in marine areas lagged behind, and we fell far short in delivering against them on the quality of these areas."
         -
           text:
-            - "Protected Planet revealed that at least 22.5 million km2 of land and inland water systems – 16.6% of the potential global area – had been reported as protected. With data still being submitted, it is clear that the world had exceeded the 17% coverage target in 2020. However, it is clear more needs to be done to ensure these areas are effective and deliver on ambitions for conservation. Less than 8% of protected land areas are connected to one another, and a third of key biodiversity areas remain unprotected."
-            - "Meanwhile, coastal and marine areas remained below target, with 28 million km2 within documented protected and conserved areas, hitting 7.7% of the 10% target by 2020."
+            - "Protected Planet revealed that at least ${link-wcmc-target-1}. With data still being submitted, it is clear that the world had exceeded the 17% coverage target in 2020. However, it is clear more needs to be done to ensure these areas are effective and deliver on ambitions for conservation. Less than 8% of protected land areas are connected to one another, and a third of key biodiversity areas remain unprotected."
+            - "Meanwhile, coastal and marine areas remained below target, with ${link-wcmc-target-2}."
             - "In the years ahead, Protected Planet – and the suite of tools, data and resources we provided through it – will be a fundamental resource for governments tracking and reporting their progress on increasingly ambitious global and national targets for protected and conserved areas. It will also be crucial in supplying insights on the connectivity, effective management and equitable governance of these areas."
       themeTitle: "Themes:"
       themes:
@@ -47,13 +43,10 @@ collection:
   -
     id: healthy-ocean
     title: We continued to inform new global ambitions for biodiversity
-    # title: We helped restore precious ecosystems in European seas
     image: /content/images/projects/boats.jpeg
     image_alt: "Two fishing boats on a river."
     introduction:
       - With agreement on the post-2020 global biodiversity framework further delayed during 2021, UNEP-WCMC continued to support the development of its goals,targets, and indicators.
-    # introduction:
-    #   - Ahead of the UN Decade on Ecosystem Restoration, we used our expertise to support ecosystem restoration in shallow and deep-water habitats from Norway to Turkey.
     modal:
       image: /content/images/modal/fish-school.jpg
       image_position: 0% 45%
@@ -67,9 +60,9 @@ collection:
             - UNEP-WCMC continued our work as a global convenor of expertise, data and knowledge-sharing on biodiversity indicators. As well as curating – and helping countries and other partners to navigate – multiple powerful indicator datasets, in recent years we have worked closely with the UN Convention on Biological Diversity (CBD) to inform a monitoring framework for the post-2020 global biodiversity framework, providing advice on the best available metrics, and important considerations for monitoring implementation of the global framework.
         -
           text:
-            - We assessed information on hundreds of possible indicators and made this information openly available through a dedicated Post-2020 Indicators site, to facilitate and inform discussion on measurable goals and targets and on the monitoring approach to be agreed alongside the post-2020 global biodiversity framework. 
-            - We also worked with UN Women and identified opportunities for strengthening the integration of gender considerations in the post-2020 global biodiversity framework and its future implementation.
-            - As well as strengthening transparency and demystifying metrics around new international targets, our leading conservation scientists also progressed on work to bring together the multiple dimensions of biodiversity into a unified biodiversity index measurement that can be used to understand and inform the effectiveness of national policies for biodiversity.
+            - We assessed information on hundreds of possible indicators and made this information openly available through a ${link-wcmc-indicator}, to facilitate and inform discussion on measurable goals and targets and on the monitoring approach to be agreed alongside the post-2020 global biodiversity framework. 
+            - We also worked with UN Women and identified ${link-wcmc-resources} in the post-2020 global biodiversity framework and its future implementation.
+            - As well as strengthening transparency and demystifying metrics around new international targets, our leading conservation scientists also progressed on work to bring together the multiple dimensions of biodiversity into a unified ${link-wcmc-policy-smart} measurement that can be used to understand and inform the effectiveness of national policies for biodiversity.
       themeTitle: "Themes:"
       themes:
         - 5
@@ -82,7 +75,6 @@ collection:
   -
     id: international-environmental-policy
     title: We continued to push for joined-up action on nature and climate
-    # title: We underpinned plans to monitor progress towards new global ambitions for biodiversity
     image: /content/images/projects/field-top.jpeg
     image_alt: "A field of wheat from the sky"
     introduction:
@@ -101,10 +93,10 @@ collection:
         -
           text:
             - Understanding of and interest in the role nature-based solutions (NbS) can play to mitigate climate change and strengthen human development is growing. NbS contributions for carbon mitigation also features as a proposed new target in the post-2020 ambitions for nature.
-            - New research from UNEP-WCMC and partners – released during the COP26 Climate Conference in Glasgow – found that an equitable and effective rollout of NbS across all ecosystems would have the power to deliver emission reductions and removals of up to nearly 12 GtCO2e per year by 2030, increasing to 18 GtCO2e per year by 2050. This is equivalent to nearly 30% of the current annual global CO2 emissions, which are above 40GtCO2/year.
-            - Meanwhile, a UNEP-WCMC co-authored study outlined the climate importance of Europe’s peatlands and mapped the extent of their degradation. This study found that a quarter of the continent’s peatlands are now degraded, and urgently called for improved management and restoration efforts to secure their future role in reducing climate change.<br/>UNEP-WCMC also released a document highlighting the role that national ecosystem assessments, currently being developed by countries across the world; can play in addressing climate change, further strengthening connections between the climate and the biodiversity agenda.
+            - New research from UNEP-WCMC and partners – released during the ${link-cop26} in Glasgow – found that an equitable and effective rollout of NbS across all ecosystems would have the power to ${link-wcmc-solutions}, increasing to 18 GtCO2e per year by 2050. This is equivalent to nearly 30% of the current annual global CO2 emissions, ${link-unep-report}.
+            - Meanwhile, a UNEP-WCMC co-authored study outlined the climate importance of Europe’s peatlands and mapped the extent of their degradation. This ${link-wcmc-research}, and urgently called for improved management and restoration efforts to secure their future role in reducing climate change.<br/>UNEP-WCMC also released a ${link-NEA-pdf} highlighting the role that national ecosystem assessments, currently being developed by countries across the world; can play in addressing climate change, further strengthening connections between the climate and the biodiversity agenda.
             - Nature featured firmly in the climate discussions at COP26, and the UNEP-WCMC team spoke at more than 20 sessions, discussing and presenting on topics ranging from forest and peatland protection and transforming trade to support nature and climate.
-            - Following pledges reiterated from Heads of State to end deforestation by 2030, highlighted the importance of decisive action and transparent monitoring of progress on these latest commitments for nature.
+            - Following pledges reiterated from Heads of State to end deforestation by 2030, ${link-wcmc-Glasgow} on these latest commitments for nature.
       themeTitle: "Themes:"
       themes:
         - 6
@@ -117,8 +109,7 @@ collection:
   -
     id: planning-for-places
     title: We widened access to cutting-edge spatial data and insights on these latest commitments for nature
-    # title: We highlighted the benefits of joint action for climate and nature
-    image: /content/images/projects/field-bottom.jpeg
+    image: /content/images/projects/kids.jpeg
     image_alt: "Earth from space. The United Kingdom and the North Sea. Credit: Anton Balazh, Adobe Stock"
     introduction:
       - We launched a powerful tool giving decision makers access to more than 400 spatial data layers displaying biodiversity, climate and development metrics, and contributed our spatial mapping expertise in pioneering research on biodiversity and nature-based solutions.
@@ -137,8 +128,8 @@ collection:
           text:
           - In 2021, we collaborated with partners across the globe on cutting-edge knowledge and tools to promote effective spatial planning, and conducted pioneering research into biodiversity and nature-based solutions.
           - We worked with UN partners to collate hundreds of wide-ranging data layers – combining information from satellites, scientists in the field and indigenous and local communities – and maximised their utility in a new open-access cloud-based computer platform.
-          - The resulting UN Biodiversity Lab 2.0 enables users to overlay state-of-the-art maps and data on nature, climate change, and human development. Launched in October 2021, after six months the platform had nearly 5,000 active users across governments and civil society, and is now being used to help countries generate action maps to locate where conservation and restoration actions can most efficiently contribute to achieving national priorities and international targets.
-          - Meanwhile, our spatial data experts used novel modelling to map the location and intensity of key threats to biodiversity on land, to help guide governments and businesses in developing conservation strategies. We also worked with partners on spatial analysis to demonstrate the climate and water benefits that would be gained from strategically protecting 30% of land on Earth.
+          - The resulting ${link-wcmc-lab} enables users to overlay state-of-the-art maps and data on nature, climate change, and human development. Launched in October 2021, after six months the platform had nearly 5,000 active users across governments and civil society, and is now being used to help countries generate action maps to locate where conservation and restoration actions can most efficiently contribute to achieving national priorities and international targets.
+          - Meanwhile, our spatial data experts used novel modelling to ${link-wcmc-threats} on land, to help guide governments and businesses in developing conservation strategies. We also worked with partners on spatial analysis to demonstrate the climate and water benefits that would be gained from ${link-wcmc-objectives}.
       themeTitle: "Themes:"
       themes:
         - 3
@@ -151,7 +142,6 @@ collection:
   -
     id: nature-across-borders
     title: We helped businesses understand and reduce their impact on nature
-    # title: We helped ensure international wildlife trade is legal and sustainable
     image: /content/images/projects/field-bottom.jpeg
     image_alt: "country flags floating in the wind"
     introduction:
@@ -167,10 +157,10 @@ collection:
           text:
             - Nature and natural capital are increasingly being recognised as crucial to sustainable commerce, development and societies, as well as climate resilience. Economists are backing biodiversity.
             - However, business and financial independencies with nature are hugely complex, and investors and individual businesses need help understanding their biodiversity reliance, impact and related risks.
-            - In 2021, UNEP-WCMC worked with partners to launch a new biodiversity module, as part of the Exploring Natural Capital Opportunities, Risks and Exposure (ENCORE) online natural capital planning platform. Initially focussed on agriculture and mining industries because of their particular exposure to biodiversity risks, the tool helps finance leaders to explore the impact and dependencies of specific portfolio investments on nature at local levels, so they can then take action to reduce biodiversity loss and levels of business risk. More than 30 financial institutions helped to trial the new module ahead of its release, and it is now available to nearly 1,000 ENCORE users worldwide.
+            - In 2021, UNEP-WCMC worked with partners to launch a new biodiversity module, as part of the ${link-encore-tool} online natural capital planning platform. Initially focussed on agriculture and mining industries because of their particular exposure to biodiversity risks, the tool helps finance leaders to explore the impact and dependencies of specific portfolio investments on nature at local levels, so they can then take action to reduce biodiversity loss and levels of business risk. More than 30 financial institutions helped to trial the new module ahead of its release, and it is now available to nearly 1,000 ENCORE users worldwide.
         -
           text:
-            - We continued with ongoing work to assess and standardise how biodiversity metrics are used across the private sector, and worked with partners to host a business stream at the International Union for Conservation of Nature’s 2021 World Conservation Congress in Marseille.
+            - We continued with ongoing work to assess and standardise how biodiversity metrics are used across the private sector, and worked with partners to host a business stream at the ${link-IUCN} in Marseille.
             - In 2022 and beyond, we will continue to guide business and finance sectors, working to generate and share cutting-edge knowledge on the materiality of business-biodiversity interactions, develop and deliver the right tools and data to support action, and help increase capacity for change.
       themeTitle: "Themes:"
       themes:
@@ -184,7 +174,6 @@ collection:
   -
     id: nature-in-sustainable-development
     title: We helped guide state-level recognition for biodiversity
-    # title: We helped develop a strategy to bend the curve on biodiversity loss
     image: /content/images/projects/flags.jpeg
     image_alt: "Cargo boat from above"
     introduction:
@@ -198,12 +187,12 @@ collection:
       content:
         -
           text:
-          - Throughout 2021, UNEP-WCMC’s National Ecosystem Assessment Initiative (NEA Initiative) provided tailored capacity building and knowledge exchange opportunities to help countries carry out comprehensive ecosystem assessments, strengthening consideration of the values of nature in decision-making. In partnership with UNESCO through UNDP BES-Net, support was provided to enhance participation of indigenous peoples and local communities as stakeholders and knowledge holders. A series of capacity building materials have also been produced that are available on the NEA Initiative website.
+          - Throughout 2021, UNEP-WCMC’s ${link-NEA} (NEA Initiative) provided tailored capacity building and knowledge exchange opportunities to help countries carry out comprehensive ecosystem assessments, strengthening consideration of the values of nature in decision-making. In partnership with UNESCO through UNDP BES-Net, support was provided to enhance participation of indigenous peoples and local communities as stakeholders and knowledge holders. A series of capacity building materials have also been produced that are available on the NEA Initiative website.
           - Since 2017, the NEA Initiative has supported 14 countries to conduct or scope national ecosystem assessments. 
         -
           text:
-          - In June 2021, Colombia completed and launched its national assessment, and it is now embarking on work around implementation supported by UNDP BES-Net. The Dominican Republic, Malawi and Thailand initiated their national ecosystem assessment processes, taking key steps towards accounting for nature and its contributions to people in national decision-making. Azerbaijan, Bosnia and Herzegovina, Cambodia and Grenada continued their assessment process, working with diverse knowledge-holders to begin drafting their technical assessment reports. Azerbaijan also launched its national biodiversity knowledge-exchange platform to promote science-policy-practice dialogue around biodiversity and ecosystem services.
-          - The NEA team – with partners in Colombia – addressed COP26 delegates in a dedicated side event to highlight how ecosystem assessments can help states meet their climate ambitions. Guidance was also produced on how assessments can enable countries to meet global biodiversity commitments, as well as “lessons learned” documents on the stages of the assessment and cross-cutting elements contributing to the growing knowledge regarding the assessment process. The initiative also launched a new website filled with resources to help countries undergoing and looking to undertake national ecosystem assessments.
+          - In June 2021, ${link-wcmc-Columbia}, and it is now embarking on work around implementation supported by UNDP BES-Net. The Dominican Republic, Malawi and Thailand initiated their national ecosystem assessment processes, taking key steps towards accounting for nature and its contributions to people in national decision-making. Azerbaijan, Bosnia and Herzegovina, Cambodia and Grenada continued their assessment process, working with diverse knowledge-holders to begin drafting their technical assessment reports. Azerbaijan also launched its national biodiversity ${link-NEA-connect} to promote science-policy-practice dialogue around biodiversity and ecosystem services.
+          - The NEA team – with partners in Colombia – addressed COP26 delegates in a dedicated side event to highlight how ${link-NEA-pdf-2}. Guidance was also produced on how assessments can enable countries to meet global biodiversity commitments, as well as “lessons learned” documents on the stages of the assessment and ${link-NEA-lessons} contributing to the growing knowledge regarding the assessment process. The initiative also launched ${link-NEA-new-website} filled with resources to help countries undergoing and looking to undertake national ecosystem assessments.
           - During 2022 it is expected that Cameroon, Ethiopia and Vietnam will finalise and publish their national ecosystem assessments, and plan for the dissemination and use of the assessments' findings to support decision-making processes. The NEA Initiative is supporting countries with integrating gender considerations on national ecosystem assessments. Capacity-building materials are being delivering on a wide range of topics related to assessments, in collaboration with UNDP and UNESCO
       themeTitle: "Themes:"
       themes:
@@ -217,7 +206,6 @@ collection:
   -
     id: transition-sustainable
     title: We accelerated the transition to a just and sustainable global trade system
-    # title: We helped develop a strategy to bend the curve on biodiversity loss
     image: /content/images/projects/container-boat.jpeg
     image_alt: "Cargo boat from above"
     introduction:
@@ -231,13 +219,13 @@ collection:
       content:
         -
           text:
-          - UNEP-WCMC leads the UK Government-funded TRADE Hub project, which collaborates with more than 40 partners in 15 countries to focus on the environmental and socioeconomic impact of trading commodities and wildlife.
+          - UNEP-WCMC leads the UK Government-funded ${link-tradehub} project, which collaborates with more than 40 partners in 15 countries to focus on the environmental and socioeconomic impact of trading commodities and wildlife.
           - Research teams in Brazil, Indonesia, China, Cameroon, and Congo Basin countries revealed income and gender inequalities related to agricultural trade expansion, especially for smallholder farmers, together with widespread environmental trade-offs and impacts. The initiative forged ahead in 2021, and work on smallholder activity will continue in 2022.
-          - TRADE Hub has also started to develop socioeconomic and environmental indicators linking human wellbeing and biodiversity loss associated with trade. Our experts provided input to various countries and trading blocs on measuring the environmental footprint trade, and our recommendations are now being included in various national policies and programmes that reduce deforestation risk.
+          - TRADE Hub has also started to develop socioeconomic and environmental indicators linking human wellbeing and biodiversity loss associated with trade. Our experts provided input to various countries and trading blocs on measuring the environmental footprint trade, and our recommendations are now being included in ${link-JNCC}.
         -
           text:
           - The initiative carried out research into wild meat harvest and trade over the past two decades, and new ways to visualise patterns of international wildlife trade.
-          - TRADE Hub has established itself as a key knowledge partner among global trade decision-makers, such as the World Trade Organisation, and its biodiversity-centred approach to analysing supply chains charts the way forward for businesses, governments, and multilateral environmental agreements.
+          - TRADE Hub has established itself as a key knowledge partner among global trade decision-makers, such as the ${link-WTO}, and its biodiversity-centred approach to analysing supply chains charts the way forward for businesses, governments, and multilateral environmental agreements.
       themeTitle: "Themes:"
       themes:
         - 1
