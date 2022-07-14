@@ -82,7 +82,7 @@ collection:
     modal:
       image: /content/images/modal/flags-blue-sky.jpg
       image_position: 0% 60%
-      image_caption: National Flags
+      image_caption:
       image_credit: Coprid, Adobe Stock
       title: Keeping the spotlight on nature-based solutions
       content:
@@ -148,7 +148,7 @@ collection:
       - A new tool to help investors assess how their portfolios impact – and are dependent on – nature was launched, and we worked with partners to help businesses understand and use metrics for biodiversity.
     modal:
       image: /content/images/modal/workers-office.jpeg
-      image_position: '30% 0%'
+      image_position: '0% 60%'
       image_caption: 
       image_credit: stockphoto-graf, Adobe Stock
       title: Guiding business and finance sectors to nature-positive action
@@ -180,7 +180,7 @@ collection:
       - Through the National Ecosystem Assessment Initiative, we supported governments understand and act on the important relationships between nature, society and the economy.
     modal:
       image: /content/images/modal/turtle.jpeg
-      image_caption: An aquatic turtle
+      image_caption:
       image_credit: 
       image_position: 0 52%
       title: Supporting countries to develop critical knowledge on biodiversity and ecosystem services
