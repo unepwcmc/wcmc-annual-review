@@ -10,7 +10,7 @@
 	.st4{fill:#E8E8E8;}
 	.st5{fill:none;stroke:#1D1D1B;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st6{fill:#1D1D1B;}
-	.st7{font-family:'Roboto-Bold';}
+	.st7{font-family:'Roboto', sans-serif;}
 	.st8{font-size:7.75px;}
 </style>
 <g>

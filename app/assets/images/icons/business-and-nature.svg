@@ -5,7 +5,7 @@
 <style type="text/css">
 	.st0{fill:#EAEAEA;}
 	.st1{fill:#1D1D1B;}
-	.st2{font-family:'Roboto-Bold';}
+	.st2{font-family:'Roboto', sans-serif;}
 	.st3{font-size:7.75px;}
 	.st4{fill:none;stroke:#A0D9F7;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st5{fill:none;stroke:#1D1D1B;stroke-width:0.5088;stroke-linecap:round;stroke-miterlimit:10;}
