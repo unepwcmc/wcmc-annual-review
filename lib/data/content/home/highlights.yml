@@ -48,14 +48,6 @@ collection:
     image: /content/images/highlights/fishing-uganda.jpeg
     image_alt: "Two people on a small boat fishing with a net"
   -
-    id: threats
-    title: Mapping biodiversity threats 
-    introduction:
-      - "With UN partners, we launched in October the ${link-wcmc-lab}. Combining information collected from satellites, scientists in the field, indigenous people and local communities, this free platform provides users with more than 400 data layers to explore and map the interaction between nature, climate change, and human health and development. As a result of the platform's launch, the hashtag #UNBiodiversityLab gained 7 million viewers and 35 million impressions on social media, which helped expand the platform's membership to over 5,000 today."
-    image: /content/images/highlights/fishing-boat-beach.jpg
-    image_alt: "A person approaching a boat on the beach. Credit: ClaudiaMarcela, Adobe Stock"
-    image_position: '30% 0%'
-  -
     id: integrating
     title: Integrating nature across the UN system
     introduction:
