@@ -5,7 +5,7 @@ set :branch, "2021_annual_review"
 server "web-supported-staging.linode.unep-wcmc.org", user: 'wcmc', roles: %w{app web db}
 
 set :application, "2021_annual_review"
-set :server_name, "2021_annual_review.web-supoorted-staging.linode.unep-wcmc.org"
+set :server_name, "2021_annual_review.web-supported-staging.linode.unep-wcmc.org"
 set :sudo_user, "wcmc"
 set :app_port, "80"
 
