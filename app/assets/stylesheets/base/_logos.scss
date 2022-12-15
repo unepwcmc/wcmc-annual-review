@@ -1,22 +1,31 @@
-$logo-width-mobile: 96px;
-$logo-width-tablet: 135px;
-$logo-width-desktop: 219px;
+$logo-wcmc-width-mobile: 96px;
+$logo-wcmc-width-tablet: 135px;
+$logo-wcmc-width-desktop: 219px;
 
 $logo-height-mobile: 22px;
 $logo-height-tablet: 31px;
 $logo-height-desktop: 50px;
+
+$logo-unep-width-mobile: 96px;
+$logo-unep-width-tablet: 135px;
+$logo-unep-width-desktop: 219px;
+
+.logo-container {
+  display: flex;
+}
 
 .logo {
   &--wcmc {
     background-image: url('https://s3.amazonaws.com/wcmc.logo/UN-Environment-WCMC+logo+2017+white.svg');
     background-repeat: no-repeat;
     background-size: contain;
-    width: $logo-width-mobile; height: $logo-height-mobile;
+    width: $logo-wcmc-width-mobile; height: $logo-height-mobile;
 
     display: block;
+    margin-left: auto;
 
-    @include breakpoint($small) { width: $logo-width-tablet; height: $logo-height-tablet; }
-    @include breakpoint($medium) { width: $logo-width-desktop; height: $logo-height-desktop; }
+    @include breakpoint($small) { width: $logo-wcmc-width-tablet; height: $logo-height-tablet; }
+    @include breakpoint($medium) { width: $logo-wcmc-width-desktop; height: $logo-height-desktop; }
 
     .section--hero & {
       @include responsive-styles(width, rem-calc(149), rem-calc(227), rem-calc(227));
@@ -25,6 +34,28 @@ $logo-height-desktop: 50px;
 
     .footer & {
       @include responsive-styles(width, rem-calc(96), rem-calc(160), rem-calc(160));
+      @include responsive-styles(height, rem-calc(22), rem-calc(36), rem-calc(36));
+    }
+  }
+  &--unep {
+    background-image: image-url('icons/unep-logo.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: $logo-unep-width-mobile; height: $logo-height-mobile;
+
+    display: block;
+    margin-right: auto;
+
+    @include breakpoint($small) { width: $logo-unep-width-tablet; height: $logo-height-tablet; }
+    @include breakpoint($medium) { width: $logo-unep-width-desktop; height: $logo-height-desktop; }
+
+    .section--hero & {
+      @include responsive-styles(width, rem-calc(50), rem-calc(75), rem-calc(75));
+      @include responsive-styles(height, rem-calc(34), rem-calc(52), rem-calc(52));
+    }
+
+    .footer & {
+      @include responsive-styles(width, rem-calc(32), rem-calc(55), rem-calc(55));
       @include responsive-styles(height, rem-calc(22), rem-calc(36), rem-calc(36));
     }
   }
