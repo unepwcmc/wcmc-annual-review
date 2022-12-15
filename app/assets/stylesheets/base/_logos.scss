@@ -1,41 +1,52 @@
-@mixin logo-size($logo-width-hero-sm, $logo-width-hero-md, $logo-width-footer-sm, $logo-width-footer-md,
-  $logo-width-mobile: 96px, $logo-width-medium: 135px, $logo-width-desktop: 219px,
-  $logo-height-mobile: 22px, $logo-height-medium: 31px, $logo-height-desktop: 50px,
-  $logo-height-hero-sm: 34px, $logo-height-hero-md: 52px, $logo-height-footer-sm: 22px, $logo-height-footer-md: 36px) {
+$logo-width-mobile: 96px;
+$logo-width-tablet: 135px;
+$logo-width-desktop: 219px;
 
+$logo-height-mobile: 22px;
+$logo-height-tablet: 31px;
+$logo-height-desktop: 50px;
+
+.logo-container {
+  display: flex;
+}
+
+.logo {
   background-repeat: no-repeat;
   background-size: contain;
   width: $logo-width-mobile; height: $logo-height-mobile;
 
   display: block;
 
-  @include breakpoint($small) { width: $logo-width-medium; height: $logo-height-medium; }
+  @include breakpoint($small) { width: $logo-width-tablet; height: $logo-height-tablet; }
   @include breakpoint($medium) { width: $logo-width-desktop; height: $logo-height-desktop; }
-
-  .section--hero & {
-    @include responsive-styles(width, $logo-width-hero-sm, $logo-width-hero-md, $logo-width-hero-md);
-    @include responsive-styles(height, $logo-height-hero-sm, $logo-height-hero-md, $logo-height-hero-md);
-  }
-
-  .footer & {
-    @include responsive-styles(width, $logo-width-footer-sm, $logo-width-footer-md, $logo-width-footer-md);
-    @include responsive-styles(height, $logo-height-footer-sm, $logo-height-footer-md, $logo-height-footer-md);
-  }
-}
-
-.logo {
-  &__container {
-    display: flex;
-  }
 
   &--wcmc {
     background-image: url('https://s3.amazonaws.com/wcmc.logo/UN-Environment-WCMC+logo+2017+white.svg');
-    @include logo-size(149px, 227px, 96px, 160px);
     margin-left: auto;
+
+    .section--hero & {
+      @include responsive-styles(width, rem-calc(149), rem-calc(227), rem-calc(227));
+      @include responsive-styles(height, rem-calc(34), rem-calc(52), rem-calc(52));
+    }
+
+    .footer & {
+      @include responsive-styles(width, rem-calc(96), rem-calc(160), rem-calc(160));
+      @include responsive-styles(height, rem-calc(22), rem-calc(36), rem-calc(36));
+    }
   }
+
   &--unep {
     background-image: image-url('icons/unep-logo.svg');
-    @include logo-size(50px, 75px, 32px, 55px);
     margin-right: auto;
+
+    .section--hero & {
+      @include responsive-styles(width, rem-calc(50), rem-calc(75), rem-calc(75));
+      @include responsive-styles(height, rem-calc(34), rem-calc(52), rem-calc(52));
+    }
+
+    .footer & {
+      @include responsive-styles(width, rem-calc(32), rem-calc(55), rem-calc(55));
+      @include responsive-styles(height, rem-calc(22), rem-calc(36), rem-calc(36));
+    }
   }
 }
