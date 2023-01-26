@@ -1,6 +1,9 @@
 <template>
   <aside class="carousel" :aria-labelledby="headerId">
-
+    <div v-if="showArrows" class="flex carousel-slide" >
+      <div :class="arrowLeftColor" @click="changeSlide(previousSlide)" />
+      <div :class="arrowRightColor" class="carousel-slide" @click="changeSlide(nextSlide)" />
+    </div>
     <h1 :id="headerId" :class="{'screen-reader': !showTitle}">{{ title }}</h1>
 
     <h2 :class="{'screen-reader': !showSlideCount}">{{ currentSlide }} of {{ totalSlides }}</h2>
@@ -62,7 +65,11 @@ export default {
       type: Boolean
     },
     showArrows: {
-      default: true,
+      default: false,
+      type: Boolean
+    },
+    arrowsWhite: {
+      default: false,
       type: Boolean
     },
     showCount: {
@@ -132,6 +139,28 @@ export default {
 
     showIndicators () {
       return this.showAllIndicators || this.totalSlides < 7
+    },
+
+    nextSlide () {
+      let nextSlide
+      if (this.currentSlide === this.totalSlides) { nextSlide = 1 }
+      else { nextSlide = this.currentSlide + 1 }
+      return nextSlide
+    },
+
+    previousSlide () {
+      let previousSlide
+      if (this.currentSlide === 1) { previousSlide = this.totalSlides }
+      else { previousSlide = this.currentSlide - 1 }
+      return previousSlide
+    },
+
+    arrowLeftColor () {
+      return this.arrowsWhite ? 'icon--caroussel-arrow-left-white' : 'icon--caroussel-arrow-left'
+    },
+
+    arrowRightColor () {
+      return this.arrowsWhite ? 'icon--caroussel-arrow-right-white' : 'icon--caroussel-arrow-right'
     }
   },
 

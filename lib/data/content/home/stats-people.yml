@@ -1,43 +1,43 @@
 id: stats-people
 nav-label: Our team
 countries-icon: icons/globe-leaf.svg
-countries-total: 134
-countries-title: Countries and territories in which we’ve worked on projects in 2020
-countries-image: content/map.svg
+countries-total: 81
+countries-title: Countries and territories in which we’ve worked on projects in 2021
+countries-image: content/AnnualReview.svg
 map-disclaimer: The boundaries and names shown and the designations used on this map do not imply official endorsement or acceptance by the United Nations.
-map-info: Dark blue represents countries and territories UNEP-WCMC has worked with in 2020.
+map-info: Dark blue represents countries and territories UNEP-WCMC has worked with in 2021.
 stats-totals:
   -
-    number: 226
+    number: 250
     icon:
     title: Live projects
     icon: icons/leaves.svg
   -
-    number: 201
+    number: 232
     icon:
     title: Funders and partners
     icon: icons/funders.svg
   -
-    number: 52
+    number: 30
     icon:
     title: Published papers
     icon: icons/document.svg
 stats-staff:
   icon: icons/collaboration.svg
-  number: 157
+  number: 191
   title: Number of staff at UNEP-WCMC
-  introduction: 11 of whom started as interns
+  introduction: 7 of whom started as interns
   stats:
     -
-      number: 14
+      number: 19
       title: Paid interns
       icon: icons/identification.svg
     -
-      number: 9
+      number: 18
       title: Students
       icon: icons/cap.svg
     -
-      number: 24
+      number: 35
       title: Nationalities
       icon: icons/globe.svg
 activities_title: "Our Policy Relevance: UN Biodiversity Conference references to the Centre and our work"
