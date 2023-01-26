@@ -33,7 +33,12 @@ $logo-height-desktop: 50px;
       @include responsive-styles(width, rem-calc(96), rem-calc(160), rem-calc(160));
       @include responsive-styles(height, rem-calc(22), rem-calc(36), rem-calc(36));
     }
+
+    &-topbar {
+      margin-left: 0;
+    }
   }
+
 
   &--unep {
     background-image: image-url('icons/unep-logo.png');
