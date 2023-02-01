@@ -152,6 +152,7 @@ $trigger-height: $trigger-width;
 
   &__text {
     font-weight: $fw-regular;
+    text-align: justify;
 
     @include breakpoint($medium) {
       margin-right: $gutter-large / 2;

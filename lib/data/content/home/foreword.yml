@@ -1,20 +1,20 @@
 id: foreword
-nav-label: Foreword
+nav-label: Video
 title: Foreword
 collection:
   -
     id: first
-    quote: As we strive for system-wide shifts and transformation across each and every sector of society, UNEP-WCMC’s science and insights will be critical.
+    quote: UNEP-WCMC has a unique role in working with partners across the world to deliver impact towards a nature-positive future.
     author: Inger Andersen, Executive Director, UNEP
   -
     id: second
-    quote: WCMC took steps to strengthen its regional engagement and relationships across the world.
+    quote: It is a strength of the collaboration between WCMC and UNEP that underpins all the Centre’s activities.
     author: Robin Bidwell, Chair of Trustees, WCMC
   -
     id: third
-    quote: Last year, the Centre produced more high-quality outputs than in any other year in its history.
+    quote: The Centre has strengthened its relationships with philanthropic funders, increasing strategic investment into projects and programmes.
     author: Jonny Hughes, WCMC CEO
   -
     id: fourth
-    quote: The Centre continued crucial work towards shaping an ambitious and measurable post-2020 global biodiversity framework.
+    quote: Our impacts demonstrate a further growth of our work to integrate the multiple dependencies between nature, climate and sustainable development.
     author: Neville Ash, Director, UNEP-WCMC

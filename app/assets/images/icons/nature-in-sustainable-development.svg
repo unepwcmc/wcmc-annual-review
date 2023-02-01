@@ -6,7 +6,7 @@
 	.st0{fill:#EAEAEA;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#1D1D1B;}
-	.st3{font-family:'Roboto-Bold';}
+	.st3{font-family:'Roboto', sans-serif;}
 	.st4{font-size:7.75px;}
 	.st5{fill:#9ED8F7;}
 	.st6{fill:#FFFFFF;stroke:#1D1D1B;stroke-miterlimit:10;}

@@ -1,4 +1,8 @@
-##  v2.0.0
+##  v1.2.0
+
+- Content update for the 2021 annual review
+
+## v1.1.0
 
 **Chore:**
   - Widespread updates to written content and statistics
@@ -21,7 +25,7 @@
     - Update YouTube video href attribute @ `app/views/home/partials/_foreword.html.erb`
     - Methods in `app/helpers/application_helper.rb`
   - Widespread tweaks in code formatting
-  - Tweak previous entries in CHANGELOG.md to have 
+  - Tweak previous entries in CHANGELOG.md to have
 
 **Style:**
   - Widespread styling changes:
@@ -45,7 +49,7 @@
   - Adjust styling and markdown:
     - `app/views/home/partials/_stats-people.html.erb`
     - `app/views/home/partials/_projects.html.erb`
-  
+
 
 ##  v1.0.3
 

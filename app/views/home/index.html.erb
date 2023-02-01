@@ -1,5 +1,5 @@
 <%= content_for :title do %>
-  UNEP-WCMC's Annual Review 2020
+  UNEP-WCMC's Annual Review 2021
 <% end %>
 
 
@@ -45,14 +45,6 @@
   class="section--stats-finance section-padding section-padding--caption bg-image-overlay white">
 
   <%= render partial: 'home/partials/stats-finance', locals: { data: @stats_finance } %>
-</section>
-
-<section
-  id="section-<%= @impacts['id'] %>"
-  class="section--impacts section-padding white">
-
-  <%= render partial: 'home/partials/impacts', locals: { data: @impacts } %>
-  
 </section>
 
 <section

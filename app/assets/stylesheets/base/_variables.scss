@@ -106,7 +106,7 @@ $line-height-blockquote: 1.2;
   }
 
   @include breakpoint($medium) {
-    @if $el == 'h1' { font-size: 90px; }
+    @if $el == 'h1' { font-size: 80px; }
     @if $el == 'h2' { font-size: 90px; }
     @if $el == 'h3' { font-size: 30px; }
     @if $el == 'h4' { font-size: 30px; }
